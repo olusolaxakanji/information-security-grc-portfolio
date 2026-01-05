@@ -15,7 +15,7 @@ Emyzer Technology is a multinational technology company operating across Asia, A
 - Enterprise technical support  
 - Global security implementation for businesses  
 
-The organization employs over **5,000 staff worldwide** and operates within a complex, distributed IT and security environment requiring structured governance and resilience planning. :contentReference[oaicite:1]{index=1}
+The organization employs over **5,000 staff worldwide** and operates within a complex, distributed IT and security environment requiring structured governance and resilience planning.
 
 ---
 
@@ -28,7 +28,7 @@ This project was completed using **ServiceNow** and focused on the following obj
 4. Design of a **Business Continuity Management System (BCMS)** aligned with **ISO/IEC 22301**  
 5. Translation of ServiceNow-generated policies into structured documentation suitable for audit, governance review, and portfolio demonstration  
 
-All policies, procedures, and plans were created and managed within the **ServiceNow platform** as required by the project brief. :contentReference[oaicite:2]{index=2}
+All policies, procedures, and plans were created and managed within the **ServiceNow platform** as required by the project brief.
 
 ---
 
