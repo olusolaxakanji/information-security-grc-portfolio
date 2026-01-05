@@ -2,9 +2,9 @@
 **ServiceNow GRC Project – Emyzer Technology (Case Study)**
 
 ## Overview
-This repository presents a professional portfolio of **information security policies and business continuity documentation** developed using **ServiceNow GRC** for a multinational technology organization, *Emyzer Technology*, as part of a formal academic and professional security governance project.
+This repository presents a professional portfolio of **information security policies and business continuity documentation** developed in **ServiceNow GRC** for a multinational technology organization, *Emyzer Technology*, as part of a formal academic and professional security governance project.
 
-The work demonstrates applied knowledge in **governance, risk, and compliance (GRC)**, policy development, framework alignment, and enterprise security planning using industry standards.
+The work demonstrates applied knowledge of governance, risk, and compliance (GRC), policy development, framework alignment, and enterprise security planning, using industry standards.
 
 ---
 
@@ -42,6 +42,27 @@ All policies, procedures, and plans were created and managed within the **Servic
 These frameworks were selected to reflect globally recognized best practices for enterprise security governance and operational resilience.
 
 ---
+
+## Tools & Technologies
+
+- **ServiceNow GRC**  
+- **GitHub** (version control and portfolio presentation)  
+- **Markdown documentation**  
+
+## Intended Audience
+
+This repository is intended for:
+
+- GRC and Information Security hiring managers  
+- Risk and Compliance analysts  
+- Security auditors  
+- Students and professionals studying security governance frameworks  
+
+## Disclaimer
+
+This repository serves as a portfolio and an educational case study.  
+
+All content has been sanitized and generalized and does not contain proprietary, confidential, or operational data from any real organization.
 
 ## Repository Structure
 ```text
