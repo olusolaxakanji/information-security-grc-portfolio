@@ -32,6 +32,17 @@ All policies, procedures, and plans were created and managed within the **Servic
 
 ---
 
+## Skills Demonstrated
+
+This portfolio showcases practical competencies directly applicable to GRC analyst roles:
+
+- **Policy Development**: Created enforceable security policies with clear scope, roles, and compliance evidence
+- **Framework Application**: Translated abstract standards (NIST, ISO 22301) into operational documentation
+- **GRC Platform Proficiency**: Built and managed policies within ServiceNow's governance module
+- **Business Continuity Planning**: Designed resilience strategies aligned to ISO/IEC 22301 requirements
+- **Risk Communication**: Documented organizational benefits and compliance evidence for executive review
+- **Cross-Functional Thinking**: Addressed security, operations, and business continuity as integrated concerns
+
 ## Frameworks & Standards Used
 - **Information Security Framework:**  
   - NIST-aligned security policy principles  
@@ -58,11 +69,9 @@ This repository is intended for:
 - Security auditors  
 - Students and professionals studying security governance frameworks  
 
-## Disclaimer
+## Portfolio Note
 
-This repository serves as a portfolio and an educational case study.  
-
-All content has been sanitized and generalized and does not contain proprietary, confidential, or operational data from any real organization.
+This repository represents applied learning through structured case study work. All content has been developed independently using recognized frameworks and tools. Organizational details have been generalized to maintain a professional, non-proprietary example suitable for public portfolio demonstration.
 
 ## Repository Structure
 ```text
