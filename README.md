@@ -22,7 +22,7 @@ The organization employs over **5,000 staff worldwide** and operates within a co
 ## Project Scope & Objectives
 This project was completed using **ServiceNow** and focused on the following objectives:
 
-1. Development of **10+ applicable information security policies** aligned to a recognized security framework  
+1. Development of **10 applicable information security policies** aligned to a recognized security framework  
 2. Documentation of **organizational benefits** for each policy  
 3. Identification of **evidence of compliance** for each policy  
 4. Design of a **Business Continuity Management System (BCMS)** aligned with **ISO/IEC 22301**  
@@ -115,21 +115,29 @@ information-security-grc-portfolio/
 
 ## Current Portfolio Status
 
-**Completed Documentation:**
+**Completed Policies:**
 - ✅ Access Control Policy
-- ✅ Incident Management Policy  
+- ✅ Incident Management Policy
 - ✅ Risk Management Policy
 
 **In Development:**
-- 🔄 Business Continuity and Disaster Recovery Policy
-- 🔄 Information Security Governance Policy
-- 🔄 NIST CSF Control Mapping
+- 🔄 Business Continuity & Disaster Recovery Policy
+- 🔄 Information Security Policy
 
-**Planned Additions:**
+**Planned Policies:**
+- 📋 Change Management & Configuration Policy
+- 📋 Acceptable Use Policy
 - 📋 Data Classification Policy
-- 📋 Vendor Security Policy
-- 📋 Change Management Policy
-- 📋 ServiceNow Implementation Screenshots
+- 📋 Third-Party/Vendor Risk Management Policy
+- 📋 Security Awareness & Training Policy
+
+---
+
+## Supporting Artifacts
+
+**Compliance Documentation**
+- 🔄 NIST CSF Control Mapping
 - 📋 SOC 2 Gap Analysis
 
-*Last Updated: January 2025*
+**Implementation Evidence**
+- 📋 ServiceNow Implementation Screenshots
