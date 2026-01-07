@@ -74,17 +74,62 @@ This repository is intended for:
 This repository represents applied learning through structured case study work. All content has been developed independently using recognized frameworks and tools. Organizational details have been generalized to maintain a professional, non-proprietary example suitable for public portfolio demonstration.
 
 ## Repository Structure
-```text
-├── README.md
-├── access-control/
-│   └── access-control-policy.md
-├── incident-management/
-│   └── incident-response-policy.md
-├── risk-management/
-│   └── risk-assessment-policy.md
-├── governance/
-│   └── information-security-governance-policy.md
-├── business-continuity/
-│   └── iso22301-business-continuity-plan.md
-├── compliance-mapping/
-│   └── policy-benefits-and-evidence.md
+```
+information-security-grc-portfolio/
+│
+├── README.md                          # Portfolio overview and project context
+│
+├── policies/                          # Enterprise security policies
+│   ├── access-control-policy.md
+│   ├── incident-management-policy.md
+│   ├── risk-management-policy.md
+│   └── README.md                      # Policy index and methodology
+│
+├── business-continuity/               # BC/DR documentation
+│   ├── business-continuity-plan.md
+│   ├── disaster-recovery-plan.md
+│   ├── business-impact-analysis.md
+│   └── README.md
+│
+├── compliance-mapping/                # Framework alignment and gap analysis
+│   ├── nist-csf-control-mapping.md
+│   ├── iso27001-control-mapping.md
+│   ├── soc2-gap-analysis.md
+│   └── README.md
+│
+├── risk-assessments/                  # Risk analysis documentation
+│   ├── organizational-risk-register.md
+│   ├── vendor-risk-assessment-template.md
+│   └── README.md
+│
+├── servicenow-evidence/               # Platform work samples
+│   ├── policy-creation-workflow.png
+│   ├── compliance-dashboard.png
+│   └── README.md
+│
+└── templates/                         # Reusable GRC tools
+    ├── vendor-security-questionnaire.md
+    ├── access-request-form.md
+    └── README.md
+```
+
+## Current Portfolio Status
+
+**Completed Documentation:**
+- ✅ Access Control Policy
+- ✅ Incident Management Policy  
+- ✅ Risk Management Policy
+
+**In Development:**
+- 🔄 Business Continuity and Disaster Recovery Policy
+- 🔄 Information Security Governance Policy
+- 🔄 NIST CSF Control Mapping
+
+**Planned Additions:**
+- 📋 Data Classification Policy
+- 📋 Vendor Security Policy
+- 📋 Change Management Policy
+- 📋 ServiceNow Implementation Screenshots
+- 📋 SOC 2 Gap Analysis
+
+*Last Updated: January 2025*
