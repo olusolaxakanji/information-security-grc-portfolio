@@ -200,4 +200,4 @@ This policy will be reviewed annually or when significant changes occur to ensur
 
 ---
 
-*This policy is part of the Emyzer Technology Governance, Risk, and Compliance framework developed in ServiceNow GRC.*
+*This policy document was generated from ServiceNow GRC and formatted for portfolio presentation.*
