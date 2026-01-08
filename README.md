@@ -2,7 +2,7 @@
 **ServiceNow GRC Project – Emyzer Technology (Case Study)**
 
 ## Overview
-This portfolio demonstrates hands-on GRC experience through production-quality artifacts covering policy development, framework alignment (NIST CSF, ISO 27001, SOC 2, COBIT), risk management, and enterprise security planning.
+This portfolio demonstrates an actively evolving repository of hands-on GRC experience, with production-quality artifacts covering policy development, framework alignment (NIST CSF, ISO 27001, SOC 2, COBIT), risk management, and enterprise security planning.
 
 ---
 
@@ -90,10 +90,13 @@ information-security-grc-portfolio/
 - ✅ Access Control Policy
 - ✅ Incident Management Policy
 - ✅ Risk Management Policy
+- ✅ Business Continuity & Disaster Recovery Policy
+- ✅ Information Security Policy
 
 **In Development:**
-- 🔄 Business Continuity & Disaster Recovery Policy
-- 🔄 Information Security Policy
+- 🔄 Business Impact Analysis Example
+- 🔄 BCDR Tabletop Exercise Summary
+- 🔄 Framework Alignment Matrix
 
 **Planned Policies:**
 - 📋 Change Management & Configuration Policy
