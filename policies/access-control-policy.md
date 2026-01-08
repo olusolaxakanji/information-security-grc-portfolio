@@ -2,147 +2,123 @@
 
 **Emyzer Technology**
 
-> Every piece of information in our systems has value. This policy ensures that **the right people access the right information at the right time**. No one else.
+---
+
+## Document Control
+
+| Field | Details |
+|-------|---------|
+| **Policy Owner** | Susan Orwell |
+| **Version** | 1.0 |
+| **Effective Date** | May 22, 2024 |
+| **Review Date** | May 22, 2025 |
+| **Classification** | Internal |
+| **Parent Policy** | Information Security Policy |
 
 ---
 
-## Who This Applies To
+## A. Purpose
 
-Everyone who touches our systems:
-
-- Employees (all departments, all levels)
-- Contractors and vendors
-- Any authorized user with system credentials
-
-If you log in, this policy governs what you can see and do.
+To establish guidelines and requirements for managing access to information systems and data within Emyzer Technology. This policy ensures confidentiality, integrity, and availability of information through effective access control measures aligned with COBIT, RBAC, and ABAC frameworks.
 
 ---
 
-## The Two Principles That Drive Every Decision
+## B. Scope
 
-### 1. Least Privilege
-
-You get access to what you need for your job. Nothing more. This isn't about distrust; it's about reducing exposure. Fewer access points mean fewer vulnerabilities.
-
-### 2. Need-to-Know
-
-Even if your role *could* justify access, you only receive it when there's an active, legitimate reason. Access isn't a status symbol; it's a responsibility.
+This policy applies to all Emyzer Technology employees, contractors, vendors, and authorized users of Emyzer Technology's information systems and data. This includes all departments and activities related to access control management.
 
 ---
 
-## How Access Gets Assigned
+## C. Definitions
 
-We use two complementary systems:
+**COBIT (Control Objectives for Information and Related Technologies):** A framework for developing, implementing, monitoring, and improving IT governance and management practices.
 
-### Role-Based Access Control (RBAC)
+**RBAC (Role-Based Access Control):** A method of regulating access to computer or network resources based on the roles of individual users within an enterprise.
 
-Your job title and function determine your baseline access. A finance analyst sees financial systems. A marketing coordinator sees campaign tools. The role defines the permissions.
+**ABAC (Attribute-Based Access Control):** An access control method granting rights through combined attribute policies, including user attributes, resource attributes, and environmental conditions.
 
-### Attribute-Based Access Control (ABAC)
+**MFA (Multi-Factor Authentication):** Identity verification requiring two or more distinct factors: something you know (password), something you have (device), or something you are (biometric).
 
-Context matters. ABAC layers additional factors onto role-based access: *where* you're logging in from, *what device* you're using, *what time* it is, *what specific resource* you're requesting. This creates dynamic, situation-aware security.
+**Least Privilege:** The principle of granting users only the minimum access necessary to perform their job functions.
 
-> **Think of RBAC as your key to a building. ABAC determines which doors inside that building open for you, based on current conditions.**
-
----
-
-## Authentication: Proving You Are Who You Claim
-
-Before accessing any system, you must verify your identity through secure authentication, including multi-factor authentication (MFA). This means something you *know* (password), something you *have* (phone, security key), or something you *are* (biometric).
-
-One factor isn't enough. Layers matter.
+**Need-to-Know:** Access is granted only when there is an active, legitimate business reason for the information.
 
 ---
 
-## Ongoing Accountability
+## D. Policy Statement
 
-### Quarterly Access Reviews
-
-Every three months, we audit who has access to what. Roles change. Projects end. People transfer. Access that made sense six months ago may be unnecessary today. Or risky.
-
-### Annual Compliance Audits
-
-Once per year, the IT Security Team conducts a comprehensive review to verify we're meeting both internal standards and external regulatory requirements.
-
-### Continuous Monitoring
-
-All access activity is logged. These logs aren't collected and forgotten; they're actively monitored for anomalies, unauthorized attempts, and patterns that suggest compromise.
+Emyzer Technology is committed to protecting information assets through structured access control. All access to information systems and data shall be granted based on the principles of least privilege and need-to-know. Access decisions will incorporate both role-based and attribute-based controls to ensure dynamic, context-aware security.
 
 ---
 
-## When Access Ends
+## E. Roles and Responsibilities
 
-**Immediate Revocation Triggers:**
+**IT Security Team:** Implements and manages access control measures, conducts access reviews, monitors access logs, and enforces compliance with this policy.
 
-- Employment termination
-- Contract completion
-- Role change that eliminates the need
+**Department Managers:** Identifies role requirements, approves access requests based on job functions, and ensures team compliance with access control policies.
 
-There is no grace period for unnecessary access. When your need ends, your access ends. Same day.
+**All Employees and Users:** Adheres to access control policies, safeguards authentication credentials, and reports suspicious access activities immediately.
 
 ---
 
-## Roles and Responsibilities
+## F. Procedures
 
-| Role | Responsibility |
-|------|----------------|
-| **IT Security Team** | Implements access controls, conducts reviews, monitors logs, enforces compliance |
-| **Department Managers** | Defines role requirements, approves access requests for their teams |
-| **Every User** | Protects credentials, follows policy, reports suspicious activity immediately |
+### F.1. Access Request and Approval
 
----
+**F.1.1.** Submit an access request form to the IT Security Team.
 
-## How to Request Access
+**F.1.2.** Department Managers review and approve requests based on role requirements.
 
-1. Submit an access request form to the IT Security Team
-2. Your department manager reviews and approves (or denies) based on role requirements
-3. IT Security configures your access according to the approved request
+**F.1.3.** IT Security Team configures access according to approved requests.
 
-No shortcuts. No informal arrangements. The paper trail protects everyone.
+### F.2. Role-Based Access Control (RBAC)
 
----
+**F.2.1.** Access rights are assigned based on predefined roles corresponding to job functions within the organization.
 
-## Consequences of Violation
+**F.2.2.** Role definitions are documented and reviewed annually.
 
-Policy violations aren't treated as administrative inconveniences. Depending on severity, consequences range from formal documentation to termination of employment or contract.
+### F.3. Attribute-Based Access Control (ABAC)
 
-This isn't punitive for its own sake. Unauthorized access, whether intentional or careless, puts data, people, and the organization at risk.
+**F.3.1.** Access decisions incorporate user attributes, resource attributes, and environmental attributes.
 
----
+**F.3.2.** Dynamic, context-aware controls adjust access based on location, device, time, and resource sensitivity.
 
-## Organizational Benefits
+### F.4. User Authentication
 
-- Ensures only authorized personnel access sensitive information
-- Reduces risk of unauthorized access and data breaches
-- Supports regulatory and framework compliance (SOC 2, ISO 27001, COBIT)
-- Creates clear accountability through documented access decisions
-- Enables faster incident response through access logging
+**F.4.1.** All users must authenticate using secure methods, including multi-factor authentication (MFA), before accessing systems or data.
 
----
+### F.5. Access Review and Audit
 
-## Evidence of Compliance
+**F.5.1.** Conduct quarterly access reviews to ensure access levels remain appropriate.
 
-- Access request forms with manager approval signatures
-- Quarterly access review reports
-- Annual compliance audit documentation
-- Access logs and monitoring reports
-- User authentication records (MFA enrollment)
-- Access revocation records tied to termination dates
+**F.5.2.** Perform annual audits to verify compliance with access control policies.
+
+### F.6. Access Revocation
+
+**F.6.1.** Revoke access immediately upon termination or role change of an employee.
+
+**F.6.2.** Conduct periodic checks to ensure timely revocation of unnecessary access.
 
 ---
 
-## Related Documents
+## G. Compliance and Monitoring
 
-This policy operates within a larger governance structure:
+The IT Security Team will monitor compliance with this policy through continuous monitoring of access logs and activities to detect unauthorized access and anomalies.
+
+Non-compliance with this policy may result in disciplinary action including termination of employment or contract.
+
+---
+
+## H. Related Documents
 
 ### Internal Policies
 
-- [Information Security Policy](./information-security-policy.md) *(parent document)*
-- [Risk Management Policy](./risk-management-policy.md)
-- [Incident Management Policy](./incident-management-policy.md)
-- [Data Classification Policy](./data-classification-policy.md)
-- [Third-Party/Vendor Risk Management Policy](./third-party-risk-management-policy.md)
-- [Security Awareness & Training Policy](./security-awareness-training-policy.md)
+- Information Security Policy (parent document)
+- Risk Management Policy
+- Incident Management Policy
+- Data Classification Policy
+- Third-Party/Vendor Risk Management Policy
+- Security Awareness & Training Policy
 
 ### External Frameworks
 
@@ -150,35 +126,76 @@ This policy operates within a larger governance structure:
 
 ---
 
-## Definitions
+## I. Review and Revision
 
-| Term | Definition |
-|------|------------|
-| **COBIT** | Control Objectives for Information and Related Technologies. A framework for IT governance and management practices |
-| **RBAC** | Role-Based Access Control. Access rights assigned based on job function |
-| **ABAC** | Attribute-Based Access Control. Access decisions based on combined user, resource, and environmental attributes |
-| **MFA** | Multi-Factor Authentication. Identity verification requiring two or more distinct factors |
+This policy will be reviewed and revised annually or as needed to address new risks, technologies, and compliance requirements. The IT Security Team is responsible for maintaining an up-to-date and effective policy.
 
 ---
 
-## Policy Metadata
+## Framework Alignment
 
-| Field | Value |
-|-------|-------|
-| **Policy Owner** | Susan Orwell |
-| **Owning Group** | App Engine Studio Users |
-| **Parent Policy** | Information Security Policy |
-| **Valid From** | May 22, 2024 |
-| **Valid To** | May 22, 2025 |
-| **Review Cycle** | Annual |
-| **Relevant Frameworks** | COBIT, RBAC, ABAC |
+This policy addresses the following framework requirements:
+
+**COBIT 2019 (Control Objectives for Information and Related Technologies):**
+- DSS05.04: Manage user identity and logical access
+- DSS05.05: Manage physical access to IT assets
+- DSS06.03: Manage roles, responsibilities, access privileges, and levels of authority
+
+**NIST SP 800-53 Rev. 5 (Security and Privacy Controls):**
+- AC-1: Access Control Policy and Procedures
+- AC-2: Account Management
+- AC-3: Access Enforcement
+- AC-6: Least Privilege
+- AC-17: Remote Access
+- IA-2: Identification and Authentication
+
+**ISO/IEC 27001:2022 (Information Security Management):**
+- A.9.1: Business requirements of access control
+- A.9.2: User access management
+- A.9.3: User responsibilities
+- A.9.4: System and application access control
+
+**NIST Cybersecurity Framework:**
+- PR.AC (Identity Management, Authentication, and Access Control): Access to physical and logical assets is limited to authorized users, processes, and devices
+- PR.AC-1: Identities and credentials are issued, managed, verified, revoked, and audited
+- PR.AC-3: Remote access is managed
+- PR.AC-4: Access permissions and authorizations are managed with least privilege and separation of duties
 
 ---
 
-## Review and Revision
+## Organizational Benefits
 
-This policy is reviewed annually and updated to address emerging risks, new technologies, and evolving compliance requirements. The IT Security Team owns this process.
+**Risk Reduction:** Ensures only authorized personnel access sensitive information, reducing the risk of unauthorized access and data breaches.
+
+**Regulatory Compliance:** Supports compliance with SOC 2, ISO 27001, and COBIT frameworks through documented access controls.
+
+**Clear Accountability:** Documented access decisions create audit trails that establish responsibility for data access.
+
+**Operational Efficiency:** Role-based access streamlines onboarding and reduces administrative overhead for access management.
+
+**Incident Response Support:** Access logging enables faster detection and investigation of security incidents.
+
+**Third-Party Risk Management:** Structured access controls extend to contractors and vendors, reducing external exposure.
 
 ---
 
-*Last updated: May 22, 2024*
+## Evidence of Compliance
+
+| Evidence Type | Description | Frequency |
+|---------------|-------------|-----------|
+| Access Request Forms | Documented requests with manager approval signatures | Per request |
+| Access Review Reports | Records of quarterly reviews validating appropriate access levels | Quarterly |
+| Access Audit Documentation | Comprehensive audits verifying compliance with access control policies | Annual |
+| Access Logs | System-generated logs of all access to information systems and data | Continuous |
+| MFA Enrollment Records | Documentation of user enrollment in multi-factor authentication | Per user |
+| Access Revocation Records | Logs of access removal tied to termination or role change dates | Per event |
+| Role Definition Documents | Documented RBAC role definitions and associated permissions | Annual review |
+| ABAC Policy Configurations | Technical documentation of attribute-based access rules | Annual review |
+
+---
+
+**Document History**
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | May 22, 2024 | Susan Orwell | Initial policy creation, approved by policy owner |
