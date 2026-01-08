@@ -16,10 +16,10 @@ The documentation demonstrates the complete BC/DR lifecycle: governance, analysi
 
 | Document | Purpose | Framework Alignment |
 |----------|---------|---------------------|
-| [Business Continuity and Disaster Recovery Policy](business-continuity-disaster-recovery-policy.md) | Establishes governance, roles, and procedures for BC/DR program | ISO 22301 Clauses 4–10, BCI PP1, NIST 3.1 |
-| [Business Impact Analysis](business-impact-analysis-example.md) | Identifies critical functions, dependencies, and recovery targets (RTO/RPO) | ISO 22301 Clause 8.2.2, BCI PP3, NIST 3.2 |
-| [Tabletop Exercise Summary](bcdr-tabletop-exercise-summary.md) | Validates BC/DR procedures through ransomware response scenario | ISO 22301 Clause 8.5, BCI PP6, NIST 3.5 |
-| [Framework Alignment Matrix](framework-alignment-matrix.md) | Maps documentation to ISO 22301, ISO 27031, BCI GPG, and NIST 800-34 | Audit and compliance readiness |
+| [Business Continuity and Disaster Recovery Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Establishes governance, roles, and procedures for BC/DR program | ISO 22301 Clauses 4–10, BCI PP1, NIST 3.1 |
+| Business Impact Analysis | Identifies critical functions, dependencies, and recovery targets (RTO/RPO) | ISO 22301 Clause 8.2.2, BCI PP3, NIST 3.2 |
+| Tabletop Exercise Summary | Validates BC/DR procedures through ransomware response scenario | ISO 22301 Clause 8.5, BCI PP6, NIST 3.5 |
+| Framework Alignment Matrix | Maps documentation to ISO 22301, ISO 27031, BCI GPG, and NIST 800-34 | Audit and compliance readiness |
 
 ---
 
@@ -28,12 +28,12 @@ The documentation demonstrates the complete BC/DR lifecycle: governance, analysi
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        BC/DR LIFECYCLE                          │
-├─────────────┬─────────────┬─────────────┬─────────────┬────────┤
-│  GOVERNANCE │  ANALYSIS   │   DESIGN    │ VALIDATION  │ AUDIT  │
-│             │             │             │             │        │
-│   Policy    │    BIA      │   Policy    │  Tabletop   │ Matrix │
-│             │             │  (Procedures)│  Exercise   │        │
-└─────────────┴─────────────┴─────────────┴─────────────┴────────┘
+├─────────────┬─────────────┬─────────────┬─────────────┬─────────┤
+│  GOVERNANCE │  ANALYSIS   │   DESIGN    │ VALIDATION  │ AUDIT   │
+│             │             │             │             │         │
+│   Policy    │    BIA      │   Policy    │  Tabletop   │ Matrix  │
+│             │             │ (Procedures)│  Exercise   │         │
+└─────────────┴─────────────┴─────────────┴─────────────┴─────────┘
 ```
 
 ---
@@ -71,10 +71,10 @@ The documentation demonstrates the complete BC/DR lifecycle: governance, analysi
 
 ## Related Documentation
 
-- [Risk Management Policy](../risk-management/) (parent policy)
-- [Information Security Policy](../governance/)
-- [Incident Management Policy](../incident-management/)
-- [Access Control Policy](../access-control/)
+- [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) (parent policy)
+- [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md)
+- [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md)
+- [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md)
 
 ---
 
