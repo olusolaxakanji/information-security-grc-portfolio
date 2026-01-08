@@ -20,7 +20,7 @@ These templates represent the three core pillars of GRC work:
 
 ## Templates Included
 
-### 1. Policy Template (`policy-template.md`)
+### 1. Policy Template ([policy-template.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/templates/policy-template.md))
 
 A comprehensive framework for creating information security policies that includes:
 
