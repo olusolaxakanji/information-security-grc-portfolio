@@ -35,7 +35,7 @@ A comprehensive framework for creating information security policies that includ
 
 ---
 
-### 2. Risk Assessment Template (`risk-assessment-template.md`)
+### 2. Risk Assessment Template ([risk-assessment-template.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/templates/risk-assessment-template.md))
 
 A structured approach to risk identification and treatment that includes:
 
