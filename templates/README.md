@@ -50,7 +50,7 @@ A structured approach to risk identification and treatment that includes:
 
 ---
 
-### 3. Control Testing Template (`control-testing-template.md`)
+### 3. Control Testing Template ([control-testing-template.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/templates/control-testing-template.md))
 
 A detailed workbook for testing control design and operating effectiveness that includes:
 
