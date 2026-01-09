@@ -10,20 +10,21 @@ This directory contains enterprise security policies developed for Emyzer Techno
 
 | Policy | Description | Framework Alignment | Status |
 |--------|-------------|---------------------|--------|
-| [Access Control Policy](access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | ✅ Complete |
-| [Incident Management Policy](incident-management-policy.md) | Defines procedures for detecting, responding to, and recovering from security incidents with GDPR breach notification compliance | NIST CSF RS, ISO/IEC 27035, NIST SP 800-61, GDPR Art. 33-34 | ✅ Complete |
-| [Risk Management Policy](risk-management-policy.md) | Establishes a comprehensive framework for identifying, assessing, and mitigating organizational risks across all business functions | NIST SP 800-37 RMF, COSO ERM, CIS RAM, ISO 31000 | ✅ Complete |
+| [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | ✅ Complete |
+| [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Defines procedures for detecting, responding to, and recovering from security incidents with GDPR breach notification compliance | NIST CSF RS, ISO/IEC 27035, NIST SP 800-61, GDPR Art. 33-34 | ✅ Complete |
+| [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Establishes a comprehensive framework for identifying, assessing, and mitigating organizational risks across all business functions | NIST SP 800-37 RMF, COSO ERM, CIS RAM, ISO 31000 | ✅ Complete |
+| [Business Continuity and Disaster Recovery Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Ensures organizational preparedness to respond to and recover from disruptions through defined recovery objectives and procedures | ISO 22301, ISO/IEC 27031, BCI GPG, NIST SP 800-34 | ✅ Complete |
+| [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Defines security program structure, roles, responsibilities, and strategic direction for the organization | NIST CSF GV, ISO 27001 A.5, COBIT EDM, ITIL | ✅ Complete |
 
-### Additional Policies (Planned)
+### Planned Policies
 
 | Policy | Description | Framework Alignment | Status |
 |--------|-------------|---------------------|--------|
-| Business Continuity and Disaster Recovery Policy | Ensures organizational preparedness to respond to and recover from disruptions | ISO 22301, ISO/IEC 27031, BCI GPG | 🔄 In Development |
-| Information Security Governance Policy | Defines security program structure, roles, responsibilities, and strategic direction | NIST CSF GV, ISO 27001 A.5, COBIT | 🔄 In Development |
-| Data Classification Policy | Defines data sensitivity levels and handling requirements | NIST CSF PR.DS, ISO 27001 A.8 | 📋 Planned |
-| Acceptable Use Policy | Establishes appropriate use of organizational systems and resources | NIST CSF PR.AT | 📋 Planned |
-| Change Management Policy | Controls modifications to systems and configurations to maintain security and stability | ITIL, ISO 20000, COBIT | 📋 Planned |
-| Vendor Security Policy | Manages third-party risk through security requirements and assessments | NIST SP 800-161, ISO 27036 | 📋 Planned |
+| Change Management & Configuration Policy | Controls modifications to systems and configurations to maintain security, stability, and operational integrity | ITIL, ISO 20000, COBIT BAI06, NIST SP 800-128 | 📋 Planned |
+| Acceptable Use Policy | Establishes appropriate use of organizational systems, networks, and resources by all personnel | NIST CSF PR.AT, ISO 27001 A.5.10, SANS AUP | 📋 Planned |
+| Data Classification Policy | Defines data sensitivity levels, labeling requirements, and handling procedures throughout the data lifecycle | NIST CSF PR.DS, ISO 27001 A.5.12-A.5.13, NIST SP 800-60 | 📋 Planned |
+| Third-Party/Vendor Risk Management Policy | Manages third-party risk through security requirements, assessments, and ongoing monitoring of external relationships | NIST SP 800-161, ISO 27036, NIST CSF ID.SC | 📋 Planned |
+| Security Awareness & Training Policy | Establishes requirements for security education, training, and awareness programs for all personnel | NIST CSF PR.AT, ISO 27001 A.6.3, NIST SP 800-50 | 📋 Planned |
 
 ---
 
@@ -92,6 +93,9 @@ These policies collectively address requirements from:
 **COSO Enterprise Risk Management**
 - Governance and Culture, Strategy and Objective-Setting, Performance, Review and Revision
 
+**ISO 22301 Business Continuity**
+- Business impact analysis, continuity planning, testing, and exercises
+
 ---
 
 ## ServiceNow GRC Implementation
@@ -108,10 +112,10 @@ All policies were created and managed within the ServiceNow GRC platform, demons
 
 ## Related Documentation
 
-- **[Compliance Mapping](../compliance-mapping/):** Detailed framework control mappings and gap analyses
-- **[Business Continuity](../business-continuity/):** Resilience and disaster recovery planning
-- **[Risk Assessments](../risk-assessments/):** Risk registers, assessment methodologies, and treatment plans
-- **[ServiceNow Evidence](../servicenow-evidence/):** Platform screenshots demonstrating GRC tool proficiency
+- **[Compliance Mapping](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/compliance-mapping):** Detailed framework control mappings and gap analyses
+- **[Business Continuity](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/business-continuity):** Resilience and disaster recovery planning
+- **[Risk Assessments](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/risk-assessments):** Risk registers, assessment methodologies, and treatment plans
+- **[ServiceNow Evidence](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/servicenow-evidence):** Platform screenshots demonstrating GRC tool proficiency
 
 ---
 
