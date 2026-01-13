@@ -5,40 +5,57 @@
 [![ISO 27001](https://img.shields.io/badge/Standard-ISO%2027001-1A73E8?style=flat-square)](https://www.iso.org/standard/27001)
 [![ISO 22301](https://img.shields.io/badge/Standard-ISO%2022301-1A73E8?style=flat-square)](https://www.iso.org/standard/75106.html)
 
-**ServiceNow GRC Project – Emyzer Technology (Case Study)**
+**ServiceNow GRC Project – Emyzer Technology (Fictionalized Case Study)**  
+*A living GRC portfolio of production-style security policies, evidence mapping, and governance workflows.*
+
+---
+
+## Start Here (60-Second Review Path)
+
+If you only have a minute, start with the **Information Security Policy** and review in this order:
+
+1. **Policy Snapshot** → executive view (scope, governance, exceptions, evidence)  
+2. **Evidence Index** → audit readiness view (system of record, owner, retention)  
+3. **Policy Exceptions** → real-world governance (approval, duration, quarterly review)
+
+✅ **Flagship Artifact:** [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md)
 
 ---
 
 ## Overview
 
-This portfolio demonstrates an actively evolving repository of hands-on GRC experience, with production-quality artifacts covering policy development, framework alignment (NIST CSF, ISO 27001, SOC 2, COBIT), risk management, and enterprise security planning.
+This repository demonstrates hands-on GRC work implemented in ServiceNow GRC and translated into clear, audit-oriented documentation. It includes enforceable policy language, defined governance roles, exception handling, evidence-of-compliance artifacts, and framework alignment.
+
+**Note on maturity:** This portfolio is actively maintained. One policy is **flagship-ready**, while the remaining completed policies are undergoing **quality upgrades** (consistency, evidence indexing, governance clarity, and control cadence).
 
 ---
 
-## Organizational Context (Case Study)
+## Organizational Context (Fictionalized Case Study)
 
-Emyzer Technology is a multinational technology company operating across Asia, America, Africa, and parts of Europe and the Middle East. The organization provides:
+Emyzer Technology is a fictional multinational technology company operating across Asia, the Americas, Africa, and parts of Europe and the Middle East. The organization provides:
 
-- Laptop production and global distribution
-- Cloud service management
-- Enterprise technical support
-- Global security implementation for businesses
+- Laptop production and global distribution  
+- Cloud service management  
+- Enterprise technical support  
+- Global security implementation for businesses  
 
-The organization employs over **5,000 staff worldwide** and operates within a complex, distributed IT and security environment requiring structured governance and resilience planning.
+The organization employs over **5,000 staff worldwide** and operates in a complex, distributed IT and security environment that requires structured governance and resilience planning.
+
+*This case study was designed to simulate realistic enterprise conditions for practicing GRC methodology, framework application, and ServiceNow platform workflows.*
 
 ---
 
 ## Project Scope & Objectives
 
-This project was completed using **ServiceNow** and focused on the following objectives:
+This project was completed using **ServiceNow** and focused on:
 
-1. Development of **10+ applicable information security policies** aligned to a recognized security framework
-2. Documentation of **organizational benefits** for each policy
-3. Identification of **evidence of compliance** for each policy
-4. Design of a **Business Continuity Management System (BCMS)** aligned with **ISO/IEC 22301**
-5. Translation of ServiceNow-generated policies into structured documentation suitable for audit, governance review, and portfolio demonstration
+1. Development of **10+ applicable information security policies** aligned to recognized frameworks  
+2. Documentation of **organizational benefits** for each policy  
+3. Identification of **evidence of compliance** and retention expectations  
+4. Design of a **Business Continuity Management System (BCMS)** aligned to **ISO/IEC 22301**  
+5. Translation of ServiceNow-generated policies into documentation suitable for audit review and public portfolio demonstration  
 
-All policies, procedures, and plans were created and managed within the **ServiceNow platform** as required by the project brief.
+All policies, procedures, and plans were created and managed within the **ServiceNow platform** in accordance with project requirements.
 
 ---
 
@@ -69,15 +86,20 @@ information-security-grc-portfolio/
 
 ## Current Portfolio Status
 
-### Completed Policies
+### Flagship Policy
+
+| Policy | Description | Frameworks | Status |
+|--------|-------------|------------|--------|
+| ⭐ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Parent policy establishing security governance structure with full evidence index, exception handling, and control cadence | NIST CSF, ISO 27001, COBIT | **Flagship-Ready** |
+
+### Completed Policies (Upgrades In Progress)
 
 | Policy | Description | Frameworks |
 |--------|-------------|------------|
-| ✅ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | Parent policy establishing security governance structure | NIST CSF, ISO 27001, COBIT |
-| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | RBAC/ABAC implementation, least privilege, authentication requirements | COBIT DSS05, NIST AC |
-| ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | Detection, response, escalation, and recovery procedures | NIST IR, ISO 27035 |
-| ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | Risk identification, assessment, and treatment methodology | COSO ERM, ISO 31000 |
-| ✅ [BC/DR Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | Business continuity and disaster recovery governance | ISO 22301, NIST SP 800-34 |
+| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | RBAC/ABAC implementation, least privilege, authentication requirements | COBIT DSS05, NIST AC |
+| ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Detection, response, escalation, and recovery procedures | NIST IR, ISO 27035 |
+| ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Risk identification, assessment, and treatment methodology | COSO ERM, ISO 31000 |
+| ✅ [BC/DR Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Business continuity and disaster recovery governance | ISO 22301, NIST SP 800-34 |
 
 ### In Development
 
@@ -108,10 +130,11 @@ This portfolio showcases practical competencies directly applicable to GRC analy
 
 | Competency | Application |
 |------------|-------------|
-| **Policy Development** | Created enforceable security policies with clear scope, roles, and compliance evidence |
+| **Policy Development** | Created enforceable security policies with clear scope, roles, evidence requirements, and exception handling |
 | **Framework Application** | Translated abstract standards (NIST, ISO 22301) into operational documentation |
 | **GRC Platform Proficiency** | Built and managed policies within ServiceNow's governance module |
 | **Business Continuity Planning** | Designed resilience strategies aligned to ISO/IEC 22301 requirements |
+| **Evidence Management** | Documented systems of record, retention periods, and audit-ready evidence indexes |
 | **Risk Communication** | Documented organizational benefits and compliance evidence for executive review |
 | **Cross-Functional Thinking** | Addressed security, operations, and business continuity as integrated concerns |
 
@@ -156,7 +179,7 @@ This repository is intended for:
 
 ## Portfolio Note
 
-This repository represents applied learning through structured case study work. All content has been developed independently using recognized frameworks and tools. Organizational details have been generalized to maintain a professional, non-proprietary example suitable for public portfolio demonstration.
+This repository represents applied learning through structured case study work. All content has been developed independently using recognized frameworks and tools. The fictionalized organizational context (Emyzer Technology) was designed to simulate realistic enterprise conditions while maintaining a professional, non-proprietary example suitable for public portfolio demonstration.
 
 ---
 
