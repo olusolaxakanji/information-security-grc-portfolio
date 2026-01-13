@@ -173,7 +173,7 @@ Employees requiring temporary deviation from this policy **shall**:
 
 This policy is supported by the following subordinate policies and procedures:
 
-1. **Access Control Policy** – Defines authentication mechanisms, authorization models (RBAC/ABAC), account lifecycle management (provisioning/deprovisioning), privileged access requirements, and access review procedures.
+1. [**Access Control Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) – Defines authentication mechanisms, authorization models (RBAC/ABAC), account lifecycle management (provisioning/deprovisioning), privileged access requirements, and access review procedures.
 
 2. **Incident Management Policy** – Defines incident detection methods, classification criteria, response procedures, escalation paths, communication protocols, containment strategies, eradication steps, recovery processes, and post-incident review requirements.
 
