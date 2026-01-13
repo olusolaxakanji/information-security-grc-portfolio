@@ -19,14 +19,14 @@
 | Policy | Description | Framework Alignment | Status |
 |--------|-------------|---------------------|--------|
 | ⭐ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Defines security program structure, governance roles, responsibilities, exception handling, and strategic direction | NIST CSF GV, ISO 27001 A.5, COBIT EDM, ITIL | **Flagship-Ready** |
+| ⭐ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | **Flagship-Ready** |
 
 ### Completed Policies (Upgrades In Progress)
 
-These policies are complete and functional. Quality upgrades are underway to add evidence indexes, exception handling sections, and control cadence documentation consistent with the flagship policy.
+These policies are complete and functional. Quality upgrades are underway to add evidence indexes, exception-handling sections, and control-cadence documentation, consistent with the flagship policy.
 
 | Policy | Description | Framework Alignment | Status |
 |--------|-------------|---------------------|--------|
-| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | Upgrade Pending |
 | ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Defines procedures for detecting, responding to, and recovering from security incidents with GDPR breach notification compliance | NIST CSF RS, ISO/IEC 27035, NIST SP 800-61, GDPR Art. 33-34 | Upgrade Pending |
 | ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Establishes framework for identifying, assessing, and mitigating organizational risks across all business functions | NIST SP 800-37 RMF, COSO ERM, CIS RAM, ISO 31000 | Upgrade Pending |
 | ✅ [Business Continuity and Disaster Recovery Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Ensures organizational preparedness to respond to and recover from disruptions through defined recovery objectives | ISO 22301, ISO/IEC 27031, BCI GPG, NIST SP 800-34 | Upgrade Pending |
