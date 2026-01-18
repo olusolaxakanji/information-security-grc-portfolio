@@ -14,19 +14,14 @@
 
 ## Policy Index
 
-### Flagship Policy
-
-| Policy | Description | Framework Alignment | Status |
-|--------|-------------|---------------------|--------|
-| ⭐ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Defines security program structure, governance roles, responsibilities, exception handling, and strategic direction | NIST CSF GV, ISO 27001 A.5, COBIT EDM, ITIL | **Flagship-Ready** |
-| ⭐ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | **Flagship-Ready** |
-
-### Completed Policies (Upgrades In Progress)
+### Completed Policies 
 
 These policies are complete and functional. Quality upgrades are underway to add evidence indexes, exception-handling sections, and control-cadence documentation, consistent with the flagship policy.
 
 | Policy | Description | Framework Alignment | Status |
 |--------|-------------|---------------------|--------|
+| ✅ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Defines security program structure, governance roles, responsibilities, exception handling, and strategic direction | NIST CSF GV, ISO 27001 A.5, COBIT EDM, ITIL | **Flagship-Ready** |
+| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | **Flagship-Ready** |
 | ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Defines procedures for detecting, responding to, and recovering from security incidents with GDPR breach notification compliance | NIST CSF RS, ISO/IEC 27035, NIST SP 800-61, GDPR Art. 33-34 | Upgrade Pending |
 | ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Establishes framework for identifying, assessing, and mitigating organizational risks across all business functions | NIST SP 800-37 RMF, COSO ERM, CIS RAM, ISO 31000 | Upgrade Pending |
 | ✅ [Business Continuity and Disaster Recovery Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Ensures organizational preparedness to respond to and recover from disruptions through defined recovery objectives | ISO 22301, ISO/IEC 27031, BCI GPG, NIST SP 800-34 | Upgrade Pending |
@@ -49,24 +44,24 @@ All policies follow a consistent structure aligned with GRC best practices and a
 
 | Section | Purpose |
 |---------|---------|
-| **Document Control** | Ownership, versioning, classification, review schedules |
-| **Purpose and Scope** | Policy intent, applicability, and boundaries |
-| **Policy Statement** | Core requirements and enforceable provisions |
-| **Roles and Responsibilities** | Accountability assignments and separation of duties |
-| **Procedures** | Implementation guidance and operational workflows |
-| **Compliance and Enforcement** | Monitoring mechanisms and consequences for non-compliance |
-| **Framework Alignment** | Mapping to recognized security standards |
+| **Policy Metadata** | Ownership, versioning, validity dates, approvers, reviewers, knowledge base reference |
+| **Description** | Policy intent, impact statement, and relevant standards alignment |
+| **Policy Snapshot** | Executive-level summary of scope, governance, exceptions process, and evidence maintained |
+| **Purpose and Scope** | Detailed policy intent, applicability boundaries, and third-party requirements |
+| **Definitions** | Key terminology with clear, consistent definitions |
+| **Policy Statement** | Core requirements and enforceable provisions with specific timeframes |
+| **Roles and Responsibilities** | Accountability assignments with "shall" language and defined SLAs |
+| **Minimum Security Requirements** | Implementation guidance, operational workflows, and control specifications |
+| **Compliance and Monitoring** | Monitoring mechanisms, performance metrics, and consequences for non-compliance |
+| **Policy Exceptions** | Approval workflow, duration limits, compensating controls, and quarterly review process |
+| **Related Policies** | Cross-references to supporting policies with descriptions |
+| **Related Documents** | Operational procedures, plans, and external references |
+| **Review and Revision** | Triggers for policy updates and approval requirements |
+| **Framework Alignment** | Mapping to recognized security standards (ISO, NIST, COBIT, etc.) |
 | **Organizational Benefits** | Business value and risk reduction articulation |
-| **Evidence of Compliance** | Audit trail requirements and documentation cadence |
-
-### Flagship Policy Additions
-
-The Information Security Policy (flagship) includes additional governance sections being rolled out to other policies:
-
-- **Policy Snapshot** — Executive-level summary of scope, governance, and evidence
-- **Evidence Index** — System of record, owner, and retention for each evidence type
-- **Policy Exceptions** — Approval workflow, duration limits, and quarterly review process
-- **Control Cadence** — Frequency of reviews, audits, and attestations
+| **Evidence of Compliance** | Evidence Index with system of record, owner, and retention period; detailed evidence subsections |
+| **Approval History** | Documented approvals with dates, approvers, and comments |
+| **Document Control** | Document ID, version, classification, last updated, next review date |
 
 ---
 
