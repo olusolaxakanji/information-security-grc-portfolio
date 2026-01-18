@@ -179,7 +179,7 @@ This policy is supported by the following subordinate policies and procedures:
 
 3. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) – Defines risk assessment methodology, risk scoring criteria (likelihood × impact), risk appetite thresholds, treatment options (accept/mitigate/transfer/avoid), ownership assignment, and reporting cadence to executive leadership.
 
-4. [**Business Continuity and Disaster Recovery Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bc-dr-policy.md) – Defines Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), business impact analysis (BIA) methodology, continuity strategies, disaster recovery procedures, and testing requirements.
+4. [**Business Continuity and Disaster Recovery Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) – Defines Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), business impact analysis (BIA) methodology, continuity strategies, disaster recovery procedures, and testing requirements.
 
 5. **Data Protection and Privacy Policy** – Defines data classification standards, handling requirements per classification level, retention schedules, disposal methods, privacy controls for PII/PHI, and regulatory compliance requirements.
 
