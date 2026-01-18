@@ -86,17 +86,12 @@ information-security-grc-portfolio/
 
 ## Current Portfolio Status
 
-### Flagship Policy
-
-| Policy | Description | Frameworks | Status |
-|--------|-------------|------------|--------|
-| ⭐ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Parent policy establishing security governance structure with full evidence index, exception handling, and control cadence | NIST CSF, ISO 27001, COBIT | **Flagship-Ready** |
-| ⭐ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | RBAC/ABAC implementation, least privilege, authentication requirements | COBIT DSS05, NIST AC | **Flagship-Ready** |
-
-### Completed Policies (Upgrades In Progress)
+### Completed Policies 
 
 | Policy | Description | Frameworks |
 |--------|-------------|------------|
+| ✅ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Parent policy establishing security governance structure with full evidence index, exception handling, and control cadence | NIST CSF, ISO 27001, COBIT | 
+| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | RBAC/ABAC implementation, least privilege, authentication requirements | COBIT DSS05, NIST AC | 
 | ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Detection, response, escalation, and recovery procedures | NIST IR, ISO 27035 |
 | ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Risk identification, assessment, and treatment methodology | COSO ERM, ISO 31000 |
 | ✅ [BC/DR Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Business continuity and disaster recovery governance | ISO 22301, NIST SP 800-34 |
