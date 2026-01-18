@@ -55,7 +55,7 @@ To establish a framework for managing and protecting the confidentiality, integr
 
 This policy applies to all employees, contractors, consultants, temporary staff, and other workers at Emyzer Technology, including all personnel affiliated with third parties. It encompasses all information assets, systems, networks, applications, and data owned or managed by Emyzer Technology.
 
-**Third-party applicability:** Third parties handling organizational data or systems **shall** meet equivalent security controls via contractual requirements and periodic security reviews.
+**Third-party applicability:** Third parties handling organizational data or systems shall meet equivalent security controls via contractual requirements and periodic security reviews.
 
 ---
 
@@ -73,7 +73,7 @@ This policy applies to all employees, contractors, consultants, temporary staff,
 
 ## D. Policy Statement
 
-Emyzer Technology is committed to protecting its information assets from all threats, whether internal or external, deliberate or accidental. To achieve this, the organization **shall**:
+Emyzer Technology is committed to protecting its information assets from all threats, whether internal or external, deliberate or accidental. To achieve this, the organization shall:
 
 1. Implement an Information Security Management System (ISMS) following ISO/IEC 27001 standards.
 
@@ -94,19 +94,19 @@ Emyzer Technology is committed to protecting its information assets from all thr
 ## E. Roles and Responsibilities
 
 ### E.1 Chief Information Security Officer (CISO)
-Provides executive oversight of the information security program. **Shall** approve strategic policy exceptions, significant risk acceptance decisions, and annual ISMS management reviews. **Shall** serve as the escalation point for critical security incidents and reportable breaches.
+Provides executive oversight of the information security program. Shall approve strategic policy exceptions, significant risk acceptance decisions, and annual ISMS management reviews. Shall serve as the escalation point for critical security incidents and reportable breaches.
 
 ### E.2 Information Security Officer (ISO)
-**Shall** develop, implement, and maintain the ISMS under CISO direction. **Shall** ensure compliance with relevant standards and regulations through documented evidence and periodic assessments. Acts as the delegated security executive for day-to-day program operations.
+Shall develop, implement, and maintain the ISMS under CISO direction. Shall ensure compliance with relevant standards and regulations through documented evidence and periodic assessments. Acts as the delegated security executive for day-to-day program operations.
 
 ### E.3 Department Heads
-**Shall** ensure their teams comply with the information security policy and related procedures through **quarterly attestation for departmental compliance**. **Shall** identify and report security risks within 24 hours of discovery.
+Shall ensure their teams comply with the information security policy and related procedures through **quarterly attestation for departmental compliance**. Shall identify and report security risks within 24 hours of discovery.
 
 ### E.4 IT Department
-**Shall** implement technical controls and monitor information systems **on an ongoing basis** to protect against security threats. **Shall** maintain security audit logs for a minimum of 1 year (3 years for privileged access).
+Shall implement technical controls and monitor information systems **on an ongoing basis** to protect against security threats. Shall maintain security audit logs for a minimum of 1 year (3 years for privileged access).
 
 ### E.5 All Employees
-**Shall** comply with the information security policy, complete **annual** security awareness training, and report any security incidents, suspected incidents, or vulnerabilities within 1 hour of discovery.
+Shall comply with the information security policy, complete **annual** security awareness training, and report any security incidents, suspected incidents, or vulnerabilities within 1 hour of discovery.
 
 ---
 
@@ -115,57 +115,57 @@ Provides executive oversight of the information security program. **Shall** appr
 The following requirements establish baseline security controls. Detailed implementation procedures are maintained in the **IT Security Procedures Manual** and related operational documentation.
 
 ### F.1 Risk Assessment
-- **Shall** conduct risk assessments **quarterly** to identify and evaluate security risks.
-- **Shall** implement controls aligned to risk severity: critical risks require mitigation within 30 days; high risks within 60 days; moderate risks within 90 days.
-- **Shall** document all risk assessments with identified threats, vulnerabilities, likelihood, impact, and treatment decisions in the enterprise risk register.
+- Shall conduct risk assessments **quarterly** to identify and evaluate security risks.
+- Shall implement controls aligned to risk severity: critical risks require mitigation within 30 days; high risks within 60 days; moderate risks within 90 days.
+- Shall document all risk assessments with identified threats, vulnerabilities, likelihood, impact, and treatment decisions in the enterprise risk register.
 
 ### F.2 Access Control
-- **Shall** implement role-based access controls (RBAC) to ensure only personnel with job-aligned authorization can access information assets.
-- **Shall** review standard user access rights **quarterly** and privileged access rights **monthly**, with documented manager approval retained for 3 years.
-- **Shall** provision new access within 24 hours of approved request and deprovision access within 4 hours of termination or role change.
+- Shall implement role-based access controls (RBAC) to ensure only personnel with job-aligned authorization can access information assets.
+- Shall review standard user access rights **quarterly** and privileged access rights **monthly**, with documented manager approval retained for 3 years.
+- Shall provision new access within 24 hours of approved request and deprovision access within 4 hours of termination or role change.
 
 ### F.3 Data Protection
-- **Shall** encrypt sensitive data at rest (AES-256 minimum) and in transit (TLS 1.2 minimum).
-- **Shall** classify data according to sensitivity levels (Public, Internal, Confidential, Restricted) with handling requirements documented per classification.
-- **Shall** ensure compliance with data protection regulations including GDPR, CCPA, and applicable industry standards **where applicable based on data residency, customer contracts, and processing activities**.
+- Shall encrypt sensitive data at rest (AES-256 minimum) and in transit (TLS 1.2 minimum).
+- Shall classify data according to sensitivity levels (Public, Internal, Confidential, Restricted) with handling requirements documented per classification.
+- Shall ensure compliance with data protection regulations, including GDPR, CCPA, and applicable industry standards **where applicable based on data residency, customer contracts, and processing activities**.
 
 ### F.4 Incident Management
-- **Shall** establish and maintain procedures for detecting, reporting, and responding to security incidents within defined response timeframes.
-- **Shall** conduct root cause analysis for all high and critical incidents within 5 business days of resolution.
-- **Shall** implement corrective actions with documented verification of effectiveness within 30 days.
+- Shall establish and maintain procedures for detecting, reporting, and responding to security incidents within defined response timeframes.
+- Shall conduct root cause analysis for all high and critical incidents within 5 business days of resolution.
+- Shall implement corrective actions with documented verification of effectiveness within 30 days.
 
 ### F.5 Training and Awareness
-- **Shall** provide information security awareness training to all employees **annually** and during onboarding (within 7 days of start date).
-- **Shall** provide role-specific training for personnel handling sensitive data or performing security functions within 30 days of role assignment.
-- **Shall** maintain training completion records for 3 years.
+- Shall provide information security awareness training to all employees **annually** and during onboarding (within 7 days of start date).
+- Shall provide role-specific training for personnel handling sensitive data or performing security functions within 30 days of role assignment.
+- Shall maintain training completion records for 3 years.
 
 ### F.6 Audits and Reviews
-- **Shall** conduct internal ISMS audits **annually** with independent auditors reviewing compliance with policy requirements.
-- **Shall** perform management reviews of the ISMS **quarterly** to assess effectiveness and identify improvement opportunities.
-- **Shall** maintain audit findings, management review minutes, and corrective action plans for 3 years.
+- Shall conduct internal ISMS audits **annually** with independent auditors reviewing compliance with policy requirements.
+- Shall perform management reviews of the ISMS **quarterly** to assess effectiveness and identify improvement opportunities.
+- Shall maintain audit findings, management review minutes, and corrective action plans for 3 years.
 
 ---
 
 ## G. Compliance and Monitoring
 
-Compliance with this policy **shall** be monitored through **quarterly security reviews and control assessments** combined with **annual internal ISMS audits**. Non-compliance **shall** be addressed through documented corrective actions within 30 days. Violations may result in access revocation, mandatory corrective training, and disciplinary actions up to and including termination.
+Compliance with this policy shall be monitored through **quarterly security reviews and control assessments** combined with **annual internal ISMS audits**. Non-compliance shall be addressed through documented corrective actions within 30 days. Violations may result in access revocation, mandatory corrective training, and disciplinary actions up to and including termination.
 
 ---
 
 ## H. Policy Exceptions
 
 ### H.1 Exception Request Process
-Employees requiring temporary deviation from this policy **shall**:
+Employees requiring temporary deviation from this policy shall:
 1. Submit exception requests via the **ServiceNow GRC/ITSM ticketing workflow (or equivalent ticketing system)** with detailed business justification, risk assessment, and proposed compensating controls.
 2. Obtain approval from the Information Security Officer for tactical exceptions (≤30 days) or CISO for strategic exceptions (>30 days).
 3. Accept exceptions valid for a maximum of **90 days** unless formally renewed.
 4. Document compensating controls implemented during the exception period.
 
 ### H.2 Exception Governance
-- All active exceptions **shall** be reviewed **quarterly** by the Information Security Officer to confirm continued necessity.
-- Exception renewals **shall** require updated business justification and CISO approval.
-- Each exception **shall** include a remediation plan with target closure date not to exceed 180 days from initial approval.
-- Exception tracking **shall** be maintained in the GRC platform with status updates provided to executive leadership **monthly**.
+- All active exceptions shall be reviewed **quarterly** by the Information Security Officer to confirm continued necessity.
+- Exception renewals shall require updated business justification and CISO approval.
+- Each exception shall include a remediation plan with a target closure date not to exceed 180 days from initial approval.
+- Exception tracking shall be maintained in the GRC platform with status updates provided to executive leadership **monthly**.
 
 ---
 
@@ -175,11 +175,11 @@ This policy is supported by the following subordinate policies and procedures:
 
 1. [**Access Control Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) – Defines authentication mechanisms, authorization models (RBAC/ABAC), account lifecycle management (provisioning/deprovisioning), privileged access requirements, and access review procedures.
 
-2. **Incident Management Policy** – Defines incident detection methods, classification criteria, response procedures, escalation paths, communication protocols, containment strategies, eradication steps, recovery processes, and post-incident review requirements.
+2. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) – Defines incident detection methods, classification criteria, response procedures, escalation paths, communication protocols, containment strategies, eradication steps, recovery processes, and post-incident review requirements.
 
-3. **Risk Management Policy** – Defines risk assessment methodology, risk scoring criteria (likelihood × impact), risk appetite thresholds, treatment options (accept/mitigate/transfer/avoid), ownership assignment, and reporting cadence to executive leadership.
+3. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) – Defines risk assessment methodology, risk scoring criteria (likelihood × impact), risk appetite thresholds, treatment options (accept/mitigate/transfer/avoid), ownership assignment, and reporting cadence to executive leadership.
 
-4. **Business Continuity and Disaster Recovery Policy** – Defines Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), business impact analysis (BIA) methodology, continuity strategies, disaster recovery procedures, and testing requirements.
+4. [**Business Continuity and Disaster Recovery Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bc-dr-policy.md) – Defines Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), business impact analysis (BIA) methodology, continuity strategies, disaster recovery procedures, and testing requirements.
 
 5. **Data Protection and Privacy Policy** – Defines data classification standards, handling requirements per classification level, retention schedules, disposal methods, privacy controls for PII/PHI, and regulatory compliance requirements.
 
@@ -197,7 +197,7 @@ This policy is supported by the following subordinate policies and procedures:
 
 ## K. Review and Revision
 
-This policy **shall** be reviewed **annually** or when significant changes occur (regulatory updates, major security incidents, organizational restructuring, technology changes) to ensure its continued relevance and effectiveness. Revisions **shall** be made to address emerging threats, regulatory changes, and improvements in best practices. All revisions require CISO approval and executive leadership notification.
+This policy shall be reviewed **annually** or when significant changes occur (regulatory updates, major security incidents, organizational restructuring, technology changes) to ensure its continued relevance and effectiveness. Revisions shall be made to address emerging threats, regulatory changes, and improvements in best practices. All revisions require CISO approval and notification to executive leadership.
 
 ---
 
@@ -211,7 +211,7 @@ This policy **shall** be reviewed **annually** or when significant changes occur
 | **ISO/IEC 27032** | Cybersecurity guidelines for improving security posture and resilience against cyber threats |
 | **NIST Cybersecurity Framework** | Aligns with Identify, Protect, Detect, Respond, and Recover functions |
 
-**Note:** This policy aligns to these standards; certification and compliance scope are defined in the ISMS Statement of Applicability (SoA).
+**Note:** This policy aligns with these standards; certification and compliance scope are defined in the ISMS Statement of Applicability (SoA).
 
 ---
 
@@ -231,7 +231,7 @@ This policy **shall** be reviewed **annually** or when significant changes occur
 
 ## N. Evidence of Compliance
 
-The organization **shall** maintain the following compliance evidence with defined retention periods:
+The organization shall maintain the following compliance evidence with defined retention periods:
 
 ### Evidence Index
 
@@ -255,7 +255,7 @@ The organization **shall** maintain the following compliance evidence with defin
 ---
 
 ### N.1 Access Control Evidence
-- **User Access Reviews:** Quarterly access certification reports exported from identity management system, showing account name, role, manager approval, and review date. Retained for 3 years.
+- **User Access Reviews:** Quarterly access certification reports exported from the identity management system, showing account name, role, manager approval, and review date. Retained for 3 years.
 - **Privileged Access Reviews:** Monthly privileged account audits with documented justification for continued access. Retained for 3 years.
 - **Provisioning/Deprovisioning Records:** Service desk tickets showing access request, approval, implementation date, and system confirmations. Retained for 3 years.
 - **Authentication Logs:** Multi-factor authentication (MFA) logs demonstrating successful and failed login attempts. Retained for 1 year.
@@ -268,7 +268,7 @@ The organization **shall** maintain the following compliance evidence with defin
 
 ### N.3 Incident Management Evidence
 - **Incident Tickets:** ServiceNow incident records showing detection timestamp, classification, severity, assigned owner, containment actions, resolution timestamp, and status. Retained for 7 years.
-- **Incident Response Reports:** Detailed reports for high/critical incidents including timeline, root cause analysis, impact assessment, and lessons learned. Retained for 7 years.
+- **Incident Response Reports:** Detailed reports for high/critical incidents, including timeline, root cause analysis, impact assessment, and lessons learned. Retained for 7 years.
 - **Post-Incident Reviews:** Documentation of corrective actions implemented, effectiveness validation, and preventive measures. Retained for 7 years.
 - **Security Event Logs:** SIEM (Security Information and Event Management) logs showing detection of suspicious activities and automated responses. Retained for 1 year.
 
@@ -280,12 +280,12 @@ The organization **shall** maintain the following compliance evidence with defin
 
 ### N.5 Business Continuity Evidence
 - **Business Impact Analysis (BIA):** Annual BIA reports identifying critical business processes, dependencies, RTO/RPO requirements, and resource needs. Retained for 5 years.
-- **BC/DR Test Results:** Documentation of annual disaster recovery tests including test scenarios, participant lists, results, gaps identified, and remediation plans. Retained for 5 years.
+- **BC/DR Test Results:** Documentation of annual disaster recovery tests, including test scenarios, participant lists, results, gaps identified, and remediation plans. Retained for 5 years.
 - **Tabletop Exercise Records:** Sign-in sheets, scenario descriptions, participant responses, and improvement recommendations from annual BC exercises. Retained for 5 years.
 - **Recovery Procedure Documentation:** Step-by-step recovery runbooks for critical systems with version control and approval history. Retained indefinitely (current version).
 
 ### N.6 Audit and Certification Evidence
-- **ISMS Certification:** ISO/IEC 27001 certification documentation including certificate, audit reports, and corrective action responses. Retained for 7 years.
+- **ISMS Certification:** ISO/IEC 27001 certification documentation, including certificate, audit reports, and corrective action responses. Retained for 7 years.
 - **Internal Audit Reports:** Annual internal ISMS audit findings, severity classifications, remediation plans, and closure evidence. Retained for 7 years.
 - **Management Review Minutes:** Quarterly ISMS management review meeting minutes documenting decisions, action items, and performance metrics. Retained for 7 years.
 - **Penetration Test Reports:** Annual third-party penetration testing results showing vulnerabilities discovered, severity ratings, remediation recommendations, and closure status. Retained for 5 years.
