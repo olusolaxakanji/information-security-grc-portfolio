@@ -4,6 +4,7 @@
 [![NIST CSF](https://img.shields.io/badge/Framework-NIST%20CSF-003366?style=flat-square)](https://www.nist.gov/cyberframework)
 [![ISO 27001](https://img.shields.io/badge/Standard-ISO%2027001-1A73E8?style=flat-square)](https://www.iso.org/standard/27001)
 [![ISO 22301](https://img.shields.io/badge/Standard-ISO%2022301-1A73E8?style=flat-square)](https://www.iso.org/standard/75106.html)
+[![GDPR](https://img.shields.io/badge/Regulation-GDPR-FF6B35?style=flat-square)](https://gdpr.eu/)
 
 **ServiceNow GRC Project – Emyzer Technology (Fictionalized Case Study)**  
 *A living GRC portfolio of production-style security policies, evidence mapping, and governance workflows.*
@@ -26,7 +27,7 @@ If you only have a minute, start with the **Information Security Policy** and re
 
 This repository demonstrates hands-on GRC work implemented in ServiceNow GRC and translated into clear, audit-oriented documentation. It includes enforceable policy language, defined governance roles, exception handling, evidence-of-compliance artifacts, and framework alignment.
 
-**Note on maturity:** This portfolio is actively maintained. One policy is **flagship-ready**, while the remaining completed policies are undergoing **quality upgrades** (consistency, evidence indexing, governance clarity, and control cadence).
+**Note on maturity:** This portfolio is actively maintained. 
 
 ---
 
@@ -75,7 +76,7 @@ information-security-grc-portfolio/
 
 | Folder | Contents |
 |--------|----------|
-| [`policies/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | Enterprise security policies (Access Control, Incident Management, Risk Management, Information Security) |
+| [`policies/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies) | Enterprise security policies (Access Control, Incident Management, Risk Management, Information Security, BC/DR, Change Management, Acceptable Use, Data Classification, Third-Party Risk, Security Awareness) |
 | [`business-continuity/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/business-continuity) | ISO 22301 BCMS documentation, BIA, tabletop exercises, framework alignment |
 | [`risk-assessments/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/risk-assessments) | Risk methodology, registers, treatment plans |
 | [`compliance-mapping/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/compliance-mapping) | Framework alignment matrices, gap analysis, evidence guides |
@@ -90,11 +91,16 @@ information-security-grc-portfolio/
 
 | Policy | Description | Frameworks |
 |--------|-------------|------------|
-| ✅ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Parent policy establishing security governance structure with full evidence index, exception handling, and control cadence | NIST CSF, ISO 27001, COBIT | 
-| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | RBAC/ABAC implementation, least privilege, authentication requirements | COBIT DSS05, NIST AC | 
+| ✅ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Parent policy establishing security governance structure with full evidence index, exception handling, and control cadence | NIST CSF, ISO 27001, COBIT |
+| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | RBAC/ABAC implementation, least privilege, authentication requirements | COBIT DSS05, NIST AC |
 | ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Detection, response, escalation, and recovery procedures | NIST IR, ISO 27035 |
 | ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Risk identification, assessment, and treatment methodology | COSO ERM, ISO 31000 |
 | ✅ [BC/DR Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Business continuity and disaster recovery governance | ISO 22301, NIST SP 800-34 |
+| ✅ [Change Management & Configuration Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/change-management-policy.md) | Change control processes, configuration baseline management, and CAB governance | ITIL, COBIT BAI06, NIST SP 800-128 |
+| ✅ [Acceptable Use Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/acceptable-use-policy.md) | Authorized use of organizational IT resources, user responsibilities, and prohibited activities | SANS AUP, ISO 27001 A.8, NIST CSF |
+| ✅ [Data Classification Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md) | Data categorization framework, labeling requirements, and handling procedures by classification level | ISO 27001 A.8.2, NIST SP 800-60, GDPR |
+| ✅ [Third-Party/Vendor Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) | Vendor security assessment, contract security requirements, and ongoing monitoring | ISO 27001 A.15, NIST CSF ID.SC, GDPR |
+| ✅ [Security Awareness & Training Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/security-awareness-training-policy.md) | Security education program, role-based training requirements, and phishing simulation protocols | NIST CSF PR.AT, ISO 27001 A.7.2, COBIT APO07 |
 
 ### In Development
 
@@ -107,13 +113,8 @@ information-security-grc-portfolio/
 
 ### Planned
 
-| Policy | Category |
-|--------|----------|
-| 📋 Change Management & Configuration Policy | Security Operations |
-| 📋 Acceptable Use Policy | User Security |
-| 📋 Data Classification Policy | Data Protection |
-| 📋 Third-Party/Vendor Risk Management Policy | Risk Management |
-| 📋 Security Awareness & Training Policy | Human Risk |
+| Artifact | Category |
+|----------|----------|
 | 📋 SOC 2 Gap Analysis | Compliance Mapping |
 | 📋 ServiceNow Implementation Screenshots | Platform Evidence |
 
@@ -147,7 +148,12 @@ This portfolio showcases practical competencies directly applicable to GRC analy
 | **COSO ERM** | Enterprise risk management integration |
 | **BCI Good Practice Guidelines** | Business continuity planning methodology |
 | **NIST SP 800-34 Rev. 1** | Contingency planning guidance |
+| **NIST SP 800-60** | Data classification guidance |
+| **NIST SP 800-128** | Configuration management guidance |
+| **ITIL** | IT service management and change control |
+| **SANS** | Acceptable use policy framework |
 | **SOC 2** | Trust services criteria mapping |
+| **GDPR** | Data protection and privacy compliance for EU operations |
 
 ---
 
