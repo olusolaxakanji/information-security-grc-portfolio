@@ -6,7 +6,7 @@ This folder contains risk assessment documentation developed for Emyzer Technolo
 
 | Document | Description | Status |
 |----------|-------------|--------|
-| `risk-assessment-methodology.md` | Defines the organization's approach to identifying, analyzing, and evaluating information security risks | Draft |
+| [risk-assessment-methodology.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-assessment-methodology.md) | Defines the organization's approach to identifying, analyzing, and evaluating information security risks | Complete |
 | `asset-risk-register.md` | Inventory of critical assets with associated threats, vulnerabilities, and risk ratings | Draft |
 | `risk-treatment-plan.md` | Documented decisions for risk mitigation, acceptance, transfer, or avoidance | Draft |
 | `third-party-risk-assessment.md` | Evaluation framework for vendor and supplier security posture | Draft |
