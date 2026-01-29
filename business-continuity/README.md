@@ -17,7 +17,7 @@ The documentation demonstrates the complete BC/DR lifecycle: governance, analysi
 | Document | Purpose | Framework Alignment | Status |
 |----------|---------|---------------------|--------|
 | [Business Continuity and Disaster Recovery Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Establishes governance, roles, and procedures for BC/DR program | ISO 22301 Clauses 4–10, BCI PP1, NIST 3.1 | Approved |
-| Business Impact Analysis | Identifies critical functions, dependencies, and recovery targets (RTO/RPO) | ISO 22301 Clause 8.2.2, BCI PP3, NIST 3.2 | Draft |
+| [Business Impact Analysis](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/business-continuity/business-impact-analysis-report.md) | Identifies critical functions, dependencies, and recovery targets (RTO/RPO) | ISO 22301 Clause 8.2.2, BCI PP3, NIST 3.2 | Complete |
 | Tabletop Exercise Summary | Validates BC/DR procedures through ransomware response scenario | ISO 22301 Clause 8.5, BCI PP6, NIST 3.5 | Draft |
 | Framework Alignment Matrix | Maps documentation to ISO 22301, ISO 27031, BCI GPG, and NIST 800-34 | Audit and compliance readiness | Draft |
 
