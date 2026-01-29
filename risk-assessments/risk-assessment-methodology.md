@@ -204,23 +204,28 @@ The risk assessment process follows six sequential steps that form a continuous 
 
 | Field | Description |
 |-------|-------------|
-| Risk ID | Unique identifier for the risk |
-| Risk Title | Brief descriptive name |
-| Risk Description | Detailed explanation of the risk scenario |
-| Risk Category | Classification (operational, security, compliance, etc.) |
-| Risk Owner | Accountable individual |
-| Likelihood Rating | Assessed probability score |
-| Impact Rating | Assessed consequence score |
-| Inherent Risk Score | Risk level without controls |
-| Existing Controls | Current mitigation measures |
-| Control Effectiveness | Rating of control performance |
-| Residual Risk Score | Risk level with current controls |
-| Target Risk Level | Desired future risk level |
-| Treatment Strategy | Accept, mitigate, transfer, or avoid |
-| Treatment Actions | Planned risk reduction activities |
-| Status | Open, in treatment, monitoring, closed |
-| Last Assessment Date | Date of most recent evaluation |
-| Next Review Date | Scheduled reassessment date |
+| Risk ID | Unique identifier for tracking and reference |
+| Asset Name | The asset affected by this risk; links to asset inventory |
+| Asset Owner | Individual accountable for the asset; approves access and escalates concerns |
+| Asset Category | Classification as Information, Technical, or Business asset |
+| Risk Description | Narrative explaining the risk scenario and potential consequences |
+| Threat Source | Origin of potential harm (adversarial, accidental, structural, environmental) |
+| Vulnerability | Weakness that could be exploited by the threat |
+| Likelihood | Probability rating per the likelihood scale (1-5) |
+| Impact | Consequence rating per the impact scale (1-5) |
+| Risk Rating | Calculated score (Likelihood x Impact) and level (Critical, High, Medium, Low) |
+| Existing Controls | Current measures reducing likelihood or impact |
+| Control Effectiveness | Assessment of how well current controls perform |
+| Treatment Strategy | Mitigate, Accept, Transfer, or Avoid |
+| Treatment Status | Current state: Open, In Treatment, Monitoring, Accepted, or Closed |
+| Risk Owner | Individual accountable for managing this risk and implementing treatment |
+| Target Date | Expected completion date for treatment activities |
+| Review Date | Next scheduled reassessment |
+| Comments | Additional context, decisions, progress notes, and history |
+
+The Asset Name, Asset Owner, and Asset Category fields link each risk to the enterprise asset inventory maintained in ServiceNow. This connection ensures risks are traceable to specific resources and that accountability is clear.
+
+The Risk Rating represents the current risk level with existing controls factored in. When inherent risk (risk level without controls) is relevant for analysis, it can be documented in the Comments field or calculated by temporarily excluding control effectiveness from the assessment.
 
 **Outputs:**
 - Completed risk register entries
@@ -479,6 +484,7 @@ This methodology undergoes review and update:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2024-05-22 | GRC Team | Initial release |
+| 1.1 | 2024-05-22 | GRC Team | Aligned risk register fields with Asset Risk Register; updated risk scenario template |
 
 ---
 
@@ -581,35 +587,61 @@ Use this checklist to ensure completeness for each risk assessment:
 
 ## Appendix B: Risk Scenario Template
 
-Use this template to document identified risk scenarios:
+Use this template to document identified risk scenarios during assessments. Completed templates are entered into the Asset Risk Register in ServiceNow GRC.
 
-**Risk Scenario ID:** [Unique identifier]
+**Risk ID:** [Assigned upon register entry]
 
-**Risk Title:** [Brief descriptive name]
+**Asset Name:** [Name of the affected asset from asset inventory]
+
+**Asset Owner:** [Individual accountable for the asset]
+
+**Asset Category:**
+- [ ] Information Asset
+- [ ] Technical Asset
+- [ ] Business Asset
 
 **Risk Description:**
-[Detailed narrative describing the threat source, vulnerability exploited, and potential consequence]
+[Detailed narrative describing what could go wrong, how it could happen, and what the consequences would be]
 
 **Threat Source:**
-- [ ] Adversarial (malicious actor)
-- [ ] Accidental (human error)
-- [ ] Structural (equipment failure)
-- [ ] Environmental (natural disaster)
+- [ ] Adversarial (external attacker, insider threat, competitor)
+- [ ] Accidental (user error, administrator mistake, development flaw)
+- [ ] Structural (hardware failure, software bug, capacity exhaustion)
+- [ ] Environmental (natural disaster, power failure, fire, water damage)
 
-**Affected Assets:**
-[List of impacted systems, data, processes, or third parties]
+**Vulnerability:**
+[Specific weakness that could be exploited by the threat source]
 
 **Existing Controls:**
 [Current measures that reduce the likelihood or impact]
 
+**Control Effectiveness:**
+- [ ] Effective - Controls adequately address the risk
+- [ ] Partial - Controls reduce but do not fully address the risk
+- [ ] Ineffective - Controls provide minimal or no risk reduction
+
+**Likelihood Rating:** [1-5 per likelihood scale]
+
 **Likelihood Rationale:**
-[Justification for the assigned likelihood rating]
+[Justification for the assigned rating, including relevant data or expert judgment]
+
+**Impact Rating:** [1-5 per impact scale]
 
 **Impact Rationale:**
-[Justification for the assigned impact rating, including affected impact dimensions]
+[Justification for the assigned rating, including affected dimensions: financial, operational, reputational, compliance]
 
-**Risk Owner:**
-[Individual accountable for this risk]
+**Risk Rating:** [Likelihood x Impact] - [Critical/High/Medium/Low]
+
+**Recommended Treatment Strategy:**
+- [ ] Mitigate - Implement additional controls
+- [ ] Accept - Acknowledge and monitor
+- [ ] Transfer - Shift to third party
+- [ ] Avoid - Discontinue activity
+
+**Risk Owner:** [Individual accountable for managing this risk]
+
+**Comments:**
+[Additional context, dependencies, or considerations]
 
 ---
 
