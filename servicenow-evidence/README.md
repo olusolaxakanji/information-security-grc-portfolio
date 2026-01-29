@@ -97,22 +97,6 @@ The exports aren't the deliverables. The organizational capability they represen
 
 ---
 
-## Planned Development
-
-The following policies are currently in development and will be added to this evidence repository upon completion:
-
-| Planned Policy | Domain | Status |
-|----------------|--------|--------|
-| Change Management & Configuration Policy | IT Operations | In Development |
-| Acceptable Use Policy | User Governance | In Development |
-| Data Classification Policy | Data Protection | In Development |
-| Third-Party/Vendor Risk Management Policy | Supply Chain Security | In Development |
-| Security Awareness & Training Policy | Human Risk Management | In Development |
-
-These additions will expand the portfolio to 10 policies—a comprehensive governance framework covering access control, incident response, risk management, business continuity, IT operations, data protection, and human factors.
-
----
-
 ## Technical Notes
 
 - **Export format**: ServiceNow Policy Details report (PDF)
