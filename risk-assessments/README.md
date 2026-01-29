@@ -1,43 +1,43 @@
 # Risk Assessments
 
-This folder contains risk assessment documentation developed for Emyzer Technology using ServiceNow GRC, aligned with NIST Risk Management Framework (RMF) principles.
+Risk assessment documentation for Emyzer Technology, developed using ServiceNow GRC.
 
-## Contents
+## Documents
 
-| Document | Description | Status |
-|----------|-------------|--------|
-| [risk-assessment-methodology.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-assessment-methodology.md) | Defines the organization's approach to identifying, analyzing, and evaluating information security risks | Complete |
-| [asset-risk-register.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/asset-risk-register.md) | Inventory of critical assets with associated threats, vulnerabilities, and risk ratings | Complete |
-| `risk-treatment-plan.md` | Documented decisions for risk mitigation, acceptance, transfer, or avoidance | Draft |
-| `third-party-risk-assessment.md` | Evaluation framework for vendor and supplier security posture | Draft |
+| Document | Description |
+|----------|-------------|
+| [risk-assessment-methodology.md](risk-assessment-methodology.md) | Defines how risks are identified, analyzed, scored, and treated across the organization |
+| [asset-risk-register.md](asset-risk-register.md) | Operational register with 15 documented risks across critical, high, medium, and low levels |
+
+## What These Documents Demonstrate
+
+**Risk Assessment Methodology**
+- Structured six-step assessment process from identification through monitoring
+- Qualitative scoring framework with 5x5 risk matrix
+- Clear roles, responsibilities, and governance structure
+- Framework alignment with NIST SP 800-30, ISO 27005, and COBIT
+
+**Asset Risk Register**
+- Executive summary with risk trends and decisions requiring attention
+- Realistic risk entries showing the full lifecycle: newly identified, in treatment, monitoring, and formally accepted
+- Treatment progress with specific details (vendor names, budget figures, completion percentages)
+- Multiple risk categories: information security, privacy, operational, and third-party
 
 ## Framework Alignment
 
-- **NIST SP 800-30** – Guide for Conducting Risk Assessments
-- **NIST SP 800-37** – Risk Management Framework (RMF)
-- **ISO/IEC 27005** – Information Security Risk Management
+| Framework | Application |
+|-----------|-------------|
+| NIST SP 800-30 | Risk assessment process and scoring criteria |
+| NIST SP 800-37 | Risk Management Framework integration |
+| ISO 27005 | Information security risk management principles |
+| NIST CSF | ID.RA and ID.RM function alignment |
 
-## Risk Assessment Process
+## How These Documents Work Together
 
-1. **Context Establishment** – Define scope, boundaries, and risk criteria
-2. **Risk Identification** – Identify assets, threats, and vulnerabilities
-3. **Risk Analysis** – Determine likelihood and impact using qualitative/quantitative methods
-4. **Risk Evaluation** – Compare against risk appetite and prioritize treatment
-5. **Risk Treatment** – Select and implement appropriate controls
-6. **Monitoring & Review** – Continuous reassessment and reporting
+The methodology defines the process. The register applies it.
 
-## Integration with GRC Policies
-
-Risk assessments directly inform the following policies within this portfolio:
-
-- Access Control Policy (RBAC/ABAC implementation priorities)
-- Incident Response Policy (threat-informed response procedures)
-- Business Continuity Plan (risk-based recovery prioritization)
-
-## Review Cycle
-
-Risk assessments are reviewed **quarterly** and updated following significant changes to the threat landscape, organizational structure, or IT infrastructure.
+The register references the methodology for scoring criteria rather than duplicating them. Risk entries use the exact field structure defined in the methodology. This demonstrates understanding of how GRC documentation should interconnect in an enterprise environment.
 
 ---
 
-*Documentation generated from ServiceNow GRC for portfolio demonstration purposes.*
+*Developed using ServiceNow GRC for portfolio demonstration.*
