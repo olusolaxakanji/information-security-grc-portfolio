@@ -22,7 +22,7 @@
 
 The Asset Risk Register is the operational record of risks identified across Emyzer Technology's assets. It captures what could go wrong, how severe it would be, what we are doing about it, and who is accountable.
 
-This register applies the scoring criteria, treatment options, and assessment process defined in the **Risk Assessment Methodology**. It does not duplicate that guidance. Instead, it puts the methodology into practice by documenting actual risks affecting real assets.
+This register applies the scoring criteria, treatment options, and assessment process defined in the [**Risk Assessment Methodology**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-assessment-methodology.md). It does not duplicate that guidance. Instead, it puts the methodology into practice by documenting actual risks affecting real assets.
 
 The register serves as:
 
