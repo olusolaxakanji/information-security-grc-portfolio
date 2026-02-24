@@ -10,9 +10,9 @@
 |-----------|---------|
 | **Document Title** | Asset Risk Register |
 | **Document Type** | Risk Register |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Effective Date** | 2024-05-22 |
-| **Last Updated** | 2024-05-22 |
+| **Last Updated** | 2024-06-01 |
 | **Owner** | Chief Information Security Officer (CISO) |
 | **Classification** | Internal Use |
 
@@ -23,6 +23,8 @@
 The Asset Risk Register is the operational record of risks identified across Emyzer Technology's assets. It captures what could go wrong, how severe it would be, what we are doing about it, and who is accountable.
 
 This register applies the scoring criteria, treatment options, and assessment process defined in the [**Risk Assessment Methodology**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-assessment-methodology.md). It does not duplicate that guidance. Instead, it puts the methodology into practice by documenting actual risks affecting real assets.
+
+This register operates within a risk appetite and tolerance framework defined in the [**Risk Appetite Statement**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-appetite-statement.md). Risks rated Critical or High that exceed defined tolerance thresholds require active treatment or formal executive acceptance before the next review cycle.
 
 The register serves as:
 
@@ -39,20 +41,22 @@ The register serves as:
 
 | Risk Level | Count | Trend | Notes |
 |------------|-------|-------|-------|
-| Critical | 2 | Stable | Both in active treatment with executive oversight |
-| High | 4 | Decreasing | Two risks reduced from Critical following Q1 control implementations |
-| Medium | 6 | Increasing | Three new risks added from vendor assessment program |
-| Low | 3 | Stable | Monitoring only; annual review scheduled |
+| Critical | 3 | Stable | Two in active treatment with executive oversight; one awaiting budget approval for tooling |
+| High | 3 | Decreasing | Two risks reduced from Critical following Q1 control implementations |
+| Medium | 7 | Increasing | Three new risks added from vendor assessment program |
+| Low | 2 | Stable | Monitoring only; annual review scheduled |
 
 **Key observations:**
 
-The two critical risks both involve customer data exposure. One stems from legacy authentication weaknesses in the CRM system. The other relates to a cloud storage misconfiguration discovered during a recent security assessment. Both have funded treatment plans with target completion in Q3 2024.
+Two of the three Critical risks involve direct customer data exposure. One stems from legacy authentication weaknesses in the CRM system. The other relates to a cloud storage misconfiguration discovered during a recent security assessment. Both have funded treatment plans with target completion in Q3 2024.
 
-The increase in medium risks reflects expanded visibility from the new vendor risk assessment program rather than deteriorating conditions. Previously unassessed third-party relationships are now documented and tracked.
+The third Critical risk — RISK-2024-0047 — is an endpoint detection gap scoring 16 on the risk matrix. It is Critical by score but currently open, pending a budget decision on tooling. It is tracked separately from the two actively-treated Critical risks because its treatment path depends on a funding approval rather than an execution timeline. See section 5 for full detail.
+
+The increase in Medium risks reflects expanded visibility from the new vendor risk assessment program rather than deteriorating conditions. Previously unassessed third-party relationships are now documented and tracked.
 
 **Decisions requiring attention:**
 
-- RISK-2024-0047 (endpoint detection gap) requires budget approval for tooling. Deferred from Q1; risk owner requesting escalation.
+- RISK-2024-0047 (endpoint detection gap) requires budget approval for tooling. Deferred from Q1; risk owner requesting escalation to Risk Management Committee.
 - RISK-2024-0051 (key person dependency in security operations) has no viable mitigation. Formal acceptance recommended.
 
 ---
@@ -164,6 +168,30 @@ The asset inventory is maintained in ServiceNow and feeds directly into this reg
 
 ---
 
+### RISK-2024-0047 | Endpoint Detection Gap
+
+| Field | Value |
+|-------|-------|
+| **Asset Name** | Corporate Endpoint Fleet (Workstations and Laptops) |
+| **Asset Owner** | Director of IT Operations |
+| **Asset Category** | Technical Asset |
+| **Risk Description** | Advanced threats evade signature-based antivirus on endpoints. Current AV solution relies on known malware signatures and cannot detect fileless attacks, living-off-the-land techniques, or zero-day exploits. Security team lacks visibility into endpoint behavior for threat hunting. |
+| **Threat Source** | Adversarial - Advanced persistent threat; opportunistic attackers |
+| **Vulnerability** | Reliance on signature-based detection only |
+| **Likelihood** | 4 (Likely) |
+| **Impact** | 4 (High) - Potential data breach; lateral movement |
+| **Risk Rating** | **16 - Critical** |
+| **Existing Controls** | Signature-based antivirus; host-based firewall; application allowlisting on critical systems |
+| **Control Effectiveness** | Partial - Effective against known threats; blind to advanced techniques |
+| **Treatment Strategy** | Mitigate |
+| **Treatment Status** | Open - Awaiting Budget Approval |
+| **Risk Owner** | IT Security Manager |
+| **Target Date** | 2024-12-31 (if approved) |
+| **Review Date** | 2024-06-22 |
+| **Comments** | This risk scores 16 and is rated Critical per the Risk Assessment Methodology scoring matrix (any score ≥ 15 = Critical). It is tracked separately from RISK-2024-0042 and RISK-2024-0045 in the executive summary because its treatment path is blocked by a funding decision, not an execution timeline. Until budget is approved, this risk has no active treatment plan and represents an unresolved Critical exposure. EDR solution (CrowdStrike or SentinelOne) proposed in Q1; deferred due to budget constraints. Risk owner requesting escalation to Risk Management Committee. Estimated cost: $180,000 annually. Compensating control: increased monitoring of high-risk users through SIEM. |
+
+---
+
 ### RISK-2024-0038 | Ransomware Impact on Financial Systems
 
 | Field | Value |
@@ -185,30 +213,6 @@ The asset inventory is maintained in ServiceNow and feeds directly into this reg
 | **Target Date** | 2024-09-30 |
 | **Review Date** | 2024-07-22 |
 | **Comments** | Two-phase approach: (1) Network segmentation to isolate finance systems - in progress, 60% complete. (2) EDR deployment replacing legacy AV - vendor evaluation complete, procurement in progress. Risk reduced from Critical following backup immutability implementation in Q1. |
-
----
-
-### RISK-2024-0047 | Endpoint Detection Gap
-
-| Field | Value |
-|-------|-------|
-| **Asset Name** | Corporate Endpoint Fleet (Workstations and Laptops) |
-| **Asset Owner** | Director of IT Operations |
-| **Asset Category** | Technical Asset |
-| **Risk Description** | Advanced threats evade signature-based antivirus on endpoints. Current AV solution relies on known malware signatures and cannot detect fileless attacks, living-off-the-land techniques, or zero-day exploits. Security team lacks visibility into endpoint behavior for threat hunting. |
-| **Threat Source** | Adversarial - Advanced persistent threat; opportunistic attackers |
-| **Vulnerability** | Reliance on signature-based detection only |
-| **Likelihood** | 4 (Likely) |
-| **Impact** | 4 (High) - Potential data breach; lateral movement |
-| **Risk Rating** | **16 - Critical** |
-| **Existing Controls** | Signature-based antivirus; host-based firewall; application allowlisting on critical systems |
-| **Control Effectiveness** | Partial - Effective against known threats; blind to advanced techniques |
-| **Treatment Strategy** | Mitigate |
-| **Treatment Status** | Open - Awaiting Budget Approval |
-| **Risk Owner** | IT Security Manager |
-| **Target Date** | 2024-12-31 (if approved) |
-| **Review Date** | 2024-06-22 |
-| **Comments** | EDR solution (CrowdStrike or SentinelOne) proposed in Q1; deferred due to budget constraints. Risk owner requesting escalation to Risk Management Committee. Estimated cost: $180,000 annually. Compensating control: increased monitoring of high-risk users through SIEM. |
 
 ---
 
@@ -506,17 +510,19 @@ The asset inventory is maintained in ServiceNow and feeds directly into this reg
 
 | Risk Level | Count | Percentage |
 |------------|-------|------------|
-| Critical | 2 | 13% |
-| High | 4 | 27% |
+| Critical | 3 | 20% |
+| High | 3 | 20% |
 | Medium | 7 | 47% |
 | Low | 2 | 13% |
 | **Total** | **15** | **100%** |
+
+> **Note on RISK-2024-0047:** This risk scores 16 and is rated Critical per the scoring matrix (threshold: ≥ 15). It is counted in the Critical total above. It is distinguished from RISK-2024-0042 and RISK-2024-0045 in executive reporting because its treatment is blocked by a budget decision rather than active in execution. All three are tracked at Critical-level governance cadence.
 
 ### By Category
 
 | Category | Critical | High | Medium | Low | Total |
 |----------|----------|------|--------|-----|-------|
-| Information Security | 2 | 2 | 3 | 0 | 7 |
+| Information Security | 3 | 1 | 3 | 0 | 7 |
 | Privacy | 0 | 0 | 1 | 0 | 1 |
 | Operational | 0 | 1 | 2 | 2 | 5 |
 | Third-Party | 0 | 1 | 1 | 0 | 2 |
@@ -566,12 +572,14 @@ This register connects to:
 
 ## 8. Framework Alignment
 
-This register supports:
+Emyzer Technology operates as a mid-market SaaS and e-commerce company processing customer PII and payment data across cloud and on-premises environments. This profile creates obligations under data protection regulation (GDPR), payment card industry standards (PCI DSS), and broader information security governance expectations. The frameworks below were selected because they directly address these obligations and provide the control structures most applicable to Emyzer's risk environment.
 
-- **NIST CSF:** ID.RA (Risk Assessment), ID.RM (Risk Management Strategy)
-- **ISO 27001:** Clauses 6.1.2, 6.1.3, 8.2, 8.3
-- **SOC 2:** CC3.1 through CC3.4
-- **GDPR:** Articles 32 and 35
+| Framework | Applicable Elements |
+|-----------|-------------------|
+| **NIST CSF** | ID.RA (Risk Assessment), ID.RM (Risk Management Strategy) |
+| **ISO 27001** | Clauses 6.1.2, 6.1.3, 8.2, 8.3 |
+| **SOC 2** | CC3.1 through CC3.4 |
+| **GDPR** | Articles 32 and 35 |
 
 Assessment criteria and methodology details are in the **Risk Assessment Methodology** document.
 
@@ -582,9 +590,10 @@ Assessment criteria and methodology details are in the **Risk Assessment Methodo
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2024-05-22 | GRC Team | Initial release with 15 risk entries |
+| 1.1 | 2024-06-01 | GRC Team | Corrected risk distribution counts; clarified Critical categorization for RISK-2024-0047; added framework context and risk appetite reference |
 
 ---
 
 *Document Owner: Chief Information Security Officer*
-*Last Updated: 2024-05-22*
+*Last Updated: 2024-06-01*
 *Next Review: 2024-08-22*
