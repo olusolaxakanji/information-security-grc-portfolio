@@ -304,6 +304,8 @@ The operational model lifecycle policy subordinate to the AI Governance Policy. 
 
 Will govern the organisation's obligations under GDPR and UK GDPR, including lawful basis for processing, data subject rights management, Data Protection Impact Assessments (DPIAs), and the DPO function. The AI Governance Policy and Model Risk Policy both reference this policy for training data governance and AI system impact assessment obligations. Being developed to address the intersection of GDPR and EU AI Act obligations — including DPIA requirements for High-Risk AI systems processing personal data, an area where the two regulatory frameworks create overlapping and occasionally conflicting obligations.
 
+👉 [Read the Privacy and Data Protection Policy](./privacy-and-data-protection-policy.md)
+
 ---
 
 ### Security Awareness and Training Policy
@@ -311,6 +313,8 @@ Will govern the organisation's obligations under GDPR and UK GDPR, including law
 **KB-PORTFOLIO-0014 | Owner: CISO | Status: In Development**
 
 Will govern security awareness training requirements across Emyzer Nexus, including AI-specific training obligations referenced in the AI Governance Policy (AI awareness training within 30 days of hire) and Model Risk Policy (model-specific user training before operational access). Being developed to consolidate training obligations currently distributed across four policies into a single governance document with unified LMS tracking and completion reporting.
+
+👉 [Read the Security Awareness and Training Policy](./security-awareness-and-training-policy.md)
 
 ---
 
