@@ -327,7 +327,7 @@ Business units requiring temporary deviation from this policy shall:
 
 5. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) — Defines incident response procedures extended to cover AI-specific failure modes and EU AI Act regulatory notification obligations.
 
-6. **Model Risk Policy** — Operational policy governing the detailed model lifecycle, bias testing cadence, and explainability standards. (Phase 2 artifact — in development.)
+6. [**Model Risk Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/model-risk-policy.md) — Operational policy governing the detailed model lifecycle, bias testing cadence, and explainability standards. 
 
 ---
 
