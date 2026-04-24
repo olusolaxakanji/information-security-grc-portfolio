@@ -263,7 +263,7 @@ Governs the identification, assessment, prioritisation, and remediation of techn
 
 ### AI Governance Policy
 
-**KB-PORTFOLIO-0011 | Owner: CISO | Parent: Information Security Policy | Published: 2025-06-01**
+**KB-PORTFOLIO-0011 | Owner: CISO | Parent: Information Security Policy | 
 
 The strategic governance framework for all AI and machine learning systems across Emyzer Nexus. Establishes EU AI Act risk classification obligations, conformity assessment requirements for High-Risk systems, human oversight design standards, post-market monitoring cadences, and prohibited AI practices. The most technically complex policy in the framework.
 
@@ -281,7 +281,7 @@ The strategic governance framework for all AI and machine learning systems acros
 
 ### Model Risk Policy
 
-**KB-PORTFOLIO-0012 | Owner: CRO | Parent: AI Governance Policy | Published: 2025-09-01**
+**KB-PORTFOLIO-0012 | Owner: CRO | Parent: AI Governance Policy | 
 
 The operational model lifecycle policy subordinate to the AI Governance Policy. Governs the identification, development, independent validation, deployment authorisation, ongoing monitoring, overlay management, incident response, and retirement of all quantitative and AI/ML models. The only policy in the framework with direct SR 11-7 alignment — a deliberate choice signalling readiness for regulated-industry clients and financial services contexts.
 
@@ -300,7 +300,7 @@ The operational model lifecycle policy subordinate to the AI Governance Policy. 
 
 ### Privacy and Data Protection Policy
 
-**KB-PORTFOLIO-0013 | Owner: DPO | Status: In Development**
+**KB-PORTFOLIO-0013 | Owner: DPO | 
 
 Will govern the organisation's obligations under GDPR and UK GDPR, including lawful basis for processing, data subject rights management, Data Protection Impact Assessments (DPIAs), and the DPO function. The AI Governance Policy and Model Risk Policy both reference this policy for training data governance and AI system impact assessment obligations. Being developed to address the intersection of GDPR and EU AI Act obligations — including DPIA requirements for High-Risk AI systems processing personal data, an area where the two regulatory frameworks create overlapping and occasionally conflicting obligations.
 
@@ -310,7 +310,7 @@ Will govern the organisation's obligations under GDPR and UK GDPR, including law
 
 ### Security Awareness and Training Policy
 
-**KB-PORTFOLIO-0014 | Owner: CISO | Status: In Development**
+**KB-PORTFOLIO-0014 | Owner: CISO | 
 
 Will govern security awareness training requirements across Emyzer Nexus, including AI-specific training obligations referenced in the AI Governance Policy (AI awareness training within 30 days of hire) and Model Risk Policy (model-specific user training before operational access). Being developed to consolidate training obligations currently distributed across four policies into a single governance document with unified LMS tracking and completion reporting.
 
