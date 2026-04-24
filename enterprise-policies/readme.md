@@ -73,8 +73,8 @@ If you have five minutes, add the [Third-Party Risk Management Policy](#third-pa
 |--------|--------|-------|--------|------------|
 | [AI Governance Policy](#ai-governance-policy) | KB-PORTFOLIO-0011 | CISO | Published | EU AI Act, NIST AI RMF 1.0, ISO/IEC 42001:2023 |
 | [Model Risk Policy](#model-risk-policy) | KB-PORTFOLIO-0012 | CRO | Published | SR 11-7, NIST AI RMF 1.0, EU AI Act |
-| [Privacy and Data Protection Policy](#privacy-and-data-protection-policy) | KB-PORTFOLIO-0013 | DPO | In Development | GDPR, UK GDPR, ISO 27701:2019 |
-| [Security Awareness and Training Policy](#security-awareness-and-training-policy) | KB-PORTFOLIO-0014 | CISO | In Development | ISO 27001:2022, NIST SP 800-50 |
+| [Privacy and Data Protection Policy](#privacy-and-data-protection-policy) | KB-PORTFOLIO-0013 | DPO | Published | GDPR, UK GDPR, ISO 27701:2019 |
+| [Security Awareness and Training Policy](#security-awareness-and-training-policy) | KB-PORTFOLIO-0014 | CISO | Published | ISO 27001:2022, NIST SP 800-50 |
 
 ---
 
