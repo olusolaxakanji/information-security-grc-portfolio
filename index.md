@@ -7,17 +7,7 @@ permalink: /
 # Olusola B. Akanji
 **Information Security and GRC Professional**
 
-<!-- ============================================================
-  PROFILE PHOTO — add your headshot here
-  
-  1. Upload your photo to: assets/images/headshot.jpg
-     (see assets/images/README.md for full instructions)
-  
-  2. Once uploaded, delete this comment block and paste this line:
-
-  ![Olusola B. Akanji]({{ site.baseurl }}/assets/images/headshot.jpg){: style="float: right; margin: 0 0 1.5em 1.5em; width: 150px; border-radius: 6px;"}
-  
-============================================================ -->
+![Olusola B. Akanji]({{ site.baseurl }}/assets/images/headshot.jpg){: style="float: right; margin: 0 0 1.5em 1.5em; width: 150px; border-radius: 6px;"}
 
 I build governance programmes that are audit-ready from the ground up — documented to professional standards with traceable framework linkages, honest risk documentation, and working evidence archives. This portfolio contains an end-to-end case study built in ServiceNow GRC (Emyzer Technology → Veridian AI acquisition → Emyzer Nexus), covering 14 enterprise security policies, a full risk programme, ISO 22301 business continuity, EU AI Act compliance, and M&A GRC integration. It also includes a live operational GRC programme I maintain for a real dual-jurisdiction US-Nigeria nonprofit. The work is built for auditors and hiring managers — not for appearances.
 
