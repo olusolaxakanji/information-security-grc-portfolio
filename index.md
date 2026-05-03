@@ -39,6 +39,7 @@ The portfolio is structured around a deliberate case study: Emyzer Technology, a
 | [M&A Integration](#ma-integration) | GRC Integration Charter, Rationalization Roadmap, M&A risk register |
 | [Veridian AI](#veridian-ai) | Due diligence risk assessment, AI vendor addendum |
 | [Templates and Evidence](#templates-and-evidence) | 8 reusable templates, 3 operational evidence records |
+| [Idowu Ajiri Foundation GRC](#idowu-ajiri-foundation) | Live dual-jurisdiction nonprofit GRC programme — IRS 501(c)(3), CAC, SCUML, NDPA 2023, OFAC |
 
 ---
 
@@ -60,6 +61,28 @@ Emyzer Nexus  (parent — Phase 2 governance)
 
 ---
 
+<a id="idowu-ajiri-foundation"></a>
+
+## Live Nonprofit GRC Program — Idowu Ajiri Foundation
+
+**[View the programme repository →](https://github.com/olusolaxakanji/idowu-ajiri-grc-program)**
+
+The Idowu Ajiri Foundation GRC programme is a live, operational governance programme — built and maintained by me in my role as GRC Analyst for the Foundation. Unlike the Emyzer Technology case study, this is real work for a real organisation.
+
+The Foundation operates under dual US-Nigeria jurisdiction: incorporated as a tax-exempt entity under [IRS 501(c)(3)](https://www.irs.gov/charities-non-profits) in the United States and registered with the [Corporate Affairs Commission (CAC)](https://www.cac.gov.ng) in Nigeria. Its cross-border operations create AML/CFT obligations under [SCUML](https://www.nfiu.gov.ng) — the Special Control Unit Against Money Laundering, supervised by the Nigerian Financial Intelligence Unit — data protection obligations under the [Nigeria Data Protection Act 2023 (NDPA)](https://ndpc.gov.ng), and fund flow screening obligations under [OFAC](https://ofac.treas.gov). Governing a dual-jurisdiction nonprofit — where US federal tax-exempt compliance, Nigerian corporate law, AML/CFT registration, and data protection obligations all intersect — is a materially different class of governance problem from single-jurisdiction enterprise GRC. The programme was built from the ground up to address all applicable frameworks simultaneously.
+
+### Regulatory Frameworks
+
+| Framework | Governing Body | Jurisdiction |
+|---|---|---|
+| **[IRS 501(c)(3) Tax-Exempt Compliance](https://www.irs.gov/charities-non-profits)** | [Internal Revenue Service (IRS)](https://www.irs.gov/) | United States |
+| **[Corporate Affairs Commission (CAC)](https://www.cac.gov.ng)** | [CAC Nigeria](https://www.cac.gov.ng) | Nigeria |
+| **[SCUML / NFIU — AML/CFT](https://www.nfiu.gov.ng)** | [Nigerian Financial Intelligence Unit (NFIU)](https://www.nfiu.gov.ng) | Nigeria |
+| **[Nigeria Data Protection Act 2023 (NDPA)](https://ndpc.gov.ng)** | [Nigeria Data Protection Commission (NDPC)](https://ndpc.gov.ng) | Nigeria |
+| **[OFAC Sanctions Compliance](https://ofac.treas.gov)** | [U.S. Dept. of the Treasury — OFAC](https://ofac.treas.gov) | United States (cross-border) |
+
+---
+
 ## Skills and Frameworks
 
 ### Regulatory and Standards Expertise
@@ -73,6 +96,9 @@ Emyzer Nexus  (parent — Phase 2 governance)
 | **[SOC 2](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report)** | [AICPA](https://www.aicpa-cima.com/) | Trust Services Criteria alignment in policy development; audit evidence structure; controls documentation to SOC 2 evidence standards |
 | **[HIPAA](https://www.hhs.gov/hipaa/index.html)** | [U.S. Dept. of Health and Human Services](https://www.hhs.gov/) | Privacy and security rule considerations in data classification, access control, and incident management policy design |
 | **[GDPR (Regulation 2016/679)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)** | [European Parliament and Council](https://eur-lex.europa.eu/) | Data protection policy; Article 28 processor agreements; training data governance (Article 5, 6); automated decision-making (Article 22); DPIA requirements; breach notification |
+| **[IRS 501(c)(3) Nonprofit Compliance](https://www.irs.gov/charities-non-profits)** | [Internal Revenue Service (IRS)](https://www.irs.gov/) | Tax-exempt status governance; charitable purpose and public benefit obligations; Form 990 reporting; unrelated business income; private benefit and inurement rules — applied in the Idowu Ajiri Foundation live GRC programme |
+| **[Nigerian CAC / SCUML / NDPA 2023](https://www.cac.gov.ng)** | [CAC](https://www.cac.gov.ng) · [NFIU](https://www.nfiu.gov.ng) · [NDPC](https://ndpc.gov.ng) | Corporate Affairs Commission registration and ongoing compliance obligations; SCUML AML/CFT registration for nonprofits handling cross-border funds; Nigeria Data Protection Act 2023 data subject rights, processing obligations, and controller/processor accountability |
+| **[Cross-Border AML/CFT — OFAC / FATF](https://ofac.treas.gov)** | [OFAC](https://ofac.treas.gov) · [FATF](https://www.fatf-gafi.org/) | OFAC sanctions screening for US-Nigeria cross-border fund flows; AML/CFT controls for dual-jurisdiction nonprofit operations; FATF Recommendation 8 (nonprofit sector) risk mitigation; wire transfer compliance and beneficial ownership documentation |
 
 ### Additional Frameworks Referenced
 
