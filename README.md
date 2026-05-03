@@ -9,7 +9,7 @@
 [![GDPR](https://img.shields.io/badge/Regulation-GDPR-FF6B35?style=flat-square)](https://gdpr.eu/)
 
 **ServiceNow GRC Project – Emyzer Nexus (Fictionalized Case Study)**  
-*A production-style GRC portfolio demonstrating AI governance, M&A integration, security policy development, and risk program design — built end-to-end in ServiceNow.*
+*AI governance, M&A integration, security policy development, and risk programme design. Built end-to-end in ServiceNow GRC.*
 
 ---
 
@@ -17,7 +17,7 @@
 
 Begin with the flagship artifact, then follow the path most relevant to your evaluation focus.
 
-✅ **Flagship Artifact:** [AI Governance Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/emyzer-nexus/enterprise-policies/ai-governance-policy.md) — Parent-level policy governing AI/ML system development, acquisition, validation, monitoring, and retirement across Emyzer Nexus, aligned to the EU AI Act and NIST AI RMF.
+✅ **Flagship Artifact:** [AI Governance Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/emyzer-nexus/enterprise-policies/ai-governance-policy.md). Parent-level policy governing AI/ML system development, acquisition, validation, monitoring, and retirement across Emyzer Nexus. Aligned to the EU AI Act and NIST AI RMF.
 
 | If you want to evaluate... | Start here |
 |----------------------------|------------|
@@ -31,9 +31,9 @@ Begin with the flagship artifact, then follow the path most relevant to your eva
 
 ## Overview
 
-This portfolio demonstrates applied GRC work across two program phases, implemented in ServiceNow GRC and documented to audit-ready standards. It covers the full governance lifecycle: policy development, risk assessment, business continuity, compliance mapping, M&A integration, and AI risk management.
+This portfolio covers two phases of GRC work, both built in ServiceNow GRC and documented to audit-ready standards. Phase 1 is the foundational programme for Emyzer Technology: 10 security policies, a risk assessment programme, and ISO 22301 business continuity. Phase 2 is the post-acquisition programme for Emyzer Nexus: M&A governance integration, EU AI Act compliance for two inherited AI systems, and four enterprise-level policies.
 
-The organizing case study — Emyzer Technology's acquisition of Veridian AI and rebrand as Emyzer Nexus — was designed to simulate realistic enterprise conditions that most GRC portfolios never address: how a governance program absorbs an acquired entity, handles inherited AI systems, and maintains compliance continuity through material organizational change.
+The case study is built around a real governance problem. When a company acquires an AI-native startup, it inherits the startup's compliance gaps. Phase 2 shows how those gaps get assessed, documented, and addressed.
 
 ---
 
@@ -41,14 +41,14 @@ The organizing case study — Emyzer Technology's acquisition of Veridian AI and
 
 | Phase | Entity | Core Work |
 |-------|--------|-----------|
-| **Phase 1** | Emyzer Technology | Foundational GRC build: 10 enterprise security policies, business continuity documentation (ISO 22301), risk assessment methodology, asset risk register, and risk appetite statement — all implemented in ServiceNow |
+| **Phase 1** | Emyzer Technology | Foundational GRC build: 10 enterprise security policies, business continuity documentation (ISO 22301), risk assessment methodology, asset risk register, and risk appetite statement. All implemented in ServiceNow. |
 | **Phase 2** | Emyzer Nexus | Post-acquisition governance: M&A GRC Integration Charter, AI governance program (EU AI Act + NIST AI RMF), AI system risk classifications for inherited Veridian AI systems, and a policy rationalization roadmap governing legacy documentation |
 
 ---
 
 ## Organizational Context
 
-**Emyzer Technology (Phase 1)** was a fictional multinational technology company — laptop production, cloud service management, enterprise technical support, and global security implementation — operating across Asia, the Americas, Africa, and parts of Europe and the Middle East, with over 5,000 staff.
+**Emyzer Technology (Phase 1)** was a fictional multinational technology company with four business lines (laptop production, cloud service management, enterprise technical support, and global security implementation) operating across Asia, the Americas, Africa, and parts of Europe and the Middle East, with over 5,000 staff.
 
 **Veridian AI (Acquired)** was a fictional AI-native startup with two enterprise products: a predictive customer churn model and an AI-assisted contract review tool built on a third-party LLM API. Both systems required formal risk classification and compliance assessment under the EU AI Act following acquisition.
 
@@ -107,7 +107,7 @@ Phase 1 established the governance baseline that Phase 2 builds on. All artifact
 | Artifact | Description |
 |----------|-------------|
 | [Risk Assessment Methodology](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-assessment-methodology.md) | Six-step hybrid qualitative/quantitative methodology with 5×5 scoring matrix, tiered monitoring cadences, and multi-framework alignment |
-| [Asset Risk Register](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/asset-risk-register.md) | 15-entry operational risk register across information security, privacy, operational, and third-party risk categories — with full treatment tracking and honest documentation of a budget-blocked Critical risk |
+| [Asset Risk Register](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/asset-risk-register.md) | 15-entry operational risk register across information security, privacy, operational, and third-party risk categories. Includes full treatment tracking and a budget-blocked Critical risk documented at actual status. |
 | [Risk Appetite Statement](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/risk-assessments/risk-appetite-statement.md) | Domain-specific tolerance thresholds with escalation governance, unacceptable risk conditions, and current posture assessment against defined appetite |
 
 ### Business Continuity
@@ -123,14 +123,14 @@ Phase 1 established the governance baseline that Phase 2 builds on. All artifact
 
 | Competency | What the Work Shows |
 |------------|---------------------|
-| **AI Risk Management** | Applied EU AI Act risk tier classification and NIST AI RMF governance functions to real-world AI system types — including a third-party LLM dependency — and built controls that address the specific failure modes of those systems (model drift, bias, explainability gaps), not just generic policy language |
-| **M&A GRC Integration** | Designed a post-acquisition governance structure that resolves the actual hard problem: which entity's policies govern, how legacy documentation stays in effect without creating compliance gaps, and what triggers a formal update cycle |
-| **Policy Development** | Every policy includes a full Evidence Index with systems of record, owners, and retention periods — because policy without audit trail is not governance |
-| **Risk Assessment Program Design** | The asset risk register documents a budget-blocked Critical risk openly, with honest status rather than paper treatment. That reflects how real risk registers should work |
-| **Framework Translation** | Mapped abstract standards (EU AI Act, ISO 22301, NIST AI RMF) to operational documentation with traceable control linkages rather than checklist compliance |
-| **GRC Platform Proficiency** | Built and managed policies, risk registers, and compliance workflows within ServiceNow's governance module; raw PDF exports in `/servicenow-evidence/` provide platform-level proof |
-| **Vendor Risk Management** | Extended third-party risk controls into AI-specific due diligence — a gap most existing TPRM programs have not yet closed |
-| **Evidence Management** | Every artifact carries a defined system of record, owner, and retention period. Audit readiness is built in, not added at the end |
+| **AI Risk Management** | Classified two inherited AI systems under EU AI Act Annex III. Built article-by-article control mappings for Articles 9–15, 72, and 73. Designed controls targeting specific failure modes: model drift, LLM hallucination, training data bias, and prompt injection. |
+| **M&A GRC Integration** | Structured a post-acquisition policy hierarchy governing the acquired entity from Day 0. Defined conditions for policy review and retirement. Documented 15 integration risks with owners and target dates. |
+| **Policy Development** | Each policy includes a full Evidence Index specifying system of record, owner, and retention period for every evidence type required. Implemented in ServiceNow GRC. |
+| **Risk Assessment Program Design** | Built a hybrid 5×5 methodology applied to a 15-entry asset register. One entry documents a budget-blocked Critical risk at its actual status, with the block identified as the root cause. |
+| **Framework Translation** | Mapped EU AI Act, ISO 22301, and NIST AI RMF obligations to operational controls with traceable linkages. Each mapping includes gap identification and remediation priorities. |
+| **GRC Platform Proficiency** | Built and managed policies, risk registers, and compliance workflows in ServiceNow GRC. PDF platform exports in `/servicenow-evidence/` are direct evidence of module-level work. |
+| **Vendor Risk Management** | Extended the Phase 1 TPRM Policy with an AI-specific due diligence addendum covering model transparency, training data provenance, bias testing, EU AI Act compliance assessment, and contractual liability for model errors. |
+| **Evidence Management** | Each artefact specifies a system of record, a responsible owner, and a retention period. Evidence requirements are defined in the document, not left to interpretation. |
 
 ---
 
@@ -138,9 +138,9 @@ Phase 1 established the governance baseline that Phase 2 builds on. All artifact
 
 | Framework | Application |
 |-----------|-------------|
-| **EU AI Act** | AI system risk classification, high-risk system obligations (Article 9), and governance requirements — applied to inherited Veridian AI systems |
+| **EU AI Act** | AI system risk classification, High-Risk system obligations (Articles 9–15), and post-market monitoring requirements. Applied to inherited Veridian AI systems. |
 | **NIST AI RMF** | AI governance program structure: Govern, Map, Measure, Manage functions |
-| **ISO/IEC 42001:2023** | AI management system standard — model risk policy alignment |
+| **ISO/IEC 42001:2023** | AI management system standard. Applied in the Model Risk Policy and AI Governance Programme. |
 | **NIST Cybersecurity Framework (CSF)** | Security policy structure and control categories |
 | **NIST SP 800-30 Rev. 1** | Risk assessment process guidance |
 | **NIST SP 800-34 Rev. 1** | Contingency planning guidance |
@@ -160,10 +160,10 @@ Phase 1 established the governance baseline that Phase 2 builds on. All artifact
 
 ## Tools and Technologies
 
-- **ServiceNow GRC** — Policy management, risk register, compliance tracking, workflow automation
-- **ServiceNow IRM** — Integrated risk management workflows
-- **GitHub** — Version control and portfolio presentation
-- **Markdown** — Documentation format
+- **ServiceNow GRC**: Policy management, risk register, compliance tracking, workflow automation
+- **ServiceNow IRM**: Integrated risk management workflows
+- **GitHub**: Version control and portfolio presentation
+- **Markdown**: Documentation format
 
 ---
 
@@ -206,16 +206,16 @@ information-security-grc-portfolio/
 
 ## Portfolio Note
 
-All content was developed independently using recognized frameworks and tools. The fictionalized organizational context was designed to simulate realistic enterprise conditions — including M&A integration governance and AI system risk management — while remaining suitable for public portfolio demonstration.
+All content was developed independently using published frameworks and standards. The fictional company context allows real governance problems to be documented in a public-facing format.
 
-Phase 1 documentation reflects the Emyzer Technology GRC program prior to acquisition. Phase 2 documentation reflects the expanded governance responsibilities of Emyzer Nexus as the post-acquisition parent entity. Phase 1 artifacts remain in effect as subsidiary documentation under the policy hierarchy established in the M&A GRC Integration Charter.
+Phase 1 covers Emyzer Technology's GRC programme before the acquisition. Phase 2 covers Emyzer Nexus after it. Phase 1 artefacts remain in effect as subsidiary documentation under the policy hierarchy in the M&A GRC Integration Charter.
 
 ---
 
 ## Author
 
 **Olusola B. Akanji**  
-Information Security and GRC Professional with a focus on AI governance, risk program design, and regulatory compliance. Seeking GRC analyst, AI governance, or information security risk roles where governance is treated as a business function, not a checkbox exercise.
+Information Security and GRC Professional. Focus areas: AI governance, risk programme design, and multi-framework regulatory compliance. Open to GRC analyst, AI governance, and information security risk roles.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/olusola-b-akanji/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/olusolaxakanji)

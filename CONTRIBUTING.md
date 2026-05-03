@@ -1,8 +1,8 @@
 # Contributing to the GRC Portfolio
 
-This document defines how changes are proposed, reviewed, approved, and merged into the Emyzer Nexus GRC repository. The programme spans three entities — Emyzer Nexus (parent), Emyzer Technology (subsidiary), and Veridian AI (acquired) — and this process governs documentation across all three.
+This document defines how changes are proposed, reviewed, approved, and merged into the Emyzer Nexus GRC repository. The programme spans three entities: Emyzer Nexus (parent), Emyzer Technology (subsidiary), and Veridian AI (acquired). This process applies to documentation across all three.
 
-> **Simulated Programme Note:** This is a fictional portfolio. "Approval" here means that changes are reviewed for quality, accuracy, and internal consistency before merging — not that a real organisation has approved them. The governance model described below reflects how a real multi-entity GRC programme would operate; it is applied here to demonstrate programme design competency and maintain documentation discipline.
+> **Simulated Programme Note:** This is a fictional portfolio. Approval here means changes are reviewed for quality, accuracy, and internal consistency before merging. The governance model reflects how a real multi-entity GRC programme operates. It is applied here to maintain documentation discipline and show how decisions get made.
 
 ---
 
@@ -35,7 +35,7 @@ This document defines how changes are proposed, reviewed, approved, and merged i
 
 - **Risk register triage:** CRO reviews any risks rated `Critical` or `High` and confirms that residual ratings and treatment status are current.
 - **Evidence freshness check:** GRC Analyst spot-checks that evidence referenced in published policies has been updated in line with each document's defined review cadence.
-- **Cross-reference integrity check:** Confirm that inter-policy references — particularly between the AI Governance Policy, Model Risk Policy, Incident Management Policy, and Change Management Policy — remain consistent with the current document versions.
+- **Cross-reference integrity check:** Confirm that inter-policy references (particularly between the AI Governance Policy, Model Risk Policy, Incident Management Policy, and Change Management Policy) remain consistent with the current document versions.
 
 ### Quarterly
 
@@ -56,8 +56,8 @@ This document defines how changes are proposed, reviewed, approved, and merged i
 
 ## Branch and Commit Conventions
 
-- Branch names: `type/short-slug` — e.g., `policy/nexus-privacy-gdpr-update`, `risk/emyzer-tech-q3-register`, `ai-governance/eu-ai-act-system-inventory`, `integration/veridian-rationalization-roadmap`.
-- Commit messages: imperative mood, ≤72 characters on the first line — e.g., `Add EU AI Act Article 9 control mapping for churn model`, `Publish Privacy and Data Protection Policy v1.0`, `Update Veridian AI risk assessment — Tier 1 classification rationale`.
+- Branch names: `type/short-slug`. Examples: `policy/nexus-privacy-gdpr-update`, `risk/emyzer-tech-q3-register`, `ai-governance/eu-ai-act-system-inventory`, `integration/veridian-rationalization-roadmap`.
+- Commit messages: imperative mood, ≤72 characters on the first line. Examples: `Add EU AI Act Article 9 control mapping for churn model`, `Publish Privacy and Data Protection Policy v1.0`, `Update Veridian AI risk assessment — Tier 1 classification rationale`.
 - Do not commit personally identifiable information, API keys, or credentials. This is a public portfolio repository.
 - ServiceNow evidence exports (PDFs) are committed to `servicenow-evidence/` only. Raw exports from other platforms are not committed without a corresponding README entry explaining their provenance.
 
@@ -69,10 +69,10 @@ Records must never be hard-deleted from `main`. Instead:
 
 - Superseded policies are moved to `policies/archive/` or `enterprise-policies/archive/` with a note in the file header referencing the replacement document and the date of supersession.
 - Resolved or accepted risks are moved to `risk-assessments/archive/` with their final treatment status and closure date recorded.
-- Veridian AI original documentation — however incomplete — is retained permanently in its designated folder as part of the acquisition record. Governance integration does not erase evidence of the inherited state.
+- Veridian AI original documentation (however incomplete) is retained permanently in its designated folder as part of the acquisition record. Governance integration does not erase evidence of the inherited state.
 - Outdated templates are retained under their version number (e.g., `policy-v1.md`) when a new version is published. The templates README is updated to point to the latest version; old versions remain for reference.
 
-Retention periods follow ISO 27001:2022 Annex A and GDPR Article 5(1)(e) storage limitation principles — generally 7 years for governance records — as the binding standards for the simulated programme.
+Retention periods follow ISO 27001:2022 Annex A and GDPR Article 5(1)(e) storage limitation principles (generally 7 years for governance records) as the binding standards for the simulated programme.
 
 ---
 
