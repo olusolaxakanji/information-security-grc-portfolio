@@ -1,8 +1,52 @@
-title: Olusola B. Akanji
-#logo: /assets/img/headshot_circle.png
-#description: [A short description of your site's purpose]
-#show_downloads: false
-#google_analytics: [Your Google Analytics tracking ID]
-remote_theme: pages-themes/minimal@v0.2.0
+# Site identity
+title: "Olusola B. Akanji — Information Security GRC Portfolio"
+description: >-
+  Production-style GRC portfolio demonstrating AI governance, M&A integration,
+  risk program design, and security policy development across ISO 27001, ISO 22301,
+  EU AI Act, NIST CSF 2.0, and GDPR. Built on a fictionalized end-to-end case study —
+  Emyzer Technology and the Veridian AI acquisition.
+baseurl: "/information-security-grc-portfolio"
+url: "https://olusolaxakanji.github.io"
+
+# Author
+author:
+  name: Olusola B. Akanji
+  email: olusolab.akanji@gmail.com
+
+# Theme — Minima v3 via remote theme for full social links support
+remote_theme: jekyll/minima
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Minima configuration
+minima:
+  skin: classic
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github,    user_url: "https://github.com/olusolaxakanji" }
+    - { platform: linkedin,  user_url: "https://www.linkedin.com/in/olusola-b-akanji/" }
+
+# Site navigation — pages listed here appear in the header
+header_pages:
+  - index.md
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - "*.sh"
+
+# SEO
+lang: en_GB
