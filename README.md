@@ -8,7 +8,7 @@
 [![EU AI Act](https://img.shields.io/badge/Regulation-EU%20AI%20Act-FF6B35?style=flat-square)](https://artificialintelligenceact.eu/)
 [![GDPR](https://img.shields.io/badge/Regulation-GDPR-FF6B35?style=flat-square)](https://gdpr.eu/)
 
-**ServiceNow GRC Project – Emyzer Nexus (Fictionalized Case Study)**  
+**ServiceNow GRC Project: Emyzer Nexus (Fictionalized Case Study)**  
 *AI governance, M&A integration, security policy development, and risk programme design. Built end-to-end in ServiceNow GRC.*
 
 ---
@@ -187,7 +187,7 @@ information-security-grc-portfolio/
 │   ├── ai-risk-assessments/             # Risk assessments for inherited AI systems
 │   └── vendor-risk-addendum/            # AI-specific vendor due diligence addendum
 │
-├── servicenow-evidence/                 # Raw platform exports — policy proof, not just documentation
+├── servicenow-evidence/                 # Raw platform exports: policy proof, not just documentation
 ├── templates/                           # Reusable GRC templates
 └── README.md
 ```

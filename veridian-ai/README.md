@@ -1,6 +1,6 @@
-# Veridian AI — Acquired Entity Documentation
+# Veridian AI: Acquired Entity Documentation
 
-**Emyzer Nexus — M&A Integration Programme**
+**Emyzer Nexus: M&A Integration Programme**
 
 ---
 
@@ -10,7 +10,7 @@
 
 ## About This Directory
 
-This directory contains the GRC documentation specific to Veridian AI — the AI-native company acquired by Emyzer Technology in Q4 2024 to form Emyzer Nexus. It holds two documents produced as part of the post-acquisition governance integration: the initial AI system risk assessment conducted during due diligence, and the AI vendor due diligence addendum created to govern future AI vendor relationships.
+This directory contains the GRC documentation specific to Veridian AI: the AI-native company acquired by Emyzer Technology in Q4 2024 to form Emyzer Nexus. It holds two documents produced as part of the post-acquisition governance integration: the initial AI system risk assessment conducted during due diligence, and the AI vendor due diligence addendum created to govern future AI vendor relationships.
 
 For the ongoing AI Governance Programme governing PCM-001 and CRT-001, see [ai-governance/](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/ai-governance). For the broader M&A integration programme, see [integration-management/](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/integration-management).
 

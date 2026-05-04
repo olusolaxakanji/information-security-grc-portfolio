@@ -2,7 +2,7 @@
 
 This document defines how changes are proposed, reviewed, approved, and merged into the Emyzer Nexus GRC repository. The programme spans three entities: Emyzer Nexus (parent), Emyzer Technology (subsidiary), and Veridian AI (acquired). This process applies to documentation across all three.
 
-> **Simulated Programme Note:** This is a fictional portfolio. Approval here means changes are reviewed for quality, accuracy, and internal consistency before merging. The governance model reflects how a real multi-entity GRC programme operates. It is applied here to maintain documentation discipline and show how decisions get made.
+> **Simulated Programme Note:** This is a fictional portfolio. Approval here means changes are reviewed for quality, accuracy, and internal consistency before merging. The governance model reflects how a real multi-entity GRC programme operates. It is applied here to maintain documentation discipline and show how decisions are made.
 
 ---
 
@@ -57,7 +57,7 @@ This document defines how changes are proposed, reviewed, approved, and merged i
 ## Branch and Commit Conventions
 
 - Branch names: `type/short-slug`. Examples: `policy/nexus-privacy-gdpr-update`, `risk/emyzer-tech-q3-register`, `ai-governance/eu-ai-act-system-inventory`, `integration/veridian-rationalization-roadmap`.
-- Commit messages: imperative mood, ≤72 characters on the first line. Examples: `Add EU AI Act Article 9 control mapping for churn model`, `Publish Privacy and Data Protection Policy v1.0`, `Update Veridian AI risk assessment — Tier 1 classification rationale`.
+- Commit messages: imperative mood, ≤72 characters on the first line. Examples: `Add EU AI Act Article 9 control mapping for churn model`, `Publish Privacy and Data Protection Policy v1.0`, `Update Veridian AI risk assessment: Tier 1 classification rationale`.
 - Do not commit personally identifiable information, API keys, or credentials. This is a public portfolio repository.
 - ServiceNow evidence exports (PDFs) are committed to `servicenow-evidence/` only. Raw exports from other platforms are not committed without a corresponding README entry explaining their provenance.
 

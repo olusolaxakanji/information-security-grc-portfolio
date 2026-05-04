@@ -1,18 +1,18 @@
 # AI Governance Programme
 
-**Emyzer Nexus — Phase 2 GRC Programme**
+**Emyzer Nexus: Phase 2 GRC Programme**
 
 ---
 
 > **Simulated Environment**
 >
-> Emyzer Nexus is a fictional organisation created for this GRC portfolio. All entities, personnel, systems, policies, risk entries, and regulatory scenarios described in this repository are invented for professional demonstration purposes. Framework and regulatory references — EU AI Act (Regulation 2024/1689), NIST AI RMF 1.0, ISO/IEC 42001:2023, and others — are accurate as of the document dates; their application to Emyzer Nexus is illustrative only. No real organisation, individual, or incident is represented.
+> Emyzer Nexus is a fictional organisation created for this GRC portfolio. All entities, personnel, systems, policies, risk entries, and regulatory scenarios described in this repository are invented for professional demonstration purposes. Framework and regulatory references, EU AI Act (Regulation 2024/1689), NIST AI RMF 1.0, ISO/IEC 42001:2023, and others, are accurate as of the document dates; their application to Emyzer Nexus is illustrative only. No real organisation, individual, or incident is represented.
 
 ---
 
 ## About This Programme
 
-The Emyzer Nexus AI Governance Programme was established following the acquisition of Veridian AI in Q4 2024. The acquisition introduced two operational AI systems — a Predictive Customer Churn Model and an AI-Assisted Contract Review Tool — that required immediate formal governance under the EU AI Act (Regulation 2024/1689) [VERIFY].
+The Emyzer Nexus AI Governance Programme was established following the acquisition of Veridian AI in Q4 2024. The acquisition introduced two operational AI systems, a Predictive Customer Churn Model and an AI-Assisted Contract Review Tool, that required immediate formal governance under the EU AI Act (Regulation 2024/1689) [VERIFY].
 
 Both systems were assessed and classified as High-Risk under the EU AI Act, triggering the full suite of conformity obligations defined in EU AI Act Title III [VERIFY]. This programme documents the governance structures, system classifications, control mappings, and risk assessments developed to meet those obligations.
 
@@ -46,8 +46,8 @@ The programme operates under the [AI Governance Policy](https://github.com/oluso
 
 | System ID | System Name | Origin | EU AI Act Risk Tier | Status |
 |---|---|---|---|---|
-| PCM-001 | Predictive Customer Churn Model | Veridian AI (acquired Q4 2024) | High-Risk | Active — Under Governance |
-| CRT-001 | AI-Assisted Contract Review Tool | Veridian AI (acquired Q4 2024) | High-Risk | Active — Under Governance (restricted use pending DPA) |
+| PCM-001 | Predictive Customer Churn Model | Veridian AI (acquired Q4 2024) | High-Risk | Active: Under Governance |
+| CRT-001 | AI-Assisted Contract Review Tool | Veridian AI (acquired Q4 2024) | High-Risk | Active: Under Governance (restricted use pending DPA) |
 
 ---
 

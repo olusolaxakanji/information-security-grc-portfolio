@@ -15,7 +15,7 @@ Master list of all controls in the Emyzer Technology information security contro
 
 ## Status Key
 
-- **Active** — Control is in place and being tested on schedule.
-- **Remediation** — A test failure has been identified; remediation is in progress.
-- **Under review** — Control scope or design is being reassessed.
-- **Retired** — Control is no longer required; superseded or obligation removed.
+- **Active**: Control is in place and being tested on schedule.
+- **Remediation**: A test failure has been identified; remediation is in progress.
+- **Under review**: Control scope or design is being reassessed.
+- **Retired**: Control is no longer required; superseded or obligation removed.

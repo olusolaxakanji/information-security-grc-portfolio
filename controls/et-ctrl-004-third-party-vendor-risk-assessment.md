@@ -1,4 +1,4 @@
-# ET-CTRL-004 — Third-Party Vendor Risk Assessment
+# ET-CTRL-004: Third-Party Vendor Risk Assessment
 
 | Field | Value |
 |---|---|
@@ -47,7 +47,7 @@ The ISO assesses all third-party vendors who access, process, store, or transmit
 
 ## Escalation
 
-Vendors rated below 80 on SecurityScorecard are placed on a 30-day remediation plan. Failure to remediate within 30 days is escalated to the CISO for a formal risk acceptance decision or contract termination review. Critical security events at a vendor — including a confirmed breach notification or loss of SOC 2 / ISO 27001 certification — are escalated to the CISO and CRO within 24 hours and trigger an emergency reassessment.
+Vendors rated below 80 on SecurityScorecard are placed on a 30-day remediation plan. Failure to remediate within 30 days is escalated to the CISO for a formal risk acceptance decision or contract termination review. Critical security events at a vendor, including a confirmed breach notification or loss of SOC 2 / ISO 27001 certification, are escalated to the CISO and CRO within 24 hours and trigger an emergency reassessment.
 
 ## Change History
 

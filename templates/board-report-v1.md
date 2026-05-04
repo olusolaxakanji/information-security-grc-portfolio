@@ -1,4 +1,4 @@
-# Quarterly Board / Executive GRC Report — Template
+# Quarterly Board / Executive GRC Report: Template
 
 ---
 
@@ -44,24 +44,24 @@ This report is classified at minimum **Confidential**. Handle, store, and distri
 | Field               | Detail                                         |
 |---------------------|------------------------------------------------|
 | Organisation        | [ORGANISATION NAME]                            |
-| Reporting Period    | [Q1 / Q2 / Q3 / Q4 YYYY — e.g., Q1 2025]      |
-| Report Reference    | [GRC-BR-YYYY-QN — e.g., GRC-BR-2025-Q1]       |
+| Reporting Period    | [Q1 / Q2 / Q3 / Q4 YYYY: e.g., Q1 2025]      |
+| Report Reference    | [GRC-BR-YYYY-QN: e.g., GRC-BR-2025-Q1]       |
 | Prepared By         | [Name, Role]                                   |
 | Reviewed By         | [CISO Name]                                    |
 | Review Date         | [YYYY-MM-DD]                                   |
 | Board Meeting Date  | [YYYY-MM-DD]                                   |
 | Classification      | [Confidential / Restricted]                    |
-| Version             | [e.g., v1.0 — increment for each revision]     |
+| Version             | [e.g., v1.0: increment for each revision]     |
 
 ---
 
 ## Section 2: Executive Summary
 
-*Write 3–4 sentences maximum. This section is read independently by board members who may not review the rest of the report. State: (1) the overall risk posture verdict (Improving / Stable / Deteriorating) and a one-sentence rationale; (2) the one or two issues most requiring board attention or decision this quarter; (3) any material regulatory change or external threat development relevant to the board's oversight role. Do not include operational detail here — direct the reader to the relevant section for detail. Avoid technical jargon.*
+*Write 3–4 sentences maximum. This section is read independently by board members who may not review the rest of the report. State: (1) the overall risk posture verdict (Improving / Stable / Deteriorating) and a one-sentence rationale; (2) the one or two issues most requiring board attention or decision this quarter; (3) any material regulatory change or external threat development relevant to the board's oversight role. Do not include operational detail here: direct the reader to the relevant section for detail. Avoid technical jargon.*
 
 **Overall Risk Posture: [IMPROVING / STABLE / DETERIORATING]**
 
-[EXECUTIVE SUMMARY TEXT — 3–4 sentences]
+[EXECUTIVE SUMMARY TEXT: 3–4 sentences]
 
 *Example (do not copy verbatim):*
 *"The overall information security risk posture is assessed as Stable this quarter. Remediation of three high-severity findings from the Q3 internal audit is on track, with two closed and one expected to close by [date]. The board's attention is drawn to Section 7, which notes the approaching deadline for [regulatory obligation]. No regulatory-reportable incidents occurred during the period."*
@@ -111,14 +111,14 @@ This report is classified at minimum **Confidential**. Handle, store, and distri
 | [FND-YYYY-NNN] | [Audit / Control Test / Pen Test] | [Crit/High/Med/Low] | [policy + section]    | [N days]  | [In Progress / Overdue / Blocked] | [YYYY-MM-DD] |
 | [FND-YYYY-NNN] | [Audit / Control Test / Pen Test] | [Crit/High/Med/Low] | [policy + section]    | [N days]  | [In Progress / Overdue / Blocked] | [YYYY-MM-DD] |
 
-*Total open findings: [N] — Critical: [N] | High: [N] | Medium: [N] | Low: [N]*
-*Findings open >90 days: [N] — [list IDs if any; explain board-level action required]*
+*Total open findings: [N]: Critical: [N] | High: [N] | Medium: [N] | Low: [N]*
+*Findings open >90 days: [N]: [list IDs if any; explain board-level action required]*
 
 ---
 
 ## Section 6: Control Performance
 
-*Summarise control testing activity completed during the quarter. Include only domains where testing was performed. Do not include domains where no testing was scheduled this quarter — note those as "Not tested this period (scheduled [quarter])". The pass rate is the proportion of controls tested that were found fully effective.*
+*Summarise control testing activity completed during the quarter. Include only domains where testing was performed. Do not include domains where no testing was scheduled this quarter: note those as "Not tested this period (scheduled [quarter])". The pass rate is the proportion of controls tested that were found fully effective.*
 
 | Control Domain              | Controls Tested This Period | Pass Rate | Failures | Remediation Status                        |
 |-----------------------------|-----------------------------|-----------|----------|-------------------------------------------|
@@ -136,14 +136,14 @@ This report is classified at minimum **Confidential**. Handle, store, and distri
 
 ## Section 7: Compliance and Regulatory Obligations
 
-*List all active regulatory and contractual compliance obligations relevant to information security, privacy, and AI governance. Update the status each quarter. Note any upcoming regulatory changes that will require policy, process, or technology changes. Flag any obligation where the status is "At Risk" or "Non-Compliant" to the board immediately — do not wait for the quarterly report cycle.*
+*List all active regulatory and contractual compliance obligations relevant to information security, privacy, and AI governance. Update the status each quarter. Note any upcoming regulatory changes that will require policy, process, or technology changes. Flag any obligation where the status is "At Risk" or "Non-Compliant" to the board immediately: do not wait for the quarterly report cycle.*
 
 | Obligation                         | Regulatory / Contractual Basis         | Status                          | Next Deadline    | Owner                  |
 |------------------------------------|----------------------------------------|---------------------------------|------------------|------------------------|
 | [Obligation title]                 | [e.g., UK GDPR Article 32 [VERIFY]]   | [Compliant / At Risk / Gap Identified] | [YYYY-MM-DD] | [role / name]       |
 | [Obligation title]                 | [e.g., ISO 27001:2022 certification]  | [Compliant / At Risk / Gap Identified] | [YYYY-MM-DD] | [role / name]       |
 | [Obligation title]                 | [e.g., EU AI Act Article 9 [VERIFY]]  | [Compliant / At Risk / Gap Identified] | [YYYY-MM-DD] | [role / name]       |
-| [Obligation title]                 | [contractual — customer DPA]          | [Compliant / At Risk / Gap Identified] | [YYYY-MM-DD] | [role / name]       |
+| [Obligation title]                 | [contractual: customer DPA]          | [Compliant / At Risk / Gap Identified] | [YYYY-MM-DD] | [role / name]       |
 | [Obligation title]                 | [regulatory]                          | [Compliant / At Risk / Gap Identified] | [YYYY-MM-DD] | [role / name]       |
 
 **Upcoming Regulatory Changes:**
@@ -164,8 +164,8 @@ This report is classified at minimum **Confidential**. Handle, store, and distri
 | [INC-YYYY-NNN] | [YYYY-MM-DD] | [Crit/High/Med/Low] | [1–2 sentence description]               | [Closed / Under Review / Monitoring] | [Yes / No / In Progress] |
 | [INC-YYYY-NNN] | [YYYY-MM-DD] | [Crit/High/Med/Low] | [1–2 sentence description]               | [Closed / Under Review / Monitoring] | [Yes / No / In Progress] |
 
-*Total incidents this period: [N] — Critical: [N] | High: [N] | Medium: [N] | Low: [N]*
-*Regulatory-reportable incidents: [N] — [list IDs; confirm notifications made on time]*
+*Total incidents this period: [N]: Critical: [N] | High: [N] | Medium: [N] | Low: [N]*
+*Regulatory-reportable incidents: [N]: [list IDs; confirm notifications made on time]*
 
 *If no incidents: "No information security or privacy incidents were recorded during this reporting period."*
 
@@ -173,13 +173,13 @@ This report is classified at minimum **Confidential**. Handle, store, and distri
 
 ## Section 9: Decisions Required
 
-*List only items that require a formal board or executive committee decision, policy acceptance, or risk acceptance at board level. Do not include items that are within management's delegated authority. Each item should identify the decision required, the consequence of not deciding, and the recommended course of action (optional — include if GRC team has a clear recommendation).*
+*List only items that require a formal board or executive committee decision, policy acceptance, or risk acceptance at board level. Do not include items that are within management's delegated authority. Each item should identify the decision required, the consequence of not deciding, and the recommended course of action (optional: include if GRC team has a clear recommendation).*
 
 - **[Decision Item 1]:** [Describe the decision required. State the consequence of not deciding. Identify any deadline.] *Recommended action: [Yes/No/Defer with conditions]*
 
 - **[Decision Item 2]:** [Describe the decision required. State the consequence of not deciding.] *Recommended action: [Yes/No/Defer with conditions]*
 
-- **[Decision Item 3]:** [Risk acceptance item — describe the residual risk being formally accepted, the duration of acceptance, and the conditions attached.]
+- **[Decision Item 3]:** [Risk acceptance item: describe the residual risk being formally accepted, the duration of acceptance, and the conditions attached.]
 
 *If no decisions are required: "No items require board decision this period. All risk and compliance matters are within management's delegated authority."*
 

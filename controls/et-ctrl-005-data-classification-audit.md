@@ -1,4 +1,4 @@
-# ET-CTRL-005 — Data Classification Audit
+# ET-CTRL-005: Data Classification Audit
 
 | Field | Value |
 |---|---|
@@ -45,7 +45,7 @@ Data Owners review and confirm the classification of information assets within t
 
 ## Escalation
 
-Misclassified Restricted data — data carrying a classification below Restricted where Restricted is warranted — is escalated to the CISO within 24 hours as a potential data handling incident. Systemic misclassification across an entire business domain is escalated to the relevant Data Owner's manager and documented in the risk register as a governance risk. Unresolved classification exceptions beyond the 5-business-day window are escalated to the ISO for review and either expedited classification or formal acceptance.
+Misclassified Restricted data, data carrying a classification below Restricted where Restricted is warranted, is escalated to the CISO within 24 hours as a potential data handling incident. Systemic misclassification across an entire business domain is escalated to the relevant Data Owner's manager and documented in the risk register as a governance risk. Unresolved classification exceptions beyond the 5-business-day window are escalated to the ISO for review and either expedited classification or formal acceptance.
 
 ## Change History
 

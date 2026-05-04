@@ -1,12 +1,12 @@
 # AI Vendor Risk Due Diligence Addendum
 
-**Emyzer Nexus — Third-Party Risk Management Programme**
+**Emyzer Nexus: Third-Party Risk Management Programme**
 
 ---
 
 > **Simulated Environment**
 >
-> Emyzer Nexus is a fictional organisation created for this GRC portfolio. All entities, personnel, vendor relationships, and regulatory scenarios are invented for professional demonstration purposes. Framework and regulatory references — [EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689), [GDPR (Regulation 2016/679)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679), [NIST AI RMF 1.0](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework), [ISO 27001:2022](https://www.iso.org/standard/82875.html) — are accurate as of the document dates. No real organisation, individual, or vendor relationship is represented.
+> Emyzer Nexus is a fictional organisation created for this GRC portfolio. All entities, personnel, vendor relationships, and regulatory scenarios are invented for professional demonstration purposes. Framework and regulatory references, [EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689), [GDPR (Regulation 2016/679)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679), [NIST AI RMF 1.0](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework), [ISO 27001:2022](https://www.iso.org/standard/82875.html), are accurate as of the document dates. No real organisation, individual, or vendor relationship is represented.
 
 ---
 
@@ -34,9 +34,9 @@
 
 This addendum extends the [Third-Party Risk Management Policy (KB-PORTFOLIO-0008)](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) with AI-specific due diligence requirements applicable to vendors providing artificial intelligence products, services, or capabilities.
 
-The Phase 1 TPRM Policy was written for Emyzer Technology's hardware and managed services business model. It addresses security posture, data protection, and service continuity — requirements that remain fully applicable to AI vendors. This addendum does not replace any TPRM Policy requirement; it adds obligations specific to the risk profile of AI vendor relationships that the base policy does not address.
+The Phase 1 TPRM Policy was written for Emyzer Technology's hardware and managed services business model. It addresses security posture, data protection, and service continuity: requirements that remain fully applicable to AI vendors. This addendum does not replace any TPRM Policy requirement; it adds obligations specific to the risk profile of AI vendor relationships that the base policy does not address.
 
-The addendum was prompted by the acquisition of Veridian AI (Q4 2024) and the discovery that CRT-001's external LLM API relationship lacked a Data Processing Agreement, contract novation, and EU AI Act compliance evaluation — all gaps that an AI-specific vendor due diligence framework would have identified and required remediation of before approval.
+The addendum was prompted by the acquisition of Veridian AI (Q4 2024) and the discovery that CRT-001's external LLM API relationship lacked a Data Processing Agreement, contract novation, and EU AI Act compliance evaluation: all gaps that an AI-specific vendor due diligence framework would have identified and required remediation of before approval.
 
 ### 1.2 Relationship to Parent Policy
 
@@ -47,11 +47,11 @@ All requirements of the [TPRM Policy](https://github.com/olusolaxakanji/informat
 | Framework | Application to This Addendum |
 |---|---|
 | **[EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)** [VERIFY] | Deployer obligations for High-Risk AI systems; provider transparency requirements; contractual obligations on deployers using High-Risk systems; post-market monitoring obligations |
-| **[NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | MAP function — identifying and assessing AI-specific risks in third-party AI relationships; GOVERN function — establishing AI vendor governance requirements |
+| **[NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | MAP function: identifying and assessing AI-specific risks in third-party AI relationships; GOVERN function: establishing AI vendor governance requirements |
 | **[ISO/IEC 42001:2023](https://www.iso.org/standard/81230.html)** | AI management system standard; Annex A controls for AI supplier management |
-| **[ISO 27001:2022](https://www.iso.org/standard/82875.html)** A.5.19–A.5.23 | Supplier relationship security requirements — extended by this addendum for AI-specific obligations |
+| **[ISO 27001:2022](https://www.iso.org/standard/82875.html)** A.5.19–A.5.23 | Supplier relationship security requirements: extended by this addendum for AI-specific obligations |
 | **[GDPR (Regulation 2016/679)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)** [VERIFY] | Data processing obligations for AI systems handling personal data; Article 28 processor requirements; Article 35 DPIA for high-risk processing; Article 22 automated decision-making [VERIFY] |
-| **[ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html)** | AI risk management guidance — AI-specific threat identification relevant to vendor relationships |
+| **[ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html)** | AI risk management guidance: AI-specific threat identification relevant to vendor relationships |
 
 ---
 
@@ -95,9 +95,9 @@ AI vendors shall be classified under the TPRM Policy risk tier framework (Critic
 
 | Factor | Criteria Adjustment |
 |---|---|
-| **AI system risk classification** | Any vendor whose AI system or component is classified (or classifiable) as High-Risk under EU AI Act Annex III [VERIFY] is automatically classified as **Critical** or **High** tier — never below High — regardless of data access scope |
+| **AI system risk classification** | Any vendor whose AI system or component is classified (or classifiable) as High-Risk under EU AI Act Annex III [VERIFY] is automatically classified as **Critical** or **High** tier, never below High, regardless of data access scope |
 | **Foundation model providers** | Foundation Model API vendors are automatically **High** tier minimum due to the opacity of training data, hallucination risk, and inability to independently verify model behaviour |
-| **Personal data in AI processing** | Any AI vendor that processes personal data as part of AI inference (not just transit) — including contract text, behavioural data, or biometric data — is escalated by one risk tier |
+| **Personal data in AI processing** | Any AI vendor that processes personal data as part of AI inference (not just transit), including contract text, behavioural data, or biometric data, is escalated by one risk tier |
 | **Decision support for regulated outcomes** | AI vendors whose outputs inform regulated decisions (credit, employment, healthcare, legal compliance) are automatically **Critical** tier |
 | **Single-system dependency** | Where Emyzer Nexus is entirely dependent on a single AI vendor for a business-critical function (as with CRT-001's LLM API), the vendor is **Critical** tier |
 
@@ -109,7 +109,7 @@ AI vendor due diligence shall include all requirements in the parent [TPRM Polic
 
 ### 4.1 Model Transparency Assessment
 
-The ISO shall obtain from the vendor — prior to contract execution — the following model transparency documentation:
+The ISO shall obtain from the vendor, prior to contract execution, the following model transparency documentation:
 
 | Requirement | Expected Evidence | Minimum Acceptable Position |
 |---|---|---|
@@ -262,8 +262,8 @@ In addition to the standard monitoring requirements in [TPRM Policy Section F.5]
 
 | Activity | Frequency | Responsible |
 |---|---|---|
-| Output quality sampling — LLM-based systems | Quarterly (minimum 20 samples per system) | AI System Owner |
-| Drift monitoring — traditional ML systems | Monthly (automated) + quarterly review | AI System Owner / CTO |
+| Output quality sampling: LLM-based systems | Quarterly (minimum 20 samples per system) | AI System Owner |
+| Drift monitoring: traditional ML systems | Monthly (automated) + quarterly review | AI System Owner / CTO |
 | Bias regression check | Semi-annual | AI Governance Committee |
 | Vendor EU AI Act compliance status review | Annual | ISO / Legal Counsel |
 | Sub-processor list review | Annual or on notification of change | DPO |
@@ -318,10 +318,10 @@ This addendum applies to all new AI vendor engagements from its effective date (
 
 | Relationship | Priority | Assessment Target |
 |---|---|---|
-| CRT-001 LLM API vendor | **Critical — immediate** | DPA execution: 2025-09-30; full addendum assessment: 2025-12-31 |
+| CRT-001 LLM API vendor | **Critical: immediate** | DPA execution: 2025-09-30; full addendum assessment: 2025-12-31 |
 | Any future AI vendor relationships | Standard | Full addendum assessment before contract execution |
 
-### 8.2 CRT-001 LLM API Vendor — Current Status
+### 8.2 CRT-001 LLM API Vendor: Current Status
 
 The CRT-001 LLM API vendor relationship is the only AI vendor relationship in scope at this addendum's effective date. It was assessed during the Veridian AI due diligence exercise ([Veridian AI Risk Assessment VDA-RA-2025-001](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/veridian-ai/ai-risk-assessments/veridian-ai-risk-assessment.md)) and found to have the following critical gaps:
 
@@ -329,12 +329,12 @@ The CRT-001 LLM API vendor relationship is the only AI vendor relationship in sc
 |---|---|---|---|
 | No GDPR Article 28 DPA | In remediation | Section 5.4 (Mandatory) | 2025-09-30 |
 | Contract not novated to Emyzer Nexus | In remediation | Section 5.6 basis | 2025-06-30 |
-| Training data provenance unavailable | Blocked — vendor cooperation required | Section 4.2 | 2025-12-31 |
+| Training data provenance unavailable | Blocked: vendor cooperation required | Section 4.2 | 2025-12-31 |
 | No Declaration of Conformity | In remediation | Section 5.3 | 2025-12-31 |
 | Sub-processor list not obtained | In remediation | Section 5.4 | 2025-09-30 |
 | Model card not provided | In remediation | Section 5.1 | 2025-09-30 |
 
-The use restriction on CRT-001 (contracts containing no personal data only) remains in effect until the DPA is executed. See the [AI System Inventory](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/ai-governance/ai-system-inventory.md) — CRT-001 profile — for current governance status.
+The use restriction on CRT-001 (contracts containing no personal data only) remains in effect until the DPA is executed. See the [AI System Inventory](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/ai-governance/ai-system-inventory.md), CRT-001 profile, for current governance status.
 
 ---
 
@@ -378,18 +378,18 @@ The following evidence shall be maintained for AI vendor relationships:
 
 | Framework | Addendum Section |
 |---|---|
-| **[EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — Deployer obligations** [VERIFY] | Sections 4.4, 5.3, 6.2 |
-| **[EU AI Act Article 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — Risk management** [VERIFY] | Sections 3, 4 |
-| **[EU AI Act Article 13](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — Transparency** [VERIFY] | Section 4.1 (model transparency) |
-| **[EU AI Act Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — Human oversight** [VERIFY] | Section 4.4, 5.3 |
-| **[EU AI Act Article 72](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — Post-market monitoring** [VERIFY] | Sections 5.3, 6.1 |
-| **[EU AI Act Article 73](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — Serious incident reporting** [VERIFY] | Section 6.2 |
-| **[NIST AI RMF 1.0 — MAP](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | Sections 4, 5 (mapping AI-specific risks in vendor relationships) |
-| **[NIST AI RMF 1.0 — GOVERN](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | Sections 7, 9 (governance roles; documentation) |
+| **[EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689): Deployer obligations** [VERIFY] | Sections 4.4, 5.3, 6.2 |
+| **[EU AI Act Article 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689): Risk management** [VERIFY] | Sections 3, 4 |
+| **[EU AI Act Article 13](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689): Transparency** [VERIFY] | Section 4.1 (model transparency) |
+| **[EU AI Act Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689): Human oversight** [VERIFY] | Section 4.4, 5.3 |
+| **[EU AI Act Article 72](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689): Post-market monitoring** [VERIFY] | Sections 5.3, 6.1 |
+| **[EU AI Act Article 73](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689): Serious incident reporting** [VERIFY] | Section 6.2 |
+| **[NIST AI RMF 1.0: MAP](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | Sections 4, 5 (mapping AI-specific risks in vendor relationships) |
+| **[NIST AI RMF 1.0: GOVERN](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | Sections 7, 9 (governance roles; documentation) |
 | **[ISO 27001:2022](https://www.iso.org/standard/82875.html) A.5.19–A.5.23** | Sections 4–6 (AI-extended supplier relationship requirements) |
 | **[ISO/IEC 42001:2023](https://www.iso.org/standard/81230.html) Annex A** | Sections 4.2 (training data), 5.2 (bias) |
 | **[GDPR Article 28](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)** [VERIFY] | Section 5.4 (processor obligations) |
-| **[GDPR Article 35](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) — DPIA** [VERIFY] | Section 4.2 (training data with personal data) |
+| **[GDPR Article 35](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679): DPIA** [VERIFY] | Section 4.2 (training data with personal data) |
 
 ---
 
@@ -397,7 +397,7 @@ The following evidence shall be maintained for AI vendor relationships:
 
 | Version | Date | Author | Changes |
 |---|---|---|---|
-| 1.0 | 2025-06-01 | ISO (Susan Orwell) + Legal Counsel | Initial publication — effective from AI Governance Programme launch date |
+| 1.0 | 2025-06-01 | ISO (Susan Orwell) + Legal Counsel | Initial publication: effective from AI Governance Programme launch date |
 
 - **Document ID:** INT-VEND-AI-001
 - **Parent Policy:** [Third-Party Risk Management Policy KB-PORTFOLIO-0008](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md)

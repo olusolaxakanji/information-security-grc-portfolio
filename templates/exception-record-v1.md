@@ -1,4 +1,4 @@
-# Policy Exception Record — Template
+# Policy Exception Record: Template
 
 ---
 
@@ -23,9 +23,9 @@
 A policy exception is a formally documented and approved temporary deviation from a specific requirement in an approved GRC policy. An exception acknowledges that the organisation is not currently meeting a stated control requirement and provides a structured, time-limited framework for managing the residual risk during the period of non-compliance.
 
 An exception is NOT the same as:
-- A **policy gap** — where the policy has not yet been written or does not address a particular scenario. Gaps are addressed through policy development, not exception requests.
-- A **permanent policy change** — if a requirement is no longer appropriate, the policy should be formally amended through the policy review process, not bypassed indefinitely via exceptions.
-- A **finding** — a finding is raised when a control is discovered to have failed or been deficient. An exception is prospective: it is requested before the deviation occurs, or immediately upon discovery before remediation is possible. If a control failure is discovered retrospectively and cannot be immediately remediated, raise a finding AND an exception to cover the period until remediation is complete.
+- A **policy gap**: where the policy has not yet been written or does not address a particular scenario. Gaps are addressed through policy development, not exception requests.
+- A **permanent policy change**: if a requirement is no longer appropriate, the policy should be formally amended through the policy review process, not bypassed indefinitely via exceptions.
+- A **finding**: a finding is raised when a control is discovered to have failed or been deficient. An exception is prospective: it is requested before the deviation occurs, or immediately upon discovery before remediation is possible. If a control failure is discovered retrospectively and cannot be immediately remediated, raise a finding AND an exception to cover the period until remediation is complete.
 
 **Who can request an exception**
 Any department head, system owner, or risk owner may submit an exception request. The requestor is responsible for completing Sections 1–5 of this template and submitting it to the ISO for review. Requestors must not self-approve exceptions.
@@ -52,23 +52,23 @@ Exception IDs follow the format EX-YYYY-NNNN (e.g., EX-2025-0004). Assigned sequ
 | Field                              | Detail                                                                                    |
 |------------------------------------|-------------------------------------------------------------------------------------------|
 | Exception ID                       | [EX-YYYY-NNNN]                                                                            |
-| Policy Reference                   | [Policy name, specific section and clause, version — e.g., Access Control Policy v2.1, Section 5.2 — Multi-Factor Authentication Requirement] |
+| Policy Reference                   | [Policy name, specific section and clause, version, e.g., Access Control Policy v2.1, Section 5.2, Multi-Factor Authentication Requirement] |
 | Specific Requirement Being Excepted | [Quote or summarise the precise policy requirement from which the exception is sought]   |
 | Exception Type                     | [Select one: Temporary Operational / Technical Limitation / Transitional / Business Justification] |
 | Requestor                          | [Full name, Role, Department]                                                             |
 | Request Date                       | [YYYY-MM-DD]                                                                              |
 | Proposed Exception Start Date      | [YYYY-MM-DD]                                                                              |
-| Proposed Exception End Date        | [YYYY-MM-DD — maximum 90 days from start date unless extended with CISO approval]        |
+| Proposed Exception End Date        | [YYYY-MM-DD: maximum 90 days from start date unless extended with CISO approval]        |
 | Total Proposed Duration            | [N days / N weeks]                                                                        |
-| Systems / Processes Affected       | [List all systems, applications, processes, or services to which the exception applies. Be specific — do not use "all systems" without justification.] |
+| Systems / Processes Affected       | [List all systems, applications, processes, or services to which the exception applies. Be specific: do not use "all systems" without justification.] |
 | Affected Users / Data              | [Define the scope: which user groups, data types, data subjects, or data volumes are affected by the exception] |
-| Data Classification of Affected Data | [e.g., Restricted / Confidential / Internal / Public — per Data Classification Policy] |
+| Data Classification of Affected Data | [e.g., Restricted / Confidential / Internal / Public: per Data Classification Policy] |
 
 *Exception Types defined:*
-- *Temporary Operational — a short-term operational necessity (e.g., patching window, system migration, emergency response)*
-- *Technical Limitation — the policy requirement cannot be implemented due to a technical constraint of the affected system or vendor*
-- *Transitional — the organisation is in the process of implementing the required control but it is not yet fully deployed*
-- *Business Justification — compliance with the policy as written would create a disproportionate business impact; alternative safeguards are in place*
+- *Temporary Operational: a short-term operational necessity (e.g., patching window, system migration, emergency response)*
+- *Technical Limitation: the policy requirement cannot be implemented due to a technical constraint of the affected system or vendor*
+- *Transitional: the organisation is in the process of implementing the required control but it is not yet fully deployed*
+- *Business Justification: compliance with the policy as written would create a disproportionate business impact; alternative safeguards are in place*
 
 ---
 
@@ -94,11 +94,11 @@ Exception IDs follow the format EX-YYYY-NNNN (e.g., EX-2025-0004). Assigned sequ
 | Threat Scenario                           | [What specific threat or failure scenario could occur if the policy requirement is not met during the exception period?] |
 | Likelihood (with compensating controls)   | [1–5 scale: 1 = Remote, 2 = Unlikely, 3 = Possible, 4 = Likely, 5 = Almost Certain]    |
 | Impact (if threat materialises)           | [1–5 scale: 1 = Negligible, 2 = Minor, 3 = Moderate, 4 = Major, 5 = Catastrophic]      |
-| Residual Risk Score                       | [Likelihood × Impact = Score — e.g., 3 × 4 = 12]                                        |
+| Residual Risk Score                       | [Likelihood × Impact = Score: e.g., 3 × 4 = 12]                                        |
 | Residual Risk Level                       | [Low (1–4) / Medium (5–9) / High (10–19) / Critical (20–25)]                            |
 | Risk Description                          | [Narrative description of what could go wrong during the exception period and its potential consequence for the organisation, its data subjects, and its regulatory standing.] |
-| Risk Owner                                | [Name, Role — the person accountable for managing the risk during the exception period] |
-| Exceeds Organisational Risk Appetite?     | [Yes / No — if Yes, CRO co-approval is mandatory per Section 6]                         |
+| Risk Owner                                | [Name, Role: the person accountable for managing the risk during the exception period] |
+| Exceeds Organisational Risk Appetite?     | [Yes / No: if Yes, CRO co-approval is mandatory per Section 6]                         |
 | Risk Appetite Reference                   | [Reference the relevant risk appetite statement from the Risk Management Framework]      |
 
 ---
@@ -116,7 +116,7 @@ Exception IDs follow the format EX-YYYY-NNNN (e.g., EX-2025-0004). Assigned sequ
 | [Control name]         | [Specific description]                          | [Name, Role]       | [YYYY-MM-DD]        | [Verification method and evidence]          |
 
 *If compensating controls are not feasible, state the reason here and note that CISO explicit risk acceptance is required:*
-[N/A — compensating controls are in place as above / Compensating controls not feasible because: [reason] — CISO risk acceptance required]
+[N/A, compensating controls are in place as above / Compensating controls not feasible because: [reason], CISO risk acceptance required]
 
 ---
 
@@ -124,30 +124,30 @@ Exception IDs follow the format EX-YYYY-NNNN (e.g., EX-2025-0004). Assigned sequ
 
 *The remediation plan describes the specific steps that will bring the affected system, process, or activity into compliance with the policy requirement. The plan must be realistic, include specific milestone dates, and identify responsible owners. The remediation plan must demonstrate that the exception period is genuinely temporary and that compliance will be achieved by the exception end date.*
 
-*If the remediation plan cannot deliver compliance by the exception end date, the requestor must seek an extension before the exception expires — not retrospectively.*
+*If the remediation plan cannot deliver compliance by the exception end date, the requestor must seek an extension before the exception expires: not retrospectively.*
 
 | Milestone                          | Description                                   | Owner              | Target Date  | Status              |
 |------------------------------------|-----------------------------------------------|--------------------|--------------|---------------------|
-| [Milestone 1 — e.g., Procurement]  | [Specific activity or deliverable]            | [Name, Role]       | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
-| [Milestone 2 — e.g., Implementation] | [Specific activity or deliverable]          | [Name, Role]       | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
-| [Milestone 3 — e.g., Testing]      | [Specific activity or deliverable]            | [Name, Role]       | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
-| [Milestone 4 — e.g., Go-Live / Compliance Confirmed] | [Specific activity or deliverable] | [Name, Role] | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
+| [Milestone 1: e.g., Procurement]  | [Specific activity or deliverable]            | [Name, Role]       | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
+| [Milestone 2: e.g., Implementation] | [Specific activity or deliverable]          | [Name, Role]       | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
+| [Milestone 3: e.g., Testing]      | [Specific activity or deliverable]            | [Name, Role]       | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
+| [Milestone 4: e.g., Go-Live / Compliance Confirmed] | [Specific activity or deliverable] | [Name, Role] | [YYYY-MM-DD] | [Not Started / In Progress / Complete] |
 
-**Full compliance target date:** [YYYY-MM-DD — must be on or before exception end date]
-**Remediation owner:** [Name, Role — accountable for delivering the remediation plan]
+**Full compliance target date:** [YYYY-MM-DD: must be on or before exception end date]
+**Remediation owner:** [Name, Role: accountable for delivering the remediation plan]
 
 ---
 
 ## Section 6: Approval Chain
 
-*Complete each row in the order listed. No later approver should sign before the earlier review is complete. Where a role is not required (e.g., CRO is not required if risk does not exceed appetite), mark as "N/A — not required because [reason]." Do not leave rows blank.*
+*Complete each row in the order listed. No later approver should sign before the earlier review is complete. Where a role is not required (e.g., CRO is not required if risk does not exceed appetite), mark as "N/A: not required because [reason]." Do not leave rows blank.*
 
 | Role                  | Name                       | Decision                        | Date         | Comments                                       |
 |-----------------------|----------------------------|---------------------------------|--------------|------------------------------------------------|
 | ISO (first review)    | [Name]                     | [Recommend Approval / Recommend Rejection / Recommend Approval with Additional Conditions] | [YYYY-MM-DD] | [ISO's assessment and any conditions or concerns] |
 | CISO (approval authority) | [Name]                 | [Approved / Rejected / Approved with Conditions / Deferred] | [YYYY-MM-DD] | [CISO's rationale; any additional conditions imposed] |
-| CRO (co-approval if risk exceeds appetite) | [Name or N/A] | [Co-Approved / Rejected / N/A — risk within appetite] | [YYYY-MM-DD] | [CRO's risk assessment comment] |
-| Legal Counsel (if regulatory obligation implicated) | [Name or N/A] | [No legal objection / Legal objection raised — see notes / N/A — no regulatory obligation affected] | [YYYY-MM-DD] | [Legal Counsel's assessment of regulatory exposure] |
+| CRO (co-approval if risk exceeds appetite) | [Name or N/A] | [Co-Approved / Rejected / N/A: risk within appetite] | [YYYY-MM-DD] | [CRO's risk assessment comment] |
+| Legal Counsel (if regulatory obligation implicated) | [Name or N/A] | [No legal objection / Legal objection raised, see notes / N/A, no regulatory obligation affected] | [YYYY-MM-DD] | [Legal Counsel's assessment of regulatory exposure] |
 
 **Final Decision:** [APPROVED / APPROVED WITH CONDITIONS / REJECTED]
 **Exception Valid From:** [YYYY-MM-DD]
@@ -159,28 +159,28 @@ Exception IDs follow the format EX-YYYY-NNNN (e.g., EX-2025-0004). Assigned sequ
 
 ## Section 7: Monitoring During Exception Period
 
-*Describe how the GRC team and the risk owner will verify that the compensating controls defined in Section 4 remain in operation throughout the exception period. Monitoring must be active — it is not sufficient to assume controls are working without verification. Define the frequency of monitoring, what specifically will be checked, and who is responsible.*
+*Describe how the GRC team and the risk owner will verify that the compensating controls defined in Section 4 remain in operation throughout the exception period. Monitoring must be active: it is not sufficient to assume controls are working without verification. Define the frequency of monitoring, what specifically will be checked, and who is responsible.*
 
 **Monitoring activities:**
-[Describe each monitoring activity — e.g., weekly review of access logs; fortnightly check-in between ISO and risk owner; automated alerting on the relevant control failure scenario]
+[Describe each monitoring activity: e.g., weekly review of access logs; fortnightly check-in between ISO and risk owner; automated alerting on the relevant control failure scenario]
 
 **Monitoring frequency:** [e.g., Weekly / Fortnightly / Monthly]
 **Monitoring owner:** [Name, Role]
-**Escalation trigger:** [Define the condition under which the exception would be immediately escalated or revoked — e.g., compensating control fails; affected system experiences a security incident; scope of exception expands beyond what was approved]
+**Escalation trigger:** [Define the condition under which the exception would be immediately escalated or revoked: e.g., compensating control fails; affected system experiences a security incident; scope of exception expands beyond what was approved]
 **Monitoring evidence record location:** [Where will evidence of monitoring activity be stored?]
 
 ---
 
 ## Section 8: Exception Closure
 
-*Complete this section when the exception is closed. The closure must be documented regardless of how the exception is resolved — whether the underlying issue has been remediated (and the exception is no longer required), the exception has been extended, or the risk has been formally accepted as a permanent deviation (which requires a separate risk acceptance record).*
+*Complete this section when the exception is closed. The closure must be documented regardless of how the exception is resolved: whether the underlying issue has been remediated (and the exception is no longer required), the exception has been extended, or the risk has been formally accepted as a permanent deviation (which requires a separate risk acceptance record).*
 
 | Field                      | Detail                                                                                    |
 |----------------------------|-------------------------------------------------------------------------------------------|
 | Closure Date               | [YYYY-MM-DD]                                                                              |
-| Closure Type               | [Resolved — policy compliance achieved / Extended — new exception EX-YYYY-NNNN raised / Risk Accepted — formal risk acceptance record raised] |
-| Evidence of Compliance (if Resolved) | [Reference the evidence that demonstrates the policy requirement is now being met — e.g., Control testing record CTR-2025-NNNN confirming MFA is operational on all affected accounts] |
-| Closing Authority          | [Name, Role, Date — the person who certifies the exception is closed]                    |
+| Closure Type               | [Resolved, policy compliance achieved / Extended, new exception EX-YYYY-NNNN raised / Risk Accepted, formal risk acceptance record raised] |
+| Evidence of Compliance (if Resolved) | [Reference the evidence that demonstrates the policy requirement is now being met: e.g., Control testing record CTR-2025-NNNN confirming MFA is operational on all affected accounts] |
+| Closing Authority          | [Name, Role, Date: the person who certifies the exception is closed]                    |
 | Lessons Learned            | [What would have prevented the need for this exception? Are any process changes or control improvements recommended to avoid similar exceptions?] |
 
 ---

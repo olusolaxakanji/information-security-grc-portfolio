@@ -1,6 +1,6 @@
 # AI System Inventory and Classification Register
 
-**Emyzer Nexus — AI Governance Programme**
+**Emyzer Nexus: AI Governance Programme**
 
 ---
 
@@ -38,8 +38,8 @@ All systems classified as High-Risk are subject to the full conformity obligatio
 
 | System ID | System Name | Origin | EU AI Act Risk Tier | AI System Owner | Deployment Status | Last Classification Review |
 |---|---|---|---|---|---|---|
-| PCM-001 | Predictive Customer Churn Model | Veridian AI (acquired Q4 2024) | **High-Risk** | VP, Customer Success | Active — in production | 2025-06-01 |
-| CRT-001 | AI-Assisted Contract Review Tool | Veridian AI (acquired Q4 2024) | **High-Risk** | General Counsel | Active — restricted use pending DPA | 2025-06-01 |
+| PCM-001 | Predictive Customer Churn Model | Veridian AI (acquired Q4 2024) | **High-Risk** | VP, Customer Success | Active: in production | 2025-06-01 |
+| CRT-001 | AI-Assisted Contract Review Tool | Veridian AI (acquired Q4 2024) | **High-Risk** | General Counsel | Active: restricted use pending DPA | 2025-06-01 |
 
 ---
 
@@ -51,28 +51,28 @@ All systems classified as High-Risk are subject to the full conformity obligatio
 |---|---|
 | **System ID** | PCM-001 |
 | **Full System Name** | Predictive Customer Churn Model |
-| **Business Domain** | Sales and Customer Success — Retention Management |
+| **Business Domain** | Sales and Customer Success: Retention Management |
 | **Origin** | Veridian AI (acquired Q4 2024) |
 | **Acquisition Date** | 2024-Q4 (exact date confidential) |
 | **EU AI Act Risk Tier** | **High-Risk** [VERIFY: Annex III §5(b) applicability to commercial B2B churn scoring contexts] |
 | **AI System Owner** | VP, Customer Success |
-| **Deployment Status** | Active — in production |
+| **Deployment Status** | Active: in production |
 | **Deployment Environment** | Internal AWS (Emyzer Nexus cloud tenancy, eu-west-1 region) |
 
 #### Development and Technical Profile
 
 | Field | Detail |
 |---|---|
-| **Development Approach** | Supervised machine learning — Random Forest ensemble model; retrained on a quarterly cycle using 36 months of rolling historical data |
+| **Development Approach** | Supervised machine learning: Random Forest ensemble model; retrained on a quarterly cycle using 36 months of rolling historical data |
 | **Model Architecture** | Ensemble of 500 decision trees; hyperparameters optimised via cross-validation at each retraining cycle |
 | **Training Dataset** | Approximately 48,000 B2B client records drawn from Veridian AI's client base; data types: product usage telemetry (daily active usage, feature adoption, session frequency), support ticket history (volume, severity distribution, resolution time), billing records (payment timeliness, contract value, upgrade/downgrade events), contract metadata (contract age, renewal history, tier) |
-| **Training Dataset Provenance** | Collected by Veridian AI pre-acquisition; provenance documentation incomplete — gap identified (see AI-RISK-2025-004) |
+| **Training Dataset Provenance** | Collected by Veridian AI pre-acquisition; provenance documentation incomplete: gap identified (see AI-RISK-2025-004) |
 | **Input Variables at Inference** | Product usage telemetry (7-day rolling average, 30-day rolling average, year-on-year delta), open support ticket count (by severity), days since last support ticket, billing payment status, contract days remaining, contract tier, customer segment (Enterprise / Mid-Market / SMB) |
 | **Output Format** | Churn probability score (0.00–1.00) mapped to four risk tiers: Low (<0.25), Medium (0.25–0.50), High (0.50–0.75), Critical (>0.75) |
 | **Output Consumers** | Sales and Customer Success teams receive a weekly scored client list via internal dashboard; scores used to prioritise retention outreach calls and escalation workflows |
 | **Retraining Cycle** | Quarterly; retraining triggered by calendar schedule or when drift detection threshold is exceeded (performance degradation >5% on held-out validation set) |
 | **Third-Party Dependencies** | None for the ML model itself; AWS infrastructure for hosting; no external AI API dependencies |
-| **Data Retention (Training)** | Not yet formally governed — gap identified, DPO review in progress |
+| **Data Retention (Training)** | Not yet formally governed: gap identified, DPO review in progress |
 
 #### Classification Rationale
 
@@ -84,7 +84,7 @@ The AI Governance Committee reviewed the classification rationale at its 2025-06
 
 #### Known Limitations
 
-- Model outputs are not explainable at the individual client level — the Random Forest ensemble cannot generate a per-client rationale for the assigned score
+- Model outputs are not explainable at the individual client level: the Random Forest ensemble cannot generate a per-client rationale for the assigned score
 - Quarterly retraining creates a lag period during which model performance may degrade if client behavior patterns shift rapidly
 - Training data reflects Veridian AI's legacy client base only; model performance for Emyzer Technology's client segments (hardware and managed services clients) has not been validated
 
@@ -95,8 +95,8 @@ The AI Governance Committee reviewed the classification rationale at its 2025-06
 | Conformity assessment (Article 9 [VERIFY]) | In Progress | AI-GOV-CA-PCM-001 | Initiated 2025-06-01; target completion 2025-09-30 |
 | Technical documentation (Article 11 [VERIFY]) | Partial | AI-GOV-TD-PCM-001-DRAFT | Engineering documentation partially available from Veridian AI; gaps being remediated |
 | Human oversight protocol (Article 14 [VERIFY]) | Documented | AI-GOV-HO-PCM-001 | Human override procedure documented; CS managers can suppress or override score-triggered workflows |
-| Post-market monitoring (Article 72 [VERIFY]) | Active | GRC Platform — PCM-001 Monitoring | Monthly performance review; quarterly drift assessment; Q1 2025 baseline established |
-| Operator training | Complete | LMS — PCM-001 Training Module | 23 designated operators trained; 100% completion (see training completion record) |
+| Post-market monitoring (Article 72 [VERIFY]) | Active | GRC Platform: PCM-001 Monitoring | Monthly performance review; quarterly drift assessment; Q1 2025 baseline established |
+| Operator training | Complete | LMS: PCM-001 Training Module | 23 designated operators trained; 100% completion (see training completion record) |
 | Training data governance (Article 10 [VERIFY]) | Gap | — | DPO review in progress; retention schedule not yet documented |
 
 ---
@@ -109,12 +109,12 @@ The AI Governance Committee reviewed the classification rationale at its 2025-06
 |---|---|
 | **System ID** | CRT-001 |
 | **Full System Name** | AI-Assisted Contract Review Tool |
-| **Business Domain** | Legal — Contract Review and Risk Assessment |
+| **Business Domain** | Legal: Contract Review and Risk Assessment |
 | **Origin** | Veridian AI (acquired Q4 2024) |
 | **Acquisition Date** | 2024-Q4 |
 | **EU AI Act Risk Tier** | **High-Risk** [VERIFY: Annex III applicability to legal decision-support AI tools; precautionary classification confirmed by AI Governance Committee pending implementing act guidance] |
 | **AI System Owner** | General Counsel |
-| **Deployment Status** | Active — **restricted use** pending DPA execution with LLM API vendor |
+| **Deployment Status** | Active: **restricted use** pending DPA execution with LLM API vendor |
 | **Use Restriction** | Tool may only be used for contracts containing no personal data or commercially sensitive third-party information pending DPA execution (interim measure from 2025-01-15) |
 | **Deployment Environment** | Internal cloud preprocessing layer (Emyzer Nexus AWS tenancy) + external LLM API call |
 
@@ -126,14 +126,14 @@ The AI Governance Committee reviewed the classification rationale at its 2025-06
 | **Model Architecture** | Third-party foundation model accessed via API; custom system prompt engineering; document segmentation preprocessing layer; output parsing and formatting layer |
 | **Input Processing** | PDF and DOCX contract documents ingested via preprocessing pipeline; documents segmented into clause-level chunks; each chunk submitted to LLM API with structured prompt context |
 | **Output Format** | Clause-by-clause analysis (plain language summary of each clause); flagged anomalies (clauses deviating from standard templates); negotiation suggestions (areas where clause terms are unfavourable); compliance risk flags (potential conflicts with regulatory requirements) |
-| **Output Consumers** | Legal team only (8 designated operators); outputs treated as first-pass analysis only — all outputs require solicitor review before acting |
-| **Third-Party Dependency** | External LLM API — **CRITICAL DEPENDENCY** — vendor identity redacted pending contract review and DPA execution; tool is entirely non-functional if the API is unavailable, discontinued, or access is revoked |
-| **Sub-processor Chains** | LLM API vendor may use sub-processors for model hosting; sub-processor list not yet obtained — gap identified |
-| **Data Transmitted to External API** | Contract document text (clauses, commercial terms, party names, consideration amounts, conditions) — may include personal data and commercially sensitive third-party information |
+| **Output Consumers** | Legal team only (8 designated operators); outputs treated as first-pass analysis only: all outputs require solicitor review before acting |
+| **Third-Party Dependency** | External LLM API, **CRITICAL DEPENDENCY**, vendor identity redacted pending contract review and DPA execution; tool is entirely non-functional if the API is unavailable, discontinued, or access is revoked |
+| **Sub-processor Chains** | LLM API vendor may use sub-processors for model hosting; sub-processor list not yet obtained: gap identified |
+| **Data Transmitted to External API** | Contract document text (clauses, commercial terms, party names, consideration amounts, conditions): may include personal data and commercially sensitive third-party information |
 
 #### Classification Rationale
 
-CRT-001 is classified as High-Risk under the EU AI Act [VERIFY] on the basis of the precautionary principle. The tool's outputs directly inform legal decisions with material financial and operational consequences: contract terms accepted or rejected on the basis of CRT-001 analysis may affect obligations worth hundreds of thousands of euros. The AI Governance Committee assessed that the risk profile — including the third-party LLM API dependency, the opacity of the model's reasoning, and the potential for confident but incorrect legal analysis (hallucination) — warranted High-Risk classification and the corresponding conformity obligations.
+CRT-001 is classified as High-Risk under the EU AI Act [VERIFY] on the basis of the precautionary principle. The tool's outputs directly inform legal decisions with material financial and operational consequences: contract terms accepted or rejected on the basis of CRT-001 analysis may affect obligations worth hundreds of thousands of euros. The AI Governance Committee assessed that the risk profile, including the third-party LLM API dependency, the opacity of the model's reasoning, and the potential for confident but incorrect legal analysis (hallucination), warranted High-Risk classification and the corresponding conformity obligations.
 
 **[VERIFY: Legal Counsel to assess whether CRT-001 falls within an Annex III category or whether the High-Risk classification is a voluntary precautionary election. Confirm treatment under EU AI Act Article 6 [VERIFY] if voluntary. Note that voluntary High-Risk classification triggers full conformity obligations.]**
 
@@ -149,11 +149,11 @@ CRT-001 is classified as High-Risk under the EU AI Act [VERIFY] on the basis of 
 | Governance Obligation | Status | Evidence Reference | Notes |
 |---|---|---|---|
 | Conformity assessment (Article 9 [VERIFY]) | In Progress | AI-GOV-CA-CRT-001 | Initiated 2025-06-01; complex due to third-party API dependency; target 2025-12-31 |
-| Technical documentation (Article 11 [VERIFY]) | **Gap — Critical** | — | Third-party API technical documentation not available; Emyzer Nexus cannot produce full Article 11 documentation without vendor cooperation |
+| Technical documentation (Article 11 [VERIFY]) | **Gap: Critical** | — | Third-party API technical documentation not available; Emyzer Nexus cannot produce full Article 11 documentation without vendor cooperation |
 | Human oversight protocol (Article 14 [VERIFY]) | Documented | AI-GOV-HO-CRT-001 | Mandatory solicitor review of all outputs; override policy: all CRT-001 analysis treated as advisory only |
-| Post-market monitoring (Article 72 [VERIFY]) | **Partial** | GRC Platform — CRT-001 | Output quality sampling programme in place; hallucination rate tracking; API availability monitoring |
-| Operator training | Complete | LMS — CRT-001 Training Module | 8 designated Legal operators trained; training includes hallucination awareness and override protocol |
-| Data processing agreement (GDPR Art.28 [VERIFY]) | **Gap — Critical** | — | DPA with LLM API vendor not yet executed; use restriction in effect; DPA target: 2025-09-30 |
+| Post-market monitoring (Article 72 [VERIFY]) | **Partial** | GRC Platform: CRT-001 | Output quality sampling programme in place; hallucination rate tracking; API availability monitoring |
+| Operator training | Complete | LMS: CRT-001 Training Module | 8 designated Legal operators trained; training includes hallucination awareness and override protocol |
+| Data processing agreement (GDPR Art.28 [VERIFY]) | **Gap: Critical** | — | DPA with LLM API vendor not yet executed; use restriction in effect; DPA target: 2025-09-30 |
 | LLM API vendor due diligence | In Progress | SR-2025-001 | AI-specific due diligence initiated; approved with conditions pending DPA |
 
 ---
@@ -175,7 +175,7 @@ CRT-001 is classified as High-Risk under the EU AI Act [VERIFY] on the basis of 
 |---|---|---|---|---|
 | Risk Management System | Article 9 [VERIFY] | Establish and maintain an AI risk management system throughout the lifecycle; identify, estimate, evaluate, and adopt risk mitigation measures | In Progress | In Progress |
 | Data Governance | Article 10 [VERIFY] | Training, validation, and test data meets quality requirements; data provenance documented; biases examined; relevance and completeness assessed | Gap (provenance incomplete) | Gap (API training data unknown) |
-| Technical Documentation | Article 11 [VERIFY] | Complete technical documentation maintained before deployment; kept up-to-date; available to authorities on request | Partial | Gap — Critical |
+| Technical Documentation | Article 11 [VERIFY] | Complete technical documentation maintained before deployment; kept up-to-date; available to authorities on request | Partial | Gap: Critical |
 | Transparency to Deployers | Article 13 [VERIFY] | System provides sufficient transparency for deployers to interpret outputs; instructions for use; capability and limitation disclosure | Partial (no individual explanation) | Partial (limitation disclosures in operator training) |
 | Human Oversight | Article 14 [VERIFY] | Human oversight measures enabling monitoring, intervention, override, and system suspension | Documented | Documented |
 | Accuracy, Robustness, Cybersecurity | Article 15 [VERIFY] | Declared performance level; resilience to errors and adversarial inputs; cybersecurity measures | Partial (performance baselined; adversarial testing not completed) | Gap (cannot test opaque third-party model) |

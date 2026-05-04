@@ -13,7 +13,7 @@
 | **Version** | 1.0 |
 | **Effective Date** | 2024-09-01 |
 | **Review Date** | 2025-09-01 |
-| **Classification** | Restricted — Distribution Limited to Crisis Management Team and Named Alternates |
+| **Classification** | Restricted: Distribution Limited to Crisis Management Team and Named Alternates |
 | **Owner** | Business Continuity Manager (Susan Orwell) |
 | **Approved By** | Chief Executive Officer |
 | **Framework Alignment** | [ISO 22301:2019](https://www.iso.org/standard/75106.html) [VERIFY], [NIST SP 800-34 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final) [VERIFY] |
@@ -53,18 +53,18 @@ This plan is aligned to ISO 22301:2019 Clause 8.3 [VERIFY] (Business continuity 
 
 The plan serves three primary functions:
 
-1. **Activation guide** — provides structured criteria and authority for declaring a business continuity incident and activating the CMT.
-2. **Operational playbook** — provides numbered, step-by-step recovery procedures for each business function tier, enabling execution under pressure without reliance on institutional memory.
-3. **Governance record** — documents the testing regime, maintenance cycle, and evidence requirements necessary to demonstrate ongoing ISO 22301 compliance.
+1. **Activation guide**: provides structured criteria and authority for declaring a business continuity incident and activating the CMT.
+2. **Operational playbook**: provides numbered, step-by-step recovery procedures for each business function tier, enabling execution under pressure without reliance on institutional memory.
+3. **Governance record**: documents the testing regime, maintenance cycle, and evidence requirements necessary to demonstrate ongoing ISO 22301 compliance.
 
 ### 1.2 Scope
 
 This plan applies to all critical and essential business processes across all Emyzer Technology operational regions, spanning Asia Pacific, the Americas, Europe, the Middle East, and Africa. It covers disruptions to:
 
-- **Technology** — including cloud infrastructure, enterprise applications, end-user computing, and network services;
-- **People** — including simultaneous unavailability of key personnel, public health incidents, and industrial action;
-- **Premises** — including loss of or inaccessibility to office facilities, data centres, and manufacturing sites;
-- **Suppliers** — including failure of Tier 1 suppliers whose unavailability would directly impair a Tier 1 or Tier 2 business function.
+- **Technology**: including cloud infrastructure, enterprise applications, end-user computing, and network services;
+- **People**: including simultaneous unavailability of key personnel, public health incidents, and industrial action;
+- **Premises**: including loss of or inaccessibility to office facilities, data centres, and manufacturing sites;
+- **Suppliers**: including failure of Tier 1 suppliers whose unavailability would directly impair a Tier 1 or Tier 2 business function.
 
 This plan does not replace departmental recovery plans (referenced in Annexes A through D) but takes precedence over them during a declared incident. Disaster recovery (DR) procedures for IT infrastructure are detailed in Section 8 and the separate IT Disaster Recovery Runbooks held by the IT Recovery Lead.
 
@@ -109,7 +109,7 @@ Recovery objectives are derived from the Business Impact Analysis Report (BC-BIA
 
 **Priority Tier classification** is drawn directly from the BIA four-tier prioritisation framework:
 
-### Tier 1 — Mission Critical (RTO ≤ 4 hours)
+### Tier 1: Mission Critical (RTO ≤ 4 hours)
 
 | # | Business Function | Description | MTPD | RTO | RPO | Priority Tier |
 |---|-------------------|-------------|------|-----|-----|---------------|
@@ -118,7 +118,7 @@ Recovery objectives are derived from the Business Impact Analysis Report (BC-BIA
 | 1.3 | Security Operations Monitoring | 24×7 SOC monitoring and alerting for 180 enterprise clients; any gap creates direct liability | 2 hours | 1 hour | 0 hours (real-time) | Tier 1 |
 | 1.4 | Financial Transaction Processing | Payment processing, payroll, and regulatory financial reporting; $180M monthly throughput | 4 hours | 4 hours | 2 hours | Tier 1 |
 
-### Tier 2 — Business Critical (RTO ≤ 24 hours)
+### Tier 2: Business Critical (RTO ≤ 24 hours)
 
 | # | Business Function | Description | MTPD | RTO | RPO | Priority Tier |
 |---|-------------------|-------------|------|-----|-----|---------------|
@@ -126,7 +126,7 @@ Recovery objectives are derived from the Business Impact Analysis Report (BC-BIA
 | 2.2 | HR and Payroll Processing | Employee administration and payroll execution; time-critical around pay cycle | 48 hours | 24 hours | 24 hours | Tier 2 |
 | 2.3 | Email and Collaboration | Internal and external email, video conferencing, document collaboration | 8 hours | 4 hours | 2 hours | Tier 2 |
 
-### Tier 3 — Business Important (RTO ≤ 72 hours)
+### Tier 3: Business Important (RTO ≤ 72 hours)
 
 | # | Business Function | Description | MTPD | RTO | RPO | Priority Tier |
 |---|-------------------|-------------|------|-----|-----|---------------|
@@ -134,7 +134,7 @@ Recovery objectives are derived from the Business Impact Analysis Report (BC-BIA
 | 3.2 | Procurement and Supply Chain | Vendor management, purchase orders, and logistics coordination | 5 days | 72 hours | 24 hours | Tier 3 |
 | 3.3 | Marketing and Communications | Brand management, campaign execution, and external communications | 7 days | 72 hours | 48 hours | Tier 3 |
 
-### Tier 4 — Business Support (RTO ≤ 5 days)
+### Tier 4: Business Support (RTO ≤ 5 days)
 
 | # | Business Function | Description | MTPD | RTO | RPO | Priority Tier |
 |---|-------------------|-------------|------|-----|-----|---------------|
@@ -203,25 +203,25 @@ Step 5: All affected staff notified by HR Lead
         Target: Within 2 hours of activation, or sooner if safety-relevant
 ```
 
-**Primary Notification Channel:** ServiceNow Major Incident process — auto-generates tickets, assigns recovery tasks, and maintains audit log of all notifications and status updates.
+**Primary Notification Channel:** ServiceNow Major Incident process: auto-generates tickets, assigns recovery tasks, and maintains audit log of all notifications and status updates.
 
 **Backup Notification Channel:** Direct phone contact using the CMT contact list (Section 4) followed by the emergency email distribution list held by the BC Manager. The emergency distribution list includes all CMT members, alternates, department heads, and IT recovery team members.
 
 **If email systems are unavailable:** HR Lead activates the manager cascade phone tree. Each manager is responsible for confirming contact with their direct reports within 2 hours.
 
-### 5.2 External Notification — Customers
+### 5.2 External Notification: Customers
 
 All external customer communications during an active incident require approval from the Communications Lead and are logged in the Customer Notification Register maintained in ServiceNow.
 
 | Scenario | Notification Trigger | Responsible Party | Method | Template |
 |----------|---------------------|-------------------|--------|----------|
-| RTO breach — Tier 1 managed service | RTO for affected function breached | Account Management (directed by Comms Lead) | Email + phone to named customer contacts | Template EXT-01 (below) |
+| RTO breach: Tier 1 managed service | RTO for affected function breached | Account Management (directed by Comms Lead) | Email + phone to named customer contacts | Template EXT-01 (below) |
 | Planned maintenance during recovery | Prior to any maintenance window extending downtime | Account Management | Email | Template EXT-02 |
 | Recovery confirmed | Function restored to full service | Account Management | Email | Template EXT-03 |
 | SLA credit notification | Post-incident within 5 business days | Account Management + Finance | Formal letter | Template EXT-04 |
 
-**Template EXT-01 — RTO Breach Notification (Draft):**
-> Subject: Service Impact Notification — [Service Name] — [Date]
+**Template EXT-01: RTO Breach Notification (Draft):**
+> Subject: Service Impact Notification, [Service Name], [Date]
 >
 > Dear [Customer Name],
 >
@@ -229,16 +229,16 @@ All external customer communications during an active incident require approval 
 >
 > For urgent assistance, please contact your designated Account Manager at [REDACTED] or our incident line at [REDACTED].
 >
-> — Emyzer Technology Crisis Management Team
+>: Emyzer Technology Crisis Management Team
 
-**Template EXT-03 — Recovery Confirmation (Draft):**
-> Subject: Service Restored — [Service Name] — [Date]
+**Template EXT-03: Recovery Confirmation (Draft):**
+> Subject: Service Restored, [Service Name], [Date]
 >
 > Dear [Customer Name],
 >
 > We are pleased to confirm that [Service Name] has been fully restored as of [Time] on [Date]. The incident affecting your service has been resolved. A full post-incident report will be provided within 5 business days. If you have any questions or concerns, please contact your Account Manager.
 >
-> — Emyzer Technology Crisis Management Team
+>: Emyzer Technology Crisis Management Team
 
 **Affected client list:** Maintained by Account Management in Salesforce CRM. During a system outage, the BC Manager holds an offline backup export (last updated at each DR test).
 
@@ -275,13 +275,13 @@ The Communications Lead maintains a media monitoring log during active incidents
 
 **Scenario:** Unplanned outage, system failure, data corruption, or infrastructure unavailability affecting Tier 1 or Tier 2 systems.
 
-**Primary Recovery Strategy — AWS Failover:**
+**Primary Recovery Strategy: AWS Failover:**
 - Tier 1 systems are pre-configured for active-active or active-passive failover to the AWS secondary region (designated DR region, maintained at parity with production).
 - Failover is automated for Tier 1 systems (Cloud Service Management, Security Operations); manual invocation is required for Tier 2 systems.
 - Target: Tier 1 system recovery within 2 hours of activation; Tier 2 within 8 hours.
 - DNS failover is pre-configured; propagation window of 5–15 minutes is included in RTO calculations.
 
-**Backup Recovery Strategy — Restore from Immutable Backup:**
+**Backup Recovery Strategy: Restore from Immutable Backup:**
 - All critical systems maintain immutable backups in AWS S3 with Object Lock enabled (WORM configuration).
 - Backup frequency and RPO alignment per system are documented in Section 8.2.
 - Restore process is invoked if failover to secondary region fails or if the outage affects both primary and secondary environments simultaneously.
@@ -292,7 +292,7 @@ The Communications Lead maintains a media monitoring log during active incidents
 - Manual procedures are held in printed form at each recovery site and in the BC Manager's offline recovery pack.
 - Manual fallback covers: customer incident logging via phone, financial transaction approval via manual sign-off, and security monitoring via manual log review from isolated terminal.
 
-**Escalation — DR Environment Unavailable:**
+**Escalation: DR Environment Unavailable:**
 - If both primary and DR environments are unavailable, the IT Recovery Lead invokes the Emergency Change Process to provision temporary infrastructure using pre-approved AWS CloudFormation templates.
 - Emergency provisioning target: basic Tier 1 capability within 4 hours.
 - Emergency infrastructure costs are pre-approved up to [REDACTED] without additional CFO authorisation.
@@ -307,8 +307,8 @@ The Communications Lead maintains a media monitoring log during active incidents
 - The HR Lead confirms remote working readiness at each annual communication cascade test.
 
 **Alternative Recovery Sites:**
-- **Recovery Site A — [Region A]:** Designated recovery facility with capacity for [REDACTED] critical team members, equipped with secure workstations, dedicated MPLS connectivity, and conference facilities. Maintained under standing arrangement with facilities provider.
-- **Recovery Site B — [Region B]:** Secondary recovery facility as above. Used where Region A is also affected or at capacity.
+- **Recovery Site A: [Region A]:** Designated recovery facility with capacity for [REDACTED] critical team members, equipped with secure workstations, dedicated MPLS connectivity, and conference facilities. Maintained under standing arrangement with facilities provider.
+- **Recovery Site B: [Region B]:** Secondary recovery facility as above. Used where Region A is also affected or at capacity.
 - Allocation of seats at recovery sites is prioritised by business function tier: Tier 1 functions receive first allocation; Tier 2 receive second; Tier 3 and 4 staff work remotely where possible.
 - Recovery site activation is managed by the Operations Lead in coordination with the HR Lead.
 
@@ -380,17 +380,17 @@ Tier 1 recovery procedures are to be initiated immediately upon BCP activation. 
 
 | Step | Action | Owner | Acceptance Criteria | Target Time |
 |------|--------|-------|---------------------|-------------|
-| 1 | Confirm scope of outage — identify affected services, customer accounts, and geographic regions; document in ServiceNow incident ticket | IT Recovery Lead | Scope confirmed and documented | T+0:15 |
-| 2 | Activate AWS regional failover — execute pre-validated failover runbook for cloud service stack (CloudFormation stack set, Route 53 failover routing policy) | Cloud Platform Team | Failover initiated; confirmation in AWS Console and runbook checklist | T+0:30 |
-| 3 | Confirm DNS propagation — verify failover DNS records are resolving correctly from at least 3 external monitoring locations | Cloud Platform Team | DNS propagation confirmed; no resolution errors | T+0:45 |
-| 4 | Validate core service functionality — execute smoke tests against all Tier 1 managed service components in DR environment | Cloud Platform Team | All smoke tests pass; no critical errors in application logs | T+1:15 |
-| 5 | Restore from backup (if failover insufficient or data inconsistency detected) — identify latest clean recovery point; initiate restore from immutable S3 backup | IT Recovery Lead | RPO confirmed as met; data integrity verified | T+1:30 |
-| 6 | Notify affected managed services clients — Account Management to send Template EXT-01 to all affected customer contacts; log in Customer Notification Register | Communications Lead / Account Management | All affected clients notified; notification log updated | T+1:30 |
-| 7 | Validate monitoring dashboards — confirm CloudWatch, Datadog, and ServiceNow dashboards are receiving telemetry from DR environment; alert thresholds verified | Cloud Platform Team | All dashboards operational; no false alert suppression | T+1:45 |
-| 8 | Confirm recovery to BC Manager — IT Recovery Lead provides written status update confirming recovery completion or revised ETA | IT Recovery Lead | Written update sent and acknowledged | T+2:00 |
-| 9 | Begin post-incident logging — document timeline, actions taken, and deviations from this procedure | BC Manager | Incident log updated in ServiceNow | Ongoing |
+| 1 | Confirm scope of outage: identify affected services, customer accounts, and geographic regions; document in ServiceNow incident ticket | IT Recovery Lead | Scope confirmed and documented | T+0:15 |
+| 2 | Activate AWS regional failover: execute pre-validated failover runbook for cloud service stack (CloudFormation stack set, Route 53 failover routing policy) | Cloud Platform Team | Failover initiated; confirmation in AWS Console and runbook checklist | T+0:30 |
+| 3 | Confirm DNS propagation: verify failover DNS records are resolving correctly from at least 3 external monitoring locations | Cloud Platform Team | DNS propagation confirmed; no resolution errors | T+0:45 |
+| 4 | Validate core service functionality: execute smoke tests against all Tier 1 managed service components in DR environment | Cloud Platform Team | All smoke tests pass; no critical errors in application logs | T+1:15 |
+| 5 | Restore from backup (if failover insufficient or data inconsistency detected): identify latest clean recovery point; initiate restore from immutable S3 backup | IT Recovery Lead | RPO confirmed as met; data integrity verified | T+1:30 |
+| 6 | Notify affected managed services clients: Account Management to send Template EXT-01 to all affected customer contacts; log in Customer Notification Register | Communications Lead / Account Management | All affected clients notified; notification log updated | T+1:30 |
+| 7 | Validate monitoring dashboards: confirm CloudWatch, Datadog, and ServiceNow dashboards are receiving telemetry from DR environment; alert thresholds verified | Cloud Platform Team | All dashboards operational; no false alert suppression | T+1:45 |
+| 8 | Confirm recovery to BC Manager: IT Recovery Lead provides written status update confirming recovery completion or revised ETA | IT Recovery Lead | Written update sent and acknowledged | T+2:00 |
+| 9 | Begin post-incident logging: document timeline, actions taken, and deviations from this procedure | BC Manager | Incident log updated in ServiceNow | Ongoing |
 
-**Manual fallback (if DR environment unavailable):** Activate manual client management procedure — assign dedicated account managers to all P1 clients; log incidents via phone; maintain manual status board; valid for maximum 8 hours pending emergency infrastructure provisioning.
+**Manual fallback (if DR environment unavailable):** Activate manual client management procedure: assign dedicated account managers to all P1 clients; log incidents via phone; maintain manual status board; valid for maximum 8 hours pending emergency infrastructure provisioning.
 
 ---
 
@@ -398,16 +398,16 @@ Tier 1 recovery procedures are to be initiated immediately upon BCP activation. 
 
 **Recovery owner:** Security Lead (CISO)
 **Support:** SOC Team (minimum 3 analysts + 1 senior engineer)
-**RTO:** 1 hour | **RPO:** Real-time (0 hours — no monitoring gap acceptable)
+**RTO:** 1 hour | **RPO:** Real-time (0 hours: no monitoring gap acceptable)
 
 | Step | Action | Owner | Acceptance Criteria | Target Time |
 |------|--------|-------|---------------------|-------------|
-| 1 | Activate bridge call — CISO convenes SOC team and confirms incident scope; assess whether primary SIEM is unavailable or compromised | CISO | All available SOC staff on bridge; scope documented | T+0:10 |
-| 2 | Redirect SIEM ingestion — configure log sources (firewalls, EDR, cloud logs) to forward to secondary SIEM collector in DR environment; validate syslog/API forwarding | Senior SOC Engineer | All Tier 1 log sources confirmed forwarding to secondary collector | T+0:25 |
-| 3 | Activate DR SIEM environment — bring up secondary SIEM (pre-configured warm standby) in isolated AWS account; confirm platform health | Senior SOC Engineer | DR SIEM platform responding; ingestion confirmed | T+0:35 |
-| 4 | Validate alert thresholds and detection rules — confirm correlation rules, alert thresholds, and watchlist feeds are active and correctly configured in DR SIEM | Senior SOC Engineer | Rule set confirmed; test alert generated and received | T+0:45 |
-| 5 | Brief on-call security engineer — CISO or senior analyst briefs on-call engineer on current incident context, known indicators of compromise, and any concurrent threat intelligence | CISO | Briefing confirmed and logged | T+0:50 |
-| 6 | Notify managed security clients of monitoring continuity — if any monitoring gap occurred, notify affected clients per communication template | CISO / Account Management | Client notifications sent and logged | T+1:00 |
+| 1 | Activate bridge call: CISO convenes SOC team and confirms incident scope; assess whether primary SIEM is unavailable or compromised | CISO | All available SOC staff on bridge; scope documented | T+0:10 |
+| 2 | Redirect SIEM ingestion: configure log sources (firewalls, EDR, cloud logs) to forward to secondary SIEM collector in DR environment; validate syslog/API forwarding | Senior SOC Engineer | All Tier 1 log sources confirmed forwarding to secondary collector | T+0:25 |
+| 3 | Activate DR SIEM environment: bring up secondary SIEM (pre-configured warm standby) in isolated AWS account; confirm platform health | Senior SOC Engineer | DR SIEM platform responding; ingestion confirmed | T+0:35 |
+| 4 | Validate alert thresholds and detection rules: confirm correlation rules, alert thresholds, and watchlist feeds are active and correctly configured in DR SIEM | Senior SOC Engineer | Rule set confirmed; test alert generated and received | T+0:45 |
+| 5 | Brief on-call security engineer: CISO or senior analyst briefs on-call engineer on current incident context, known indicators of compromise, and any concurrent threat intelligence | CISO | Briefing confirmed and logged | T+0:50 |
+| 6 | Notify managed security clients of monitoring continuity: if any monitoring gap occurred, notify affected clients per communication template | CISO / Account Management | Client notifications sent and logged | T+1:00 |
 | 7 | Confirm recovery to BC Manager | CISO | Written confirmation sent | T+1:00 |
 
 **Monitoring gap protocol:** If any monitoring gap occurs (no matter how brief), the CISO must assess whether any security events may have been missed during the gap and conduct a compensating review of available logs from adjacent systems.
@@ -422,13 +422,13 @@ Tier 1 recovery procedures are to be initiated immediately upon BCP activation. 
 
 | Step | Action | Owner | Acceptance Criteria | Target Time |
 |------|--------|-------|---------------------|-------------|
-| 1 | Assess impact — confirm which financial systems are affected; determine if outage is infrastructure-layer or application-layer; confirm last clean backup timestamp | CFO / IT Recovery Lead | Impact scope confirmed; backup timestamp documented | T+0:20 |
-| 2 | Switch to read-only mode — instruct all finance staff to take no transactional actions in any partially available systems; confirm in writing | CFO | All finance staff confirmed on read-only standing; log entry created | T+0:30 |
-| 3 | Activate manual approval process — for all transactions greater than £10,000, CFO manual sign-off required via documented paper or secure email; designated finance manager for sub-£10K | CFO | Manual approval process communicated to all Finance staff | T+0:45 |
-| 4 | Isolate payment processing — instruct banking partner to hold all automated payment runs pending system recovery; obtain confirmation reference | CFO / Finance Director | Banking partner hold confirmed in writing | T+1:00 |
-| 5 | Initiate system recovery — IT Recovery Lead activates ERP failover to DR instance; confirm data integrity at RPO point | IT Recovery Lead | ERP DR instance online; RPO validated (last clean checkpoint within 2 hours) | T+2:00 |
-| 6 | Reconcile transactions since RPO — Finance team manually reconciles any transactions that occurred after RPO checkpoint using paper records and bank statements | Finance Director | Reconciliation log completed and reviewed by CFO | T+3:00 |
-| 7 | Resume automated processing — CFO confirms all manual transaction records reconciled before re-enabling automated payment runs | CFO | Authorisation confirmation signed and filed | T+4:00 |
+| 1 | Assess impact: confirm which financial systems are affected; determine if outage is infrastructure-layer or application-layer; confirm last clean backup timestamp | CFO / IT Recovery Lead | Impact scope confirmed; backup timestamp documented | T+0:20 |
+| 2 | Switch to read-only mode: instruct all finance staff to take no transactional actions in any partially available systems; confirm in writing | CFO | All finance staff confirmed on read-only standing; log entry created | T+0:30 |
+| 3 | Activate manual approval process: for all transactions greater than £10,000, CFO manual sign-off required via documented paper or secure email; designated finance manager for sub-£10K | CFO | Manual approval process communicated to all Finance staff | T+0:45 |
+| 4 | Isolate payment processing: instruct banking partner to hold all automated payment runs pending system recovery; obtain confirmation reference | CFO / Finance Director | Banking partner hold confirmed in writing | T+1:00 |
+| 5 | Initiate system recovery: IT Recovery Lead activates ERP failover to DR instance; confirm data integrity at RPO point | IT Recovery Lead | ERP DR instance online; RPO validated (last clean checkpoint within 2 hours) | T+2:00 |
+| 6 | Reconcile transactions since RPO: Finance team manually reconciles any transactions that occurred after RPO checkpoint using paper records and bank statements | Finance Director | Reconciliation log completed and reviewed by CFO | T+3:00 |
+| 7 | Resume automated processing: CFO confirms all manual transaction records reconciled before re-enabling automated payment runs | CFO | Authorisation confirmation signed and filed | T+4:00 |
 | 8 | Confirm recovery to BC Manager | CFO | Written confirmation sent | T+4:00 |
 
 ---
@@ -443,11 +443,11 @@ Tier 2 recovery is initiated in parallel with Tier 1 where resources allow, but 
 
 | Step | Action | Owner | Target Time |
 |------|--------|-------|-------------|
-| 1 | Confirm scope — assess whether outage is Microsoft 365 tenancy-wide, regional, or application-specific | IT Recovery Lead | T+0:30 |
-| 2 | Engage Microsoft support — open Sev-A support case; obtain ETA for platform restoration | IT Operations | T+0:45 |
-| 3 | Activate backup communication channels — staff directed to use personal mobile for urgent calls; BC Manager activates emergency distribution lists via secondary email provider | HR Lead | T+1:00 |
-| 4 | Restore from backup (if tenant-side issue) — initiate restore of mailbox data from immutable backup; validate RPO | IT Recovery Lead | T+2:00 |
-| 5 | Validate collaboration tools — confirm Teams / SharePoint / OneDrive accessible from DR environment | IT Operations | T+3:30 |
+| 1 | Confirm scope: assess whether outage is Microsoft 365 tenancy-wide, regional, or application-specific | IT Recovery Lead | T+0:30 |
+| 2 | Engage Microsoft support: open Sev-A support case; obtain ETA for platform restoration | IT Operations | T+0:45 |
+| 3 | Activate backup communication channels: staff directed to use personal mobile for urgent calls; BC Manager activates emergency distribution lists via secondary email provider | HR Lead | T+1:00 |
+| 4 | Restore from backup (if tenant-side issue): initiate restore of mailbox data from immutable backup; validate RPO | IT Recovery Lead | T+2:00 |
+| 5 | Validate collaboration tools: confirm Teams / SharePoint / OneDrive accessible from DR environment | IT Operations | T+3:30 |
 | 6 | Confirm recovery to BC Manager | IT Recovery Lead | T+4:00 |
 
 ---
@@ -456,10 +456,10 @@ Tier 2 recovery is initiated in parallel with Tier 1 where resources allow, but 
 
 | Step | Action | Owner | Target Time |
 |------|--------|-------|-------------|
-| 1 | Confirm CRM availability — assess Salesforce (or primary CRM) accessibility; determine if platform-side or integration issue | IT Recovery Lead | T+1:00 |
-| 2 | Activate offline CRM export — distribute most recent CRM data export (maintained by Sales Operations; updated weekly) to sales leadership; sales activity continues against offline record | VP Sales | T+2:00 |
-| 3 | Restore CRM integrations — re-establish data flows from ERP and email to CRM; validate integration health | IT Operations | T+5:00 |
-| 4 | Reconcile offline activity — sales staff log any CRM activity conducted offline; data reconciliation completed post-recovery | Sales Operations | T+8:00 |
+| 1 | Confirm CRM availability: assess Salesforce (or primary CRM) accessibility; determine if platform-side or integration issue | IT Recovery Lead | T+1:00 |
+| 2 | Activate offline CRM export: distribute most recent CRM data export (maintained by Sales Operations; updated weekly) to sales leadership; sales activity continues against offline record | VP Sales | T+2:00 |
+| 3 | Restore CRM integrations: re-establish data flows from ERP and email to CRM; validate integration health | IT Operations | T+5:00 |
+| 4 | Reconcile offline activity: sales staff log any CRM activity conducted offline; data reconciliation completed post-recovery | Sales Operations | T+8:00 |
 | 5 | Confirm recovery to BC Manager | Operations Lead | T+8:00 |
 
 ---
@@ -468,10 +468,10 @@ Tier 2 recovery is initiated in parallel with Tier 1 where resources allow, but 
 
 | Step | Action | Owner | Target Time |
 |------|--------|-------|-------------|
-| 1 | Assess pay cycle proximity — HR Lead determines whether payroll run is due within 48 hours; if yes, escalate to Tier 1 treatment | HR Lead | T+1:00 |
-| 2 | Notify payroll provider — if using managed payroll service, notify provider of system unavailability; obtain commitment for manual payroll processing if required | HR Lead | T+2:00 |
-| 3 | Activate HR data offline pack — HR Lead holds encrypted offline copy of employee master data and current payroll configuration | HR Lead | T+2:00 |
-| 4 | Restore HRIS from DR — IT Recovery Lead initiates HRIS restore from immutable backup; validate data integrity | IT Recovery Lead | T+12:00 |
+| 1 | Assess pay cycle proximity: HR Lead determines whether payroll run is due within 48 hours; if yes, escalate to Tier 1 treatment | HR Lead | T+1:00 |
+| 2 | Notify payroll provider: if using managed payroll service, notify provider of system unavailability; obtain commitment for manual payroll processing if required | HR Lead | T+2:00 |
+| 3 | Activate HR data offline pack: HR Lead holds encrypted offline copy of employee master data and current payroll configuration | HR Lead | T+2:00 |
+| 4 | Restore HRIS from DR: IT Recovery Lead initiates HRIS restore from immutable backup; validate data integrity | IT Recovery Lead | T+12:00 |
 | 5 | Confirm recovery and reconcile any offline changes | HR Lead | T+24:00 |
 
 ---
@@ -520,7 +520,7 @@ Databases supporting Tier 1 systems must be recovered before dependent applicati
 | Financial Ledger DB | ERP (finance module) | Incremental every 15 min; full daily | 15-minute incremental; daily full | 2 hours | Restore from latest pre-incident snapshot + apply transaction logs to RPO point | CFO sign-off on data integrity; reconcile against payment gateway records |
 | CRM DB | Salesforce / CRM | Platform-native backup (daily export + Salesforce Backup) | Daily | 4 hours | Restore from Salesforce Backup or daily export | Validate record counts; confirm integrations reconnected |
 | HRIS DB | HR platform | Daily full backup | Daily | 24 hours | Restore from daily backup | HR Lead validates employee count and payroll configuration |
-| ServiceNow Ticketing | Support / ITSM | ServiceNow cloud SaaS — provider-managed | Per platform SLA | Per platform SLA | Engage ServiceNow support; activate offline ticket log | Confirm ticket routing and assignment rules active |
+| ServiceNow Ticketing | Support / ITSM | ServiceNow cloud SaaS: provider-managed | Per platform SLA | Per platform SLA | Engage ServiceNow support; activate offline ticket log | Confirm ticket routing and assignment rules active |
 
 **Database recovery protocol:**
 1. IT Recovery Lead identifies latest clean backup point (verified as pre-incident and free from corruption).
@@ -537,12 +537,12 @@ Applications are brought online in dependency order. No application is started u
 | 1 | SIEM / SOC platform | SIEM Events DB, network connectivity | Initiate DR SIEM stack via runbook; validate agent connectivity | Log ingestion confirmed; test alert received |
 | 2 | Cloud orchestration layer | Cloud Services DB, virtualisation platform | Execute CloudFormation stack deployment in DR region | Stack health check passes; VMs online |
 | 3 | Customer-facing cloud APIs | Cloud orchestration layer | Restart API gateway services; validate endpoint health | API smoke tests pass; latency within SLA |
-| 4 | ServiceNow (ITSM) | Network, identity platform | Platform SaaS — verify access; if unavailable engage support | Ticket creation and routing verified |
+| 4 | ServiceNow (ITSM) | Network, identity platform | Platform SaaS: verify access; if unavailable engage support | Ticket creation and routing verified |
 | 5 | Remote access / VPN | Network, identity platform (AD/AAD) | Validate VPN concentrator health; confirm capacity for full remote load | VPN connectivity test from 3 external locations |
-| 6 | Microsoft 365 | Exchange Online, network | Platform SaaS — verify access; if tenant-side restore required, initiate from backup | Email send/receive test; Teams call test |
-| 7 | ERP — finance module | Financial Ledger DB, network | Restart ERP application services; load balanced across DR nodes | CFO test transaction; reconciliation report runs |
+| 6 | Microsoft 365 | Exchange Online, network | Platform SaaS: verify access; if tenant-side restore required, initiate from backup | Email send/receive test; Teams call test |
+| 7 | ERP: finance module | Financial Ledger DB, network | Restart ERP application services; load balanced across DR nodes | CFO test transaction; reconciliation report runs |
 | 8 | CRM | CRM DB, ERP integration | Restart CRM application; re-establish API integrations | Record retrieval test; integration pipeline validated |
-| 9 | ERP — manufacturing module | ERP finance module, MES | Restart manufacturing module; validate production schedule data | Operations Lead validates production data accuracy |
+| 9 | ERP: manufacturing module | ERP finance module, MES | Restart manufacturing module; validate production schedule data | Operations Lead validates production data accuracy |
 | 10 | Non-critical internal apps | All above | Restore to normal operations schedule | Standard UAT by application owners |
 
 ### 8.4 Network Recovery
@@ -551,7 +551,7 @@ Network recovery is prerequisite to all application recovery. The IT Recovery Le
 
 **DNS Recovery:**
 1. Confirm DNS failover routing policy is active in Route 53 (or equivalent).
-2. Validate TTL values have propagated — confirm resolution from at least 3 external resolvers.
+2. Validate TTL values have propagated: confirm resolution from at least 3 external resolvers.
 3. If DNS provider is unavailable, activate backup DNS provider (pre-configured secondary zone).
 4. Update firewall rules to reflect DR environment IP ranges where applicable.
 
@@ -563,7 +563,7 @@ Network recovery is prerequisite to all application recovery. The IT Recovery Le
 **VPN Recovery:**
 1. Confirm VPN concentrator is operational and accessible from external networks.
 2. Validate split-tunnel configuration to ensure corporate traffic routes correctly.
-3. Test capacity — run concurrent connection stress test to validate 100% remote working capacity.
+3. Test capacity: run concurrent connection stress test to validate 100% remote working capacity.
 4. Confirm MFA is enforced for all VPN connections.
 
 **Emergency network access:**
@@ -693,13 +693,13 @@ In addition to the scheduled annual review, a trigger-based review must be initi
 
 | NIST SP 800-34 Phase | Description | BCP Section |
 |---------------------|-------------|-------------|
-| Phase 1 — Develop Contingency Planning Policy | Policy framework for continuity | BC/DR Policy (parent document) |
-| Phase 2 — Conduct Business Impact Analysis | Identify critical systems, outage impacts, recovery priorities | BIA Report (BC-BIA-001); Recovery Objectives (Section 3) |
-| Phase 3 — Identify Preventive Controls | Controls to reduce likelihood and impact of disruption | Section 6 (Recovery Strategies); IT DR configuration |
-| Phase 4 — Create Contingency Strategies | Alternative processing strategies | Sections 6.1–6.5 |
-| Phase 5 — Develop Contingency Plan | Documented recovery procedures | Sections 4–8 |
-| Phase 6 — Plan Testing and Exercises | Validate plan effectiveness | Section 9 |
-| Phase 7 — Plan Maintenance | Keep plan current | Section 10 |
+| Phase 1: Develop Contingency Planning Policy | Policy framework for continuity | BC/DR Policy (parent document) |
+| Phase 2: Conduct Business Impact Analysis | Identify critical systems, outage impacts, recovery priorities | BIA Report (BC-BIA-001); Recovery Objectives (Section 3) |
+| Phase 3: Identify Preventive Controls | Controls to reduce likelihood and impact of disruption | Section 6 (Recovery Strategies); IT DR configuration |
+| Phase 4: Create Contingency Strategies | Alternative processing strategies | Sections 6.1–6.5 |
+| Phase 5: Develop Contingency Plan | Documented recovery procedures | Sections 4–8 |
+| Phase 6: Plan Testing and Exercises | Validate plan effectiveness | Section 9 |
+| Phase 7: Plan Maintenance | Keep plan current | Section 10 |
 
 ---
 
@@ -756,13 +756,13 @@ The following evidence types are maintained to demonstrate ongoing compliance wi
 | **Document ID** | BC-PLAN-001 |
 | **Version** | 1.0 |
 | **Status** | Active |
-| **Classification** | Restricted — Distribution Limited to Crisis Management Team and Named Alternates |
+| **Classification** | Restricted: Distribution Limited to Crisis Management Team and Named Alternates |
 | **Owner** | Business Continuity Manager (Susan Orwell) |
 | **Approved By** | Chief Executive Officer |
 | **Effective Date** | 2024-09-01 |
 | **Next Review** | 2025-09-01 |
 | **Storage Location** | GRC Document Repository; Physical copies at Recovery Sites A and B |
-| **Distribution** | CMT members and named alternates only — see distribution list held by BC Manager |
+| **Distribution** | CMT members and named alternates only: see distribution list held by BC Manager |
 
 > This document is part of Emyzer Technology's Business Continuity Management System (BCMS) and is aligned to ISO 22301:2019 [VERIFY]. It must be reviewed annually and following any BCP activation, significant exercise finding, or material organisational change.
 

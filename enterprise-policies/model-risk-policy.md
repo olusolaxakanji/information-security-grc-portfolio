@@ -26,7 +26,7 @@
 
 ## Description
 
-This policy governs the identification, development, validation, approval, deployment, ongoing monitoring, and retirement of models across Emyzer Nexus and its subsidiaries. It establishes minimum standards for model risk management proportionate to each model's complexity, materiality, and potential for harm — including AI and machine learning models governed at the strategic level by the AI Governance Policy.
+This policy governs the identification, development, validation, approval, deployment, ongoing monitoring, and retirement of models across Emyzer Nexus and its subsidiaries. It establishes minimum standards for model risk management proportionate to each model's complexity, materiality, and potential for harm: including AI and machine learning models governed at the strategic level by the AI Governance Policy.
 
 **Impact:** Unmanaged model risk exposes Emyzer Nexus to material financial loss, flawed business decisions, regulatory breach, and harm to customers and counterparties. This policy operationalises a structured model lifecycle, independent validation function, and tiered monitoring regime to ensure models perform as intended throughout their operational life. It is essential to managing risk inherited through the Veridian AI acquisition, where model documentation, validation status, and ongoing monitoring practices require formal assessment and remediation.
 
@@ -40,7 +40,7 @@ This policy governs the identification, development, validation, approval, deplo
 |-----------|---------|
 | **Applies to** | All Emyzer Nexus business units, subsidiaries (including Emyzer Technology), acquired entities (Veridian AI models), employees, contractors, and third parties involved in model development, validation, deployment, or operation |
 | **Covers** | All quantitative and AI/ML models used to support business decisions, including predictive models, scoring models, statistical models, simulation models, and AI systems classified under the AI Governance Policy |
-| **Model Tiers** | Tier 1 (High), Tier 2 (Medium), Tier 3 (Low) — based on materiality, complexity, and potential for harm |
+| **Model Tiers** | Tier 1 (High), Tier 2 (Medium), Tier 3 (Low): based on materiality, complexity, and potential for harm |
 | **Validation Requirement** | Independent validation required for all Tier 1 and Tier 2 models before deployment and following material change |
 | **Review Cadence** | Annual policy review; model inventory reviewed quarterly; Tier 1 performance reviewed monthly; Tier 2 quarterly; Tier 3 annually |
 | **Key Governance** | CRO owns the program; Model Risk Committee provides oversight; Model Owners manage lifecycle; Model Validation Function conducts independent review |
@@ -53,7 +53,7 @@ This policy governs the identification, development, validation, approval, deplo
 
 To establish the governance framework, minimum standards, and control requirements for model risk management across Emyzer Nexus, ensuring that models are developed with rigour, validated independently, deployed with documented limitations, monitored continuously, and retired in a controlled manner. This policy operationalises the model-specific obligations referenced in the AI Governance Policy and provides the detailed lifecycle controls that govern the Predictive Customer Churn Model and AI-Assisted Contract Review Tool inherited through the Veridian AI acquisition, as well as any models developed or procured thereafter.
 
-Model risk is the risk of adverse outcomes arising from errors in model development, inappropriate use of models, use of models outside their intended scope, failure to account for model limitations, or inadequate monitoring of model performance over time. This policy treats model risk as a distinct and material risk category requiring dedicated governance structures, proportionate controls, and continuous oversight — not as a subset of general operational risk.
+Model risk is the risk of adverse outcomes arising from errors in model development, inappropriate use of models, use of models outside their intended scope, failure to account for model limitations, or inadequate monitoring of model performance over time. This policy treats model risk as a distinct and material risk category requiring dedicated governance structures, proportionate controls, and continuous oversight: not as a subset of general operational risk.
 
 The policy aligns with SR 11-7 (the Federal Reserve and OCC supervisory guidance on model risk management), the NIST AI Risk Management Framework, and the technical documentation, accuracy, and post-market monitoring obligations of the EU AI Act applicable to AI and machine learning models in scope of the AI Governance Policy.
 
@@ -63,7 +63,7 @@ The policy aligns with SR 11-7 (the Federal Reserve and OCC supervisory guidance
 
 ### B.1 In-Scope Models
 
-This policy applies to all quantitative models and AI/ML systems used by Emyzer Nexus to inform business decisions, generate customer-facing outputs, support risk management, or fulfil regulatory obligations. A **model**, for the purposes of this policy, is any quantitative method, system, or approach — including statistical, mathematical, machine learning, or AI-based methods — that processes input data to generate outputs used to support business decisions or generate outputs with real-world consequences.
+This policy applies to all quantitative models and AI/ML systems used by Emyzer Nexus to inform business decisions, generate customer-facing outputs, support risk management, or fulfil regulatory obligations. A **model**, for the purposes of this policy, is any quantitative method, system, or approach, including statistical, mathematical, machine learning, or AI-based methods, that processes input data to generate outputs used to support business decisions or generate outputs with real-world consequences.
 
 Model types in scope include, but are not limited to:
 
@@ -77,8 +77,8 @@ Model types in scope include, but are not limited to:
 
 | Model Name | Origin | Classification | Tier | Status |
 |------------|--------|----------------|------|--------|
-| Predictive Customer Churn Model | Veridian AI (acquired) | AI/ML — EU AI Act High-Risk | Tier 1 | Under validation |
-| AI-Assisted Contract Review Tool | Veridian AI (acquired) | AI/ML — EU AI Act High-Risk | Tier 1 | Under validation |
+| Predictive Customer Churn Model | Veridian AI (acquired) | AI/ML: EU AI Act High-Risk | Tier 1 | Under validation |
+| AI-Assisted Contract Review Tool | Veridian AI (acquired) | AI/ML: EU AI Act High-Risk | Tier 1 | Under validation |
 
 ### B.2 Exclusions
 
@@ -100,8 +100,8 @@ Third parties developing, supplying, or operating models on behalf of Emyzer Nex
 
 | Term | Definition |
 |------|------------|
-| **Model** | Any quantitative method, system, or approach — including statistical, mathematical, machine learning, or AI-based methods — that processes input data to generate quantitative outputs used to inform business decisions or produce outputs with real-world consequences. Adapted from SR 11-7. |
-| **Model Risk** | The risk of adverse outcomes — including financial loss, flawed decisions, regulatory breach, or harm to customers — arising from errors in model development, inappropriate use, use outside intended scope, failure to account for limitations, or inadequate ongoing monitoring. |
+| **Model** | Any quantitative method, system, or approach, including statistical, mathematical, machine learning, or AI-based methods, that processes input data to generate quantitative outputs used to inform business decisions or produce outputs with real-world consequences. Adapted from SR 11-7. |
+| **Model Risk** | The risk of adverse outcomes, including financial loss, flawed decisions, regulatory breach, or harm to customers, arising from errors in model development, inappropriate use, use outside intended scope, failure to account for limitations, or inadequate ongoing monitoring. |
 | **Model Tier** | A classification (Tier 1: High, Tier 2: Medium, Tier 3: Low) assigned to a model based on its materiality, complexity, and potential for harm, determining the level of validation and monitoring required. |
 | **Model Owner** | The individual accountable for a model's lifecycle governance, including development oversight, documentation, use management, monitoring, and retirement. |
 | **Model Developer** | The individual or team responsible for designing, building, and initially testing a model. |
@@ -261,14 +261,14 @@ All in-scope models shall be developed in accordance with the following minimum 
 
 **G.2.1 Conceptual Soundness**
 - The model's theoretical basis shall be grounded in established academic or industry knowledge, with documented justification for design choices where alternative approaches exist.
-- Key assumptions shall be identified, explicitly documented, and tested for sensitivity — including the consequences of assumption violations on model outputs.
+- Key assumptions shall be identified, explicitly documented, and tested for sensitivity: including the consequences of assumption violations on model outputs.
 - The model's intended use, scope, and boundaries shall be defined before development begins and maintained as a controlled document throughout the lifecycle.
 
 **G.2.2 Data Requirements**
 - Training, validation, and test datasets shall be documented for provenance, coverage, completeness, and known limitations before model development commences.
 - Data selection decisions shall be documented, including what data was excluded and why.
 - Training data shall be assessed for representativeness of the intended deployment population and evaluated for historical bias that may propagate to model outputs.
-- For AI/ML models, datasets shall comply with the data governance requirements of the AI Governance Policy Section F.3 (Conformity Assessment — Data Governance) in addition to the requirements of this section.
+- For AI/ML models, datasets shall comply with the data governance requirements of the AI Governance Policy Section F.3 (Conformity Assessment: Data Governance) in addition to the requirements of this section.
 - Data used in model development shall be stored, classified, and protected in accordance with the Data Classification Policy.
 
 **G.2.3 Model Testing**
@@ -348,7 +348,7 @@ Models operated by Emyzer Nexus under interim arrangements (including inherited 
 - Model outputs shall be used only for their documented intended purpose and within the validated scope of applicability.
 - Any proposed use of a model outside its validated scope requires written Model Risk Committee approval and updated validation before such use commences.
 - Model limitations disclosed in the validation report and development documentation shall be communicated to all Model Users in writing before they access model outputs. Model Owners shall maintain records of limitation disclosure **for each user**.
-- Model Users shall complete model-specific training — covering the model's purpose, scope, limitations, and interpretation of outputs — before operational access is granted. Training completion shall be recorded in the Learning Management System.
+- Model Users shall complete model-specific training, covering the model's purpose, scope, limitations, and interpretation of outputs, before operational access is granted. Training completion shall be recorded in the Learning Management System.
 - Decisions informed by model outputs shall retain meaningful human review for Tier 1 models. Fully automated decision pipelines based on Tier 1 model outputs require explicit Model Risk Committee approval and shall be documented as a high-risk automation in the AI System Inventory.
 
 ### G.6 Overlays and Adjustments
@@ -404,7 +404,7 @@ AI/ML model incidents shall be managed through the Incident Management Policy an
 
 - Model incidents include: outputs that are materially inaccurate and influenced a business decision; detection of systematic bias in model outputs; unexpected model behaviour; data supply failures affecting model reliability; and third-party model provider failures.
 - Model incidents shall be classified using the standard severity framework with model-specific context: a Tier 1 model producing materially inaccurate outputs that influenced a customer-facing decision shall be classified as **High** at minimum.
-- Post-incident reviews for High and Critical model incidents shall include root cause analysis specific to model failure modes — conceptual error, data quality failure, out-of-scope use, monitoring failure, or operator error — completed **within 5 business days** of incident resolution.
+- Post-incident reviews for High and Critical model incidents shall include root cause analysis specific to model failure modes, conceptual error, data quality failure, out-of-scope use, monitoring failure, or operator error, completed **within 5 business days** of incident resolution.
 - Lessons learned from model incidents shall be reviewed by the Model Risk Committee and incorporated into validation standards and monitoring protocols where relevant.
 
 ### G.9 Model Retirement
@@ -412,13 +412,13 @@ AI/ML model incidents shall be managed through the Incident Management Policy an
 Models shall be formally retired through a documented process approved by the Model Risk Committee. No model shall be decommissioned without completed retirement documentation. The retirement process shall include:
 
 1. **Business justification:** Model Owner documents the reason for retirement (replacement, decommission, scope elimination) and confirms no ongoing business use.
-2. **Stakeholder notification:** Affected business units, Model Users, and — where outputs have informed customer-facing decisions — relevant stakeholders are notified **no less than 30 days** before retirement, unless operational circumstances require emergency retirement.
+2. **Stakeholder notification:** Affected business units, Model Users, and, where outputs have informed customer-facing decisions, relevant stakeholders are notified **no less than 30 days** before retirement, unless operational circumstances require emergency retirement.
 3. **Decision reconciliation:** Model Owner assesses whether decisions based on model outputs have ongoing implications that require disclosure, review, or correction. Findings documented and submitted to the CRO.
 4. **Data disposition:** Training data, model artefacts, test datasets, and operational data are disposed of in accordance with the Data Classification Policy and applicable retention schedules. Disposition certificates are retained.
 5. **Documentation archival:** Development documentation, validation reports, performance monitoring history, overlay logs, and incident records are archived for the retention periods defined in Section N (Evidence of Compliance).
 6. **Inventory update:** The model is transferred to the retired model record in the Model Inventory within **5 business days** of retirement completion.
 
-Emergency retirement — required when a model poses immediate risk of material harm — may be authorised by the CRO without prior Model Risk Committee approval, with full documentation and committee review completed **within 10 business days** of retirement.
+Emergency retirement, required when a model poses immediate risk of material harm, may be authorised by the CRO without prior Model Risk Committee approval, with full documentation and committee review completed **within 10 business days** of retirement.
 
 ---
 
@@ -431,7 +431,7 @@ Third-party models (including vendor-developed models, open-source models, and m
 - **Vendor validation documentation:** For Tier 1 and Tier 2 third-party models, Emyzer Nexus shall require vendors to provide validation documentation meeting this policy's standards, or shall conduct its own independent validation before deployment.
 - **Contractual requirements:** Agreements with third-party model providers shall include: performance warranty provisions, incident notification obligations (within 24 hours of detection), audit and documentation access rights, data processing terms, liability provisions for model errors, and the right to terminate if the provider fails to meet governance obligations.
 - **Ongoing monitoring:** Third-party models shall be subject to post-deployment monitoring at frequencies determined by their tier. Monitoring shall include vendor performance reporting, independent performance testing on Emyzer Nexus data, and annual vendor due diligence refresh.
-- **API-based models (LLMs):** Large language model APIs classified as High-Risk under the EU AI Act shall be managed under both this policy and the AI Governance Policy. Emyzer Nexus shall document LLM-specific limitations — including hallucination rates, output variability, training data cutoffs, and restricted explainability — and implement compensating controls including human review of all outputs informing material decisions.
+- **API-based models (LLMs):** Large language model APIs classified as High-Risk under the EU AI Act shall be managed under both this policy and the AI Governance Policy. Emyzer Nexus shall document LLM-specific limitations, including hallucination rates, output variability, training data cutoffs, and restricted explainability, and implement compensating controls including human review of all outputs informing material decisions.
 
 ---
 
@@ -489,17 +489,17 @@ Exceptions to this policy require:
 
 ## K. Related Policies
 
-1. [**AI Governance Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/ai-governance-policy.md) *(KB-PORTFOLIO-0011)* — Parent strategic framework for AI and ML systems. The Model Risk Policy provides the operational model lifecycle controls subordinate to the AI Governance Policy for all AI/ML systems that also meet the definition of a model.
+1. [**AI Governance Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/ai-governance-policy.md) *(KB-PORTFOLIO-0011)*: Parent strategic framework for AI and ML systems. The Model Risk Policy provides the operational model lifecycle controls subordinate to the AI Governance Policy for all AI/ML systems that also meet the definition of a model.
 
-2. [**Information Security Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) — Grandparent policy establishing the ISMS framework and governance structure within which this policy operates.
+2. [**Information Security Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md): Grandparent policy establishing the ISMS framework and governance structure within which this policy operates.
 
-3. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) — Defines the enterprise risk framework applied to model risk as a distinct risk category. Model risk findings feed the enterprise risk register under the ownership of the CRO.
+3. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md): Defines the enterprise risk framework applied to model risk as a distinct risk category. Model risk findings feed the enterprise risk register under the ownership of the CRO.
 
-4. [**Third-Party Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) — Governs vendor risk management requirements extended by the AI Vendor Risk Due Diligence Addendum for third-party model-specific obligations.
+4. [**Third-Party Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md): Governs vendor risk management requirements extended by the AI Vendor Risk Due Diligence Addendum for third-party model-specific obligations.
 
-5. [**Data Classification Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md) — Governs the classification, handling, and protection of training data, model artefacts, validation data, and model outputs.
+5. [**Data Classification Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md): Governs the classification, handling, and protection of training data, model artefacts, validation data, and model outputs.
 
-6. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) — Defines incident response procedures extended to cover model-specific failure modes.
+6. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md): Defines incident response procedures extended to cover model-specific failure modes.
 
 ---
 
@@ -530,10 +530,10 @@ This policy shall be reviewed **annually** or upon: a significant model-related 
 
 | Framework | Alignment |
 |-----------|-----------|
-| **SR 11-7 (Federal Reserve / OCC)** | Section I (Model Risk Management Framework), Section II (Model Development, Implementation, and Use — conceptual soundness, data quality, testing), Section III (Model Validation — independence, scope, findings classification), Section IV (Governance, Policies, and Controls — inventory, tiering, oversight, vendor models) |
+| **SR 11-7 (Federal Reserve / OCC)** | Section I (Model Risk Management Framework), Section II (Model Development, Implementation, and Use, conceptual soundness, data quality, testing), Section III (Model Validation, independence, scope, findings classification), Section IV (Governance, Policies, and Controls, inventory, tiering, oversight, vendor models) |
 | **NIST AI RMF 1.0** | GOVERN 1.1–1.7 (model risk governance culture and structures), MAP 1.5–3.5 (model risk identification and context), MEASURE 2.1–2.13 (model performance measurement, bias, drift), MANAGE 1.3–4.2 (model risk treatment, monitoring, incident response, retirement) |
 | **EU AI Act (Regulation 2024/1689)** | Article 9 (Risk Management System), Article 10 (Data Governance for training data), Article 11 (Technical Documentation), Article 15 (Accuracy, Robustness, Cybersecurity), Article 72 (Post-Market Monitoring operationalised as ongoing model monitoring) |
-| **ISO/IEC 42001:2023** | Clause 8.4 (AI system lifecycle — design, development, testing), Clause 8.6 (AI system operation monitoring), Annex A Controls A.6 (AI risk management operationalisation), A.7 (AI system impact assessment) |
+| **ISO/IEC 42001:2023** | Clause 8.4 (AI system lifecycle: design, development, testing), Clause 8.6 (AI system operation monitoring), Annex A Controls A.6 (AI risk management operationalisation), A.7 (AI system impact assessment) |
 | **ISO/IEC 23894:2023** | Risk identification (model failure modes), Risk treatment (validation, monitoring, overlay governance), Risk communication (limitation disclosure) |
 | **ISO/IEC 27001:2022** | A.8.25–A.8.28 (Secure development lifecycle extended to model development), A.5.19–A.5.22 (Supplier relationships extended to third-party model vendors) |
 
@@ -543,12 +543,12 @@ This policy shall be reviewed **annually** or upon: a significant model-related 
 
 | Benefit Area | Description |
 |--------------|-------------|
-| **Decision Quality** | Ensures models informing business decisions are validated, fit for purpose, and operating within known performance bounds — reducing the risk of decisions based on systematically flawed outputs |
+| **Decision Quality** | Ensures models informing business decisions are validated, fit for purpose, and operating within known performance bounds: reducing the risk of decisions based on systematically flawed outputs |
 | **Acquisition Risk Control** | Provides a structured mechanism for assessing, validating, and governing the Veridian AI models operating under interim arrangements, converting an unquantified inherited risk into a managed one |
 | **Regulatory Compliance** | Operationalises EU AI Act technical documentation, monitoring, and accuracy obligations at the model level; SR 11-7 alignment demonstrates governance maturity to regulated-industry clients and partners |
 | **Customer Protection** | Bias testing, performance monitoring, limitation disclosure, and human oversight requirements reduce the risk of model outputs causing harm to customers or counterparties |
 | **Auditability** | Comprehensive documentation, validation records, and evidence retention requirements ensure the organisation can demonstrate model governance to internal audit, external auditors, and regulators |
-| **Talent and Credibility** | A structured model risk program positions Emyzer Nexus as a sophisticated operator capable of governing advanced AI systems — a differentiator when competing for regulated-industry contracts or enterprise partnerships |
+| **Talent and Credibility** | A structured model risk program positions Emyzer Nexus as a sophisticated operator capable of governing advanced AI systems: a differentiator when competing for regulated-industry contracts or enterprise partnerships |
 | **Incident Containment** | Clear escalation triggers, monitoring thresholds, and retirement procedures reduce the time between model failure detection and response, limiting the blast radius of model-related incidents |
 | **Third-Party Confidence** | Contractual model governance requirements and due diligence standards reduce dependency on undocumented vendor model quality claims |
 

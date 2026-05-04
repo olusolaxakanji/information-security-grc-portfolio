@@ -1,4 +1,4 @@
-# Emyzer Technology — GRC Programme Overview
+# Emyzer Technology: GRC Programme Overview
 
 **Phase 1 Entity | Information Security GRC Portfolio**
 
@@ -30,9 +30,9 @@ Emyzer Technology is a fictional multinational technology company operating acro
 Emyzer Technology is a subsidiary of Emyzer Nexus, the post-acquisition parent entity formed following the acquisition of Veridian AI in 2024. All Phase 1 documentation developed for Emyzer Technology remains in effect as subsidiary governance under the policy hierarchy to be established in the M&A GRC Integration Charter.
 
 ```
-Emyzer Nexus  (parent — Phase 2)
-├── Emyzer Technology  (subsidiary — Phase 1 GRC programme, this folder)
-└── Veridian AI  (acquired — AI systems under governance integration)
+Emyzer Nexus  (parent: Phase 2)
+├── Emyzer Technology  (subsidiary: Phase 1 GRC programme, this folder)
+└── Veridian AI  (acquired: AI systems under governance integration)
 ```
 
 **Phase 1** covers the period before acquisition: the GRC programme built for Emyzer Technology as a standalone entity.
@@ -74,7 +74,7 @@ All artefacts are listed below, organised by programme area. Links are relative 
 
 ---
 
-### Security Policies — Phase 1
+### Security Policies: Phase 1
 
 Ten core information security policies developed for Emyzer Technology and implemented in ServiceNow GRC. All policies are published and in effect. Each contains a full evidence index specifying the system of record, owner, and retention period for every required evidence type.
 
@@ -145,7 +145,7 @@ Raw policy exports from ServiceNow GRC. These PDFs show ownership, approval work
 
 ---
 
-### Enterprise Policies — Phase 2 (Emyzer Nexus)
+### Enterprise Policies: Phase 2 (Emyzer Nexus)
 
 These policies govern Emyzer Nexus as the post-acquisition parent entity. They address AI governance under the EU AI Act and the expanded privacy and training obligations arising from the Veridian AI acquisition. Phase 1 policies remain in effect as subsidiary documentation.
 
@@ -158,7 +158,7 @@ These policies govern Emyzer Nexus as the post-acquisition parent entity. They a
 
 ---
 
-### AI Governance Programme — Phase 2
+### AI Governance Programme: Phase 2
 
 Supporting documents for the EU AI Act compliance programme: system inventory, article-by-article control mapping, and risk assessments for the two inherited Veridian AI systems.
 
@@ -171,7 +171,7 @@ Supporting documents for the EU AI Act compliance programme: system inventory, a
 
 ---
 
-### M&A Integration Management — Phase 2
+### M&A Integration Management: Phase 2
 
 Documents covering the GRC integration of Veridian AI into the Emyzer Nexus structure: which policies apply to the acquired entity, what documentation requires remediation, and in what order.
 

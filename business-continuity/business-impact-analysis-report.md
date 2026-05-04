@@ -78,9 +78,9 @@ This BIA showcases enterprise-level business continuity planning skills includin
 
 ### Framework Alignment Evidence
 
-- **ISO 22301:2019 Clause 8.2.2** — Process identification, impact assessment, prioritized timeframes, resource requirements
-- **NIST SP 800-34** — Critical system identification, outage impact analysis, recovery priorities
-- **ServiceNow GRC** — Automated control testing, policy exception tracking, audit trail maintenance
+- **ISO 22301:2019 Clause 8.2.2**: Process identification, impact assessment, prioritized timeframes, resource requirements
+- **NIST SP 800-34**: Critical system identification, outage impact analysis, recovery priorities
+- **ServiceNow GRC**: Automated control testing, policy exception tracking, audit trail maintenance
 
 ---
 
@@ -193,7 +193,7 @@ Recovery strategies should prioritize technology infrastructure resilience throu
 
 ### Process Interdependencies
 
-Cloud Service Operations and Global Security Implementation are foundational—their failure cascades to all customer-facing functions. Financial Transaction Processing enables vendor payments and payroll across all divisions. Manufacturing feeds directly into Order Fulfillment.
+Cloud Service Operations and Global Security Implementation are foundational: their failure cascades to all customer-facing functions. Financial Transaction Processing enables vendor payments and payroll across all divisions. Manufacturing feeds directly into Order Fulfillment.
 
 ---
 
@@ -353,12 +353,12 @@ BIA findings documented in ServiceNow GRC enable:
 
 | Term | Definition |
 |------|------------|
-| **BIA** | Business Impact Analysis—process to identify and evaluate potential effects of disruptions |
-| **BCMS** | Business Continuity Management System—framework for establishing and maintaining continuity |
-| **MTPD** | Maximum Tolerable Period of Disruption—time after which viability is threatened |
-| **RPO** | Recovery Point Objective—maximum acceptable data loss measured in time |
-| **RTO** | Recovery Time Objective—maximum time to restore a process after disruption |
-| **SLA** | Service Level Agreement—commitment defining service standards |
+| **BIA** | Business Impact Analysis: process to identify and evaluate potential effects of disruptions |
+| **BCMS** | Business Continuity Management System: framework for establishing and maintaining continuity |
+| **MTPD** | Maximum Tolerable Period of Disruption: time after which viability is threatened |
+| **RPO** | Recovery Point Objective: maximum acceptable data loss measured in time |
+| **RTO** | Recovery Time Objective: maximum time to restore a process after disruption |
+| **SLA** | Service Level Agreement: commitment defining service standards |
 
 ---
 

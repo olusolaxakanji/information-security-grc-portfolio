@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "GRC Portfolio — Olusola B. Akanji"
+title: "GRC Portfolio: Olusola B. Akanji"
 permalink: /
 ---
 
@@ -42,7 +42,7 @@ The case study: Emyzer Technology builds a foundational GRC programme, then acqu
 
 ---
 
-## Live Programme — Idowu Ajiri Foundation
+## Live Programme: Idowu Ajiri Foundation
 
 **[View the programme repository →](https://github.com/olusolaxakanji/idowu-ajiri-grc-program)**
 
@@ -52,9 +52,9 @@ I built this programme and maintain it as GRC Analyst for the Foundation. It is 
 |---|---|---|
 | [IRS 501(c)(3) Tax-Exempt Compliance](https://www.irs.gov/charities-non-profits) | [Internal Revenue Service](https://www.irs.gov/) | United States |
 | [Corporate Affairs Commission (CAC)](https://www.cac.gov.ng) | [CAC Nigeria](https://www.cac.gov.ng) | Nigeria |
-| [SCUML / NFIU — AML/CFT](https://www.nfiu.gov.ng) | [Nigerian Financial Intelligence Unit](https://www.nfiu.gov.ng) | Nigeria |
+| [SCUML / NFIU: AML/CFT](https://www.nfiu.gov.ng) | [Nigerian Financial Intelligence Unit](https://www.nfiu.gov.ng) | Nigeria |
 | [Nigeria Data Protection Act 2023](https://ndpc.gov.ng) | [Nigeria Data Protection Commission](https://ndpc.gov.ng) | Nigeria |
-| [OFAC Sanctions Compliance](https://ofac.treas.gov) | [U.S. Dept. of the Treasury — OFAC](https://ofac.treas.gov) | United States (cross-border) |
+| [OFAC Sanctions Compliance](https://ofac.treas.gov) | [U.S. Dept. of the Treasury: OFAC](https://ofac.treas.gov) | United States (cross-border) |
 
 ---
 

@@ -26,11 +26,11 @@
 
 ## Description
 
-This policy establishes the governance framework for the protection of personal data across Emyzer Nexus and its subsidiaries, operationalising the organisation's obligations under the EU General Data Protection Regulation (GDPR), the UK General Data Protection Regulation (UK GDPR), and aligned international data protection standards. It governs the lawful collection, processing, storage, transfer, and disposal of personal data in all organisational activities — including AI systems, acquired data assets, and third-party processing relationships.
+This policy establishes the governance framework for the protection of personal data across Emyzer Nexus and its subsidiaries, operationalising the organisation's obligations under the EU General Data Protection Regulation (GDPR), the UK General Data Protection Regulation (UK GDPR), and aligned international data protection standards. It governs the lawful collection, processing, storage, transfer, and disposal of personal data in all organisational activities: including AI systems, acquired data assets, and third-party processing relationships.
 
-**Impact:** Non-compliance with GDPR and UK GDPR carries financial penalties of up to €20 million or 4% of global annual turnover (whichever is higher) under GDPR, and equivalent penalties under UK GDPR. Beyond financial exposure, privacy failures erode customer and partner trust in ways that are operationally recoverable only slowly. For Emyzer Nexus, the Veridian AI acquisition introduced personal data processing activities — including the Predictive Customer Churn Model and AI-Assisted Contract Review Tool — that require formal Data Protection Impact Assessment (DPIA) under GDPR Article 35 given their High-Risk AI classification and the nature of their data inputs. This policy provides the framework for assessing and managing those obligations.
+**Impact:** Non-compliance with GDPR and UK GDPR carries financial penalties of up to €20 million or 4% of global annual turnover (whichever is higher) under GDPR, and equivalent penalties under UK GDPR. Beyond financial exposure, privacy failures erode customer and partner trust in ways that are operationally recoverable only slowly. For Emyzer Nexus, the Veridian AI acquisition introduced personal data processing activities, including the Predictive Customer Churn Model and AI-Assisted Contract Review Tool, that require formal Data Protection Impact Assessment (DPIA) under GDPR Article 35 given their High-Risk AI classification and the nature of their data inputs. This policy provides the framework for assessing and managing those obligations.
 
-**Relevant Standards:** EU General Data Protection Regulation (GDPR, Regulation 2016/679); UK General Data Protection Regulation (UK GDPR); ISO/IEC 27701:2019 (Privacy Information Management System); ISO/IEC 27001:2022; EU AI Act (Regulation 2024/1689) — intersection with DPIA obligations; NIST Privacy Framework 1.0
+**Relevant Standards:** EU General Data Protection Regulation (GDPR, Regulation 2016/679); UK General Data Protection Regulation (UK GDPR); ISO/IEC 27701:2019 (Privacy Information Management System); ISO/IEC 27001:2022; EU AI Act (Regulation 2024/1689): intersection with DPIA obligations; NIST Privacy Framework 1.0
 
 ---
 
@@ -38,11 +38,11 @@ This policy establishes the governance framework for the protection of personal 
 
 | Dimension | Summary |
 |-----------|---------|
-| **Applies to** | All Emyzer Nexus employees, contractors, board members, and third parties processing personal data on behalf of the organisation — including activities arising from the Veridian AI acquisition and Emyzer Technology development operations |
+| **Applies to** | All Emyzer Nexus employees, contractors, board members, and third parties processing personal data on behalf of the organisation: including activities arising from the Veridian AI acquisition and Emyzer Technology development operations |
 | **Covers** | All personal data processing activities in Emyzer Nexus's capacity as a data controller and as a data processor on behalf of clients; all jurisdictions in which personal data from EU and UK data subjects is processed |
-| **Legal Bases** | Consent, contract, legal obligation, vital interests, public task, legitimate interests — documented per processing activity in the Record of Processing Activities |
+| **Legal Bases** | Consent, contract, legal obligation, vital interests, public task, legitimate interests: documented per processing activity in the Record of Processing Activities |
 | **Key Governance** | DPO owns the programme; Legal Counsel advises on regulatory obligations; CISO ensures security controls; GRC Team maintains ROPA and DPIA register; AI Governance Committee reviews AI-specific DPIA obligations |
-| **DPIA Obligation** | Mandatory for High-Risk AI systems processing personal data, large-scale profiling, systematic monitoring, and processing of special category data — as defined in GDPR Article 35 and EDPB Guidelines |
+| **DPIA Obligation** | Mandatory for High-Risk AI systems processing personal data, large-scale profiling, systematic monitoring, and processing of special category data: as defined in GDPR Article 35 and EDPB Guidelines |
 | **Breach Response** | Supervisory authority notification within 72 hours of becoming aware; affected individual notification without undue delay where required; coordinated with Incident Management Policy |
 | **Exceptions Process** | ServiceNow workflow with DPO approval; maximum 90-day duration; quarterly review |
 | **Evidence Maintained** | ROPA, DPIA register, consent records, data subject request logs, breach notification records, transfer mechanism documentation, vendor DPA register (all with defined retention periods) |
@@ -51,9 +51,9 @@ This policy establishes the governance framework for the protection of personal 
 
 ## A. Purpose
 
-To establish the governance framework, minimum standards, and accountability structures for the protection of personal data across Emyzer Nexus, ensuring that all personal data processing activities are lawful, fair, transparent, and proportionate — and that the organisation can demonstrate compliance to regulators, clients, and data subjects when required.
+To establish the governance framework, minimum standards, and accountability structures for the protection of personal data across Emyzer Nexus, ensuring that all personal data processing activities are lawful, fair, transparent, and proportionate: and that the organisation can demonstrate compliance to regulators, clients, and data subjects when required.
 
-This policy operationalises Emyzer Nexus's obligations as both a data controller and a data processor. As a data controller, the organisation determines the purposes and means of processing personal data in its internal operations, customer relationships, and employment activities. As a data processor, the organisation processes personal data on behalf of clients who remain the data controller — an arrangement that creates distinct contractual and regulatory obligations, particularly in relation to the security of processing and notification of personal data breaches.
+This policy operationalises Emyzer Nexus's obligations as both a data controller and a data processor. As a data controller, the organisation determines the purposes and means of processing personal data in its internal operations, customer relationships, and employment activities. As a data processor, the organisation processes personal data on behalf of clients who remain the data controller: an arrangement that creates distinct contractual and regulatory obligations, particularly in relation to the security of processing and notification of personal data breaches.
 
 The policy gives particular attention to the intersection of privacy obligations with the organisation's AI governance programme. The EU AI Act and GDPR create overlapping and occasionally complementary obligations for High-Risk AI systems that process personal data. DPIAs required under GDPR Article 35 for such systems must address not only standard data protection risks but also the AI-specific risks of automated decision-making, algorithmic bias, and data subject rights limitations arising from AI system design. This policy establishes the governance structures to navigate that intersection systematically rather than addressing privacy and AI governance as separate compliance workstreams.
 
@@ -109,7 +109,7 @@ Where Emyzer Nexus processes personal data on behalf of clients, it acts as a da
 
 ### B.5 Exclusions
 
-Anonymised data — data that has been irreversibly processed so that individuals cannot be identified directly or indirectly — is excluded from this policy. The DPO shall approve all anonymisation determinations in writing before data is treated as excluded. Pseudonymised data remains personal data and is in scope.
+Anonymised data, data that has been irreversibly processed so that individuals cannot be identified directly or indirectly, is excluded from this policy. The DPO shall approve all anonymisation determinations in writing before data is treated as excluded. Pseudonymised data remains personal data and is in scope.
 
 ---
 
@@ -119,7 +119,7 @@ Anonymised data — data that has been irreversibly processed so that individual
 |------|------------|
 | **Personal Data** | Any information relating to an identified or identifiable natural person (a "data subject"). As defined in GDPR Article 4(1). Includes names, identification numbers, location data, online identifiers, and factors specific to physical, physiological, genetic, mental, economic, cultural, or social identity. |
 | **Special Category Data** | Personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data for identification, health data, or data concerning sex life or sexual orientation. Subject to enhanced protection under GDPR Article 9. |
-| **Processing** | Any operation performed on personal data, whether automated or not — including collection, recording, storage, adaptation, retrieval, consultation, use, disclosure, combination, restriction, erasure, or destruction. As defined in GDPR Article 4(2). |
+| **Processing** | Any operation performed on personal data, whether automated or not: including collection, recording, storage, adaptation, retrieval, consultation, use, disclosure, combination, restriction, erasure, or destruction. As defined in GDPR Article 4(2). |
 | **Data Controller** | The natural or legal person that determines the purposes and means of the processing of personal data. Emyzer Nexus acts as controller for its internal processing activities. |
 | **Data Processor** | A natural or legal person that processes personal data on behalf of the controller. Emyzer Nexus acts as processor when processing client data under a data processing agreement. |
 | **Data Protection Officer (DPO)** | The individual designated under GDPR Article 37 to provide expert advice on data protection obligations, monitor compliance, act as a contact point for supervisory authorities, and cooperate with those authorities. |
@@ -130,7 +130,7 @@ Anonymised data — data that has been irreversibly processed so that individual
 | **Data Subject** | The identified or identifiable natural person to whom personal data relates. |
 | **Data Subject Rights** | The rights of data subjects under GDPR Chapter III: right of access (Article 15), right to rectification (Article 16), right to erasure (Article 17), right to restriction of processing (Article 18), right to data portability (Article 20), right to object (Article 21), and rights related to automated decision-making (Article 22). |
 | **Personal Data Breach** | A breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data. As defined in GDPR Article 4(12). |
-| **Privacy by Design** | The principle, codified in GDPR Article 25, that data protection is considered and integrated into the design of systems and processes from the outset — not added as an afterthought. |
+| **Privacy by Design** | The principle, codified in GDPR Article 25, that data protection is considered and integrated into the design of systems and processes from the outset: not added as an afterthought. |
 | **Standard Contractual Clauses (SCCs)** | Contractual terms adopted by the European Commission providing appropriate safeguards for personal data transfers to third countries without an adequacy decision, as permitted under GDPR Article 46. |
 | **International Data Transfer Addendum (IDTA)** | The UK equivalent of SCCs, issued by the ICO, providing a transfer mechanism for personal data transfers from the UK to third countries under UK GDPR. |
 | **Adequacy Decision** | A European Commission decision (for GDPR) or UK Secretary of State regulation (for UK GDPR) recognising that a third country provides a level of data protection essentially equivalent to that of the EU or UK respectively. |
@@ -154,9 +154,9 @@ Emyzer Nexus is committed to processing personal data in a manner that respects 
 
 4. Conduct a **Data Protection Impact Assessment (DPIA)** before commencing any processing activity likely to result in a high risk to the rights and freedoms of data subjects, including all High-Risk AI systems processing personal data, large-scale profiling activities, systematic monitoring, and processing of special category data at scale.
 
-5. Embed **privacy by design and by default** in all system development, process design, and product development activities — ensuring that only personal data necessary for the specified purpose is collected, that privacy-protective options are the default, and that data protection controls are built in rather than retrofitted.
+5. Embed **privacy by design and by default** in all system development, process design, and product development activities: ensuring that only personal data necessary for the specified purpose is collected, that privacy-protective options are the default, and that data protection controls are built in rather than retrofitted.
 
-6. Fulfil **data subject rights requests** within the statutory timeframes — one calendar month from receipt (extendable by a further two months for complex or numerous requests), with no fee except in exceptional circumstances — maintaining complete records of all requests and responses.
+6. Fulfil **data subject rights requests** within the statutory timeframes, one calendar month from receipt (extendable by a further two months for complex or numerous requests), with no fee except in exceptional circumstances, maintaining complete records of all requests and responses.
 
 7. Notify the relevant **supervisory authority** of personal data breaches meeting the threshold for notification within **72 hours** of becoming aware of the breach, and notify affected data subjects without undue delay where the breach is likely to result in a high risk to their rights and freedoms.
 
@@ -166,7 +166,7 @@ Emyzer Nexus is committed to processing personal data in a manner that respects 
 
 10. Maintain a **designated Data Protection Officer** with the independence, resources, and access to fulfil the obligations of GDPR Article 39, including monitoring compliance, providing expert advice, and acting as the primary contact for supervisory authorities.
 
-11. Address the **intersection of GDPR and EU AI Act obligations** for High-Risk AI systems processing personal data — treating the DPIA obligation under GDPR Article 35 and the EU AI Act conformity assessment under AI Governance Policy Section F.3 as complementary processes with shared evidence, coordinated under joint DPO and AI Governance Committee oversight.
+11. Address the **intersection of GDPR and EU AI Act obligations** for High-Risk AI systems processing personal data: treating the DPIA obligation under GDPR Article 35 and the EU AI Act conformity assessment under AI Governance Policy Section F.3 as complementary processes with shared evidence, coordinated under joint DPO and AI Governance Committee oversight.
 
 12. Review and update this policy **annually** or upon material changes to GDPR or UK GDPR implementing guidance, significant new processing activities, a personal data breach revealing governance gaps, or relevant European Data Protection Board (EDPB) or ICO guidance affecting the organisation's processing activities.
 
@@ -174,19 +174,19 @@ Emyzer Nexus is committed to processing personal data in a manner that respects 
 
 ## E. Data Protection Principles in Practice
 
-The six data protection principles of GDPR Article 5 are not aspirational statements — they are legal obligations with specific operational implications for Emyzer Nexus.
+The six data protection principles of GDPR Article 5 are not aspirational statements: they are legal obligations with specific operational implications for Emyzer Nexus.
 
 ### E.1 Lawfulness, Fairness, and Transparency
 Every processing activity must have a documented lawful basis. Data subjects must receive clear, accessible, and complete privacy notices explaining what data is collected, why, how long it is kept, and their rights. Privacy notices shall be reviewed **annually** by the DPO and updated within **14 days** of any change to the processing they describe.
 
 ### E.2 Purpose Limitation
-Personal data collected for a specified purpose shall not be subsequently processed in a manner incompatible with that purpose. Compatibility assessments — evaluating whether a new use of existing data is compatible with its original purpose — shall be conducted and documented by the DPO before any secondary use commences. AI model training on operational data is a secondary use requiring compatibility assessment.
+Personal data collected for a specified purpose shall not be subsequently processed in a manner incompatible with that purpose. Compatibility assessments, evaluating whether a new use of existing data is compatible with its original purpose, shall be conducted and documented by the DPO before any secondary use commences. AI model training on operational data is a secondary use requiring compatibility assessment.
 
 ### E.3 Data Minimisation
-Only personal data that is adequate, relevant, and limited to what is necessary for the processing purpose shall be collected. Data minimisation obligations apply at the point of system design (privacy by design), at the point of collection, and on an ongoing basis through periodic reviews of what data is actually used versus what is held. AI training datasets are subject to specific minimisation review — the DPO and AI System Owner shall jointly assess whether training data volume and granularity is the minimum necessary for the model's intended function.
+Only personal data that is adequate, relevant, and limited to what is necessary for the processing purpose shall be collected. Data minimisation obligations apply at the point of system design (privacy by design), at the point of collection, and on an ongoing basis through periodic reviews of what data is actually used versus what is held. AI training datasets are subject to specific minimisation review: the DPO and AI System Owner shall jointly assess whether training data volume and granularity is the minimum necessary for the model's intended function.
 
 ### E.4 Accuracy
-Personal data shall be accurate and kept up to date. Processing systems shall include mechanisms for data subjects to correct inaccurate data, and for the organisation to verify accuracy at appropriate intervals. Inaccurate personal data used in AI model training may propagate bias — the DPO shall flag training data accuracy concerns to the AI Governance Committee as a joint data protection and model risk issue.
+Personal data shall be accurate and kept up to date. Processing systems shall include mechanisms for data subjects to correct inaccurate data, and for the organisation to verify accuracy at appropriate intervals. Inaccurate personal data used in AI model training may propagate bias: the DPO shall flag training data accuracy concerns to the AI Governance Committee as a joint data protection and model risk issue.
 
 ### E.5 Storage Limitation
 Personal data shall not be retained for longer than necessary for the purpose for which it was collected. Retention periods shall be documented in the ROPA for each processing activity and enforced through automated deletion schedules or manual review processes on defined review dates. The DPO shall conduct an annual retention compliance review, with findings reported to the CISO and CRO.
@@ -233,7 +233,7 @@ Maintains the ROPA in the GRC platform, manages the DPIA register, tracks data s
 Manages personal data of employees and job applicants in accordance with this policy. Ensures HR processing activities are reflected in the ROPA. Oversees employee privacy notice currency and distribution. Manages subject access requests from current and former employees in coordination with the DPO.
 
 ### F.8 All Employees and Contractors
-Shall process personal data only in accordance with this policy, the Data Classification Policy, and any role-specific processing instructions. Shall report suspected personal data breaches to the Information Security Team and DPO **within 4 hours** of becoming aware. Shall refer data subject requests to the DPO **within 24 hours** of receipt, without attempting to respond independently. Shall not share personal data with third parties — including service providers, partners, or other Emyzer Nexus entities — without confirming that an appropriate legal basis and transfer mechanism is in place.
+Shall process personal data only in accordance with this policy, the Data Classification Policy, and any role-specific processing instructions. Shall report suspected personal data breaches to the Information Security Team and DPO **within 4 hours** of becoming aware. Shall refer data subject requests to the DPO **within 24 hours** of receipt, without attempting to respond independently. Shall not share personal data with third parties, including service providers, partners, or other Emyzer Nexus entities, without confirming that an appropriate legal basis and transfer mechanism is in place.
 
 ### F.9 System and Application Owners
 Shall engage the DPO at the earliest practicable stage of any new system design, application development, or processing activity involving personal data. Shall implement privacy by design and by default in system architecture and configuration. Shall support DPIA processes by providing system documentation, data flow information, and technical control evidence when requested by the DPO. Shall notify the DPO within **5 business days** of any proposed material change to a processing activity.
@@ -251,9 +251,9 @@ Before commencing any personal data processing activity, the responsible busines
 | **Consent** | 6(1)(a) | Marketing communications; non-essential cookies; processing where no other basis applies and data subject choice is appropriate |
 | **Contract** | 6(1)(b) | Processing necessary for the performance of a contract with the data subject (e.g., employment contracts, customer service delivery) |
 | **Legal Obligation** | 6(1)(c) | Processing required by EU or Member State law (e.g., tax records, employment law obligations, regulatory reporting) |
-| **Vital Interests** | 6(1)(d) | Processing necessary to protect the life of the data subject or another person — rare and exceptional use only |
+| **Vital Interests** | 6(1)(d) | Processing necessary to protect the life of the data subject or another person: rare and exceptional use only |
 | **Public Task** | 6(1)(e) | Not applicable to Emyzer Nexus's activities as a private sector organisation |
-| **Legitimate Interests** | 6(1)(f) | Processing for the organisation's legitimate business interests where these are not overridden by data subject rights — requires documented Legitimate Interests Assessment (LIA) |
+| **Legitimate Interests** | 6(1)(f) | Processing for the organisation's legitimate business interests where these are not overridden by data subject rights: requires documented Legitimate Interests Assessment (LIA) |
 
 **Legitimate Interests Assessment:** Where legitimate interests is proposed as the lawful basis, the DPO shall conduct and document a three-stage LIA: identifying the legitimate interest, assessing the necessity of the processing, and balancing the interest against the data subject's rights and reasonable expectations. LIAs shall be reviewed if circumstances of the processing change materially.
 
@@ -319,13 +319,13 @@ Processing activities meeting two or more criteria from the EDPB list of nine fa
 
 DPIAs shall be conducted using the following structured process:
 
-**Step 1 — Screening (DPO)**
+**Step 1: Screening (DPO)**
 The DPO shall assess whether a DPIA is required within **10 business days** of being notified of a new or materially changed processing activity. The screening decision and rationale shall be documented in the DPIA register.
 
-**Step 2 — Scoping (DPO and System/Process Owner)**
+**Step 2: Scoping (DPO and System/Process Owner)**
 Where a DPIA is required, the DPO and the responsible System or Process Owner shall define the processing activity scope, identify all relevant stakeholders, and agree the assessment timeline. DPIA completion shall be required **before** the processing activity commences or the system is deployed.
 
-**Step 3 — Description of Processing (System/Process Owner)**
+**Step 3: Description of Processing (System/Process Owner)**
 The System or Process Owner shall document:
 - The nature, scope, context, and purpose of the processing
 - The categories of personal data and data subjects involved
@@ -333,10 +333,10 @@ The System or Process Owner shall document:
 - The systems and sub-processors involved
 - The lawful basis and, where applicable, special category condition
 
-**Step 4 — Necessity and Proportionality Assessment (DPO)**
+**Step 4: Necessity and Proportionality Assessment (DPO)**
 The DPO shall assess whether the processing is necessary and proportionate to the stated purpose, including whether the purpose could be achieved with less personal data, for a shorter retention period, or with less invasive technology.
 
-**Step 5 — Risk Assessment (DPO and CISO)**
+**Step 5: Risk Assessment (DPO and CISO)**
 The DPO and CISO shall jointly identify and assess risks to data subjects' rights and freedoms arising from the processing, including:
 - Risks of unauthorised access, disclosure, or loss
 - Risks of inaccuracy or data quality failure
@@ -344,17 +344,17 @@ The DPO and CISO shall jointly identify and assess risks to data subjects' right
 - For AI systems: risks of algorithmic bias, model drift affecting data subject outcomes, limited explainability, and restrictions on data subject rights arising from AI design
 - Risks to data subjects from cross-border transfers
 
-**Step 6 — Measures to Address Risks (DPO, CISO, and System Owner)**
+**Step 6: Measures to Address Risks (DPO, CISO, and System Owner)**
 For each identified risk, the assessment shall document the technical and organisational measures implemented or proposed to reduce the risk to an acceptable level, including: encryption, access controls, pseudonymisation, data minimisation, human oversight mechanisms, explainability tools, data subject rights enablement, and contractual safeguards.
 
-**Step 7 — DPO Review and Approval**
+**Step 7: DPO Review and Approval**
 The DPO shall review the completed DPIA and issue one of the following outcomes:
 - **Approved:** Processing may proceed. DPO records approval in the DPIA register.
 - **Approved with Conditions:** Processing may proceed subject to specified conditions being implemented and verified before commencement. Conditions documented and tracked by GRC Team.
 - **Deferred:** Additional information or mitigation required before the DPO can assess. Responsible party has **20 business days** to respond.
 - **Rejected:** Residual risks remain high and cannot be adequately mitigated. Processing shall not commence. DPO escalates to the CEO and, where required, consults the supervisory authority under GDPR Article 36 (prior consultation).
 
-**Step 8 — Supervisory Authority Prior Consultation (Where Required)**
+**Step 8: Supervisory Authority Prior Consultation (Where Required)**
 Where a DPIA concludes that residual risks remain high after mitigation, Emyzer Nexus shall consult the relevant supervisory authority before commencing processing, as required by GDPR Article 36. Legal Counsel shall manage the consultation process. Processing shall not commence until the supervisory authority responds or the consultation period expires.
 
 ### H.3 DPIA and AI Governance Policy Coordination
@@ -473,7 +473,7 @@ Where the breach is likely to result in a **high risk** to data subjects, the or
 
 ### J.5 Breach Register and Lessons Learned
 
-All personal data breaches — regardless of whether they meet the notification threshold — shall be recorded in the breach register maintained by the GRC Team, including: incident reference, date of breach and date of discovery, description, affected data and data subjects, assessment outcome, notification decision and rationale, and remediation actions. The breach register shall be made available to supervisory authorities on request.
+All personal data breaches, regardless of whether they meet the notification threshold, shall be recorded in the breach register maintained by the GRC Team, including: incident reference, date of breach and date of discovery, description, affected data and data subjects, assessment outcome, notification decision and rationale, and remediation actions. The breach register shall be made available to supervisory authorities on request.
 
 Breaches meeting the Medium or High threshold shall be subject to a post-incident review under the Incident Management Policy that specifically assesses privacy control gaps and identifies improvements to data protection measures.
 
@@ -497,7 +497,7 @@ The DPO shall be engaged at the project initiation stage for any initiative invo
 Privacy by default requires that, by default, only the personal data necessary for each specific purpose is processed. This means:
 - Data collection forms and API inputs shall collect only fields that are necessary for the stated purpose, with additional fields optional and clearly labelled
 - System configurations shall apply the most privacy-protective settings as the default, with less protective options requiring deliberate user action to enable
-- Data sharing defaults shall be restricted — data shall not be shared with third parties by default unless the data subject has actively opted in or another lawful basis applies
+- Data sharing defaults shall be restricted: data shall not be shared with third parties by default unless the data subject has actively opted in or another lawful basis applies
 - Retention defaults shall apply the minimum retention period appropriate for the purpose
 
 The DPO shall review privacy by default implementations for new systems and materially changed systems before go-live.
@@ -522,12 +522,12 @@ Personal data shall not be transferred to a third country (outside the EU/EEA fo
 **For GDPR (EU personal data):**
 - European Commission adequacy decision covering the destination country
 - Appropriate safeguards under GDPR Article 46: Standard Contractual Clauses (SCCs, 2021 version), Binding Corporate Rules, approved codes of conduct with binding commitments, approved certification mechanism
-- Derogations under GDPR Article 49 for specific situations (explicit consent, contract performance necessity, vital interests) — applied narrowly and only where no other mechanism is available
+- Derogations under GDPR Article 49 for specific situations (explicit consent, contract performance necessity, vital interests): applied narrowly and only where no other mechanism is available
 
 **For UK GDPR (UK personal data):**
 - UK adequacy regulations covering the destination country
 - UK appropriate safeguards: International Data Transfer Agreement (IDTA), UK Addendum to EU SCCs, Binding Corporate Rules approved by the ICO
-- Derogations under UK GDPR — applied on the same basis as GDPR derogations
+- Derogations under UK GDPR: applied on the same basis as GDPR derogations
 
 ### L.2 Transfer Impact Assessment
 
@@ -580,7 +580,7 @@ Before engaging a new processor, the DPO shall conduct privacy-specific due dili
 
 ### M.4 Veridian AI Sub-Processing Legacy
 
-The Veridian AI acquisition may have introduced existing sub-processing arrangements that predate the Emyzer Nexus DPA framework. The DPO shall review all processing agreements inherited through the acquisition within **60 days** of integration and remediate any gaps — replacing legacy arrangements with compliant DPAs or terminating relationships where compliance cannot be achieved.
+The Veridian AI acquisition may have introduced existing sub-processing arrangements that predate the Emyzer Nexus DPA framework. The DPO shall review all processing agreements inherited through the acquisition within **60 days** of integration and remediate any gaps: replacing legacy arrangements with compliant DPAs or terminating relationships where compliance cannot be achieved.
 
 ---
 
@@ -592,7 +592,7 @@ Where consent is the lawful basis for processing, it must be:
 - **Freely given:** Data subjects must have a genuine choice. Consent shall not be a condition of service unless the processing is necessary for that service.
 - **Specific:** Consent shall be obtained for each distinct processing purpose. Bundled consent for multiple purposes is not valid.
 - **Informed:** Data subjects shall receive clear information about who is processing their data, for what purpose, and their right to withdraw consent before giving it.
-- **Unambiguous:** Consent shall be indicated by a clear affirmative act — a pre-ticked box, silence, or inactivity does not constitute valid consent.
+- **Unambiguous:** Consent shall be indicated by a clear affirmative act: a pre-ticked box, silence, or inactivity does not constitute valid consent.
 - **Withdrawable:** Data subjects shall be able to withdraw consent as easily as they gave it. Withdrawal shall not affect the lawfulness of processing based on consent before withdrawal.
 
 ### N.2 Consent Records
@@ -663,28 +663,28 @@ Business units requiring temporary deviation from this policy shall:
 
 ## Q. Related Policies
 
-1. [**Information Security Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) *(KB-PORTFOLIO-0001)* — Parent policy. Establishes the ISMS within which the Privacy Information Management System (PIMS) operates. Information security controls under GDPR Article 32 are governed jointly by this policy and the Information Security Policy.
+1. [**Information Security Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) *(KB-PORTFOLIO-0001)*: Parent policy. Establishes the ISMS within which the Privacy Information Management System (PIMS) operates. Information security controls under GDPR Article 32 are governed jointly by this policy and the Information Security Policy.
 
-2. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) *(KB-PORTFOLIO-0002)* — Privacy risks are registered in the enterprise risk register as a distinct risk category under CRO and DPO joint ownership.
+2. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) *(KB-PORTFOLIO-0002)*: Privacy risks are registered in the enterprise risk register as a distinct risk category under CRO and DPO joint ownership.
 
-3. [**Data Classification Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md) *(KB-PORTFOLIO-0003)* — The data classification framework governs the handling of personal data by tier. Special category data is classified at minimum as Restricted.
+3. [**Data Classification Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md) *(KB-PORTFOLIO-0003)*: The data classification framework governs the handling of personal data by tier. Special category data is classified at minimum as Restricted.
 
-4. [**AI Governance Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/ai-governance-policy.md) *(KB-PORTFOLIO-0011)* — Governs High-Risk AI systems processing personal data. DPIAs under this policy and conformity assessments under the AI Governance Policy are conducted as coordinated processes for AI systems in scope of both.
+4. [**AI Governance Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/ai-governance-policy.md) *(KB-PORTFOLIO-0011)*: Governs High-Risk AI systems processing personal data. DPIAs under this policy and conformity assessments under the AI Governance Policy are conducted as coordinated processes for AI systems in scope of both.
 
-5. [**Model Risk Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/model-risk-policy.md) *(KB-PORTFOLIO-0012)* — Model development data governance requirements under Section G.2.2 are coordinated with DPIA training data obligations under this policy.
+5. [**Model Risk Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/model-risk-policy.md) *(KB-PORTFOLIO-0012)*: Model development data governance requirements under Section G.2.2 are coordinated with DPIA training data obligations under this policy.
 
-6. [**Third-Party Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) *(KB-PORTFOLIO-0008)* — Privacy due diligence requirements are embedded in the third-party risk assessment process. DPA execution is a prerequisite for vendor onboarding where personal data processing is involved.
+6. [**Third-Party Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) *(KB-PORTFOLIO-0008)*: Privacy due diligence requirements are embedded in the third-party risk assessment process. DPA execution is a prerequisite for vendor onboarding where personal data processing is involved.
 
-7. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) *(KB-PORTFOLIO-0006)* — Personal data breaches are managed through the security incident response process with this policy governing the regulatory notification dimension.
+7. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) *(KB-PORTFOLIO-0006)*: Personal data breaches are managed through the security incident response process with this policy governing the regulatory notification dimension.
 
-8. [**Security Awareness and Training Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/security-awareness-training-policy.md) *(KB-PORTFOLIO-0014)* — Data protection training for all personnel and specialist training for the DPO and Privacy team are governed under the Security Awareness and Training Policy.
+8. [**Security Awareness and Training Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/security-awareness-training-policy.md) *(KB-PORTFOLIO-0014)*: Data protection training for all personnel and specialist training for the DPO and Privacy team are governed under the Security Awareness and Training Policy.
 
 ---
 
 ## R. Related Documents
 
-1. Record of Processing Activities (ROPA) — Controller
-2. Record of Processing Activities (ROPA) — Processor
+1. Record of Processing Activities (ROPA): Controller
+2. Record of Processing Activities (ROPA): Processor
 3. DPIA Register and Tracking Log
 4. DPIA Template and Guidance
 5. Legitimate Interests Assessment (LIA) Template
@@ -716,11 +716,11 @@ This policy shall be reviewed **annually** or upon: material changes to GDPR or 
 |-----------|-----------|
 | **EU GDPR (Regulation 2016/679)** | Article 5 (Data protection principles), Article 6 (Lawful basis), Article 7 (Consent), Article 9 (Special categories), Articles 12–23 (Data subject rights), Article 25 (Privacy by design and default), Article 28 (Processors and DPAs), Article 30 (ROPA), Article 32 (Security of processing), Article 33 (Breach notification to supervisory authority), Article 34 (Communication to data subjects), Article 35 (DPIA), Article 36 (Prior consultation), Article 37–39 (DPO), Articles 44–49 (Cross-border transfers) |
 | **UK GDPR** | Equivalent to EU GDPR provisions as retained and adapted in UK law; ICO guidance applied for UK-specific obligations including IDTA for international transfers |
-| **ISO/IEC 27701:2019** | Clause 5 (PIMS requirements for controllers and processors — extending ISO 27001 Clause 4–10), Clause 6 (PIMS guidance for controllers), Clause 7 (PIMS guidance for processors), Annex A (Controller-specific control requirements), Annex B (Processor-specific control requirements), Annex D (Mapping to GDPR) |
-| **ISO/IEC 27001:2022** | Clause 6.1 (Risk management — privacy risks in ISMS risk assessment), A.5.34 (Privacy and protection of PII), A.8.11–A.8.12 (Data masking and DLP controls for personal data) |
+| **ISO/IEC 27701:2019** | Clause 5 (PIMS requirements for controllers and processors: extending ISO 27001 Clause 4–10), Clause 6 (PIMS guidance for controllers), Clause 7 (PIMS guidance for processors), Annex A (Controller-specific control requirements), Annex B (Processor-specific control requirements), Annex D (Mapping to GDPR) |
+| **ISO/IEC 27001:2022** | Clause 6.1 (Risk management: privacy risks in ISMS risk assessment), A.5.34 (Privacy and protection of PII), A.8.11–A.8.12 (Data masking and DLP controls for personal data) |
 | **NIST Privacy Framework 1.0** | IDENTIFY-P (data processing inventory and ROPA), GOVERN-P (privacy governance structure and DPO function), CONTROL-P (data subject rights and consent management), COMMUNICATE-P (privacy notices and transparency), PROTECT-P (privacy by design and security controls) |
-| **EU AI Act (Regulation 2024/1689)** | Recital 47 (AI systems processing personal data — interaction with GDPR), Article 10 (Data governance obligations for training data — coordinated with DPIA data minimisation assessment), Article 13 (Transparency — coordinated with privacy notice obligations), Article 22 (Interaction with GDPR Article 22 automated decision-making rights) |
-| **EDPB Guidelines** | Guidelines 09/2022 (DPIA criteria — mandatory processing types), Guidelines 05/2022 (Consent), Guidelines 07/2020 (Automated decision-making), Guidelines 05/2021 (Cross-border transfers — SCCs), Guidelines 01/2021 (Interplay of GDPR and ePrivacy Directive) |
+| **EU AI Act (Regulation 2024/1689)** | Recital 47 (AI systems processing personal data, interaction with GDPR), Article 10 (Data governance obligations for training data, coordinated with DPIA data minimisation assessment), Article 13 (Transparency, coordinated with privacy notice obligations), Article 22 (Interaction with GDPR Article 22 automated decision-making rights) |
+| **EDPB Guidelines** | Guidelines 09/2022 (DPIA criteria, mandatory processing types), Guidelines 05/2022 (Consent), Guidelines 07/2020 (Automated decision-making), Guidelines 05/2021 (Cross-border transfers, SCCs), Guidelines 01/2021 (Interplay of GDPR and ePrivacy Directive) |
 | **ICO Guidance** | ICO Data Sharing Code of Practice, ICO DPIA Guidance, ICO Legitimate Interests Guidance, ICO International Transfers Guidance (IDTA) |
 
 ---
@@ -730,7 +730,7 @@ This policy shall be reviewed **annually** or upon: material changes to GDPR or 
 | Benefit Area | Description |
 |--------------|-------------|
 | **Regulatory Risk Reduction** | Documented lawful bases, complete ROPA, DPIAs before high-risk processing, 72-hour breach notification, and DPA coverage for all processors directly reduce the risk of GDPR/UK GDPR enforcement action and associated financial penalties |
-| **Acquisition Risk Management** | The Veridian AI DPIA process provides a structured mechanism for assessing and governing the privacy implications of inherited processing activities — converting an unquantified acquisition risk into a managed compliance programme with a tracked remediation timeline |
+| **Acquisition Risk Management** | The Veridian AI DPIA process provides a structured mechanism for assessing and governing the privacy implications of inherited processing activities: converting an unquantified acquisition risk into a managed compliance programme with a tracked remediation timeline |
 | **Client Trust and Commercial Advantage** | Enterprise and regulated-industry clients require suppliers to demonstrate GDPR compliance before contract award. DPA readiness, ROPA availability, and DPIA capability are evaluated in client due diligence processes. Privacy governance maturity is a commercial differentiator |
 | **AI Governance Integration** | Coordinating DPIA and conformity assessment processes eliminates duplication, ensures consistency, and demonstrates to regulators that AI privacy risks are managed holistically rather than as separate compliance workstreams |
 | **Data Subject Confidence** | Rights fulfilment within statutory deadlines, clear privacy notices, and accessible consent management build the data subject trust that underpins customer relationships in markets where individuals are increasingly aware of their privacy rights |
@@ -744,8 +744,8 @@ This policy shall be reviewed **annually** or upon: material changes to GDPR or 
 
 | Evidence Type | System of Record | Owner | Retention Period |
 |---------------|------------------|-------|------------------|
-| Record of Processing Activities — Controller | GRC Platform | DPO / GRC Team | Indefinite (current version with full revision history) |
-| Record of Processing Activities — Processor | GRC Platform | DPO / GRC Team | Indefinite (current version with full revision history) |
+| Record of Processing Activities: Controller | GRC Platform | DPO / GRC Team | Indefinite (current version with full revision history) |
+| Record of Processing Activities: Processor | GRC Platform | DPO / GRC Team | Indefinite (current version with full revision history) |
 | Lawful Basis Documentation | GRC Platform | DPO | Life of processing activity + 5 years |
 | Legitimate Interests Assessments | Document Repository | DPO | Life of processing activity + 5 years |
 | DPIA Register | GRC Platform | GRC Team | Indefinite |

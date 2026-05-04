@@ -210,10 +210,10 @@ This control testing was conducted to:
 | **Finding Title** | [Descriptive title of the finding] |
 | **Control(s) Affected** | [CTRL-###] |
 | **Severity** | Critical / High / Medium / Low |
-| **Condition** | [What was found—factual description of the gap or issue] |
-| **Criteria** | [What should be in place—framework requirement or policy] |
-| **Cause** | [Root cause analysis—why the condition exists] |
-| **Effect/Risk** | [Impact—what could happen if not addressed] |
+| **Condition** | [What was found: factual description of the gap or issue] |
+| **Criteria** | [What should be in place: framework requirement or policy] |
+| **Cause** | [Root cause analysis: why the condition exists] |
+| **Effect/Risk** | [Impact: what could happen if not addressed] |
 | **Recommendation** | [Specific, actionable remediation steps] |
 | **Management Response** | [Control owner's response and agreement/disagreement] |
 | **Remediation Plan** | [Detailed steps management will take] |

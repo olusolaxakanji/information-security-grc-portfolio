@@ -1,4 +1,4 @@
-# ET-CTRL-001 — Access Control Review and Certification
+# ET-CTRL-001: Access Control Review and Certification
 
 | Field | Value |
 |---|---|
@@ -22,7 +22,7 @@ The Information Security Officer conducts periodic certifications of user access
 
 **Standard user certification (quarterly):** Department managers review and attest to the appropriateness of every active account within their area of responsibility. Accounts lacking a current business justification are flagged for revocation within 30 days of the review completion date.
 
-**Privileged access certification (monthly):** The ISO reviews all privileged accounts — including administrator, service, and break-glass accounts — against documented business justifications. Privileged access without current written justification is revoked within 15 days.
+**Privileged access certification (monthly):** The ISO reviews all privileged accounts, including administrator, service, and break-glass accounts, against documented business justifications. Privileged access without current written justification is revoked within 15 days.
 
 Access review records are maintained in ServiceNow and retained for 3 years. The identity management system is the system of record for account state; ServiceNow holds the governance record.
 
@@ -37,7 +37,7 @@ Access review records are maintained in ServiceNow and retained for 3 years. The
 
 ## Escalation
 
-Access review failures — including overdue certifications, unrevoked terminated-employee accounts, or unjustified privileged access — are escalated to the CISO within 24 hours of discovery. The ISO opens a remediation ticket in ServiceNow with a mandatory closure deadline. Systemic failures (two or more consecutive quarters of incomplete certifications in the same department) are escalated to the Security Steering Committee.
+Access review failures, including overdue certifications, unrevoked terminated-employee accounts, or unjustified privileged access, are escalated to the CISO within 24 hours of discovery. The ISO opens a remediation ticket in ServiceNow with a mandatory closure deadline. Systemic failures (two or more consecutive quarters of incomplete certifications in the same department) are escalated to the Security Steering Committee.
 
 ## Change History
 

@@ -52,7 +52,7 @@ Emyzer Technology operates under the following regulatory and standards framewor
 
 ### 2.2 Strategic Context
 
-Emyzer Technology's risk appetite is shaped by three strategic realities. First, customer trust is a competitive differentiator — data breaches or service failures directly erode the customer relationships that sustain revenue. Second, the company operates a payment-integrated e-commerce channel where availability and integrity failures have immediate, quantifiable revenue impact. Third, as a growing mid-market company, Emyzer must balance robust risk management against the resource constraints inherent to its stage of maturity.
+Emyzer Technology's risk appetite is shaped by three strategic realities. First, customer trust is a competitive differentiator: data breaches or service failures directly erode the customer relationships that sustain revenue. Second, the company operates a payment-integrated e-commerce channel where availability and integrity failures have immediate, quantifiable revenue impact. Third, as a growing mid-market company, Emyzer must balance robust risk management against the resource constraints inherent to its stage of maturity.
 
 ---
 
@@ -108,7 +108,7 @@ The following conditions are considered beyond appetite regardless of their scor
 
 ## 6. Governance and Accountability
 
-Risk appetite is not a policy — it is a decision framework. It only functions when the accountability structure below is active and enforced.
+Risk appetite is not a policy: it is a decision framework. It only functions when the accountability structure below is active and enforced.
 
 | Role | Responsibility | Appetite-Related Action |
 |------|---------------|------------------------|
@@ -123,11 +123,11 @@ Risk appetite is not a policy — it is a decision framework. It only functions 
 
 The following events trigger mandatory escalation outside the standard review cadence:
 
-- A new Critical risk is identified — immediate CISO notification required.
-- An existing risk increases to Critical — notification within 24 hours.
-- A treatment plan deadline is missed by 30 days or more — escalation to the Risk Management Committee.
-- A formally accepted risk materially changes in likelihood, impact, or control effectiveness — reassessment triggered.
-- A third-party vendor's SecurityScorecard rating drops below 80 — immediate vendor risk review.
+- A new Critical risk is identified: immediate CISO notification required.
+- An existing risk increases to Critical: notification within 24 hours.
+- A treatment plan deadline is missed by 30 days or more: escalation to the Risk Management Committee.
+- A formally accepted risk materially changes in likelihood, impact, or control effectiveness: reassessment triggered.
+- A third-party vendor's SecurityScorecard rating drops below 80: immediate vendor risk review.
 
 ### 6.2 Review and Amendment
 
@@ -141,13 +141,13 @@ The following summary maps the current register snapshot (2024-05-22) against th
 
 | Risk ID | Risk Level | Status | Appetite Alignment |
 |---------|------------|--------|--------------------|
-| RISK-2024-0042 | Critical (20) | In Treatment | ✅ Within appetite — active treatment underway. MFA rollout target August 2024. |
-| RISK-2024-0045 | Critical (20) | In Treatment | ✅ Within appetite — immediate remediation applied. AWS Config automation in progress. |
-| RISK-2024-0047 | Critical (16) | Open — Budget Pending | ⚠️ **Outside appetite.** Compensating control (SIEM) in place. Budget escalation is required this cycle. |
-| RISK-2024-0038 | High (15) | In Treatment | ✅ Within appetite — network segmentation 60% complete. EDR procurement in progress. |
-| RISK-2024-0031 | High (12) | Monitoring | ✅ Within appetite — SecurityScorecard A (87/100). Cyber insurance is in force. |
-| RISK-2024-0049 | High (12) | In Treatment | ✅ Within appetite — migration underway. Decommission is planned before the support end date. |
-| RISK-2024-0033 | High (12) | Monitoring | ✅ Within appetite — phishing click rate 6%, below 10% threshold. Dual-approval active. |
+| RISK-2024-0042 | Critical (20) | In Treatment | ✅ Within appetite: active treatment underway. MFA rollout target August 2024. |
+| RISK-2024-0045 | Critical (20) | In Treatment | ✅ Within appetite: immediate remediation applied. AWS Config automation in progress. |
+| RISK-2024-0047 | Critical (16) | Open: Budget Pending | ⚠️ **Outside appetite.** Compensating control (SIEM) in place. Budget escalation is required this cycle. |
+| RISK-2024-0038 | High (15) | In Treatment | ✅ Within appetite: network segmentation 60% complete. EDR procurement in progress. |
+| RISK-2024-0031 | High (12) | Monitoring | ✅ Within appetite: SecurityScorecard A (87/100). Cyber insurance is in force. |
+| RISK-2024-0049 | High (12) | In Treatment | ✅ Within appetite: migration underway. Decommission is planned before the support end date. |
+| RISK-2024-0033 | High (12) | Monitoring | ✅ Within appetite: phishing click rate 6%, below 10% threshold. Dual-approval active. |
 | RISK-2024-0051 | Medium (9) | Pending Acceptance | ✅ Within appetite if formally accepted with compensating measures documented. |
 | RISK-2024-0052, 0054, 0055, 0039, 0056 | Medium (6–9) | In Treatment / Monitoring | ✅ Within appetite. Managed through standard operational controls and quarterly review. |
 | RISK-2024-0029, 0058, 0060 | Low (4–6) | Accepted / Monitoring | ✅ Within appetite. Formal acceptance in place where applicable. Annual review scheduled. |

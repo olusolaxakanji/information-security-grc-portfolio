@@ -1,6 +1,6 @@
 # Integration Management
 
-**Emyzer Nexus — M&A GRC Integration Programme**
+**Emyzer Nexus: M&A GRC Integration Programme**
 
 ---
 
@@ -14,7 +14,7 @@
 
 This folder contains the governance documentation for the GRC integration of Veridian AI into Emyzer Nexus following the Q4 2024 acquisition. The integration programme exists to answer three questions that every M&A transaction creates:
 
-1. **Which policies now govern the acquired entity?** Veridian AI operated informally without a documented GRC programme. From the acquisition close date, Emyzer Nexus policies apply — but the transition must be managed rather than assumed.
+1. **Which policies now govern the acquired entity?** Veridian AI operated informally without a documented GRC programme. From the acquisition close date, Emyzer Nexus policies apply: but the transition must be managed rather than assumed.
 2. **What compliance gaps did we inherit?** Veridian AI's two operational AI systems (PCM-001 and CRT-001) were in production without EU AI Act conformity assessments. The GDPR data processing situation for CRT-001's external LLM API was unresolved. These gaps became Emyzer Nexus compliance gaps on acquisition close.
 3. **What Phase 1 documentation needs to change?** Emyzer Technology's policies were written for a hardware and services business. Absorbing an AI-native startup expands the scope of nearly every policy and creates entirely new governance domains.
 
@@ -71,11 +71,11 @@ The following decisions were made by the Integration Management Committee and ap
 
 | Framework | Application |
 |---|---|
-| **[ISO 31000:2018](https://www.iso.org/standard/65694.html)** | Enterprise risk management — M&A risk identification and treatment methodology |
-| **[ISO 27001:2022](https://www.iso.org/standard/82875.html)** | Information security management — policy hierarchy and scope expansion |
+| **[ISO 31000:2018](https://www.iso.org/standard/65694.html)** | Enterprise risk management: M&A risk identification and treatment methodology |
+| **[ISO 27001:2022](https://www.iso.org/standard/82875.html)** | Information security management: policy hierarchy and scope expansion |
 | **[EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)** [VERIFY] | AI system classification obligations triggered by acquisition of Veridian AI systems |
 | **[GDPR (Regulation 2016/679)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)** [VERIFY] | Data governance obligations for inherited training data and external API data transmission |
-| **[NIST CSF 2.0](https://www.nist.gov/cyberframework)** | Govern (GV) function — organisational GRC integration following material organisational change |
+| **[NIST CSF 2.0](https://www.nist.gov/cyberframework)** | Govern (GV) function: organisational GRC integration following material organisational change |
 
 ---
 

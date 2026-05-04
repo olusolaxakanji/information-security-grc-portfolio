@@ -1,4 +1,4 @@
-# ET-CTRL-002 — Incident Detection and Response
+# ET-CTRL-002: Incident Detection and Response
 
 | Field | Value |
 |---|---|
@@ -22,11 +22,11 @@ The Incident Response Team (IRT), led by the ISO, manages all security incidents
 
 **Incident lifecycle:**
 
-1. **Detection** — Security events are surfaced via SIEM alerts, user reports, third-party notifications, or automated monitoring tools.
-2. **Classification** — The IRT classifies the incident within 1 hour of detection using the four-tier severity model (Critical, High, Medium, Low) defined in the Incident Management Policy.
-3. **Containment** — Immediate containment actions are taken to limit impact. Containment completion timeframes are severity-dependent.
-4. **Eradication and recovery** — Root cause is removed and affected systems are returned to an operational state, with sign-off from business owners before production restoration.
-5. **Post-incident review** — A formal post-incident review is completed for all Medium or higher severity incidents. Findings are documented and remediation actions are tracked in ServiceNow to closure.
+1. **Detection**: Security events are surfaced via SIEM alerts, user reports, third-party notifications, or automated monitoring tools.
+2. **Classification**: The IRT classifies the incident within 1 hour of detection using the four-tier severity model (Critical, High, Medium, Low) defined in the Incident Management Policy.
+3. **Containment**: Immediate containment actions are taken to limit impact. Containment completion timeframes are severity-dependent.
+4. **Eradication and recovery**: Root cause is removed and affected systems are returned to an operational state, with sign-off from business owners before production restoration.
+5. **Post-incident review**: A formal post-incident review is completed for all Medium or higher severity incidents. Findings are documented and remediation actions are tracked in ServiceNow to closure.
 
 **GDPR notification:** Personal data breaches meeting the Article 33 threshold are reported to the relevant supervisory authority within 72 hours of detection. Article 34 notifications to affected individuals are issued when required. Legal Counsel is notified at the point of incident classification as High or Critical. All notification decisions and timelines are documented.
 

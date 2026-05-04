@@ -1,4 +1,4 @@
-# ET-CTRL-007 — Business Continuity and DR Testing
+# ET-CTRL-007: Business Continuity and DR Testing
 
 | Field | Value |
 |---|---|
@@ -25,7 +25,7 @@ The Business Continuity Manager conducts semi-annual exercises to validate that 
 | Exercise Type | Description | Systems Activated |
 |---|---|---|
 | **Tabletop** | Structured discussion of a simulated disruption scenario. Participants walk through response and recovery steps against the BC/DR plan without activating live systems. | No |
-| **Walkthrough / Technical test** | Component-level test of specific recovery procedures — for example, restoring data from backup to a non-production environment and validating data integrity and recovery time. | Partial |
+| **Walkthrough / Technical test** | Component-level test of specific recovery procedures: for example, restoring data from backup to a non-production environment and validating data integrity and recovery time. | Partial |
 | **Full interruption test** | Complete simulation of system failover to the DR environment under controlled conditions. Requires CISO and CRO approval; scheduled in advance to minimise operational impact. | Full |
 
 The exercise schedule rotates through types to progressively test increasing levels of plan fidelity.

@@ -8,7 +8,7 @@ This directory contains the Emyzer Technology information security control frame
 
 | Document | Description |
 |---|---|
-| [control-index.md](control-index.md) | Master list of all controls — authoritative reference for IDs, owners, types, frequencies, and status |
+| [control-index.md](control-index.md) | Master list of all controls: authoritative reference for IDs, owners, types, frequencies, and status |
 | [et-ctrl-001-access-control-review.md](et-ctrl-001-access-control-review.md) | Access Control Review and Certification |
 | [et-ctrl-002-incident-detection-response.md](et-ctrl-002-incident-detection-response.md) | Incident Detection and Response |
 | [et-ctrl-003-change-advisory-board-review.md](et-ctrl-003-change-advisory-board-review.md) | Change Advisory Board (CAB) Review |
@@ -24,9 +24,9 @@ This directory contains the Emyzer Technology information security control frame
 
 All Emyzer Technology controls use the format `ET-CTRL-NNN`:
 
-- `ET` — Emyzer Technology entity identifier
-- `CTRL` — document type: control record
-- `NNN` — sequential three-digit number
+- `ET`: Emyzer Technology entity identifier
+- `CTRL`: document type: control record
+- `NNN`: sequential three-digit number
 
 Controls scoped to Emyzer Nexus as the parent entity (e.g., ET-CTRL-008) retain the `ET-CTRL` prefix for this portfolio but are noted as Nexus-level in their entity field.
 

@@ -40,7 +40,7 @@ This policy establishes the governance framework for the responsible development
 |-----------|---------|
 | **Applies to** | All Emyzer Nexus business units, subsidiaries (including Emyzer Technology), acquired entities (including Veridian AI systems), employees, contractors, and third parties involved in the development, procurement, deployment, or operation of AI systems |
 | **Covers** | All AI and ML systems owned, operated, or procured by Emyzer Nexus, including systems inherited through the Veridian AI acquisition, third-party AI APIs, and AI features embedded in commercial software |
-| **AI Risk Tiers** | Unacceptable Risk, High-Risk, Limited Risk, Minimal Risk — aligned to EU AI Act classification framework |
+| **AI Risk Tiers** | Unacceptable Risk, High-Risk, Limited Risk, Minimal Risk: aligned to EU AI Act classification framework |
 | **Review Cadence** | Annual policy review; AI system risk classifications reviewed upon material change; model performance reviewed on a cadence defined by risk tier |
 | **Key Governance** | CISO provides executive oversight; AI Governance Committee owns program operations; AI System Owners manage lifecycle compliance; Legal Counsel ensures regulatory alignment |
 | **Exceptions Process** | ServiceNow workflow with CISO approval; maximum 90-day duration; quarterly review of active exceptions |
@@ -52,7 +52,7 @@ This policy establishes the governance framework for the responsible development
 
 To establish a comprehensive governance framework for artificial intelligence and machine learning systems across Emyzer Nexus, ensuring that AI systems are designed, deployed, and operated in a manner that is lawful, ethical, transparent, and accountable. This policy operationalizes the organization's obligations under the EU AI Act, aligns AI risk management practices with the NIST AI Risk Management Framework (AI RMF 1.0), and integrates AI governance into the existing Information Security Management System (ISMS).
 
-The policy reflects Emyzer Nexus's recognition that AI systems present distinct governance challenges not fully addressed by traditional information security frameworks — including model drift, training data bias, explainability limitations, and the opacity of third-party large language model APIs. It establishes the structures and controls required to manage these challenges responsibly and to maintain stakeholder trust as the organization's AI footprint evolves.
+The policy reflects Emyzer Nexus's recognition that AI systems present distinct governance challenges not fully addressed by traditional information security frameworks: including model drift, training data bias, explainability limitations, and the opacity of third-party large language model APIs. It establishes the structures and controls required to manage these challenges responsibly and to maintain stakeholder trust as the organization's AI footprint evolves.
 
 ---
 
@@ -167,7 +167,7 @@ The following requirements establish baseline controls across the AI system life
 
 - Shall maintain a complete AI System Inventory in the GRC platform, updated **within 30 days** of identifying, acquiring, or materially changing any AI system.
 - The inventory shall record, at minimum: system name, vendor or development origin, intended use case, affected populations, data inputs and outputs, deployment environment, EU AI Act risk tier classification, AI System Owner, deployment date, and review date.
-- Shall conduct an **annual** inventory audit to identify shadow AI — AI features embedded in commercial software or adopted by business units without formal registration.
+- Shall conduct an **annual** inventory audit to identify shadow AI: AI features embedded in commercial software or adopted by business units without formal registration.
 - All AI systems identified through inventory audit shall be classified and registered **within 60 days** of identification.
 
 ### F.2 AI Risk Classification
@@ -317,17 +317,17 @@ Business units requiring temporary deviation from this policy shall:
 
 ## I. Related Policies
 
-1. [**Information Security Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) — Parent policy establishing the ISMS framework and governance structure.
+1. [**Information Security Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md): Parent policy establishing the ISMS framework and governance structure.
 
-2. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) — Defines the enterprise risk assessment methodology applied to AI-specific risk categories, including model drift, training data bias, and third-party model dependency.
+2. [**Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md): Defines the enterprise risk assessment methodology applied to AI-specific risk categories, including model drift, training data bias, and third-party model dependency.
 
-3. [**Third-Party Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) — Establishes vendor risk requirements extended by the AI Vendor Risk Due Diligence Addendum for AI-specific third-party obligations.
+3. [**Third-Party Risk Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md): Establishes vendor risk requirements extended by the AI Vendor Risk Due Diligence Addendum for AI-specific third-party obligations.
 
-4. [**Data Classification Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md) — Governs the classification and handling of training data, model outputs, and AI system documentation.
+4. [**Data Classification Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md): Governs the classification and handling of training data, model outputs, and AI system documentation.
 
-5. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) — Defines incident response procedures extended to cover AI-specific failure modes and EU AI Act regulatory notification obligations.
+5. [**Incident Management Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md): Defines incident response procedures extended to cover AI-specific failure modes and EU AI Act regulatory notification obligations.
 
-6. [**Model Risk Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/model-risk-policy.md) — Operational policy governing the detailed model lifecycle, bias testing cadence, and explainability standards. 
+6. [**Model Risk Policy**](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/model-risk-policy.md): Operational policy governing the detailed model lifecycle, bias testing cadence, and explainability standards. 
 
 ---
 
@@ -342,7 +342,7 @@ Business units requiring temporary deviation from this policy shall:
 7. AI Incident Response Runbook
 8. AI System Retirement Checklist
 9. Human Oversight Validation Protocol
-10. Operator Training Program — High-Risk AI Systems
+10. Operator Training Program: High-Risk AI Systems
 
 ---
 
@@ -358,9 +358,9 @@ This policy shall be reviewed **annually** or when any of the following occur: p
 |-----------|-----------|
 | **EU AI Act (Regulation 2024/1689)** | Title II (Prohibited AI Practices), Title III (High-Risk AI Systems), Article 9 (Risk Management System), Article 10 (Data Governance), Article 11 (Technical Documentation), Article 13 (Transparency), Article 14 (Human Oversight), Article 15 (Accuracy, Robustness, Cybersecurity), Article 72 (Post-Market Monitoring), Article 73 (Serious Incident Reporting) |
 | **NIST AI RMF 1.0** | GOVERN (organisational AI risk governance structures and culture), MAP (AI risk identification and context establishment), MEASURE (AI risk analysis and tracking), MANAGE (AI risk treatment, response, and recovery) |
-| **ISO/IEC 42001:2023** | Clause 4 (Context of the organisation for AI management systems), Clause 6 (Planning — AI risk and opportunity management), Clause 8 (Operation — AI system lifecycle controls), Clause 9 (Performance evaluation of AI management systems), Annex A (AI management controls) |
+| **ISO/IEC 42001:2023** | Clause 4 (Context of the organisation for AI management systems), Clause 6 (Planning, AI risk and opportunity management), Clause 8 (Operation, AI system lifecycle controls), Clause 9 (Performance evaluation of AI management systems), Annex A (AI management controls) |
 | **ISO/IEC 27001:2022** | Clause 6.1 (Risk management integration), A.5.19 through A.5.22 (Supplier and third-party AI governance), A.8.25 through A.8.28 (Secure development and system lifecycle) |
-| **ISO/IEC 23894:2023** | Guidance on AI risk management — risk identification and treatment for AI-specific threat scenarios |
+| **ISO/IEC 23894:2023** | Guidance on AI risk management: risk identification and treatment for AI-specific threat scenarios |
 | **NIST SP 800-53 Rev. 5** | SR-3 (Supply chain controls for AI components), RA-10 (Threat modelling including AI threat vectors), SA-11 (Developer testing and evaluation of AI systems) |
 
 **Note:** This policy aligns with these standards and regulations. Compliance scope and applicability determinations are documented in the EU AI Act Control Mapping and the ISMS Statement of Applicability.
@@ -374,7 +374,7 @@ This policy shall be reviewed **annually** or when any of the following occur: p
 | **Regulatory Compliance** | Establishes the governance structures required to meet EU AI Act obligations, reducing the risk of regulatory penalties (up to €35 million or 7% of global annual turnover for the most serious violations) |
 | **Acquisition Risk Management** | Provides a structured framework for assessing and governing AI systems inherited through the Veridian AI acquisition, preventing unmanaged compliance gaps from materialising into enforcement actions |
 | **Stakeholder Trust** | Demonstrates to customers, partners, and investors that AI systems are deployed responsibly, with human oversight and accountability mechanisms in place |
-| **Risk Reduction** | AI-specific risk controls — bias testing, drift monitoring, human oversight, explainability — reduce the likelihood and impact of model failures that could cause harm to individuals or organisational operations |
+| **Risk Reduction** | AI-specific risk controls, bias testing, drift monitoring, human oversight, explainability, reduce the likelihood and impact of model failures that could cause harm to individuals or organisational operations |
 | **Competitive Positioning** | Proactive EU AI Act compliance positions Emyzer Nexus favourably with enterprise clients and partners in regulated industries who require evidence of responsible AI governance in their supply chain |
 | **Incident Preparedness** | Defined AI incident response procedures and regulatory notification processes reduce response time and demonstrate due diligence if an AI-related incident occurs |
 | **Governance Maturity** | Integrating AI governance into the existing ISMS and GRC program demonstrates organisational maturity to auditors, regulators, and prospective clients evaluating Emyzer Nexus as a technology partner |

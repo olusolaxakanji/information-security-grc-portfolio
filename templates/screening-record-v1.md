@@ -1,4 +1,4 @@
-# Vendor / Personnel Screening Record — Template
+# Vendor / Personnel Screening Record: Template
 
 ---
 
@@ -23,15 +23,15 @@
 
 This template serves two distinct but structurally similar screening purposes. Complete the correct sections for each use case:
 
-1. **Vendor Security Screening** — used when onboarding a new vendor, conducting a periodic vendor review, or responding to a material change in a vendor's circumstances (e.g., change of ownership, security incident, regulatory sanction). The Vendor Risk Manager owns vendor screening records. Complete Sections 1, 2 (vendor checklist), 3, 4, and 5.
+1. **Vendor Security Screening**: used when onboarding a new vendor, conducting a periodic vendor review, or responding to a material change in a vendor's circumstances (e.g., change of ownership, security incident, regulatory sanction). The Vendor Risk Manager owns vendor screening records. Complete Sections 1, 2 (vendor checklist), 3, 4, and 5.
 
-2. **Personnel Background Screening** — used when engaging an individual in a role classified as High Sensitivity (e.g., privileged system access, access to restricted data, financial authority, executive role) or when periodic re-screening is triggered. Human Resources owns personnel screening records, in coordination with the ISO. Complete Sections 1, 2 (personnel checklist), 3, 4, and the Privacy Notice.
+2. **Personnel Background Screening**: used when engaging an individual in a role classified as High Sensitivity (e.g., privileged system access, access to restricted data, financial authority, executive role) or when periodic re-screening is triggered. Human Resources owns personnel screening records, in coordination with the ISO. Complete Sections 1, 2 (personnel checklist), 3, 4, and the Privacy Notice.
 
 **When to use**
-- **New engagement** — before any system access, data access, or service commencement is granted.
-- **Periodic review** — per the frequency defined in the Appendix. Periodic reviews must be completed and approved before the previous screening period expires.
-- **Material change** — following a significant event affecting the subject (e.g., vendor security incident, change in sub-processors, key personnel change at a Critical-tier vendor; or change in an individual's role, personal circumstances triggering re-screening under policy).
-- **Trigger event** — following a security alert, regulatory notification, or adverse media report relating to the subject.
+- **New engagement**: before any system access, data access, or service commencement is granted.
+- **Periodic review**: per the frequency defined in the Appendix. Periodic reviews must be completed and approved before the previous screening period expires.
+- **Material change**: following a significant event affecting the subject (e.g., vendor security incident, change in sub-processors, key personnel change at a Critical-tier vendor; or change in an individual's role, personal circumstances triggering re-screening under policy).
+- **Trigger event**: following a security alert, regulatory notification, or adverse media report relating to the subject.
 
 **Who retains records**
 Vendor screening records are retained by the Vendor Risk Manager and stored in the GRC platform. Personnel screening records are retained by Human Resources in a separate, access-restricted repository. Personnel screening records must not be stored in the general GRC platform or accessible to staff outside HR, Legal, and the ISO. Access to personnel screening records is on a strict need-to-know basis.
@@ -50,46 +50,46 @@ Screening IDs follow the format SR-YYYY-NNNN (e.g., SR-2025-0017). Assigned sequ
 |----------------------------|-------------------------------------------------------------------------------------------------|
 | Screening ID               | [SR-YYYY-NNNN]                                                                                  |
 | Subject Type               | [Vendor / Individual]                                                                           |
-| Subject Name               | [Legal entity name (vendor) or individual's full legal name (personnel) — see privacy note for individual records] |
-| Subject Classification     | **Vendor:** [Risk Tier: Critical / High / Medium / Low — per Third-Party Risk Management Policy] **OR** **Personnel:** [Role Sensitivity: High / Standard] |
-| Screening Date             | [YYYY-MM-DD — date screening was initiated]                                                    |
-| Screened By                | [Full name, Role — e.g., Alex Reid, Vendor Risk Manager]                                       |
+| Subject Name               | [Legal entity name (vendor) or individual's full legal name (personnel): see privacy note for individual records] |
+| Subject Classification     | **Vendor:** [Risk Tier: Critical / High / Medium / Low: per Third-Party Risk Management Policy] **OR** **Personnel:** [Role Sensitivity: High / Standard] |
+| Screening Date             | [YYYY-MM-DD: date screening was initiated]                                                    |
+| Screened By                | [Full name, Role: e.g., Alex Reid, Vendor Risk Manager]                                       |
 | Screening Reason           | [New engagement / Periodic review / Material change / Trigger event]                           |
-| Previous Screening ID      | [SR-YYYY-NNNN, or "N/A — first screening"]                                                     |
+| Previous Screening ID      | [SR-YYYY-NNNN, or "N/A: first screening"]                                                     |
 | Previous Screening Date    | [YYYY-MM-DD, or N/A]                                                                           |
 
 ---
 
 ## Section 2: Screening Scope
 
-*Complete the appropriate checklist below based on the Subject Type. Mark each check as Required (Y/N — based on subject classification and role), Completed (Y/N), and record the outcome. Not all checks apply to all subjects — use the Appendix to determine which checks are required for a given tier or role sensitivity level. Where a check is not required, mark as "N/A" with a brief rationale.*
+*Complete the appropriate checklist below based on the Subject Type. Mark each check as Required (Y/N, based on subject classification and role), Completed (Y/N), and record the outcome. Not all checks apply to all subjects, use the Appendix to determine which checks are required for a given tier or role sensitivity level. Where a check is not required, mark as "N/A" with a brief rationale.*
 
 ### 2A: Vendor Screening Checks
 
 | Screening Check                   | Required? | Completed? | Outcome                          | Notes / Evidence Reference                          |
 |-----------------------------------|-----------|------------|----------------------------------|-----------------------------------------------------|
 | Information Security Assessment   | [Y/N/N/A] | [Y/N]      | [Pass / Pass with conditions / Fail / Pending] | [brief description of assessment and findings] |
-| Financial Stability Check         | [Y/N/N/A] | [Y/N]      | [Pass / Pass with conditions / Fail / Pending] | [source used — e.g., credit agency report, Companies House, audited accounts] |
-| Regulatory and Sanction List Check | [Y/N/N/A] | [Y/N]     | [Pass / No adverse findings / Adverse finding — detail in notes] | [lists checked — e.g., OFAC, HM Treasury, UN] |
-| Previous Incident History         | [Y/N/N/A] | [Y/N]      | [No known incidents / Known incident — see notes] | [source: public disclosure, vendor self-declaration, threat intelligence] |
+| Financial Stability Check         | [Y/N/N/A] | [Y/N]      | [Pass / Pass with conditions / Fail / Pending] | [source used: e.g., credit agency report, Companies House, audited accounts] |
+| Regulatory and Sanction List Check | [Y/N/N/A] | [Y/N]     | [Pass / No adverse findings / Adverse finding: detail in notes] | [lists checked: e.g., OFAC, HM Treasury, UN] |
+| Previous Incident History         | [Y/N/N/A] | [Y/N]      | [No known incidents / Known incident: see notes] | [source: public disclosure, vendor self-declaration, threat intelligence] |
 | Sub-contractor / Sub-processor Security | [Y/N/N/A] | [Y/N] | [Adequate / Gaps identified / Not disclosed] | [sub-processors identified; assessed against same framework?] |
 | Data Processing Terms (DPA / GDPR Article 28 [VERIFY]) | [Y/N/N/A] | [Y/N] | [Executed / Pending / Not Required] | [DPA reference number and execution date, or explanation] |
 | Insurance Verification            | [Y/N/N/A] | [Y/N]      | [Adequate / Gaps / Not provided]  | [minimum coverage levels required; actual coverage confirmed]  |
-| BCP / DR Capability               | [Y/N/N/A] | [Y/N]      | [Adequate / Not assessed / Gaps] | [basis of assessment — e.g., BCP questionnaire, site visit, BCP document review] |
-| AI-Specific Due Diligence         | [Y/N/N/A — required for AI vendors] | [Y/N] | [Pass / Conditions / Fail] | [complete if vendor provides AI systems or processes data through AI — reference AI Vendor Due Diligence Addendum] |
+| BCP / DR Capability               | [Y/N/N/A] | [Y/N]      | [Adequate / Not assessed / Gaps] | [basis of assessment: e.g., BCP questionnaire, site visit, BCP document review] |
+| AI-Specific Due Diligence         | [Y/N/N/A: required for AI vendors] | [Y/N] | [Pass / Conditions / Fail] | [complete if vendor provides AI systems or processes data through AI: reference AI Vendor Due Diligence Addendum] |
 
 ### 2B: Personnel Screening Checks
 
 | Screening Check                                      | Required? | Completed? | Outcome                           | Notes                                               |
 |------------------------------------------------------|-----------|------------|-----------------------------------|-----------------------------------------------------|
-| Identity Verification (government-issued photo ID)   | [Y/N/N/A] | [Y/N]      | [Verified / Not verified]         | [document type and reference — do not record full ID number in this record] |
+| Identity Verification (government-issued photo ID)   | [Y/N/N/A] | [Y/N]      | [Verified / Not verified]         | [document type and reference: do not record full ID number in this record] |
 | Right to Work / Eligibility Verification             | [Y/N/N/A] | [Y/N]      | [Confirmed / Not confirmed]       | [statutory basis; expiry date of right to work if applicable] |
-| Criminal Record Check                                | [Y/N/N/A] | [Y/N]      | [No relevant convictions / Relevant disclosure — HR decision required] | [standard or enhanced; jurisdiction; provider; reference] |
+| Criminal Record Check                                | [Y/N/N/A] | [Y/N]      | [No relevant convictions / Relevant disclosure: HR decision required] | [standard or enhanced; jurisdiction; provider; reference] |
 | Employment History Verification (minimum 5 years)   | [Y/N/N/A] | [Y/N]      | [Verified / Gaps identified]      | [period covered; any unexplained gaps?]             |
 | Reference Checks (minimum 2 professional references) | [Y/N/N/A] | [Y/N]      | [Satisfactory / Concerns raised]  | [references contacted; summary of outcomes]        |
-| Credit Check (financially sensitive roles only)      | [Y/N/N/A] | [Y/N]      | [Satisfactory / Concerns raised / Adverse finding] | [required legal basis; result summary — do not record credit score in detail] |
+| Credit Check (financially sensitive roles only)      | [Y/N/N/A] | [Y/N]      | [Satisfactory / Concerns raised / Adverse finding] | [required legal basis; result summary: do not record credit score in detail] |
 | Regulatory Fitness Check (if regulated role)         | [Y/N/N/A] | [Y/N]      | [Confirmed / Not applicable / Adverse] | [e.g., FCA register check; professional body membership] |
-| Conflict of Interest Declaration                     | [Y/N/N/A] | [Y/N]      | [No conflict declared / Conflict declared — see HR record] | [declaration form reference] |
+| Conflict of Interest Declaration                     | [Y/N/N/A] | [Y/N]      | [No conflict declared / Conflict declared: see HR record] | [declaration form reference] |
 
 ---
 
@@ -112,11 +112,11 @@ Screening IDs follow the format SR-YYYY-NNNN (e.g., SR-2025-0017). Assigned sequ
 
 | Field                   | Detail                                                                                         |
 |-------------------------|------------------------------------------------------------------------------------------------|
-| Reviewed By             | [Full name, Role, Date — first-line review, e.g., Vendor Risk Manager or HR Business Partner] |
-| Approved By             | [Full name, Role, Date — final approval authority — for Critical/High vendors: CISO or ISO; for High Sensitivity personnel: ISO with HR sign-off] |
+| Reviewed By             | [Full name, Role, Date: first-line review, e.g., Vendor Risk Manager or HR Business Partner] |
+| Approved By             | [Full name, Role, Date, final approval authority, for Critical/High vendors: CISO or ISO; for High Sensitivity personnel: ISO with HR sign-off] |
 | Approval Conditions     | [Restate any conditions attached to the approval that must be tracked to closure]              |
-| Next Screening Due      | [YYYY-MM-DD — calculated from the Appendix frequency table]                                   |
-| Ongoing Monitoring Required | [Yes / No — if Yes, complete Section 5]                                                   |
+| Next Screening Due      | [YYYY-MM-DD: calculated from the Appendix frequency table]                                   |
+| Ongoing Monitoring Required | [Yes / No: if Yes, complete Section 5]                                                   |
 
 ---
 
@@ -126,12 +126,12 @@ Screening IDs follow the format SR-YYYY-NNNN (e.g., SR-2025-0017). Assigned sequ
 
 | Field                           | Detail                                                                                    |
 |---------------------------------|-------------------------------------------------------------------------------------------|
-| Continuous Monitoring Tool      | [e.g., SecurityScorecard / BitSight / Recorded Future / UpGuard — specify tool name and version] |
+| Continuous Monitoring Tool      | [e.g., SecurityScorecard / BitSight / Recorded Future / UpGuard: specify tool name and version] |
 | Current Score / Rating          | [Numerical score and/or letter grade as at screening date]                               |
 | Score as of Previous Review     | [Score at time of last periodic screening, for trend comparison]                         |
-| Alert Threshold                 | [Define the score or event that would trigger an out-of-cycle re-screening or escalation — e.g., "Score drops below 70 / Grade falls to C or below"] |
+| Alert Threshold                 | [Define the score or event that would trigger an out-of-cycle re-screening or escalation: e.g., "Score drops below 70 / Grade falls to C or below"] |
 | Monitoring Frequency            | [Continuous automated / Weekly digest / Monthly review]                                  |
-| Monitoring Owner                | [Role — e.g., Vendor Risk Manager]                                                       |
+| Monitoring Owner                | [Role: e.g., Vendor Risk Manager]                                                       |
 | Active Alerts at Time of Review | [None / List active alerts with brief description and status]                            |
 
 ---
@@ -142,10 +142,10 @@ Screening IDs follow the format SR-YYYY-NNNN (e.g., SR-2025-0017). Assigned sequ
 
 **Data Controller:** [Organisation legal name]
 **Purpose of processing:** To verify the identity, eligibility, professional history, and fitness for employment of individuals in designated sensitive roles, as required by the organisation's Personnel Screening Policy and applicable legal obligations.
-**Legal basis:** [e.g., Legitimate interests (security and integrity of information assets) / Legal obligation (right to work verification) / Consent (criminal record check where required by law) — specify the basis for each check type and jurisdiction] [VERIFY applicable legal basis with Legal Counsel before use]
+**Legal basis:** [e.g., Legitimate interests (security and integrity of information assets) / Legal obligation (right to work verification) / Consent (criminal record check where required by law): specify the basis for each check type and jurisdiction] [VERIFY applicable legal basis with Legal Counsel before use]
 **Data collected:** Identity documents, employment history, professional references, criminal record (where applicable), credit history (where applicable), regulatory status (where applicable).
 **Recipients:** Processed by [screening provider name if external]. Results shared only with HR, the appointing manager (outcome only, not detail), the ISO, and Legal Counsel where required.
-**Retention period:** Screening records are retained for [state period — e.g., duration of employment plus 7 years] in accordance with the Data Retention Policy, except where a shorter or longer period is required by applicable law.
+**Retention period:** Screening records are retained for [state period: e.g., duration of employment plus 7 years] in accordance with the Data Retention Policy, except where a shorter or longer period is required by applicable law.
 **Your rights:** You have the right to access, correct, and in certain circumstances request erasure of your personal data. You also have the right to lodge a complaint with the applicable supervisory authority. Contact [privacy@organisation.com] to exercise your rights.
 **Automated decisions:** Screening results are not subject to automated decision-making. All screening outcomes are reviewed and determined by a qualified HR professional.
 

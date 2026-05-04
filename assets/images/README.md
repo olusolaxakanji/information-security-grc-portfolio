@@ -11,13 +11,13 @@ This directory holds images used by the GitHub Pages site.
 
 **2. Upload the file**
 
-Option A — via GitHub web UI:
+Option A: via GitHub web UI:
 1. Navigate to `assets/images/` in your repository on GitHub
 2. Click **Add file → Upload files**
 3. Upload your headshot and name it `headshot.jpg`
 4. Commit directly to `main`
 
-Option B — via command line:
+Option B: via command line:
 ```bash
 cp /path/to/your/photo.jpg assets/images/headshot.jpg
 git add assets/images/headshot.jpg
@@ -31,7 +31,7 @@ Open `index.md` and find the comment block near the top that reads:
 
 ```
 <!-- ============================================================
-  PROFILE PHOTO — add your headshot here
+  PROFILE PHOTO: add your headshot here
   ...
 ============================================================ -->
 ```

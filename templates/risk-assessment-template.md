@@ -26,7 +26,7 @@
 
 **Purpose:** [One sentence describing why this assessment was conducted.]
 
-**Scope Summary:** [Brief description of what was assessed—systems, processes, data, third parties.]
+**Scope Summary:** [Brief description of what was assessed: systems, processes, data, third parties.]
 
 **Key Findings:** [2-3 sentences summarizing the most significant risks identified.]
 
@@ -71,7 +71,7 @@ This risk assessment was conducted to:
 
 - [Constraint 1: e.g., Assessment limited to production environment only]
 - [Constraint 2: e.g., Third-party systems assessed based on questionnaire responses only]
-- [Constraint 3: e.g., Physical security excluded—covered in separate assessment]
+- [Constraint 3: e.g., Physical security excluded: covered in separate assessment]
 
 ---
 

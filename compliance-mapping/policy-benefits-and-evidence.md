@@ -25,8 +25,8 @@
 
 1. [Purpose](#1-purpose)
 2. [How to Use This Document](#2-how-to-use-this-document)
-3. [Phase 1 Policy Mappings — Emyzer Technology](#3-phase-1-policy-mappings--emyzer-technology)
-4. [Phase 2 Policy Mappings — Emyzer Nexus](#4-phase-2-policy-mappings--emyzer-nexus)
+3. [Phase 1 Policy Mappings: Emyzer Technology](#3-phase-1-policy-mappings--emyzer-technology)
+4. [Phase 2 Policy Mappings: Emyzer Nexus](#4-phase-2-policy-mappings--emyzer-nexus)
 5. [Compliance Evidence Summary Matrix](#5-compliance-evidence-summary-matrix)
 6. [Audit Readiness Notes](#6-audit-readiness-notes)
 7. [Framework Coverage Summary](#7-framework-coverage-summary)
@@ -38,9 +38,9 @@
 
 This document maps each policy in the Emyzer Technology and Emyzer Nexus GRC programme to three dimensions of governance value:
 
-1. **Organisational Benefits** — the concrete business, legal, and operational value delivered by the policy's implementation and enforcement.
-2. **Compliance Evidence Required** — the specific types of evidence that must be collected, retained, and made accessible to demonstrate that the policy is being followed. Each evidence type includes its system of record, owner, retention period, and collection frequency.
-3. **Framework Obligations Satisfied** — the specific clauses, controls, or requirements within external regulatory and standards frameworks that each policy addresses, and the mechanism by which compliance is achieved.
+1. **Organisational Benefits**: the concrete business, legal, and operational value delivered by the policy's implementation and enforcement.
+2. **Compliance Evidence Required**: the specific types of evidence that must be collected, retained, and made accessible to demonstrate that the policy is being followed. Each evidence type includes its system of record, owner, retention period, and collection frequency.
+3. **Framework Obligations Satisfied**: the specific clauses, controls, or requirements within external regulatory and standards frameworks that each policy addresses, and the mechanism by which compliance is achieved.
 
 This document supports three primary use cases:
 
@@ -70,7 +70,7 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 ---
 
-## 3. Phase 1 Policy Mappings — Emyzer Technology
+## 3. Phase 1 Policy Mappings: Emyzer Technology
 
 ---
 
@@ -99,12 +99,12 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO 27001:2022 | Cl. 5.2 — Policy [VERIFY]: Top management shall establish an information security policy | Policy establishes ISMS purpose, objectives, and executive commitment; approved by CEO (top management) |
-| ISO 27001:2022 | Cl. 5.1 — Leadership and commitment [VERIFY] | CEO and CISO approval records demonstrate top-management leadership and commitment to ISMS |
-| NIST CSF 2.0 | GV.PO-01 — Organizational cybersecurity policy is established [VERIFY] | Policy constitutes the organisational cybersecurity policy required by this function |
-| NIST CSF 2.0 | GV.OC — Organizational context [VERIFY] | Policy scope statement defines organisational context and ISMS boundaries |
-| COBIT 2019 | APO01.01 — Define the organizational structures, roles, and responsibilities [VERIFY] | Policy assigns ISMS ownership and governance responsibilities |
-| COBIT 2019 | APO01.08 — Manage policy lifecycle [VERIFY] | Annual review process and approval history satisfies policy lifecycle management |
+| ISO 27001:2022 | Cl. 5.2: Policy [VERIFY]: Top management shall establish an information security policy | Policy establishes ISMS purpose, objectives, and executive commitment; approved by CEO (top management) |
+| ISO 27001:2022 | Cl. 5.1: Leadership and commitment [VERIFY] | CEO and CISO approval records demonstrate top-management leadership and commitment to ISMS |
+| NIST CSF 2.0 | GV.PO-01: Organizational cybersecurity policy is established [VERIFY] | Policy constitutes the organisational cybersecurity policy required by this function |
+| NIST CSF 2.0 | GV.OC: Organizational context [VERIFY] | Policy scope statement defines organisational context and ISMS boundaries |
+| COBIT 2019 | APO01.01: Define the organizational structures, roles, and responsibilities [VERIFY] | Policy assigns ISMS ownership and governance responsibilities |
+| COBIT 2019 | APO01.08: Manage policy lifecycle [VERIFY] | Annual review process and approval history satisfies policy lifecycle management |
 
 ---
 
@@ -115,7 +115,7 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 #### Organisational Benefits
 
 - **Least privilege reduces breach surface:** By mandating that staff are granted only the access necessary for their role, the policy directly reduces the potential impact of a compromised account. Lateral movement by an attacker is constrained when least privilege is enforced.
-- **MFA reduces credential-based attack success:** Multi-factor authentication requirement, particularly for privileged and remote access, significantly reduces the probability of unauthorised access resulting from credential theft, phishing, or brute-force attacks — the most common initial access vectors.
+- **MFA reduces credential-based attack success:** Multi-factor authentication requirement, particularly for privileged and remote access, significantly reduces the probability of unauthorised access resulting from credential theft, phishing, or brute-force attacks: the most common initial access vectors.
 - **Access reviews support insider threat detection:** Mandatory periodic access reviews ensure that access rights are recertified by managers, creating a structured mechanism to identify and revoke inappropriate or orphaned access rights before they are exploited.
 - **Audit trail for regulatory compliance:** Privileged access logging and joiners/movers/leavers (JML) records provide the evidence trail required by GDPR (data access controls), PCI DSS (separation of duties), and ISO 27001 auditors.
 
@@ -134,18 +134,18 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO 27001:2022 | A.5.15 — Access control [VERIFY] | Policy mandates need-to-know and least privilege access; RBAC framework defined |
-| ISO 27001:2022 | A.5.16 — Identity management [VERIFY] | Policy governs identity lifecycle including JML process; unique IDs required |
-| ISO 27001:2022 | A.5.17 — Authentication information [VERIFY] | MFA requirements and password policy defined in Access Control Policy |
-| ISO 27001:2022 | A.5.18 — Access rights [VERIFY] | Periodic access review requirements; formal provisioning and revocation process |
-| ISO 27001:2022 | A.8.2 — Privileged access rights [VERIFY] | Privileged access management, PAM system requirements, and logging obligations |
-| NIST SP 800-53 Rev. 5 | AC-1 — Policy and procedures [VERIFY] | Policy constitutes the organisational access control policy |
-| NIST SP 800-53 Rev. 5 | AC-2 — Account management [VERIFY] | JML process and access review programme address account management requirements |
-| NIST SP 800-53 Rev. 5 | AC-3 — Access enforcement [VERIFY] | RBAC framework and least privilege mandate address access enforcement |
-| NIST SP 800-53 Rev. 5 | AC-5 — Separation of duties [VERIFY] | Policy requires separation of duties for privileged operations; RBAC enforces this |
-| NIST SP 800-53 Rev. 5 | AC-6 — Least privilege [VERIFY] | Explicit least privilege requirement with documented role definitions |
-| PCI DSS v4.0 | Requirement 7 — Restrict access to system components and cardholder data [VERIFY] | Access control policy and RBAC framework restrict access to cardholder data environments |
-| PCI DSS v4.0 | Requirement 8 — Identify users and authenticate access [VERIFY] | MFA requirements and unique user ID mandate satisfy this requirement |
+| ISO 27001:2022 | A.5.15: Access control [VERIFY] | Policy mandates need-to-know and least privilege access; RBAC framework defined |
+| ISO 27001:2022 | A.5.16: Identity management [VERIFY] | Policy governs identity lifecycle including JML process; unique IDs required |
+| ISO 27001:2022 | A.5.17: Authentication information [VERIFY] | MFA requirements and password policy defined in Access Control Policy |
+| ISO 27001:2022 | A.5.18: Access rights [VERIFY] | Periodic access review requirements; formal provisioning and revocation process |
+| ISO 27001:2022 | A.8.2: Privileged access rights [VERIFY] | Privileged access management, PAM system requirements, and logging obligations |
+| NIST SP 800-53 Rev. 5 | AC-1: Policy and procedures [VERIFY] | Policy constitutes the organisational access control policy |
+| NIST SP 800-53 Rev. 5 | AC-2: Account management [VERIFY] | JML process and access review programme address account management requirements |
+| NIST SP 800-53 Rev. 5 | AC-3: Access enforcement [VERIFY] | RBAC framework and least privilege mandate address access enforcement |
+| NIST SP 800-53 Rev. 5 | AC-5: Separation of duties [VERIFY] | Policy requires separation of duties for privileged operations; RBAC enforces this |
+| NIST SP 800-53 Rev. 5 | AC-6: Least privilege [VERIFY] | Explicit least privilege requirement with documented role definitions |
+| PCI DSS v4.0 | Requirement 7: Restrict access to system components and cardholder data [VERIFY] | Access control policy and RBAC framework restrict access to cardholder data environments |
+| PCI DSS v4.0 | Requirement 8: Identify users and authenticate access [VERIFY] | MFA requirements and unique user ID mandate satisfy this requirement |
 
 ---
 
@@ -175,13 +175,13 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO/IEC 27035-1:2016 — Information security incident management [VERIFY] | Part 1: Principles and process | Policy defines the full incident management lifecycle (detect, report, assess, respond, learn) aligned to ISO 27035 phases |
-| ISO 27001:2022 | A.5.24 — Information security incident management planning and preparation [VERIFY] | Policy and playbooks constitute the required incident management plans |
-| ISO 27001:2022 | A.5.26 — Response to information security incidents [VERIFY] | Structured response procedures, escalation paths, and PIR requirements |
-| NIST SP 800-61 Rev. 2 — Computer Security Incident Handling Guide [VERIFY] | All phases (Preparation, Detection, Containment, Eradication, Recovery, Post-incident) | Policy phases map to NIST 800-61 phases; playbooks operationalise each phase |
-| GDPR | Article 33 — Notification of a personal data breach to the supervisory authority [VERIFY] | Policy includes explicit 72-hour notification trigger, process, and evidence requirement |
-| GDPR | Article 34 — Communication of a personal data breach to the data subject [VERIFY] | Policy includes data subject notification assessment process |
-| NIST CSF 2.0 | RS.MA — Incident management [VERIFY] | Policy constitutes the incident response plan required by this function |
+| ISO/IEC 27035-1:2016: Information security incident management [VERIFY] | Part 1: Principles and process | Policy defines the full incident management lifecycle (detect, report, assess, respond, learn) aligned to ISO 27035 phases |
+| ISO 27001:2022 | A.5.24: Information security incident management planning and preparation [VERIFY] | Policy and playbooks constitute the required incident management plans |
+| ISO 27001:2022 | A.5.26: Response to information security incidents [VERIFY] | Structured response procedures, escalation paths, and PIR requirements |
+| NIST SP 800-61 Rev. 2: Computer Security Incident Handling Guide [VERIFY] | All phases (Preparation, Detection, Containment, Eradication, Recovery, Post-incident) | Policy phases map to NIST 800-61 phases; playbooks operationalise each phase |
+| GDPR | Article 33: Notification of a personal data breach to the supervisory authority [VERIFY] | Policy includes explicit 72-hour notification trigger, process, and evidence requirement |
+| GDPR | Article 34: Communication of a personal data breach to the data subject [VERIFY] | Policy includes data subject notification assessment process |
+| NIST CSF 2.0 | RS.MA: Incident management [VERIFY] | Policy constitutes the incident response plan required by this function |
 
 ---
 
@@ -205,19 +205,19 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | 3 | Quarterly risk committee minutes (documented output of risk committee meetings including risks discussed, decisions made, and actions assigned) | GRC Document Repository | CISO | 7 years | Quarterly |
 | 4 | Annual risk appetite review records (evidence of board or executive review and reaffirmation of risk appetite statements) | GRC Document Repository | CISO + CEO | 7 years | Annual |
 | 5 | Risk treatment plan records (documented risk treatment plans for all High and Critical risks, with treatment owner, timeline, and completion evidence) | ServiceNow GRC | Risk owners | 7 years | Per treatment plan; quarterly status review |
-| 6 | Risk assessment methodology document (documented scoring methodology, likelihood/impact scales, and risk appetite thresholds — version controlled) | GRC Document Repository | CISO | Current + 2 prior versions | Annual review |
+| 6 | Risk assessment methodology document (documented scoring methodology, likelihood/impact scales, and risk appetite thresholds: version controlled) | GRC Document Repository | CISO | Current + 2 prior versions | Annual review |
 
 #### Framework Obligations Satisfied
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO 31000:2018 — Risk management guidelines [VERIFY] | Clauses 6.3–6.6 (Risk assessment process: identification, analysis, evaluation, treatment) | Policy defines risk assessment methodology aligned to ISO 31000 principles; risk register and treatment plans operationalise the process |
-| ISO 27001:2022 | Cl. 6.1.2 — Information security risk assessment [VERIFY] | Policy mandates risk identification, analysis, and evaluation; risk register is the output |
-| ISO 27001:2022 | Cl. 6.1.3 — Information security risk treatment [VERIFY] | Risk treatment plans and risk acceptance process with defined authority levels |
-| NIST CSF 2.0 | ID.RA — Risk assessment [VERIFY] | Risk identification and scoring methodology satisfies this function |
-| NIST CSF 2.0 | GV.RM — Risk management strategy [VERIFY] | Risk appetite statements and executive risk governance satisfy this function |
+| ISO 31000:2018: Risk management guidelines [VERIFY] | Clauses 6.3–6.6 (Risk assessment process: identification, analysis, evaluation, treatment) | Policy defines risk assessment methodology aligned to ISO 31000 principles; risk register and treatment plans operationalise the process |
+| ISO 27001:2022 | Cl. 6.1.2: Information security risk assessment [VERIFY] | Policy mandates risk identification, analysis, and evaluation; risk register is the output |
+| ISO 27001:2022 | Cl. 6.1.3: Information security risk treatment [VERIFY] | Risk treatment plans and risk acceptance process with defined authority levels |
+| NIST CSF 2.0 | ID.RA: Risk assessment [VERIFY] | Risk identification and scoring methodology satisfies this function |
+| NIST CSF 2.0 | GV.RM: Risk management strategy [VERIFY] | Risk appetite statements and executive risk governance satisfy this function |
 | NIST SP 800-30 Rev. 1 [VERIFY] | Guide for conducting risk assessments | Risk assessment methodology references NIST 800-30 threat and vulnerability identification approach |
-| COSO ERM (2017) [VERIFY] | Component 3: Performance — Assesses severity of risk | Risk scoring matrix and treatment prioritisation process align to COSO ERM performance component |
+| COSO ERM (2017) [VERIFY] | Component 3: Performance: Assesses severity of risk | Risk scoring matrix and treatment prioritisation process align to COSO ERM performance component |
 
 ---
 
@@ -248,12 +248,12 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO 22301:2019 | Cl. 8.2 — Business impact analysis and risk assessment [VERIFY] | BIA requirement mandated by policy; BIA report is deliverable |
-| ISO 22301:2019 | Cl. 8.3 — Business continuity strategy and solutions [VERIFY] | Policy defines BC strategy requirements; BCP documents strategies |
-| ISO 22301:2019 | Cl. 8.4 — Business continuity plans and procedures [VERIFY] | BCP (BC-PLAN-001) is the primary deliverable required by this clause |
-| ISO 22301:2019 | Cl. 8.5 — Exercise programme [VERIFY] | Policy mandates semi-annual DR testing and annual exercises |
-| ISO 27001:2022 | A.5.29 — Information security during disruption [VERIFY] | Policy and BCP ensure information security controls operate during disruption |
-| ISO 27001:2022 | A.5.30 — ICT readiness for business continuity [VERIFY] | DR infrastructure requirements and RTO/RPO mandates address ICT readiness |
+| ISO 22301:2019 | Cl. 8.2: Business impact analysis and risk assessment [VERIFY] | BIA requirement mandated by policy; BIA report is deliverable |
+| ISO 22301:2019 | Cl. 8.3: Business continuity strategy and solutions [VERIFY] | Policy defines BC strategy requirements; BCP documents strategies |
+| ISO 22301:2019 | Cl. 8.4: Business continuity plans and procedures [VERIFY] | BCP (BC-PLAN-001) is the primary deliverable required by this clause |
+| ISO 22301:2019 | Cl. 8.5: Exercise programme [VERIFY] | Policy mandates semi-annual DR testing and annual exercises |
+| ISO 27001:2022 | A.5.29: Information security during disruption [VERIFY] | Policy and BCP ensure information security controls operate during disruption |
+| ISO 27001:2022 | A.5.30: ICT readiness for business continuity [VERIFY] | DR infrastructure requirements and RTO/RPO mandates address ICT readiness |
 | NIST SP 800-34 Rev. 1 [VERIFY] | Contingency planning guide for federal information systems (adopted as best practice) | Policy lifecycle maps to NIST 800-34's 7-phase contingency planning process |
 
 ---
@@ -266,7 +266,7 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 - **Reduces risk of service outages from unauthorised changes:** Studies consistently show that 70–80% of unplanned IT outages are caused by changes. A formal change approval process with pre-implementation testing and rollback planning materially reduces this risk.
 - **Provides comprehensive audit trail:** All changes to production systems are logged in ServiceNow with requester, approver, implementation window, and outcome. This audit trail is required for ISO 27001 and SOC 2 audits and supports forensic investigation of incidents.
-- **AI model retraining governed:** The policy extends change governance to AI model retraining and updates — ensuring that changes to AI systems used in operations are subject to the same risk assessment and approval process as infrastructure changes, supporting EU AI Act compliance.
+- **AI model retraining governed:** The policy extends change governance to AI model retraining and updates: ensuring that changes to AI systems used in operations are subject to the same risk assessment and approval process as infrastructure changes, supporting EU AI Act compliance.
 - **Enables rapid and safe emergency change:** A defined Emergency Change process allows critical fixes to be implemented quickly while maintaining appropriate documentation and retrospective review, balancing agility with control.
 
 #### Compliance Evidence Required
@@ -285,11 +285,11 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
 | ITIL 4 | Change enablement practice [VERIFY] | Policy implements formal change enablement process aligned to ITIL 4 guidance, including RFC, CAB, and emergency change procedures |
-| ISO 27001:2022 | A.8.32 — Change management [VERIFY] | Policy and ServiceNow process constitute the change management controls required by this annex control |
-| ISO 27001:2022 | A.8.9 — Configuration management [VERIFY] | CMDB and configuration baseline requirements address configuration management |
-| COBIT 2019 | BAI06 — Managed IT changes [VERIFY] | Policy governance and CAB process align to COBIT BAI06 management practice |
-| COBIT 2019 | BAI10 — Managed configuration [VERIFY] | CMDB and configuration baseline management address BAI10 |
-| NIST CSF 2.0 | PR.PS — Platform security [VERIFY] | Change and configuration controls are primary contributors to this category |
+| ISO 27001:2022 | A.8.32: Change management [VERIFY] | Policy and ServiceNow process constitute the change management controls required by this annex control |
+| ISO 27001:2022 | A.8.9: Configuration management [VERIFY] | CMDB and configuration baseline requirements address configuration management |
+| COBIT 2019 | BAI06: Managed IT changes [VERIFY] | Policy governance and CAB process align to COBIT BAI06 management practice |
+| COBIT 2019 | BAI10: Managed configuration [VERIFY] | CMDB and configuration baseline management address BAI10 |
+| NIST CSF 2.0 | PR.PS: Platform security [VERIFY] | Change and configuration controls are primary contributors to this category |
 
 ---
 
@@ -317,10 +317,10 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO 27001:2022 | A.5.10 — Acceptable use of information and other associated assets [VERIFY] | Policy constitutes the acceptable use policy required by this annex control |
-| ISO 27001:2022 | A.6.2 — Terms and conditions of employment [VERIFY] | AUP acknowledgement as condition of employment addresses this requirement |
-| NIST CSF 2.0 | PR.AT-01 — Awareness activities [VERIFY] | AUP training and acknowledgement programme is a component of the awareness activities required |
-| NIST SP 800-53 Rev. 5 | PL-4 — Rules of behaviour [VERIFY] | AUP constitutes the rules of behaviour required for system users |
+| ISO 27001:2022 | A.5.10: Acceptable use of information and other associated assets [VERIFY] | Policy constitutes the acceptable use policy required by this annex control |
+| ISO 27001:2022 | A.6.2: Terms and conditions of employment [VERIFY] | AUP acknowledgement as condition of employment addresses this requirement |
+| NIST CSF 2.0 | PR.AT-01: Awareness activities [VERIFY] | AUP training and acknowledgement programme is a component of the awareness activities required |
+| NIST SP 800-53 Rev. 5 | PL-4: Rules of behaviour [VERIFY] | AUP constitutes the rules of behaviour required for system users |
 
 ---
 
@@ -350,12 +350,12 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| NIST SP 800-60 Vol. 1 — Guide for mapping types of information and information systems to security categories [VERIFY] | Volume 1: categorisation process | Classification scheme and handling procedures reference NIST 800-60 categorisation approach |
-| ISO 27001:2022 | A.5.12 — Classification of information [VERIFY] | Policy constitutes the information classification policy required by this annex control |
-| ISO 27001:2022 | A.5.13 — Labelling of information [VERIFY] | Labelling requirements for classified assets are defined in the policy |
-| ISO 27001:2022 | A.5.14 — Information transfer [VERIFY] | Transfer controls based on classification level address this requirement |
-| GDPR | Article 5 — Principles relating to processing of personal data [VERIFY] (integrity and confidentiality principle) | Classification and handling controls for personal data demonstrate implementation of the integrity and confidentiality principle |
-| GDPR | Article 32 — Security of processing [VERIFY] | Classification-based encryption and access controls satisfy the Article 32 obligation to implement appropriate technical measures |
+| NIST SP 800-60 Vol. 1: Guide for mapping types of information and information systems to security categories [VERIFY] | Volume 1: categorisation process | Classification scheme and handling procedures reference NIST 800-60 categorisation approach |
+| ISO 27001:2022 | A.5.12: Classification of information [VERIFY] | Policy constitutes the information classification policy required by this annex control |
+| ISO 27001:2022 | A.5.13: Labelling of information [VERIFY] | Labelling requirements for classified assets are defined in the policy |
+| ISO 27001:2022 | A.5.14: Information transfer [VERIFY] | Transfer controls based on classification level address this requirement |
+| GDPR | Article 5: Principles relating to processing of personal data [VERIFY] (integrity and confidentiality principle) | Classification and handling controls for personal data demonstrate implementation of the integrity and confidentiality principle |
+| GDPR | Article 32: Security of processing [VERIFY] | Classification-based encryption and access controls satisfy the Article 32 obligation to implement appropriate technical measures |
 
 ---
 
@@ -385,17 +385,17 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO/IEC 27036-1 — Information security for supplier relationships [VERIFY] | Part 1: Overview and concepts | TPRM policy framework aligns to ISO 27036 supplier security governance principles |
-| ISO 27001:2022 | A.5.19 — Information security in supplier relationships [VERIFY] | Policy establishes supplier security requirements and governance framework |
-| ISO 27001:2022 | A.5.20 — Addressing information security within supplier agreements [VERIFY] | Contract security addenda requirements address this control |
-| ISO 27001:2022 | A.5.21 — Managing information security in the ICT supply chain [VERIFY] | ICT supply chain risk management and fourth-party risk assessment address this control |
-| NIST SP 800-161 Rev. 1 — Cybersecurity supply chain risk management [VERIFY] | Core practices for C-SCRM | Policy implements supplier risk tiering, assessment, and monitoring consistent with NIST 800-161 |
-| NIST CSF 2.0 | ID.SC — Improvement [VERIFY] | Supplier risk identification and assessment satisfy this subcategory |
-| GDPR | Article 28 — Processor [VERIFY] | DPA requirements and processor security obligations in contract addenda satisfy Article 28 |
+| ISO/IEC 27036-1: Information security for supplier relationships [VERIFY] | Part 1: Overview and concepts | TPRM policy framework aligns to ISO 27036 supplier security governance principles |
+| ISO 27001:2022 | A.5.19: Information security in supplier relationships [VERIFY] | Policy establishes supplier security requirements and governance framework |
+| ISO 27001:2022 | A.5.20: Addressing information security within supplier agreements [VERIFY] | Contract security addenda requirements address this control |
+| ISO 27001:2022 | A.5.21: Managing information security in the ICT supply chain [VERIFY] | ICT supply chain risk management and fourth-party risk assessment address this control |
+| NIST SP 800-161 Rev. 1: Cybersecurity supply chain risk management [VERIFY] | Core practices for C-SCRM | Policy implements supplier risk tiering, assessment, and monitoring consistent with NIST 800-161 |
+| NIST CSF 2.0 | ID.SC: Improvement [VERIFY] | Supplier risk identification and assessment satisfy this subcategory |
+| GDPR | Article 28: Processor [VERIFY] | DPA requirements and processor security obligations in contract addenda satisfy Article 28 |
 
 ---
 
-### 3.10 Security Awareness and Training Policy (Phase 1 — Emyzer Technology)
+### 3.10 Security Awareness and Training Policy (Phase 1: Emyzer Technology)
 
 **Document:** [Security Awareness and Training Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/security-awareness-and-training-policy.md)
 
@@ -404,7 +404,7 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 - **Reduces phishing click rates:** Regular phishing simulation programmes with follow-up training for users who click on simulated phishing emails demonstrate measurable reductions in susceptibility. A well-run programme typically achieves 30–50% reduction in click rates within 12 months.
 - **Builds security culture:** Consistent security awareness communications, role-specific training, and visible management endorsement establish security as an organisational norm rather than an IT-imposed constraint, reducing shadow IT behaviours and improving voluntary incident reporting rates.
 - **Satisfies regulator expectations for staff training:** Regulatory frameworks including GDPR, PCI DSS, and ISO 27001 explicitly require evidence that staff have been trained on their security obligations. In enforcement actions and audits, training records are among the first evidence requests.
-- **Reduces insider risk from unintentional actions:** A significant proportion of data breaches involve unintentional insider actions — misaddressed emails, accidental public sharing of files, and misconfigured access. Training on correct data handling reduces this category of risk.
+- **Reduces insider risk from unintentional actions:** A significant proportion of data breaches involve unintentional insider actions: misaddressed emails, accidental public sharing of files, and misconfigured access. Training on correct data handling reduces this category of risk.
 
 #### Compliance Evidence Required
 
@@ -420,16 +420,16 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| ISO 27001:2022 | A.6.3 — Information security awareness, education and training [VERIFY] | Policy mandates and governs the security awareness and training programme required by this annex control |
-| ISO 27001:2022 | Cl. 7.2 — Competence [VERIFY] | Role-specific training requirements ensure staff are competent to perform security-relevant activities |
-| NIST SP 800-50 — Building an information technology security awareness and training programme [VERIFY] | All sections | Policy and programme structure align to NIST 800-50 guidance on awareness and training programme design |
-| NIST CSF 2.0 | PR.AT — Awareness and training [VERIFY] | Programme satisfies all subcategories within this function |
-| PCI DSS v4.0 | Requirement 12.6 — Security awareness programme [VERIFY] | Annual training, phishing simulation, and completion record requirements satisfy PCI DSS Req. 12.6 |
+| ISO 27001:2022 | A.6.3: Information security awareness, education and training [VERIFY] | Policy mandates and governs the security awareness and training programme required by this annex control |
+| ISO 27001:2022 | Cl. 7.2: Competence [VERIFY] | Role-specific training requirements ensure staff are competent to perform security-relevant activities |
+| NIST SP 800-50: Building an information technology security awareness and training programme [VERIFY] | All sections | Policy and programme structure align to NIST 800-50 guidance on awareness and training programme design |
+| NIST CSF 2.0 | PR.AT: Awareness and training [VERIFY] | Programme satisfies all subcategories within this function |
+| PCI DSS v4.0 | Requirement 12.6: Security awareness programme [VERIFY] | Annual training, phishing simulation, and completion record requirements satisfy PCI DSS Req. 12.6 |
 | GDPR | Article 29 / Recital 74 [VERIFY] | Training on data protection obligations for staff processing personal data |
 
 ---
 
-## 4. Phase 2 Policy Mappings — Emyzer Nexus
+## 4. Phase 2 Policy Mappings: Emyzer Nexus
 
 Phase 2 policies govern the expanded Emyzer Nexus entity following the Q4 2024 acquisition of Veridian AI. These policies extend the Phase 1 programme to address AI-specific risks, Veridian AI staff integration, and additional regulatory obligations applicable at the Nexus level.
 
@@ -442,7 +442,7 @@ Phase 2 policies govern the expanded Emyzer Nexus entity following the Q4 2024 a
 #### Organisational Benefits
 
 - **EU AI Act compliance reduces penalty risk:** The EU AI Act (Regulation 2024/1689) [VERIFY] imposes penalties for non-compliance of up to €35 million or 7% of global annual turnover, whichever is higher, for providers of prohibited or non-compliant high-risk AI systems [VERIFY: confirm current penalty tier thresholds in force under implementing regulations]. The AI Governance Policy establishes the governance structure required to identify applicable obligations and achieve compliance before enforcement begins.
-- **Demonstrates responsible AI to enterprise clients:** Enterprise clients — particularly those in regulated industries (financial services, healthcare, critical infrastructure) — increasingly require evidence of responsible AI governance from their technology suppliers. The AI Governance Policy and associated evidence package differentiates Emyzer Nexus in procurement processes.
+- **Demonstrates responsible AI to enterprise clients:** Enterprise clients, particularly those in regulated industries (financial services, healthcare, critical infrastructure), increasingly require evidence of responsible AI governance from their technology suppliers. The AI Governance Policy and associated evidence package differentiates Emyzer Nexus in procurement processes.
 - **Protects against inherited Veridian AI compliance gaps:** The Q4 2024 acquisition of Veridian AI introduced AI systems that may not have been designed with EU AI Act obligations in mind. The AI Governance Policy mandates a systematic inventory and conformity assessment of all AI systems, enabling identification and remediation of inherited compliance gaps before they become regulatory exposure.
 - **Establishes human oversight for high-risk AI decisions:** The policy's human oversight and override requirements ensure that AI-generated outputs that affect material business or customer decisions are subject to human review, reducing legal liability and reputational risk from AI errors.
 
@@ -461,14 +461,14 @@ Phase 2 policies govern the expanded Emyzer Nexus entity following the Q4 2024 a
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 9 — Risk management system for high-risk AI systems [VERIFY] | Policy mandates risk management system for all AI systems; AI Governance Committee implements and oversees |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 10 — Data and data governance [VERIFY] | Policy addresses training data governance and data quality requirements for AI systems |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 13 — Transparency and provision of information [VERIFY] | Policy requires transparency documentation for AI systems interacting with users |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 14 — Human oversight [VERIFY] | Human oversight and override requirements operationalise this obligation |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 17 — Quality management system [VERIFY] | AI Governance Committee and quality management requirements address this article |
-| NIST AI RMF 1.0 | Govern — Establishing accountability [VERIFY] | AI Governance Committee structure and policy ownership address the Govern function |
-| NIST AI RMF 1.0 | Map — Categorising risk context [VERIFY] | AI system inventory and risk classification operationalise the Map function |
-| ISO/IEC 42001:2023 — AI management systems [VERIFY] | Cl. 6.1 — AI risk assessment [VERIFY] | Policy mandates AI-specific risk assessment aligned to ISO 42001 requirements |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 9: Risk management system for high-risk AI systems [VERIFY] | Policy mandates risk management system for all AI systems; AI Governance Committee implements and oversees |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 10: Data and data governance [VERIFY] | Policy addresses training data governance and data quality requirements for AI systems |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 13: Transparency and provision of information [VERIFY] | Policy requires transparency documentation for AI systems interacting with users |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 14: Human oversight [VERIFY] | Human oversight and override requirements operationalise this obligation |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 17: Quality management system [VERIFY] | AI Governance Committee and quality management requirements address this article |
+| NIST AI RMF 1.0 | Govern: Establishing accountability [VERIFY] | AI Governance Committee structure and policy ownership address the Govern function |
+| NIST AI RMF 1.0 | Map: Categorising risk context [VERIFY] | AI system inventory and risk classification operationalise the Map function |
+| ISO/IEC 42001:2023: AI management systems [VERIFY] | Cl. 6.1: AI risk assessment [VERIFY] | Policy mandates AI-specific risk assessment aligned to ISO 42001 requirements |
 
 ---
 
@@ -498,12 +498,12 @@ Phase 2 policies govern the expanded Emyzer Nexus entity following the Q4 2024 a
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| SR 11-7 (Federal Reserve / OCC model risk management guidance) [VERIFY] | Sections on model validation, governance, and ongoing monitoring | Policy implements SR 11-7's three-component model risk framework: development/implementation, validation, and ongoing monitoring — adapted for technology company context |
-| NIST AI RMF 1.0 | Measure — Analysing and monitoring AI risk [VERIFY] | Model performance monitoring, bias testing, and drift detection operationalise the Measure function |
-| NIST AI RMF 1.0 | Manage — Prioritising and acting on AI risk [VERIFY] | Retraining triggers, retirement process, and human oversight requirements operationalise the Manage function |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 15 — Accuracy, robustness and cybersecurity [VERIFY] | Model performance requirements, drift detection, and adversarial robustness testing address this article |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 72 — Post-market monitoring by providers [VERIFY] | Post-market monitoring programme for high-risk AI systems |
-| ISO/IEC 42001:2023 [VERIFY] | Cl. 9.1 — Monitoring, measurement, analysis and evaluation [VERIFY] | Model performance monitoring programme satisfies this clause |
+| SR 11-7 (Federal Reserve / OCC model risk management guidance) [VERIFY] | Sections on model validation, governance, and ongoing monitoring | Policy implements SR 11-7's three-component model risk framework: development/implementation, validation, and ongoing monitoring: adapted for technology company context |
+| NIST AI RMF 1.0 | Measure: Analysing and monitoring AI risk [VERIFY] | Model performance monitoring, bias testing, and drift detection operationalise the Measure function |
+| NIST AI RMF 1.0 | Manage: Prioritising and acting on AI risk [VERIFY] | Retraining triggers, retirement process, and human oversight requirements operationalise the Manage function |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 15: Accuracy, robustness and cybersecurity [VERIFY] | Model performance requirements, drift detection, and adversarial robustness testing address this article |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 72: Post-market monitoring by providers [VERIFY] | Post-market monitoring programme for high-risk AI systems |
+| ISO/IEC 42001:2023 [VERIFY] | Cl. 9.1: Monitoring, measurement, analysis and evaluation [VERIFY] | Model performance monitoring programme satisfies this clause |
 
 ---
 
@@ -534,17 +534,17 @@ Phase 2 policies govern the expanded Emyzer Nexus entity following the Q4 2024 a
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| GDPR (Regulation 2016/679) [VERIFY] | Article 5 — Principles relating to processing [VERIFY] | Policy operationalises lawfulness, fairness, transparency, purpose limitation, data minimisation, accuracy, storage limitation, and integrity/confidentiality principles |
-| GDPR (Regulation 2016/679) [VERIFY] | Article 24 — Responsibility of the controller [VERIFY] | Policy establishes controller accountability with documented governance structure |
-| GDPR (Regulation 2016/679) [VERIFY] | Article 25 — Data protection by design and by default [VERIFY] | Privacy-by-design requirements for new systems and processes |
-| GDPR (Regulation 2016/679) [VERIFY] | Article 30 — Records of processing activities [VERIFY] | RoPA requirement directly satisfies this article |
-| GDPR (Regulation 2016/679) [VERIFY] | Article 32 — Security of processing [VERIFY] | Technical and organisational measures requirements |
+| GDPR (Regulation 2016/679) [VERIFY] | Article 5: Principles relating to processing [VERIFY] | Policy operationalises lawfulness, fairness, transparency, purpose limitation, data minimisation, accuracy, storage limitation, and integrity/confidentiality principles |
+| GDPR (Regulation 2016/679) [VERIFY] | Article 24: Responsibility of the controller [VERIFY] | Policy establishes controller accountability with documented governance structure |
+| GDPR (Regulation 2016/679) [VERIFY] | Article 25: Data protection by design and by default [VERIFY] | Privacy-by-design requirements for new systems and processes |
+| GDPR (Regulation 2016/679) [VERIFY] | Article 30: Records of processing activities [VERIFY] | RoPA requirement directly satisfies this article |
+| GDPR (Regulation 2016/679) [VERIFY] | Article 32: Security of processing [VERIFY] | Technical and organisational measures requirements |
 | UK GDPR (UK Data Protection Act 2018) [VERIFY] | Equivalent provisions to EU GDPR | Policy applies to both EU and UK data subject rights; dual compliance approach documented |
-| ISO/IEC 27701:2019 — Privacy information management [VERIFY] | Clause 6 (Requirements specific to controllers) and Clause 7 (Requirements specific to processors) | Policy and PIMS extend the ISMS (ISO 27001) to privacy information management as required by ISO 27701 |
+| ISO/IEC 27701:2019: Privacy information management [VERIFY] | Clause 6 (Requirements specific to controllers) and Clause 7 (Requirements specific to processors) | Policy and PIMS extend the ISMS (ISO 27001) to privacy information management as required by ISO 27701 |
 
 ---
 
-### 4.4 Security Awareness and Training Policy — Tier 2 (Emyzer Nexus)
+### 4.4 Security Awareness and Training Policy: Tier 2 (Emyzer Nexus)
 
 **Document:** [Security Awareness and Training Policy (Emyzer Nexus)](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/security-awareness-and-training-policy.md)
 
@@ -569,11 +569,11 @@ Phase 2 policies govern the expanded Emyzer Nexus entity following the Q4 2024 a
 
 | Framework | Specific Clause / Control | How Satisfied |
 |-----------|--------------------------|---------------|
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 14 — Human oversight [VERIFY]: Operators shall take appropriate technical and organisational measures to ensure that the natural persons to whom human oversight is assigned have the necessary competence, training, and authority | Operator competency assessments and role-specific AI training programme directly satisfy this requirement |
-| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 4 — AI literacy [VERIFY] | AI awareness training programme satisfies the AI literacy obligation for all staff |
-| ISO 27001:2022 | A.6.3 — Information security awareness, education and training [VERIFY] | Phase 2 training policy extends Phase 1 obligations to Veridian AI staff |
-| ISO/IEC 42001:2023 [VERIFY] | Cl. 7.2 — Competence [VERIFY] | Competency assessment and training records satisfy ISO 42001 competence requirements |
-| NIST AI RMF 1.0 | Govern 5.1 — Organisational teams are committed to a culture that considers and communicates AI risk [VERIFY] | AI literacy and awareness training programme operationalises this subcategory |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 14: Human oversight [VERIFY]: Operators shall take appropriate technical and organisational measures to ensure that the natural persons to whom human oversight is assigned have the necessary competence, training, and authority | Operator competency assessments and role-specific AI training programme directly satisfy this requirement |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Article 4: AI literacy [VERIFY] | AI awareness training programme satisfies the AI literacy obligation for all staff |
+| ISO 27001:2022 | A.6.3: Information security awareness, education and training [VERIFY] | Phase 2 training policy extends Phase 1 obligations to Veridian AI staff |
+| ISO/IEC 42001:2023 [VERIFY] | Cl. 7.2: Competence [VERIFY] | Competency assessment and training records satisfy ISO 42001 competence requirements |
+| NIST AI RMF 1.0 | Govern 5.1: Organisational teams are committed to a culture that considers and communicates AI risk [VERIFY] | AI literacy and awareness training programme operationalises this subcategory |
 
 ---
 
@@ -596,8 +596,8 @@ This matrix provides a programme-level view of evidence requirements across all 
 | 11 | AI Governance Policy | 6 | ServiceNow, GRC Repository, Legal System | 10 years | Yes (quarterly AI inventory audit; monthly committee meetings; annual conformity review) |
 | 12 | Model Risk Policy | 6 | AI monitoring platform, GRC Repository | 7 years | Yes (monthly performance reports; quarterly bias audits for high-risk models) |
 | 13 | Privacy and Data Protection Policy | 7 | Legal System, GRC Repository, Consent platform | 7 years | Yes (annual DPIA review; annual RoPA audit; annual DPA review) |
-| 14 | Security Awareness and Training Policy (Phase 2 — Nexus) | 5 | LMS, GRC Repository | 3 years | Yes (annual AI training completion; annual competency assessments) |
-| **Total** | **14 policies** | **81 evidence types** | **ServiceNow, LMS, GRC Repository, Legal System, IAM/PAM, AI monitoring** | **10 years (AI systems)** | **Yes — all policies require annual evidence collection** |
+| 14 | Security Awareness and Training Policy (Phase 2: Nexus) | 5 | LMS, GRC Repository | 3 years | Yes (annual AI training completion; annual competency assessments) |
+| **Total** | **14 policies** | **81 evidence types** | **ServiceNow, LMS, GRC Repository, Legal System, IAM/PAM, AI monitoring** | **10 years (AI systems)** | **Yes: all policies require annual evidence collection** |
 
 ---
 
@@ -633,7 +633,7 @@ The GRC team maintains an **Evidence Completeness Dashboard** in ServiceNow that
 - Whether the most recent evidence is within its expected collection window
 - Any overdue evidence collections with responsible owner and escalation status
 
-Auditors may request an export of this dashboard as evidence of ongoing compliance monitoring. The dashboard does not replace individual evidence artefacts — it demonstrates the management system's oversight of evidence collection.
+Auditors may request an export of this dashboard as evidence of ongoing compliance monitoring. The dashboard does not replace individual evidence artefacts: it demonstrates the management system's oversight of evidence collection.
 
 ### 6.4 Handling Gaps
 
@@ -653,11 +653,11 @@ This table shows which frameworks are addressed by the Emyzer Technology / Emyze
 
 | Framework | Version | Policies That Address It | Coverage Assessment |
 |-----------|---------|--------------------------|---------------------|
-| ISO 27001 — Information security management systems | 2022 | All 10 Phase 1 policies (as primary ISMS controls) + Privacy policy (ISO 27701 extension) + Phase 2 policies where applicable | Comprehensive: policy set constitutes the ISMS control framework; certification-ready subject to implementation evidence |
-| ISO 22301 — Business continuity management systems | 2019 | BC/DR Policy (primary); Information Security Policy (ISMS scope); Incident Management Policy (incident response interface) | Comprehensive: BIA, BCP, exercise programme, and maintenance requirements fully addressed |
-| ISO 31000 — Risk management | 2018 | Risk Management Policy (primary); Information Security Policy (ISMS risk context); Third-Party Risk Management Policy | Substantial: enterprise risk management principles applied to information security and third-party domains |
-| ISO/IEC 27701 — Privacy information management | 2019 | Privacy and Data Protection Policy (primary); Data Classification Policy; Third-Party Risk Management Policy | Substantial: controller and processor obligations addressed; extends ISO 27001 ISMS to PIMS |
-| ISO/IEC 42001 — AI management systems | 2023 | AI Governance Policy (primary); Model Risk Policy; Security Awareness and Training Policy (Phase 2) | Developing: governance structure and risk management aligned; full certification scope to be confirmed as AI programme matures |
+| ISO 27001: Information security management systems | 2022 | All 10 Phase 1 policies (as primary ISMS controls) + Privacy policy (ISO 27701 extension) + Phase 2 policies where applicable | Comprehensive: policy set constitutes the ISMS control framework; certification-ready subject to implementation evidence |
+| ISO 22301: Business continuity management systems | 2019 | BC/DR Policy (primary); Information Security Policy (ISMS scope); Incident Management Policy (incident response interface) | Comprehensive: BIA, BCP, exercise programme, and maintenance requirements fully addressed |
+| ISO 31000: Risk management | 2018 | Risk Management Policy (primary); Information Security Policy (ISMS risk context); Third-Party Risk Management Policy | Substantial: enterprise risk management principles applied to information security and third-party domains |
+| ISO/IEC 27701: Privacy information management | 2019 | Privacy and Data Protection Policy (primary); Data Classification Policy; Third-Party Risk Management Policy | Substantial: controller and processor obligations addressed; extends ISO 27001 ISMS to PIMS |
+| ISO/IEC 42001: AI management systems | 2023 | AI Governance Policy (primary); Model Risk Policy; Security Awareness and Training Policy (Phase 2) | Developing: governance structure and risk management aligned; full certification scope to be confirmed as AI programme matures |
 | EU AI Act (Regulation 2024/1689) | 2024 [VERIFY] | AI Governance Policy (primary); Model Risk Policy; Privacy and Data Protection Policy; Security Awareness and Training Policy (Phase 2) | Developing: governance obligations addressed; technical conformity of specific AI systems requires ongoing assessment per system classification |
 | NIST Cybersecurity Framework | 2.0 | Information Security Policy; Risk Management Policy; Access Control Policy; Incident Management Policy; BC/DR Policy; Change Management Policy; Security Awareness and Training Policy | Comprehensive: Govern, Identify, Protect, Detect, Respond, and Recover functions addressed across the policy set |
 | NIST AI Risk Management Framework | 1.0 | AI Governance Policy (primary); Model Risk Policy; Security Awareness and Training Policy (Phase 2) | Substantial: Govern, Map, Measure, and Manage functions addressed; ongoing maturation as AI programme develops |
@@ -688,8 +688,8 @@ This table shows which frameworks are addressed by the Emyzer Technology / Emyze
 
 | Version | Date | Author | Changes | Approved By | Approval Date |
 |---------|------|--------|---------|-------------|---------------|
-| 1.0 | 2024-07-01 | GRC Team | Initial version — Phase 1 policies (10 policies; Emyzer Technology) | CISO | 2024-07-01 |
-| 2.0 | 2025-07-01 | GRC Team | Phase 2 additions — 4 Emyzer Nexus policies; updated Evidence Summary Matrix and Framework Coverage Summary | CISO | 2025-07-01 |
+| 1.0 | 2024-07-01 | GRC Team | Initial version: Phase 1 policies (10 policies; Emyzer Technology) | CISO | 2024-07-01 |
+| 2.0 | 2025-07-01 | GRC Team | Phase 2 additions: 4 Emyzer Nexus policies; updated Evidence Summary Matrix and Framework Coverage Summary | CISO | 2025-07-01 |
 
 ---
 

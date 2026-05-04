@@ -50,7 +50,7 @@ The register serves as:
 
 Two of the three Critical risks involve direct customer data exposure. One stems from legacy authentication weaknesses in the CRM system. The other relates to a cloud storage misconfiguration discovered during a recent security assessment. Both have funded treatment plans with target completion in Q3 2024.
 
-The third Critical risk — RISK-2024-0047 — is an endpoint detection gap scoring 16 on the risk matrix. It is Critical by score but currently open, pending a budget decision on tooling. It is tracked separately from the two actively-treated Critical risks because its treatment path depends on a funding approval rather than an execution timeline. See section 5 for full detail.
+The third Critical risk, RISK-2024-0047, is an endpoint detection gap scoring 16 on the risk matrix. It is Critical by score but currently open, pending a budget decision on tooling. It is tracked separately from the two actively-treated Critical risks because its treatment path depends on a funding approval rather than an execution timeline. See section 5 for full detail.
 
 The increase in Medium risks reflects expanded visibility from the new vendor risk assessment program rather than deteriorating conditions. Previously unassessed third-party relationships are now documented and tracked.
 
