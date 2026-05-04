@@ -46,7 +46,7 @@ The case study: Emyzer Technology builds a foundational GRC programme, then acqu
 
 **[View the programme repository →](https://github.com/olusolaxakanji/idowu-ajiri-grc-program)**
 
-I built this programme and maintain it as GRC Analyst for the Foundation. It is not a simulation. The Foundation is incorporated under [IRS 501(c)(3)](https://www.irs.gov/charities-non-profits) in the United States and registered with the [Corporate Affairs Commission (CAC)](https://www.cac.gov.ng) in Nigeria. It has AML/CFT obligations under [SCUML](https://www.nfiu.gov.ng), data protection obligations under the [Nigeria Data Protection Act 2023](https://ndpc.gov.ng), and cross-border fund flow screening obligations under [OFAC](https://ofac.treas.gov). Five regulatory frameworks. Two jurisdictions. One governance programme.
+I built this programme and maintain it as GRC Analyst for the Foundation. It is not a simulation. The Foundation is incorporated under [IRS 501(c)(3)](https://www.irs.gov/charities-non-profits) in the United States and registered with the [Corporate Affairs Commission (CAC)](https://www.cac.gov.ng) in Nigeria. The Nigerian entity is active under CAC registration; the US entity is in pre-operational formation under IRS 501(c)(3) — the governance programme spans both as proactive compliance architecture built ahead of full US operational activity. It has AML/CFT obligations under [SCUML](https://www.nfiu.gov.ng), data protection obligations under the [Nigeria Data Protection Act 2023](https://ndpc.gov.ng), and cross-border fund flow screening obligations under [OFAC](https://ofac.treas.gov). Five regulatory frameworks. Two jurisdictions. One governance programme.
 
 | Framework | Governing Body | Jurisdiction |
 |---|---|---|
