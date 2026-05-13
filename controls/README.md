@@ -1,49 +1,58 @@
-# Controls
+# Controls Library
 
-This directory contains the Emyzer Technology information security control framework. Each control operationalises one or more published policies and defines the specific procedure used to demonstrate compliance.
+**Emyzer Technology: Phase 1 | Fictional case study.**
+
+> All entities, systems, and control records are invented for professional demonstration purposes. Framework references are accurate as of the document dates.
 
 ---
 
-## Document Index
+## What the Controls Layer Does
 
-| Document | Description |
-|---|---|
-| [control-index.md](control-index.md) | Master list of all controls: authoritative reference for IDs, owners, types, frequencies, and status |
-| [et-ctrl-001-access-control-review.md](et-ctrl-001-access-control-review.md) | Access Control Review and Certification |
-| [et-ctrl-002-incident-detection-response.md](et-ctrl-002-incident-detection-response.md) | Incident Detection and Response |
-| [et-ctrl-003-change-advisory-board-review.md](et-ctrl-003-change-advisory-board-review.md) | Change Advisory Board (CAB) Review |
-| [et-ctrl-004-third-party-vendor-risk-assessment.md](et-ctrl-004-third-party-vendor-risk-assessment.md) | Third-Party Vendor Risk Assessment |
-| [et-ctrl-005-data-classification-audit.md](et-ctrl-005-data-classification-audit.md) | Data Classification Audit |
-| [et-ctrl-006-security-awareness-training-completion.md](et-ctrl-006-security-awareness-training-completion.md) | Security Awareness Training Completion |
-| [et-ctrl-007-business-continuity-dr-testing.md](et-ctrl-007-business-continuity-dr-testing.md) | Business Continuity and DR Testing |
-| [et-ctrl-008-ai-system-inventory-classification-review.md](et-ctrl-008-ai-system-inventory-classification-review.md) | AI System Inventory and Risk Classification Review |
+Policies define requirements. Controls are what you test to prove those requirements are being met.
+
+A policy can say "access to systems shall be reviewed quarterly." That requirement is unverifiable without a control that defines who performs the review, what evidence is produced, when it runs, what a pass looks like, and what happens when the test fails. The controls library is that layer: the operational bridge between governance requirements and audit evidence.
+
+Every control in this library links to its governing policy, names its owner, defines its testing procedure, specifies its cadence, and records its current status. Together they form the testable evidence layer beneath the policy framework.
+
+---
+
+## Control Index
+
+| Control ID | Control | Governing Policy | Cadence |
+|---|---|---|---|
+| [ET-CTRL-001](et-ctrl-001-access-control-review.md) | Access Control Review and Certification | [Access Control Policy](../policies/access-control-policy.md) | Quarterly |
+| [ET-CTRL-002](et-ctrl-002-incident-detection-response.md) | Incident Detection and Response | [Incident Management Policy](../policies/incident-management-policy.md) | Continuous / Event-driven |
+| [ET-CTRL-003](et-ctrl-003-change-advisory-board-review.md) | Change Advisory Board Review | [Change Management and Configuration Policy](../policies/change-management-and-configuration-policy.md) | Per change request |
+| [ET-CTRL-004](et-ctrl-004-third-party-vendor-risk-assessment.md) | Third-Party Vendor Risk Assessment | [Third-Party Risk Management Policy](../policies/third-party-risk-management-policy.md) | Annual / At onboarding |
+| [ET-CTRL-005](et-ctrl-005-data-classification-audit.md) | Data Classification Audit | [Data Classification Policy](../policies/data-classification-policy.md) | Annual |
+| [ET-CTRL-006](et-ctrl-006-security-awareness-training-completion.md) | Security Awareness Training Completion | [Security Awareness and Training Policy](../policies/security-awareness-and-training-policy.md) | Annual |
+| [ET-CTRL-007](et-ctrl-007-business-continuity-dr-testing.md) | Business Continuity and DR Testing | [BC/DR Policy](../policies/bcdr-policy.md) | Annual |
+| [ET-CTRL-008](et-ctrl-008-ai-system-inventory-classification-review.md) | AI System Inventory and Risk Classification Review | [AI Governance Policy](../enterprise-policies/ai-governance-policy.md) | Quarterly |
+
+**ET-CTRL-008** is a Nexus-level control covering both Phase 1 and Phase 2 scope. It operationalises the AI Governance Committee's quarterly review obligation for AI system classification status and risk posture. It retains the ET-CTRL prefix for portfolio consistency.
 
 ---
 
 ## Control ID Convention
 
 All Emyzer Technology controls use the format `ET-CTRL-NNN`:
-
 - `ET`: Emyzer Technology entity identifier
-- `CTRL`: document type: control record
+- `CTRL`: document type indicator
 - `NNN`: sequential three-digit number
-
-Controls scoped to Emyzer Nexus as the parent entity (e.g., ET-CTRL-008) retain the `ET-CTRL` prefix for this portfolio but are noted as Nexus-level in their entity field.
 
 ---
 
-## Policy Mapping
+## What Each Control Record Contains
 
-| Control | Governing Policy |
-|---|---|
-| ET-CTRL-001 | [Access Control Policy](../policies/access-control-policy.md) |
-| ET-CTRL-002 | [Incident Management Policy](../policies/incident-management-policy.md) |
-| ET-CTRL-003 | [Change Management and Configuration Policy](../policies/change-management-and-configuration-policy.md) |
-| ET-CTRL-004 | [Third-Party Risk Management Policy](../policies/third-party-risk-management-policy.md) |
-| ET-CTRL-005 | [Data Classification Policy](../policies/data-classification-policy.md) |
-| ET-CTRL-006 | [Security Awareness and Training Policy](../policies/security-awareness-and-training-policy.md) |
-| ET-CTRL-007 | [Business Continuity and DR Policy](../policies/bcdr-policy.md) |
-| ET-CTRL-008 | [AI Governance Policy](../enterprise-policies/ai-governance-policy.md) |
+Each control document specifies:
+
+- **Control objective:** The specific policy requirement this control tests
+- **Control type:** Preventive, Detective, or Corrective
+- **Testing procedure:** Step-by-step instructions for performing the test
+- **Evidence required:** What records must be produced to demonstrate the control operated
+- **Pass/fail criteria:** The specific condition that determines whether the control is effective
+- **Cadence and owner:** When the test runs and who is accountable for results
+- **Remediation path:** What happens if the test fails
 
 ---
 
@@ -59,3 +68,18 @@ Controls scoped to Emyzer Nexus as the parent entity (e.g., ET-CTRL-008) retain 
 | NIST AI RMF 1.0 | ET-CTRL-008 |
 | ISO/IEC 42001:2023 | ET-CTRL-008 |
 | GDPR | ET-CTRL-002, ET-CTRL-005 |
+
+---
+
+## Related Documentation
+
+| Document | Description |
+|---|---|
+| [Emyzer Technology Overview](../emyzer-technology/README.md) | Phase 1 programme context |
+| [Policies](../policies/README.md) | The 10 Phase 1 policies these controls operationalise |
+| [ServiceNow Evidence](../servicenow-evidence/README.md) | Platform exports showing policies in the GRC system these controls run against |
+| [Portfolio Overview](../README.md) | Top-level narrative and 60-second review path |
+
+---
+
+*All content in this portfolio is a fictional case study. Framework and regulatory references are accurate as of the document publication dates.*

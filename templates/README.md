@@ -1,135 +1,78 @@
 # GRC Document Templates
 
-**Emyzer Technology – ServiceNow GRC Portfolio**
+**Emyzer Technology: Phase 1 | Fictional case study.**
 
 ---
 
-## Overview
+## Why Templates Exist in a GRC Programme
 
-This folder contains reusable templates for governance, risk, and compliance documentation. Each template mirrors the structure of documents generated from ServiceNow GRC and aligns with industry frameworks, including NIST, ISO 27001, SOC 2, and COBIT.
+Consistency is the foundation of audit readiness. If every risk assessment uses a different structure, different field names, and different scoring criteria, it is impossible to compare risk entries, aggregate findings, or demonstrate that the programme operates systematically. Templates solve that problem by establishing the structure before the work begins.
 
-These templates represent the three core pillars of GRC work:
-
-| Template | GRC Function | Purpose |
-|----------|--------------|---------|
-| **Policy Template** | Governance | Establish organizational requirements and standards |
-| **Risk Assessment Template** | Risk | Identify, evaluate, and treat information security risks |
-| **Control Testing Template** | Compliance | Verify controls are designed and operating effectively |
+These three templates produce the three core document types used across the Emyzer Technology programme: governance policies, risk assessments, and control testing workpapers. Every substantive document in the portfolio was produced from one of them.
 
 ---
 
-## Templates Included
+## Templates
 
-### 1. Policy Template ([policy-template.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/templates/policy-template.md))
+### [Policy Template](policy-template.md)
 
-A comprehensive framework for creating information security policies that includes:
+The structure every Phase 1 and Phase 2 policy was built from. Using a common template ensures consistent metadata fields, accountability structures, and evidence indexes across all 14 policies in the programme.
 
-- Metadata fields compatible with ServiceNow GRC
-- Standardized sections (Purpose, Scope, Definitions, Policy Statement, Roles, Procedures)
-- Compliance and monitoring requirements
-- Framework alignment mapping (NIST, ISO 27001, COBIT, CSF)
-- Organizational benefits documentation
-- Evidence of compliance matrix
+**What it includes:** Policy metadata (owner, version, validity dates, approver, knowledge base reference), purpose and scope, definitions, policy statement with "shall" language and defined SLAs, roles and responsibilities with named accountability, minimum security requirements, compliance and monitoring provisions, exception handling workflow, cross-policy references, evidence index with system of record and retention periods, framework alignment table, and approval history.
 
-**Use for:** Access Control, Incident Response, Risk Management, Data Classification, Acceptable Use, and other security policies.
+**The evidence index section is the most important part.** It specifies, for every evidence type the policy requires, which system holds the record, who owns it, and how long it must be retained. Without this section, compliance is asserted but not demonstrable.
 
----
+**Compatible with ServiceNow GRC:** Metadata fields map directly to ServiceNow Policy and Compliance module fields.
 
-### 2. Risk Assessment Template ([risk-assessment-template.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/templates/risk-assessment-template.md))
+### [Risk Assessment Template](risk-assessment-template.md)
 
-A structured approach to risk identification and treatment that includes:
+The structure every risk assessment in the programme was built from, including the Phase 2 AI system risk assessments which extend it with AI-specific categories.
 
-- 5x5 risk matrix with likelihood and impact scales
-- Asset inventory and threat/vulnerability identification
-- Risk register with inherent and residual risk scoring
-- Treatment plan with strategy definitions (Mitigate, Transfer, Accept, Avoid)
-- Risk summary dashboard
-- Framework alignment (NIST 800-30, ISO 31000, FAIR)
+**What it includes:** Asset inventory and scope definition, threat and vulnerability identification, 5x5 risk matrix with likelihood and impact scales, inherent and residual risk scoring, treatment plan with strategy definitions (Mitigate, Transfer, Accept, Avoid), risk register fields, and framework alignment section.
 
-**Use for:** Annual risk assessments, project-based assessments, third-party risk evaluations, and compliance-driven risk analysis.
+**The inherent/residual distinction matters.** Documenting both ratings is what allows the programme to show what controls are doing: the gap between inherent and residual is the demonstrated value of each control. Documenting only one rating produces a register that cannot answer "what would happen without these controls."
 
----
+**Frameworks:** NIST SP 800-30 Rev. 1, ISO 27005, ISO 31000:2018, FAIR
 
-### 3. Control Testing Template ([control-testing-template.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/templates/control-testing-template.md))
+### [Control Testing Template](control-testing-template.md)
 
-A detailed workbook for testing control design and operating effectiveness that includes:
+The workpaper structure for testing whether controls are designed and operating effectively. Used in internal control testing, audit preparation, and continuous compliance monitoring.
 
-- Control testing summary matrix
-- Detailed workpaper structure for each control
-- Evidence inventory with traceability
-- Findings and remediation tracker
-- Severity definitions and remediation timelines
-- Framework mapping (SOC 2, ISO 27001, NIST 800-53, PCI DSS)
+**What it includes:** Control testing summary matrix, individual workpaper structure (control objective, test procedure, evidence inspected, results, findings), evidence inventory with traceability, findings and remediation tracker with severity definitions and remediation timelines, and framework mapping.
 
-**Use for:** Internal control testing, audit preparation, SOC 2 readiness, ISO 27001 certification support, and continuous compliance monitoring.
+**The evidence traceability section is what connects testing to audit.** Each evidence item is linked to the control it supports and the test result it contributed to. An auditor can follow the chain from a control objective to the specific evidence examined to the conclusion reached.
+
+**Frameworks:** SOC 2 (AICPA TSC), ISO 27001:2022, NIST SP 800-53 Rev. 5, PCI DSS
 
 ---
 
-## How to Use These Templates
+## ServiceNow Compatibility
 
-1. **Copy the template** to your working directory
-2. **Rename the file** following your naming convention (e.g., `access-control-policy.md`)
-3. **Replace all bracketed placeholders** `[text]` with your specific content
-4. **Customize sections** as needed for your organization's requirements
-5. **Remove the "Template Usage Notes" section** at the bottom before publishing
-6. **Update framework mappings** to reflect your compliance scope
+Each template maps to the corresponding ServiceNow GRC module:
 
----
-
-## Naming Conventions
-
-| Document Type | Format | Example |
-|---------------|--------|---------|
-| Policies | `[policy-name]-policy.md` | `access-control-policy.md` |
-| Risk Assessments | `[scope]-risk-assessment-[YYYY].md` | `enterprise-risk-assessment-2024.md` |
-| Control Testing | `[framework]-control-testing-[period].md` | `soc2-control-testing-q4-2024.md` |
+| Template | ServiceNow Module | Primary Tables |
+|---|---|---|
+| Policy Template | Policy and Compliance | `sn_compliance_policy`, `sn_compliance_control` |
+| Risk Assessment Template | Risk Management | `sn_risk_risk`, `sn_risk_assessment`, `sn_risk_response_task` |
+| Control Testing Template | Audit Management | `sn_audit_test_plan`, `sn_audit_test_result`, `sn_audit_finding` |
 
 ---
 
-## Framework Coverage
+## How to Use
 
-These templates support alignment with:
-
-| Framework | Templates |
-|-----------|-----------|
-| **NIST SP 800-53 Rev. 5** | Policy, Risk Assessment, Control Testing |
-| **NIST Cybersecurity Framework** | Policy, Risk Assessment, Control Testing |
-| **NIST SP 800-30** | Risk Assessment |
-| **ISO/IEC 27001:2022** | Policy, Control Testing |
-| **ISO/IEC 27005:2022** | Risk Assessment |
-| **ISO 31000:2018** | Risk Assessment |
-| **SOC 2 (AICPA TSC)** | Policy, Control Testing |
-| **COBIT 2019** | Policy, Risk Assessment, Control Testing |
-| **PCI DSS 4.0** | Control Testing |
-| **FAIR** | Risk Assessment |
-
----
-
-## ServiceNow GRC Integration
-
-These templates are designed for compatibility with ServiceNow GRC modules:
-
-| Template | ServiceNow Module | Key Tables |
-|----------|-------------------|------------|
-| Policy | Policy & Compliance | `sn_compliance_policy`, `sn_compliance_control` |
-| Risk Assessment | Risk Management | `sn_risk_risk`, `sn_risk_assessment`, `sn_risk_response_task` |
-| Control Testing | Audit Management | `sn_audit_test_plan`, `sn_audit_test_result`, `sn_audit_finding` |
+Copy the relevant template, rename it following the programme naming convention, replace all bracketed placeholders with content specific to the document's scope, and remove the template usage notes section before publishing. Framework alignment sections should be updated to reflect the compliance scope of the specific document.
 
 ---
 
 ## Related Documentation
 
-- [Main README](../README.md) – Project overview and repository structure
-- [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) – Example policy using this template
+| Document | Description |
+|---|---|
+| [Controls Library](../controls/README.md) | Control records produced using the control testing template structure |
+| [Risk Assessments](../risk-assessments/README.md) | Risk documents produced using the risk assessment template |
+| [Policies](../policies/README.md) | Policies produced using the policy template |
+| [Portfolio Overview](../README.md) | Top-level narrative and 60-second review path |
 
 ---
 
-## Version History
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | [YYYY-MM-DD] | [Your Name] | Initial template release |
-
----
-
-*These templates were developed as part of a ServiceNow GRC portfolio project demonstrating governance, risk, and compliance capabilities aligned with industry frameworks.*
+*All content in this portfolio is a fictional case study. Framework references are accurate as of the document publication dates.*

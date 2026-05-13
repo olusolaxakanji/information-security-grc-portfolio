@@ -1,143 +1,71 @@
 # Information Security Policies
 
-**Enterprise security policies for Emyzer Technology, developed in ServiceNow GRC and aligned with NIST, ISO 27001, COBIT, and COSO ERM frameworks.**
+**Emyzer Technology: Phase 1 | Fictional case study.**
+
+> All entities, systems, personnel, and scenarios are invented for professional demonstration purposes. Framework references are accurate as of the document dates.
 
 ---
 
-## Quick Navigation
+## What This Directory Contains
 
-| Priority | Policy | Why Start Here |
-|----------|--------|----------------|
-| ⭐ Start Here | [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Parent policy with full evidence index, exception handling, and control cadence |
+Ten core information security policies developed for Emyzer Technology and implemented in ServiceNow GRC. These are the Phase 1 foundation that Phase 2 depends on. When Emyzer Technology acquired Veridian AI, these policies applied to the acquired entity from Day 0 and were extended, not replaced, by the four Phase 2 enterprise policies.
 
 ---
 
 ## Policy Index
 
-### Completed Policies 
-
-These policies are complete and functional. Quality upgrades are underway to add evidence indexes, exception-handling sections, and control-cadence documentation, consistent with the flagship policy.
-
-| Policy | Description | Framework Alignment | Status |
-|--------|-------------|---------------------|--------|
-| ✅ [Information Security Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) | Defines security program structure, governance roles, responsibilities, exception handling, and strategic direction | NIST CSF GV, ISO 27001 A.5, COBIT EDM, ITIL | Complete |
-| ✅ [Access Control Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) | Governs user authentication, authorization, and access management based on least privilege and role-based access principles | NIST CSF PR.AC, ISO 27001 A.5.15-A.5.18, COBIT DSS05 | Complete |
-| ✅ [Incident Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) | Defines procedures for detecting, responding to, and recovering from security incidents with GDPR breach notification compliance | NIST CSF RS, ISO/IEC 27035, NIST SP 800-61, GDPR Art. 33-34 | Complete |
-| ✅ [Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) | Establishes framework for identifying, assessing, and mitigating organizational risks across all business functions | NIST SP 800-37 RMF, COSO ERM, CIS RAM, ISO 31000 | Complete |
-| ✅ [Business Continuity and Disaster Recovery Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) | Ensures organizational preparedness to respond to and recover from disruptions through defined recovery objectives | ISO 22301, ISO/IEC 27031, BCI GPG, NIST SP 800-34 | Complete |
-| ✅ [Change Management & Configuration Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/change-management-and-configuration-policy.md) | Controls modifications to systems and configurations to maintain security and operational stability | ITIL, ISO 20000, COBIT BAI06, NIST SP 800-128 | Complete |
-| ✅ [Acceptable Use Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/acceptable-use-policy.md) | Establishes appropriate use of organizational systems, networks, and resources by all personnel | NIST CSF PR.AT, ISO 27001 A.5.10, SANS AUP | Complete |
-| ✅ [Data Classification Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/data-classification-policy.md) | Defines data sensitivity levels, labeling requirements, and handling procedures throughout the data lifecycle | NIST CSF PR.DS, ISO 27001 A.5.12-A.5.13, NIST SP 800-60 | Complete |
-| ✅ [Third-Party/Vendor Risk Management Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/third-party-risk-management-policy.md) | Manages third-party risk through security requirements, assessments, and ongoing monitoring | NIST SP 800-161, ISO 27036, NIST CSF ID.SC | Complete |
-| ✅ [Security Awareness & Training Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/security-awareness-and-training-policy.md) | Establishes requirements for security education, training, and awareness programs | NIST CSF PR.AT, ISO 27001 A.6.3, NIST SP 800-50 | Complete |
+| Policy | Key design decision | Frameworks |
+|---|---|---|
+| [Information Security Policy](information-security-policy.md) | ISMS parent policy. Establishes the Security Steering Committee as the exception escalation authority and defines the review cadence all other policies inherit. The scope explicitly includes Emyzer Technology subsidiaries and acquired entities: governance obligations travel with acquisitions from Day 0. | ISO 27001:2022, NIST CSF 2.0, COBIT |
+| [Access Control Policy](access-control-policy.md) | Role-based access with privileged access controls and quarterly review for high-privilege accounts. At Phase 2, the AI Governance Committee is added as an access authority for AI system records, and model operator access provisioning is linked to training completion under the Tier 2 Training Policy. | NIST SP 800-53 Rev. 5, ISO 27001:2022 A.5.15-A.5.18, COBIT DSS05 |
+| [Incident Management Policy](incident-management-policy.md) | IRT activation criteria are defined at incident classification, not at escalation. This design prevents the assessment delay that causes organizations to miss the 72-hour GDPR notification window. A 4-hour initial assessment SLA reinforces the timeline. At Phase 2, the AI Governance Policy extends this policy with AI-specific failure modes and EU AI Act Article 73 serious incident reporting obligations. | NIST SP 800-61, ISO 27035, GDPR Art. 33-34 |
+| [Risk Management Policy](risk-management-policy.md) | Establishes the 5x5 hybrid scoring matrix applied across all Phase 1 and Phase 2 risk assessments. Defines the materiality threshold above which Risk Management Committee formal acceptance is required. AI-specific risk categories (model drift, training data bias, third-party model dependency) are defined as distinct register entries, not subsets of operational risk. | ISO 31000:2018, NIST CSF 2.0, COSO ERM |
+| [BC/DR Policy](bcdr-policy.md) | Recovery objectives are derived from a 42-stakeholder BIA with financial exposure quantification across 12 critical processes, not estimated. RTO and RPO targets are tiered by process class. At Phase 2, AI system availability is treated as a distinct continuity risk with documented fallback procedures for PCM-001 and CRT-001. | ISO 22301:2019, NIST SP 800-34 |
+| [Change Management and Configuration Policy](change-management-and-configuration-policy.md) | Three-tier change classification with defined CAB authority limits. Emergency change provisions include AI-specific guidance for rapid model suspension decisions. At Phase 2, AI system material changes escalate to the AI Governance Committee rather than standard CAB review, using the material change definition consistent across both policies. | ITIL 4, ISO 27001:2022, COBIT BAI06 |
+| [Acceptable Use Policy](acceptable-use-policy.md) | Covers personal device use, shadow IT, and staff use of AI tools. Generative AI use provisions prohibit inputting Confidential or Restricted data into external LLM APIs without AI Governance Committee-approved data handling controls. Shadow AI reporting obligations align with the AI Governance Policy's annual inventory audit. | ISO 27001:2022 A.5.10, NIST CSF |
+| [Data Classification Policy](data-classification-policy.md) | Four-tier classification (Public, Internal, Confidential, Restricted) with handling, labeling, and disposal requirements per tier. At Phase 2, AI training data is classified under this scheme with additional GDPR controls applied via the Privacy and Data Protection Policy. Model artefacts and AI system outputs are classified at minimum as Confidential. | NIST SP 800-60, ISO 27001:2022 A.5.12-A.5.13, GDPR |
+| [Third-Party Risk Management Policy](third-party-risk-management-policy.md) | Risk tiering criteria for vendors with review cadences by tier. At Phase 2, extended by the AI Vendor Risk Due Diligence Addendum, a subordinate document rather than a policy amendment, covering model transparency, training data provenance, bias audit availability, and contractual liability for model errors. Structured as a subordinate document so it can be updated as EU AI Act implementing acts develop without a full policy revision cycle. | ISO 27036, NIST SP 800-161, NIST CSF ID.SC |
+| [Security Awareness and Training Policy](security-awareness-and-training-policy.md) | Completion tracking and role-based curriculum requirements. At Phase 2, a Tier 2 policy adds EU AI Act Article 14 human oversight training obligations for staff interacting with High-Risk AI systems. Training completion is a prerequisite for model operator access provisioning under the Access Control Policy. | ISO 27001:2022 A.6.3, NIST SP 800-50 |
 
 ---
 
 ## Policy Structure
 
-All policies follow a consistent structure aligned with GRC best practices and audit expectations:
+Every policy in this directory follows a consistent structure derived from the policy template:
 
 | Section | Purpose |
-|---------|---------|
-| **Policy Metadata** | Ownership, versioning, validity dates, approvers, reviewers, knowledge base reference |
-| **Description** | Policy intent, impact statement, and relevant standards alignment |
-| **Policy Snapshot** | Executive-level summary of scope, governance, exceptions process, and evidence maintained |
-| **Purpose and Scope** | Detailed policy intent, applicability boundaries, and third-party requirements |
-| **Definitions** | Key terminology with clear, consistent definitions |
-| **Policy Statement** | Core requirements and enforceable provisions with specific timeframes |
-| **Roles and Responsibilities** | Accountability assignments with "shall" language and defined SLAs |
-| **Minimum Security Requirements** | Implementation guidance, operational workflows, and control specifications |
-| **Compliance and Monitoring** | Monitoring mechanisms, performance metrics, and consequences for non-compliance |
-| **Policy Exceptions** | Approval workflow, duration limits, compensating controls, and quarterly review process |
-| **Related Policies** | Cross-references to supporting policies with descriptions |
-| **Related Documents** | Operational procedures, plans, and external references |
-| **Review and Revision** | Triggers for policy updates and approval requirements |
-| **Framework Alignment** | Mapping to recognized security standards (ISO, NIST, COBIT, etc.) |
-| **Organizational Benefits** | Business value and risk reduction articulation |
-| **Evidence of Compliance** | Evidence Index with system of record, owner, and retention period; detailed evidence subsections |
-| **Approval History** | Documented approvals with dates, approvers, and comments |
-| **Document Control** | Document ID, version, classification, last updated, next review date |
+|---|---|
+| Policy metadata | Owner, version, validity dates, knowledge base reference, approval chain |
+| Purpose and scope | Policy intent, applicability, third-party requirements |
+| Definitions | Key terminology defined consistently across the framework |
+| Policy statement | Core requirements with "shall" language and defined SLAs |
+| Roles and responsibilities | Named accountability assignments |
+| Minimum security requirements | Operational controls and implementation specifications |
+| Compliance and monitoring | Monitoring mechanisms and non-compliance consequences |
+| Policy exceptions | Approval workflow, duration limits, compensating controls |
+| Evidence index | System of record, owner, and retention period for every evidence type required |
+| Framework alignment | Control mapping to relevant standards |
+
+The evidence index is the most operationally important section. It specifies exactly what records must exist, where they live, and how long they must be retained. Without this section, compliance is asserted but not demonstrable.
 
 ---
 
-## Framework Coverage
+## ServiceNow Implementation
 
-These policies collectively address requirements from:
-
-### NIST Cybersecurity Framework v1.1
-
-| Function | Coverage |
-|----------|----------|
-| **Identify (ID)** | Asset management, risk assessment, governance |
-| **Protect (PR)** | Access control, data security, protective technology |
-| **Detect (DE)** | Security monitoring and event detection |
-| **Respond (RS)** | Incident response planning and communications |
-| **Recover (RC)** | Recovery planning and improvements |
-
-### ISO/IEC 27001:2022
-
-| Control Category | Coverage |
-|------------------|----------|
-| **Organizational controls (A.5)** | Information security policies, roles, asset management |
-| **People controls (A.6)** | Screening, awareness, disciplinary process |
-| **Physical controls (A.7)** | Physical security and environmental controls |
-| **Technological controls (A.8)** | Access control, cryptography, logging |
-
-### Additional Frameworks
-
-| Framework | Application |
-|-----------|-------------|
-| **NIST RMF** | Prepare, Categorize, Select, Implement, Assess, Authorize, Monitor |
-| **COSO ERM** | Governance, Strategy, Performance, Review |
-| **ISO 22301** | Business impact analysis, continuity planning, testing |
-
----
-
-## ServiceNow GRC Implementation
-
-All policies were created and managed within the ServiceNow GRC platform:
-
-| Capability | Demonstration |
-|------------|---------------|
-| Policy lifecycle management | Draft → Review → Approval → Publication |
-| Version control | Change tracking with documented history |
-| Approval workflows | Documented approvers and reviewers |
-| Knowledge base integration | Organizational accessibility |
-| Compliance scoring | Audit readiness capabilities |
-
-See [`servicenow-evidence/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/servicenow-evidence) for platform screenshots and implementation artifacts.
+All 10 policies were built and managed in ServiceNow GRC. Platform exports for five policies are in [/servicenow-evidence/](../servicenow-evidence/): raw PDFs showing ownership, approval workflows, and compliance mappings as generated by the platform.
 
 ---
 
 ## Related Documentation
 
-| Resource | Description |
-|----------|-------------|
-| [`compliance-mapping/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/compliance-mapping) | Framework control mappings and gap analyses |
-| [`business-continuity/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/business-continuity) | ISO 22301 BCMS documentation |
-| [`risk-assessments/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/risk-assessments) | Risk registers and treatment plans |
-| [`servicenow-evidence/`](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/servicenow-evidence) | Platform implementation artifacts |
+| Document | Description |
+|---|---|
+| [Emyzer Technology Overview](../emyzer-technology/README.md) | Phase 1 programme context |
+| [Enterprise Policies](../enterprise-policies/readme.md) | Phase 2 policies extending this Phase 1 foundation |
+| [Controls Library](../controls/README.md) | The operational controls that test these policy requirements |
+| [ServiceNow Evidence](../servicenow-evidence/README.md) | Platform exports for 5 of these policies |
+| [Portfolio Overview](../README.md) | Top-level narrative and 60-second review path |
 
 ---
 
-## Policy Maintenance
-
-| Process | Details |
-|---------|---------|
-| **Review Cycle** | Annual, or when significant organizational changes occur |
-| **Change Process** | Risk assessment → Stakeholder review → Approval → Communication → Training |
-| **Version Control** | Document history table in each policy |
-
----
-
-## Contact
-
-| Role | Contact |
-|------|---------|
-| Information Security Officer | security@emyzertech.com |
-| Chief Risk Officer | risk@emyzertech.com |
-| GRC Program Manager | grc@emyzertech.com |
-
----
-
-*Last Updated: January 2025*
+*All content in this portfolio is a fictional case study. Framework and regulatory references are accurate as of the document publication dates.*

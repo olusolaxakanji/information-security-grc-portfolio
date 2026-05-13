@@ -1,110 +1,65 @@
 # ServiceNow Evidence Exports
 
-**Raw policy documentation extracted directly from ServiceNow GRC**
+**Emyzer Technology: Phase 1 | Fictional case study.**
 
 ---
 
-## What This Directory Contains
+## What This Directory Proves
 
-Every PDF in this folder represents a verifiable artifact: a policy document exported from ServiceNow's Governance, Risk, and Compliance (GRC) module. These aren't templates. They're operational records that demonstrate how enterprise security governance operates within a structured platform.
+Polished markdown documents tell a reader what the policies say. Raw platform exports prove the policies exist inside a GRC system with proper governance controls applied.
 
-The exports capture:
+These five PDFs are direct exports from ServiceNow GRC's Policy and Compliance module. They were not formatted for presentation. They are exactly what ServiceNow generates when you manage policies correctly: system-generated timestamps, approval metadata, ownership records, compliance mappings, and version history as the platform produces them.
 
-- **Policy metadata**: ownership, approval workflows, validity periods
-- **Framework alignment**: COBIT, RBAC, ABAC, ISO 22301, and other control references
-- **Compliance mapping**: how each policy connects to organizational controls
-- **Approval chains**: documented sign-offs with timestamps and approver comments
+The difference between a policy document and a ServiceNow export is the difference between writing a policy and implementing one.
 
 ---
 
-## Why Raw Exports Matter
+## What the Exports Capture
 
-Polished summaries tell a story. Raw exports prove it.
+Each PDF contains:
 
-Auditors, hiring managers, and compliance reviewers need to see the underlying machinery. These PDFs show exactly what ServiceNow generates when you configure policies correctly: complete with system-generated timestamps, approval metadata, and relationship mappings.
-
-This is the evidence layer beneath the narrative.
+- **Policy metadata:** Name, type, version, knowledge base reference, compliance score
+- **Ownership:** Named policy owner, named approver, review cycle, validity dates
+- **Approval workflow:** Who approved, when, and their documented comments
+- **Framework alignment:** Which controls and standards the policy maps to in the platform
+- **Related lists:** Connected controls, evidence requirements, linked documents
 
 ---
 
 ## File Inventory
 
-| Document | Description | Framework References |
-|----------|-------------|---------------------|
-| [Access Control Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Access%20Control%20Policy.pdf) | Defines access authorization, authentication requirements, RBAC/ABAC implementation, and access review procedures | COBIT, RBAC, ABAC |
-| [Business Continuity and Disaster Recovery Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Business%20Continuity%20and%20Disaster%20Recovery%20Policy.pdf) | Establishes business continuity management system (BCMS), disaster recovery procedures, and operational resilience requirements | ISO/IEC 22301 |
-| [Incident Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Incident%20Management%20Policy.pdf) | Outlines incident detection, response procedures, escalation paths, and post-incident review processes | NIST, ITIL |
-| [Information Security Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Information%20Security%20Policy.pdf) | Parent policy defining the organization's overall security governance framework, objectives, and accountability structure | NIST, ISO 27001 |
-| [Risk Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Risk%20Management%20Policy.pdf) | Documents risk identification, assessment methodology, treatment options, and ongoing risk monitoring requirements | NIST RMF, ISO 31000 |
+| Export | What it shows | Linked Policy |
+|---|---|---|
+| [Access Control Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Access%20Control%20Policy.pdf) | RBAC/ABAC implementation, quarterly access review controls, privileged access governance | [Access Control Policy](../policies/access-control-policy.md) |
+| [Business Continuity and DR Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Business%20Continuity%20and%20Disaster%20Recovery%20Policy.pdf) | BCMS governance structure, ISO 22301 alignment, recovery objective framework | [BC/DR Policy](../policies/bcdr-policy.md) |
+| [Incident Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Incident%20Management%20Policy.pdf) | IRT activation criteria, GDPR 72-hour notification path, severity classification framework | [Incident Management Policy](../policies/incident-management-policy.md) |
+| [Information Security Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Information%20Security%20Policy.pdf) | ISMS parent policy: Security Steering Committee, exception governance, review cadence | [Information Security Policy](../policies/information-security-policy.md) |
+| [Risk Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Risk%20Management%20Policy.pdf) | 5x5 risk methodology, materiality thresholds, Risk Management Committee authority | [Risk Management Policy](../policies/risk-management-policy.md) |
 
 ---
 
-## Reading These Documents
+## How to Read a ServiceNow Export
 
-ServiceNow exports follow a predictable structure:
+ServiceNow policy exports follow a consistent structure:
 
-1. **Header block**: Report metadata (run date, administrator, table name)
-2. **Policy details**: Name, type, ownership, compliance score, parent policy
-3. **Policy text**: The actual governance language: purpose, scope, definitions, procedures
-4. **Approval records**: Who approved, when, and their comments
-5. **Related lists**: Connected controls, evidence requirements, document versions
+1. **Header block:** Report metadata including run date and administrator
+2. **Policy details:** Name, type, ownership, compliance score, parent policy linkage
+3. **Policy text:** The full governance language: purpose, scope, definitions, procedures
+4. **Approval records:** Approver names, timestamps, and comments
+5. **Related lists:** Connected controls, evidence requirements, version history
 
-The formatting reflects ServiceNow's native output. No cleanup has been applied: these are the raw artifacts generated by the platform.
-
----
-
-## Policy Hierarchy
-
-```
-Information Security Policy (Parent)
-├── Access Control Policy
-├── Incident Management Policy
-├── Risk Management Policy
-└── Business Continuity and Disaster Recovery Policy
-```
-
-The Information Security Policy serves as the parent document. All other policies inherit from and reference this foundational governance framework.
+No formatting has been applied after export. What you see is what ServiceNow produces.
 
 ---
 
-## Connecting Evidence to Policy
+## Related Documentation
 
-Each export in this directory corresponds to a structured policy document in the parent repository:
-
-| Evidence File | Readable Policy |
-|---------------|-----------------|
-| [Access Control Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Access%20Control%20Policy.pdf) | [access-control-policy.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/access-control-policy.md) |
-| [Business Continuity and Disaster Recovery Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Business%20Continuity%20and%20Disaster%20Recovery%20Policy.pdf) | [bcdr-policy.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/bcdr-policy.md) |
-| [Incident Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Incident%20Management%20Policy.pdf) | [incident-management-policy.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/incident-management-policy.md) |
-| [Information Security Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Information%20Security%20Policy.pdf) | [information-security-policy.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/information-security-policy.md) |
-| [Risk Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Risk%20Management%20Policy.pdf) | [risk-management-policy.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/policies/risk-management-policy.md) |
-
-The markdown files present policy content in a readable format. The PDF exports prove that the policies exist within an enterprise GRC system with proper governance controls.
+| Document | Description |
+|---|---|
+| [Controls Library](../controls/README.md) | The operational controls that run against these policies |
+| [Emyzer Technology Overview](../emyzer-technology/README.md) | Phase 1 programme context |
+| [Portfolio Overview](../README.md) | Top-level narrative and 60-second review path |
 
 ---
 
-## For Reviewers
-
-If you're evaluating this portfolio for GRC competency, these exports demonstrate:
-
-- **Platform proficiency**: Ability to configure and manage policies within ServiceNow GRC
-- **Governance rigor**: Understanding of approval workflows, ownership structures, and policy lifecycle management
-- **Framework alignment**: Practical application of NIST, ISO 27001, ISO 22301, COBIT, and related control frameworks
-- **Policy architecture**: Hierarchical policy design with clear parent-child relationships
-- **Documentation discipline**: Maintaining traceable evidence that connects policy intent to operational controls
-
-The exports aren't the deliverables. The organizational capability they represent is.
-
----
-
-## Technical Notes
-
-- **Export format**: ServiceNow Policy Details report (PDF)
-- **Platform version**: ServiceNow (specific instance details sanitized)
-- **Export method**: System Administrator report generation
-- **Policy count**: 5 policies (1 parent, 4 domain-specific)
-- **Sanitization**: Organization-specific operational data has been generalized for portfolio use
-
----
-
-*This directory is part of the [Information Security & Business Continuity Policy Portfolio](../README.md): a demonstration of applied GRC governance using ServiceNow, aligned with NIST principles and ISO/IEC 22301.*
+*All content in this portfolio is a fictional case study.*
