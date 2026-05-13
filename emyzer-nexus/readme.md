@@ -1,25 +1,24 @@
-# Emyzer Nexus: GRC Programme Overview
+# Emyzer Nexus: Phase 2 GRC Programme
 
-**Phase 2 Parent Entity | Information Security GRC Portfolio**
+**Post-acquisition parent entity. Fictional case study.**
 
----
-
-> **Simulated Environment**
->
-> Emyzer Nexus is a fictional organisation created for this GRC portfolio. All entities, personnel, systems, policies, risk entries, and regulatory scenarios described in this repository are invented for professional demonstration purposes. Framework and regulatory references, ISO 27001:2022, NIST CSF 2.0, EU AI Act (Regulation 2024/1689), GDPR, and others, are accurate as of the document dates; their application to Emyzer Nexus is illustrative only. No real organisation, individual, or incident is represented. This portfolio was developed to demonstrate applied GRC competency across AI governance, M&A integration, policy architecture, risk programme design, business continuity, and compliance mapping using a fictionalized enterprise environment.
+> All entities, personnel, systems, policies, risk entries, and regulatory scenarios in this portfolio are invented for professional demonstration purposes. Framework references (EU AI Act, ISO 27001:2022, NIST CSF 2.0, GDPR, and others) are accurate as of the document dates; their application to Emyzer Nexus is illustrative only. `[VERIFY]` tags flag regulatory citations that require legal confirmation before use in a real context.
 
 ---
 
-## About Emyzer Nexus
+## The Governance Problem Phase 2 Was Built to Solve
 
-Emyzer Nexus is the post-acquisition parent entity formed in Q4 2024 when Emyzer Technology acquired Veridian AI. As parent entity, Emyzer Nexus holds governance authority over both subsidiaries and is the entity subject to EU AI Act obligations arising from Veridian AI's AI systems.
+Emyzer Technology acquired Veridian AI in Q4 2024. Veridian was an AI-native startup with two operational AI systems and no formal GRC programme. From the moment the acquisition closed, Emyzer Nexus inherited Veridian's compliance gaps as its own.
 
-The Phase 2 GRC programme expands beyond the foundational work done in Phase 1 (Emyzer Technology) to address four new governance challenges introduced by the acquisition:
+Four specific problems required immediate governance response:
 
-1. **AI governance under the EU AI Act**: two Veridian AI systems classified as High-Risk require full conformity governance
-2. **M&A policy integration**: Veridian AI had no formal GRC programme; absorbing it into the Emyzer Nexus governance structure required deliberate integration management
-3. **Expanded privacy obligations**: AI training data governance and external LLM API data transmission created new GDPR obligations not addressed in Phase 1
-4. **Enhanced third-party risk**: AI vendor relationships require AI-specific due diligence beyond standard TPRM controls
+**1. AI governance under the EU AI Act.** Veridian's two systems (a Predictive Customer Churn Model and an AI-Assisted Contract Review Tool) were in production without conformity assessments. Both were classified as High-Risk under EU AI Act Annex III [VERIFY]. Full conformity obligations under Articles 9-15 applied from acquisition close, not from some future compliance date.
+
+**2. M&A policy integration.** Veridian had no documented policies. Emyzer Technology's Phase 1 policies were written for a hardware and services business, not an AI-native entity. Absorbing Veridian expanded the scope of nearly every existing policy and created governance domains that Phase 1 had not addressed.
+
+**3. Expanded GDPR obligations.** Veridian's churn model trained on customer PII. Its contract review tool transmitted contract data to an external LLM API. Neither data flow had a formal GDPR basis. Both became Emyzer Nexus compliance gaps on Day 0.
+
+**4. AI vendor risk.** Standard TPRM controls were not designed to evaluate LLM API providers. Model transparency, training data provenance, bias audit availability, and AI error liability were not covered in the Phase 1 Third-Party Risk Management Policy.
 
 ---
 
@@ -28,86 +27,96 @@ The Phase 2 GRC programme expands beyond the foundational work done in Phase 1 (
 ```
 Emyzer Nexus  (parent: Phase 2 GRC programme)
 ├── Emyzer Technology  (subsidiary: Phase 1 GRC programme in effect as subsidiary documentation)
-└── Veridian AI  (acquired entity: governance integration in progress under Integration Management Charter)
+└── Veridian AI  (acquired: governance integration in progress)
 ```
 
-**Policy authority:** Emyzer Nexus enterprise policies take precedence. Where Emyzer Nexus has not issued a policy in a given domain, the applicable Emyzer Technology Phase 1 policy governs. Veridian AI legacy documentation (where it existed) was superseded by Emyzer Nexus/Emyzer Technology policies from acquisition close. See the [M&A GRC Integration Charter](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/m%26a-grc-integration-charter.md) for full hierarchy and transition timeline.
+Emyzer Nexus enterprise policies take precedence. Where Emyzer Nexus has not issued a policy in a given domain, the applicable Emyzer Technology Phase 1 policy governs. Veridian AI legacy documentation (where any existed) was superseded by Emyzer Nexus and Emyzer Technology policies from acquisition close. Full hierarchy and transition timeline are in the [M&A GRC Integration Charter](../integration-management/m%26a-grc-integration-charter.md).
 
 ---
 
-## Governance Bodies and Accountable Roles
+## Key Governance Decisions Made
 
-All named individuals below are fictional.
+The Integration Management Committee (IMC), chaired by the CRO and approved by the CEO, made seven binding decisions at acquisition close:
 
-| Role / Body | Function | Referenced In |
-|---|---|---|
-| **Chief Executive Officer (CEO)** | Board-level accountability for responsible AI governance; approves AI Governance Policy and material AI strategy changes; receives quarterly AI risk briefings | AI Governance Policy, M&A GRC Integration Charter |
-| **Chief Information Security Officer (CISO)** | Executive oversight of ISMS and AI governance programme; chairs AI Governance Committee; approves AI risk acceptance for High-Risk systems; escalates unresolvable compliance gaps | All Phase 2 policies, AI system governance documentation |
-| **Chief Risk Officer (CRO)** | Enterprise risk register ownership; risk appetite governance; chairs Integration Management Committee; business continuity oversight. *Named: Susan Orwell* | Risk Management Policy, M&A GRC Integration Charter, BC/DR Policy |
-| **Data Protection Officer (DPO)** | Privacy programme ownership; GDPR obligations; DPIA governance; data subject request management; AI training data governance | Privacy and Data Protection Policy, AI System Inventory |
-| **Chief Technology Officer (CTO)** | AI system technical governance; human oversight mechanism implementation; conformity assessment technical lead; change management for AI systems | AI Governance Policy, Change Management Policy |
-| **General Counsel / Legal Counsel** | EU AI Act regulatory advice; GDPR notification obligations; conformity assessment legal review; contract AI governance clauses; serious incident notification to authorities | AI Governance Policy, AI System Inventory, Integration Charter |
-| **Information Security Officer (ISO)** | ISMS operational ownership; policy drafting and maintenance; exception approval; day-to-day compliance monitoring. *Named: Susan Orwell* | All Phase 1 and Phase 2 security policies |
-| **AI Governance Committee** | AI system risk classification authority; EU AI Act conformity assessment governance; post-market monitoring oversight. Meets quarterly and on emergency basis within 5 business days of significant AI incident | AI Governance Policy, AI System Inventory |
-| **Integration Management Committee (IMC)** | M&A integration governance; monthly meetings during integration period; policy hierarchy oversight; inherited risk acceptance authority | M&A GRC Integration Charter, M&A Risk Assessment |
-| **Risk Management Committee** | Risk escalation and formal acceptance authority; approves treatment decisions above materiality thresholds; receives budget-blocked risk escalations | Risk Management Policy, Asset Risk Register |
-| **AI System Owners** | Per-system lifecycle accountability (PCM-001: VP Customer Success; CRT-001: General Counsel); conformity assessment coordination; post-market monitoring; override log review | AI Governance Policy, AI System Inventory |
-| **GRC Team** | AI System Inventory maintenance; compliance reporting; risk assessment coordination; policy rationalization tracking; audit readiness | All GRC programme documents |
+1. **Immediate policy application (Day 0).** All Emyzer Nexus and Emyzer Technology policies applied to Veridian AI personnel from acquisition close. Personnel acknowledged policies within 30 days.
+
+2. **AI system classification.** PCM-001 and CRT-001 were classified as High-Risk under EU AI Act Annex III [VERIFY] pending formal conformity assessment. Interim human review protocols were implemented for both systems immediately.
+
+3. **CRT-001 restricted use.** CRT-001 use was restricted to contracts containing no personal data pending execution of a Data Processing Agreement with the LLM API vendor. This restriction was implemented on legal advice given the unresolved GDPR Article 28 [VERIFY] position.
+
+4. **Integration Management Committee formed.** A monthly IMC was established comprising the CRO (chair), CISO, CTO, Legal Counsel, and GRC Lead, with authority to make integration governance decisions within the remit of the charter.
+
+5. **External GRC consultant engaged.** An external consultant was engaged for a 6-month sprint to support risk register integration, policy rationalization, and AI governance documentation given integration workstream volume.
+
+6. **Phase 1 policies remain in effect.** No Phase 1 policy was retired without a formal rationalization decision recorded in the Policy Rationalization Roadmap.
+
+7. **AI Governance Committee convened.** The AI Governance Committee was convened in January 2025. Its first meeting was dedicated to formal classification of PCM-001 and CRT-001.
 
 ---
 
-## Phase 2 Document Index
+## Programme Areas
 
-Status key: ✓ Published | ✓ Complete | ⧖ In Development | ☐ Planned
+### M&A Integration Governance
 
-### Enterprise Policies: Emyzer Nexus
+The integration programme answers three questions every acquisition creates: which policies govern the acquired entity from Day 0, what compliance gaps were inherited, and what existing documentation needs to change to reflect the expanded scope.
 
-| Policy | Owner | Status | Frameworks |
-|---|---|---|---|
-| [AI Governance Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/ai-governance-policy.md) | CISO | ✓ Published | EU AI Act, NIST AI RMF 1.0, ISO/IEC 42001:2023 |
-| [Model Risk Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/model-risk-policy.md) | CRO | ✓ Published | SR 11-7, NIST AI RMF, EU AI Act |
-| [Privacy and Data Protection Policy](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/privacy-and-data-protection-policy.md) | DPO | ✓ Published | GDPR, UK GDPR, ISO 27701:2019 |
-| [Security Awareness and Training Policy (Tier 2)](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/enterprise-policies/security-awareness-and-training-policy.md) | CISO | ✓ Published | ISO 27001:2022, NIST SP 800-50, EU AI Act Art.14 |
+| Document | What it resolves |
+|---|---|
+| [M&A GRC Integration Charter](../integration-management/m%26a-grc-integration-charter.md) | Establishes the post-acquisition policy hierarchy. Defines which governance body has authority to accept inherited risk. Sets the conditions that trigger a policy review or retirement. Includes a 15-entry integration risk register with owners and target resolution dates. |
+| [Policy Rationalization Roadmap](../integration-management/rationalization-roadmap.md) | Phase 1 policies were written for Emyzer Technology as a standalone entity. This document schedules their review under the expanded Nexus scope, identifies conflicts between legacy and new obligations, and prioritizes remediation order. |
+| [M&A Risk Assessment](../integration-management/ma-risk-assessment.md) | Formal risk register for GRC risks introduced by the acquisition across five categories: Technology, Regulatory, Data/Privacy, Personnel, and Operational. |
 
 ### AI Governance Programme
 
-| Document | Description | Status |
-|---|---|---|
-| [AI Governance README](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/ai-governance/readme.md) | Programme overview, document index, frameworks | ✓ Published |
-| [AI System Inventory and Classification](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/ai-governance/ai-system-inventory.md) | Formal EU AI Act risk tier classification of PCM-001 and CRT-001; system profiles and governance obligations | ✓ Published |
-| [EU AI Act Control Mapping](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/ai-governance/eu-ai-act-mapping.md) | Article-by-article compliance mapping; gap identification and remediation priorities | ✓ Published |
-| [AI System Risk Assessments](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/ai-governance/risk-assessments.md) | Risk assessments for PCM-001 and CRT-001 using extended AI-specific methodology | ✓ Published |
+Veridian's two systems entered production without conformity assessments. The AI governance programme was built to close that gap and establish ongoing governance for both systems under the EU AI Act.
 
-### Integration Management Programme
+| Document | What it resolves |
+|---|---|
+| [AI Governance Policy](../enterprise-policies/ai-governance-policy.md) | Parent-level policy governing AI/ML development, acquisition, validation, monitoring, and retirement across Emyzer Nexus. Creates the AI Governance Committee, defines High-Risk system obligations, and sets conditions for post-market monitoring activation. |
+| [Model Risk Policy](../enterprise-policies/model-risk-policy.md) | Each inherited system had specific failure modes: LLM hallucination in CRT-001, training data bias and model drift in PCM-001, and shared third-party model dependency. This policy sets the bias testing cadence, human oversight requirements, explainability standards, and model failure incident response procedures that address those modes specifically. |
+| [AI System Inventory and Classification](../ai-governance/ai-system-inventory.md) | Formal EU AI Act risk tier classification of PCM-001 and CRT-001. Includes system profiles, Article 9 risk management system requirements, and the full set of conformity obligations per classification. |
+| [EU AI Act Control Mapping](../ai-governance/eu-ai-act-mapping.md) | Article-by-article control mapping for Articles 9, 10, 11, 13, 14, 15, 72, and 73. Each gap is identified with a remediation priority and owner rather than left as an open finding. |
+| [AI System Risk Assessments](../ai-governance/risk-assessments.md) | Phase 1 risk methodology applied to AI-specific risk categories: model drift, training data bias, explainability gaps, and third-party model dependency. The methodology is extended, not replaced. |
+| [AI Vendor Risk Due Diligence Addendum](../veridian-ai/vendor-risk-addendum/ai-vendor-risk-addendum.md) | Standard TPRM controls do not evaluate LLM API providers. This addendum extends the Phase 1 Third-Party Risk Management Policy to cover model transparency, training data provenance, bias audit availability, EU AI Act compliance status, and contractual liability for model errors. |
 
-| Document | Description | Status |
+### Enterprise Policies
+
+Phase 2 enterprise policies govern Emyzer Nexus as the parent entity. They address obligations that the Phase 1 Emyzer Technology policies did not cover.
+
+| Policy | What gap it closes | Frameworks |
 |---|---|---|
-| [Integration Management README](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/readme.md) | Programme purpose, scope, key decisions | ✓ Published |
-| [M&A GRC Integration Charter](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/m%26a-grc-integration-charter.md) | Post-acquisition policy hierarchy; subsidiary governance; policy review/retirement conditions | ✓ Published |
-| [Policy Rationalization Roadmap](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/rationalization-roadmap.md) | Phase 1 policy review schedule; conflict identification; gap analysis; Veridian AI remediation priorities | ✓ Published |
-| [M&A Risk Assessment](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/ma-risk-assessment.md) | Risk register for GRC risks arising from Veridian AI acquisition | ✓ Published |
+| [AI Governance Policy](../enterprise-policies/ai-governance-policy.md) | Phase 1 had no AI governance framework. This policy creates the governance structure for AI systems across the expanded entity. | EU AI Act, NIST AI RMF 1.0, ISO/IEC 42001:2023 |
+| [Model Risk Policy](../enterprise-policies/model-risk-policy.md) | Phase 1 had no model lifecycle controls. This policy establishes operational requirements for the two inherited High-Risk systems. | SR 11-7, NIST AI RMF, EU AI Act |
+| [Privacy and Data Protection Policy](../enterprise-policies/privacy-and-data-protection-policy.md) | Veridian's data processing activities (PII-trained models, external LLM API) created GDPR obligations not addressed in Phase 1. This policy establishes the lawful basis, data processor obligations, and subject rights procedures for those activities. | GDPR, UK GDPR, ISO 27701:2019 |
+| [Security Awareness and Training Policy (Tier 2)](../enterprise-policies/security-awareness-and-training-policy.md) | EU AI Act Article 14 requires human oversight training for staff interacting with High-Risk AI systems. The Phase 1 training policy did not include this obligation. | ISO 27001:2022, NIST SP 800-50, EU AI Act Art. 14 |
 
 ---
 
-## Relationship to Phase 1 Documentation
+## Governance Authority
 
-All Phase 1 documentation developed for Emyzer Technology remains in effect as subsidiary governance under the policy hierarchy established in the M&A GRC Integration Charter. Phase 1 artifacts are not superseded by Phase 2 unless a formal rationalization decision is made and recorded in the Policy Rationalization Roadmap.
-
-For Phase 1 documentation, see [Emyzer Technology: GRC Programme Overview](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/emyzer-technology/README.md).
+| Role / Body | Authority |
+|---|---|
+| **CEO** | Board-level accountability for responsible AI governance; approves AI Governance Policy and material AI strategy changes |
+| **CISO** | Executive oversight of ISMS and AI governance programme; chairs AI Governance Committee; approves risk acceptance for High-Risk systems |
+| **CRO** | Enterprise risk register ownership; chairs Integration Management Committee; risk appetite governance |
+| **DPO** | Privacy programme ownership; GDPR obligations for AI training data and external API data processing; DPIA governance |
+| **CTO** | AI system technical governance; human oversight mechanism implementation; change management for AI systems |
+| **AI Governance Committee** | AI system risk classification authority; EU AI Act conformity assessment governance; post-market monitoring oversight. Meets quarterly and on an emergency basis within 5 business days of a significant AI incident. |
+| **Integration Management Committee** | M&A integration governance; monthly cadence during integration period; policy hierarchy oversight; inherited risk acceptance authority |
 
 ---
 
-## Frameworks Referenced
+## Frameworks Applied
 
 | Framework | Application in Phase 2 |
 |---|---|
-| **[EU AI Act (Regulation 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)** [VERIFY] | Primary regulatory driver for Phase 2; classification of PCM-001 and CRT-001 as High-Risk; Articles 9–15 conformity obligations; post-market monitoring (Art.72); serious incident reporting (Art.73) |
-| **[NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)** | AI governance programme structure: Govern, Map, Measure, Manage functions applied to AI system lifecycle |
-| **[ISO/IEC 42001:2023](https://www.iso.org/standard/81230.html)** | AI management system standard; Clause 8 operational controls; Annex A AI management controls |
-| **[ISO 27001:2022](https://www.iso.org/standard/82875.html)** | ISMS continuity; policy hierarchy for expanded scope; A.8.2 access control; A.5.19 supplier relationships |
-| **[GDPR (Regulation 2016/679)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)** [VERIFY] | Training data governance (PCM-001); external API data processor obligations (CRT-001); DPIA requirements; Article 28 processor agreements [VERIFY] |
-| **[ISO 31000:2018](https://www.iso.org/standard/65694.html)** | Enterprise risk management methodology; M&A risk identification and treatment |
-| **[NIST CSF 2.0](https://www.nist.gov/cyberframework)** | Govern (GV) function applied to post-acquisition GRC integration; identification and protection across expanded asset scope |
+| EU AI Act (Regulation 2024/1689) [VERIFY] | Primary regulatory driver; classification of PCM-001 and CRT-001; Articles 9-15 conformity obligations; post-market monitoring (Art. 72); serious incident reporting (Art. 73) |
+| NIST AI RMF 1.0 | AI governance programme structure: Govern, Map, Measure, Manage functions applied to AI system lifecycle |
+| ISO/IEC 42001:2023 | AI management system requirements; Clause 8 operational controls; Annex A AI management controls |
+| ISO 27001:2022 | ISMS continuity; policy hierarchy for expanded scope; supplier relationship controls |
+| GDPR (Regulation 2016/679) [VERIFY] | Training data governance; data processor obligations for LLM API; data subject rights in automated decision contexts |
+| ISO 31000:2018 | M&A risk identification and treatment methodology |
+| NIST CSF 2.0 | Govern (GV) function applied to post-acquisition GRC integration |
 
 ---
 
@@ -115,9 +124,11 @@ For Phase 1 documentation, see [Emyzer Technology: GRC Programme Overview](https
 
 | Document | Description |
 |---|---|
-| [Portfolio Overview](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/README.md) | Top-level narrative, 60-second review path, and skills demonstrated |
-| [Emyzer Technology Overview](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/emyzer-technology/README.md) | Phase 1 GRC programme: 10 policies, risk programme, business continuity |
-| [CONTRIBUTING.md](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/CONTRIBUTING.md) | How changes are proposed, reviewed, approved, and merged across the portfolio |
+| [Portfolio Overview](../README.md) | Top-level narrative, 60-second review path, and skills demonstrated |
+| [Emyzer Technology Overview](../emyzer-technology/README.md) | Phase 1 GRC programme: 10 policies, risk programme, business continuity |
+| [AI Governance Programme](../ai-governance/readme.md) | AI programme detail: system inventory, EU AI Act mapping, risk assessments |
+| [Integration Management Programme](../integration-management/readme.md) | M&A integration detail: charter, rationalization roadmap, M&A risk assessment |
+| [CONTRIBUTING.md](../CONTRIBUTING.md) | How changes are proposed, reviewed, approved, and merged |
 
 ---
 
