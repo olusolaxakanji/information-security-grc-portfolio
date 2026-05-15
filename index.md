@@ -18,6 +18,7 @@ I design and build information security governance programmes. The first is a li
 [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF_2.0-003366?style=flat-square)](https://www.nist.gov/cyberframework)
 [![ISO 27001](https://img.shields.io/badge/ISO_27001%3A2022-1A73E8?style=flat-square)](https://www.iso.org/standard/82875.html)
 [![ISO 22301](https://img.shields.io/badge/ISO_22301%3A2019-1A73E8?style=flat-square)](https://www.iso.org/standard/75106.html)
+[![SOC 2](https://img.shields.io/badge/SOC_2_Type_II-2D7D46?style=flat-square)](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services)
 [![EU AI Act](https://img.shields.io/badge/EU_AI_Act-FF6B35?style=flat-square)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)
 [![GDPR](https://img.shields.io/badge/GDPR-FF6B35?style=flat-square)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 [![NIST AI RMF](https://img.shields.io/badge/NIST_AI_RMF-003366?style=flat-square)](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)
@@ -64,8 +65,8 @@ Phase 1 built the foundational GRC programme for Emyzer Technology before the ac
 
 | Section | Contents | Frameworks |
 |---|---|---|
-| **[Controls Library →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/controls)** | 8 operational controls with testing procedures, cadence definitions, and evidence indexes | NIST CSF 2.0, ISO 27001 |
-| **[Policies →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies)** | 10 Phase 1 enterprise security policies implemented in ServiceNow GRC, plus 4 Phase 2 AI governance policies | ISO 27001, EU AI Act, GDPR |
+| **[Controls Library →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/controls)** | 8 operational controls with testing procedures, cadence definitions, and evidence indexes — covering access management (CC6), incident response (CC7), change management (CC8), vendor risk (CC9), and additional Common Criteria categories | NIST CSF 2.0, ISO 27001, SOC 2 TSC |
+| **[Policies →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/policies)** | 10 Phase 1 enterprise security policies implemented in ServiceNow GRC, plus 4 Phase 2 AI governance policies — policy library, evidence indexes, and version control structures aligned to SOC 2 audit requirements | ISO 27001, SOC 2 TSC, EU AI Act, GDPR |
 | **[Risk Assessments →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/risk-assessments)** | Hybrid 5x5 risk methodology, 15-entry asset register with one budget-blocked Critical risk documented at actual status, and a risk appetite statement | ISO 31000, NIST SP 800-30 |
 | **[Business Continuity →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/business-continuity)** | Business Impact Analysis and a full Business Continuity Plan with activation criteria, CMT runbook, five recovery scenarios, and exercise programme | ISO 22301, NIST SP 800-34 |
 | **[AI Governance →](https://github.com/olusolaxakanji/information-security-grc-portfolio/tree/main/ai-governance)** | EU AI Act Articles 9-15, 72, 73 control mapping; system inventory for two inherited AI systems; 8-risk assessment with 2 Critical findings | EU AI Act, NIST AI RMF, ISO 42001 |
@@ -82,7 +83,7 @@ Phase 1 built the foundational GRC programme for Emyzer Technology before the ac
 | **AI governance** | EU AI Act article-by-article control mapping (Articles 9-15, 72, 73); High-Risk classification of two inherited systems; 8-entry AI risk assessment with 2 Critical findings |
 | **M&A GRC integration** | Integration Charter establishing Day-0 policy hierarchy; Rationalization Roadmap tracking policy updates; 15-entry M&A risk register with treatment owners |
 | **Risk programme design** | End-to-end hybrid methodology; 15-entry asset register with a budget-blocked Critical risk documented at actual status; domain-specific risk appetite thresholds |
-| **Security policy development** | 14 enterprise security policies (10 Phase 1 + 4 Phase 2) with evidence indexes, framework tables, and ServiceNow platform exports |
+| **Security policy development and SOC 2 alignment** | 14 enterprise security policies (10 Phase 1 + 4 Phase 2) with evidence indexes, framework tables, and ServiceNow platform exports — policy library structure aligned to SOC 2 Type II audit requirements across Common Criteria categories CC1-CC9 |
 | **Business continuity** | Full ISO 22301 BCP with CMT runbook, 5-scenario recovery strategies, multi-type exercise programme, and clause-level framework alignment |
 | **GRC platform proficiency** | Policies, risk registers, and compliance workflows built in ServiceNow GRC; raw PDF platform exports as direct evidence |
 
