@@ -105,6 +105,9 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | NIST CSF 2.0 | GV.OC: Organizational context [VERIFY] | Policy scope statement defines organisational context and ISMS boundaries |
 | COBIT 2019 | APO01.01: Define the organizational structures, roles, and responsibilities [VERIFY] | Policy assigns ISMS ownership and governance responsibilities |
 | COBIT 2019 | APO01.08: Manage policy lifecycle [VERIFY] | Annual review process and approval history satisfies policy lifecycle management |
+| SOC 2 (AICPA TSC) | CC1.1–CC1.5: Control Environment | Policy establishes executive accountability, documents ISMS governance structure, and records board-level commitment to information security — satisfying the foundational control environment criteria required across all SOC 2 engagements |
+| SOC 2 (AICPA TSC) | CC2.2–CC2.3: Communication and Information | Internal communication of security policy to all staff and external communication of security commitments satisfy the CC2 information and communication criteria |
+| SOC 2 (AICPA TSC) | CC5.1–CC5.2: Control Activities | Policy constitutes the overarching control activity governing all subsidiary policies; establishes that controls are selected and developed to mitigate risks to the achievement of objectives |
 
 ---
 
@@ -146,6 +149,10 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | NIST SP 800-53 Rev. 5 | AC-6: Least privilege [VERIFY] | Explicit least privilege requirement with documented role definitions |
 | PCI DSS v4.0 | Requirement 7: Restrict access to system components and cardholder data [VERIFY] | Access control policy and RBAC framework restrict access to cardholder data environments |
 | PCI DSS v4.0 | Requirement 8: Identify users and authenticate access [VERIFY] | MFA requirements and unique user ID mandate satisfy this requirement |
+| SOC 2 (AICPA TSC) | CC6.1: Logical access security | RBAC framework, least privilege mandate, and MFA requirements constitute the logical access security controls required by CC6.1 |
+| SOC 2 (AICPA TSC) | CC6.2: User registration and authorization | Formal JML provisioning process and access request/approval workflow satisfy CC6.2 registration and authorization requirements |
+| SOC 2 (AICPA TSC) | CC6.3: Access removal and modification | Periodic access reviews and formal deprovisioning process on role change and departure directly satisfy CC6.3 |
+| SOC 2 (AICPA TSC) | CC6.6: Logical access from outside system boundaries | MFA requirements for remote and privileged access, and perimeter access controls, address CC6.6 external access threat criteria |
 
 ---
 
@@ -182,6 +189,9 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | GDPR | Article 33: Notification of a personal data breach to the supervisory authority [VERIFY] | Policy includes explicit 72-hour notification trigger, process, and evidence requirement |
 | GDPR | Article 34: Communication of a personal data breach to the data subject [VERIFY] | Policy includes data subject notification assessment process |
 | NIST CSF 2.0 | RS.MA: Incident management [VERIFY] | Policy constitutes the incident response plan required by this function |
+| SOC 2 (AICPA TSC) | CC7.3: Evaluation of security events | Incident classification, triage, and severity assessment process — with defined escalation paths — satisfies CC7.3 evaluation criteria |
+| SOC 2 (AICPA TSC) | CC7.4: Incident response | Defined incident response programme with roles, playbooks, containment, eradication, and recovery procedures directly satisfies CC7.4 |
+| SOC 2 (AICPA TSC) | CC7.5: Recovery from identified security incidents | Post-incident review process, lessons learned capture, and corrective action programme satisfy CC7.5 recovery criteria |
 
 ---
 
@@ -218,6 +228,8 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | NIST CSF 2.0 | GV.RM: Risk management strategy [VERIFY] | Risk appetite statements and executive risk governance satisfy this function |
 | NIST SP 800-30 Rev. 1 [VERIFY] | Guide for conducting risk assessments | Risk assessment methodology references NIST 800-30 threat and vulnerability identification approach |
 | COSO ERM (2017) [VERIFY] | Component 3: Performance: Assesses severity of risk | Risk scoring matrix and treatment prioritisation process align to COSO ERM performance component |
+| SOC 2 (AICPA TSC) | CC3.1–CC3.4: Risk Assessment | Risk identification methodology, analysis process, evaluation criteria, and treatment planning satisfy all four CC3 risk assessment criteria |
+| SOC 2 (AICPA TSC) | CC4.1–CC4.2: Monitoring Activities | Quarterly risk committee reviews, continuous risk register monitoring, and annual risk appetite re-evaluation satisfy CC4 ongoing monitoring criteria |
 
 ---
 
@@ -255,6 +267,8 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | ISO 27001:2022 | A.5.29: Information security during disruption [VERIFY] | Policy and BCP ensure information security controls operate during disruption |
 | ISO 27001:2022 | A.5.30: ICT readiness for business continuity [VERIFY] | DR infrastructure requirements and RTO/RPO mandates address ICT readiness |
 | NIST SP 800-34 Rev. 1 [VERIFY] | Contingency planning guide for federal information systems (adopted as best practice) | Policy lifecycle maps to NIST 800-34's 7-phase contingency planning process |
+| SOC 2 (AICPA TSC) | CC9.1: Risk mitigation — business disruptions | Business continuity programme directly satisfies CC9.1, which requires identification and development of activities to recover from business disruptions |
+| SOC 2 (AICPA TSC) | A1.1–A1.3: Availability criteria | BIA with measured RTO/RPO targets, tested BCP, DR infrastructure with validated recovery times, and supplier BCP attestations collectively satisfy all three Availability Trust Services Criteria subcategories |
 
 ---
 
@@ -290,6 +304,7 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | COBIT 2019 | BAI06: Managed IT changes [VERIFY] | Policy governance and CAB process align to COBIT BAI06 management practice |
 | COBIT 2019 | BAI10: Managed configuration [VERIFY] | CMDB and configuration baseline management address BAI10 |
 | NIST CSF 2.0 | PR.PS: Platform security [VERIFY] | Change and configuration controls are primary contributors to this category |
+| SOC 2 (AICPA TSC) | CC8.1: Change management | Formal change authorization process, CAB review, pre-implementation testing, rollback planning, and post-implementation review directly satisfy CC8.1 — the sole SOC 2 change management criterion; CAB minutes and change request records constitute the required audit evidence |
 
 ---
 
@@ -392,6 +407,7 @@ The "Organisational Benefits" bullet points at the start of each policy section 
 | NIST SP 800-161 Rev. 1: Cybersecurity supply chain risk management [VERIFY] | Core practices for C-SCRM | Policy implements supplier risk tiering, assessment, and monitoring consistent with NIST 800-161 |
 | NIST CSF 2.0 | ID.SC: Improvement [VERIFY] | Supplier risk identification and assessment satisfy this subcategory |
 | GDPR | Article 28: Processor [VERIFY] | DPA requirements and processor security obligations in contract addenda satisfy Article 28 |
+| SOC 2 (AICPA TSC) | CC9.2: Vendor and business partner risk | Vendor risk assessment programme, tiering methodology, contract security requirements, annual reassessment process, and SOC 2 report collection from Tier 1 suppliers directly satisfy CC9.2 |
 
 ---
 
@@ -666,6 +682,7 @@ This table shows which frameworks are addressed by the Emyzer Technology / Emyze
 | ITIL 4 | Current | Change Management and Configuration Policy (primary); Incident Management Policy (incident management practice interface) | Partial: change enablement practice fully aligned; service management practices referenced where relevant |
 | PCI DSS | v4.0 | Access Control Policy; Security Awareness and Training Policy; Data Classification Policy | Partial: cardholder data environment controls in scope; full PCI DSS compliance requires additional payment-specific controls outside this policy set |
 | NIST SP 800-53 | Rev. 5 | Access Control Policy; Incident Management Policy; Risk Management Policy; Security Awareness and Training Policy; Change Management Policy | Substantial: core security control families addressed; full 800-53 baseline requires control-by-control mapping beyond this policy set |
+| SOC 2 (AICPA Trust Services Criteria) | 2017 (updated 2022) | Information Security Policy (CC1, CC2, CC5); Access Control Policy (CC6); Incident Management Policy (CC7); Risk Management Policy (CC3, CC4); Change Management Policy (CC8); Third-Party Risk Management Policy (CC9.2); BC/DR Policy (CC9.1, A1) | Substantial: 80–85% Common Criteria (CC1–CC9) coverage across existing policy set; TSC labelling applied May 2026; System Description template in IAF templates; full Type II readiness requires sustained control operation evidence across a 6–12 month audit period |
 
 ---
 
