@@ -11,7 +11,7 @@ permalink: /
 
 I design and build information security governance programmes. The first is a live GRC programme I built and maintain as Compliance Officer for the Idowu Ajiri Foundation, a US-Nigeria nonprofit operating under five simultaneous regulatory frameworks across two jurisdictions. The second is an end-to-end case study built in ServiceNow GRC: Emyzer Technology acquires Veridian AI and forms Emyzer Nexus, navigating EU AI Act compliance for inherited High-Risk AI systems alongside M&A policy integration. Every artefact in both programmes has an evidence index, a framework mapping, and documented open gaps.
 
-[GitHub](https://github.com/olusolaxakanji) · [LinkedIn](https://www.linkedin.com/in/olusola-b-akanji/) · [GRC Writing](https://cleanlikesoap.blog)
+[GitHub](https://github.com/olusolaxakanji) · [LinkedIn](https://www.linkedin.com/in/olusola-b-akanji/) · [GRC Writing](https://akanjitechnicalwriting.com/blog)
 
 ---
 
