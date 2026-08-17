@@ -30,7 +30,7 @@ I design and build information security governance programmes. The first is a li
 
 **[View the programme repository →](https://github.com/olusolaxakanji/idowu-ajiri-grc-program)**
 
-This is not a simulation. The Idowu Ajiri Foundation is incorporated under [IRS 501(c)(3)](https://www.irs.gov/charities-non-profits) in the United States and registered with the [Corporate Affairs Commission (CAC)](https://www.cac.gov.ng) in Nigeria. I built this programme and maintain it as Compliance Officer. The conflict-of-interest disclosure memo in the repository is in my name.
+This is not a simulation. The Idowu Ajiri Foundation is a nonprofit in pre-operational [IRS 501(c)(3)](https://www.irs.gov/charities-non-profits) formation in the United States and registered with the [Corporate Affairs Commission (CAC)](https://www.cac.gov.ng) in Nigeria. I built this programme and maintain it as Compliance Officer. The conflict-of-interest disclosure memo in the repository is in my name.
 
 The Nigerian entity is active under CAC registration. The US entity is in pre-operational formation under IRS 501(c)(3). The compliance programme covers both jurisdictions proactively: governance architecture was built ahead of full US operational activity, not after it became urgent.
 

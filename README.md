@@ -8,7 +8,7 @@
 
 Two bodies of work. One is live. One is a case study.
 
-The live engagement is the **Idowu Ajiri Foundation GRC Program**: a dual-jurisdiction compliance program built for a real nonprofit operating under US (IRS 501(c)(3)) and Nigerian (CAC/SCUML) regulatory frameworks. The case study is **Emyzer Nexus**: a ServiceNow-implemented GRC program covering AI governance under the EU AI Act, M&A integration, and foundational security policy across a fictional enterprise.
+The live engagement is the **Idowu Ajiri Foundation GRC Program**: a dual-jurisdiction compliance program built for a real nonprofit in pre-operational IRS 501(c)(3) formation in the United States, operating under Nigerian (CAC/SCUML) regulatory frameworks. The case study is **Emyzer Nexus**: a ServiceNow-implemented GRC program covering AI governance under the EU AI Act, M&A integration, and foundational security policy across a fictional enterprise.
 
 Both are documented to audit-ready standards. The difference is that one has a real board receiving the reports.
 
