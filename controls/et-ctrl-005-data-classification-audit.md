@@ -9,9 +9,9 @@
 | Control owner | Information Security Officer (Susan Orwell) |
 | Control type | Detective |
 | Testing frequency | Quarterly (Data Owner classification review); Annual (ISO-led labelling audit) |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-005/` |
+| Last tested | 2025-09-30 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-005/` |
 | Status | Active |
 
 ---
@@ -41,7 +41,7 @@ Data Owners review and confirm the classification of information assets within t
 4. For each sampled item: verify the applied label matches the Data Owner's designation; verify that applicable handling controls are in force (encryption at rest for Confidential and above, DLP rule active for Restricted, access group restricted to documented authorised users).
 5. Document the audit sample list, per-item findings, and any exceptions in the evidence record.
 6. Confirm that all classification exceptions identified in the prior period were remediated within the 5-business-day window.
-7. File the Data Owner attestations, audit sample record, and findings report in `evidence/[YEAR]/ET-CTRL-005/`.
+7. File the Data Owner attestations, audit sample record, and findings report in `evidence/2025/ET-CTRL-005/`.
 
 ## Escalation
 

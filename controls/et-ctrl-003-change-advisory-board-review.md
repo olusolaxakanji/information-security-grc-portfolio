@@ -9,9 +9,9 @@
 | Control owner | Information Security Officer (Susan Orwell) |
 | Control type | Preventive |
 | Testing frequency | Per change request (all Normal and Major changes); Weekly CAB meeting |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-003/` |
+| Last tested | 2025-10-01 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-003/` |
 | Status | Active |
 
 ---
@@ -37,7 +37,7 @@ All changes are logged in the ServiceNow Change Management module. Authorisation
 4. For Emergency changes: confirm retrospective CAB review was completed within 2 business days and the emergency justification (business need or security risk) was documented at the time of implementation.
 5. Check for unauthorised changes by cross-referencing deployment logs or configuration management system records against the CAB-approved change calendar for the period. Investigate any gaps.
 6. Confirm that post-implementation reviews for all Major changes were completed within 5 business days and filed in ServiceNow.
-7. File CAB meeting minutes, change records sample, and any exception documentation in `evidence/[YEAR]/ET-CTRL-003/`.
+7. File CAB meeting minutes, change records sample, and any exception documentation in `evidence/2025/ET-CTRL-003/`.
 
 ## Escalation
 

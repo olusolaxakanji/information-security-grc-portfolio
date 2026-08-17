@@ -9,9 +9,9 @@
 | Control owner | Information Security Officer (Susan Orwell) |
 | Control type | Corrective / Detective |
 | Testing frequency | Per incident; Annual tabletop exercise |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-002/` |
+| Last tested | 2025-03-20 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-002/` |
 | Status | Active |
 
 ---
@@ -39,7 +39,7 @@ The Incident Response Team (IRT), led by the ISO, manages all security incidents
 3. For all Medium and above incidents: confirm a post-incident review was completed, findings are documented, and remediation actions have assigned owners and target closure dates.
 4. For any incident involving personal data: confirm that GDPR Article 33/34 notification obligations were formally assessed, the assessment was documented, and where triggered, notifications were filed within 72 hours.
 5. For the annual tabletop exercise: confirm the exercise was conducted, a results report was produced, the scenario was realistic (e.g., ransomware, insider threat, supply chain compromise), and any plan updates were incorporated.
-6. File all incident reports, post-incident reviews, notification records, and exercise reports in `evidence/[YEAR]/ET-CTRL-002/`.
+6. File all incident reports, post-incident reviews, notification records, and exercise reports in `evidence/2025/ET-CTRL-002/`.
 
 ## Escalation
 

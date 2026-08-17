@@ -9,9 +9,9 @@
 | Control owner | Information Security Officer (Susan Orwell) |
 | Control type | Detective |
 | Testing frequency | Quarterly (standard users); Monthly (privileged users) |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-001/` |
+| Last tested | 2025-09-30 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-001/` |
 | Status | Active |
 
 ---
@@ -33,7 +33,7 @@ Access review records are maintained in ServiceNow and retained for 3 years. The
 3. For privileged accounts: confirm the ISO completed the monthly review, every account has current written justification on file, and any accounts flagged in the prior month were remediated within the 15-day window.
 4. Verify that accounts for terminated employees were revoked on the same business day as termination, and transferred employees' access was adjusted within 24 hours of the role change.
 5. Check for dormant accounts (inactive >90 days) and confirm automated disablement executed correctly for the period.
-6. Document all findings, exceptions, and remediation status in the evidence record and file in `evidence/[YEAR]/ET-CTRL-001/`.
+6. Document all findings, exceptions, and remediation status in the evidence record and file in `evidence/2025/ET-CTRL-001/`.
 
 ## Escalation
 

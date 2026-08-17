@@ -9,9 +9,9 @@
 | Control owner | Information Security Officer (Susan Orwell) |
 | Control type | Preventive |
 | Testing frequency | Monthly (phishing simulations); Annual (core training completion) |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-006/` |
+| Last tested | 2025-08-31 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-006/` |
 | Status | Active |
 
 ---
@@ -36,7 +36,7 @@ The ISO, with support from HR, operates a continuous security awareness programm
 4. For each month in the period, confirm that individuals who clicked in three consecutive simulations received remedial training within the 5-business-day window.
 5. Confirm that role-based training completion rates for all privileged-access roles reached 100% before the annual deadline.
 6. Confirm that the quarterly effectiveness report was produced and submitted to the Security Steering Committee.
-7. File the LMS completion report, phishing simulation results, remedial training records, and effectiveness report in `evidence/[YEAR]/ET-CTRL-006/`.
+7. File the LMS completion report, phishing simulation results, remedial training records, and effectiveness report in `evidence/2025/ET-CTRL-006/`.
 
 ## Escalation
 

@@ -9,9 +9,9 @@
 | Control owner | Business Continuity Manager (Susan Orwell) |
 | Control type | Detective / Corrective |
 | Testing frequency | Semi-annual |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-007/` |
+| Last tested | 2025-09-15 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-007/` |
 | Status | Active |
 
 ---
@@ -45,7 +45,7 @@ Each exercise produces a formal test report covering: scenario and scope, partic
 5. For any full interruption test conducted: confirm CISO and CRO pre-approval was obtained and a post-test debrief report was filed within 5 business days.
 6. Verify that all remediation actions from the prior exercise have been resolved or have an active owner, target date, and current status update.
 7. Confirm the BC/DR plan was reviewed and updated within 30 days of the most recent exercise.
-8. File all exercise reports, updated plan versions, and remediation tracking records in `evidence/[YEAR]/ET-CTRL-007/`.
+8. File all exercise reports, updated plan versions, and remediation tracking records in `evidence/2025/ET-CTRL-007/`.
 
 ## Escalation
 

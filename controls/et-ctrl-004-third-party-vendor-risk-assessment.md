@@ -9,9 +9,9 @@
 | Control owner | Information Security Officer (Susan Orwell) |
 | Control type | Preventive / Detective |
 | Testing frequency | Critical and High-tier: Annual; Medium-tier: Biennial; Low-tier: Triennial |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-004/` |
+| Last tested | 2025-06-15 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-004/` |
 | Status | Active |
 
 ---
@@ -43,7 +43,7 @@ The ISO assesses all third-party vendors who access, process, store, or transmit
 4. For new Critical or High vendors onboarded during the period: confirm a risk assessment was completed and approved at the required authority level before contract execution.
 5. For any vendor where the risk tier changed: confirm a reassessment was triggered and completed within 30 days of the tier change.
 6. For terminated vendor relationships: confirm access to Emyzer Technology systems was deprovisioned per the exit procedure and that written confirmation of data return or destruction was obtained.
-7. File the vendor register, assessment records, and certification evidence in `evidence/[YEAR]/ET-CTRL-004/`.
+7. File the vendor register, assessment records, and certification evidence in `evidence/2025/ET-CTRL-004/`.
 
 ## Escalation
 

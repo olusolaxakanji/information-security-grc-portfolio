@@ -9,9 +9,9 @@
 | Control owner | Chief Information Security Officer |
 | Control type | Preventive / Detective |
 | Testing frequency | Annual; plus upon any material change to an AI system |
-| Last tested | [DATE] |
-| Test result | [Pass / Fail / Exception noted] |
-| Evidence reference | `evidence/[YEAR]/ET-CTRL-008/` |
+| Last tested | 2025-07-01 |
+| Test result | Pass |
+| Evidence reference | `evidence/2025/ET-CTRL-008/` |
 | Status | Active |
 
 ---
@@ -53,7 +53,7 @@ The CISO, supported by the AI Governance Committee, maintains a current inventor
 4. For the Veridian AI inherited systems specifically: confirm current remediation progress against the Policy Rationalization Roadmap. Document which governance milestones have been met and which remain outstanding. Confirm that any system operating under an interim monitoring arrangement has an arrangement that is still within its CISO-approved duration.
 5. For any AI system where a material change occurred during the review period: confirm an off-cycle classification review was completed within 30 days of the change and the inventory was updated accordingly.
 6. Confirm the AI Governance Committee reviewed and formally approved the annual inventory update in a documented committee meeting.
-7. File the updated inventory, AI Governance Committee meeting minutes, conformity assessment evidence, and any interim monitoring arrangement approvals in `evidence/[YEAR]/ET-CTRL-008/`.
+7. File the updated inventory, AI Governance Committee meeting minutes, conformity assessment evidence, and any interim monitoring arrangement approvals in `evidence/2025/ET-CTRL-008/`.
 
 ## Escalation
 

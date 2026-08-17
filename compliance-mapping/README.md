@@ -8,7 +8,7 @@ This folder contains documentation that maps Emyzer Technology's information sec
 
 | Document | Description | Status |
 |----------|-------------|--------|
-| `policy-benefits-and-evidence.md` | Maps each policy to organizational benefits, compliance evidence requirements, and applicable frameworks | **Draft** |
+| `policy-benefits-and-evidence.md` | Maps each policy to organizational benefits, compliance evidence requirements, and applicable frameworks | Active |
 
 ## Purpose
 
