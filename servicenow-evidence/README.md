@@ -30,11 +30,11 @@ Each PDF contains:
 
 | Export | What it shows | Linked Policy |
 |---|---|---|
-| [Access Control Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Access%20Control%20Policy.pdf) | RBAC/ABAC implementation, quarterly access review controls, privileged access governance | [Access Control Policy](../policies/access-control-policy.md) |
-| [Business Continuity and DR Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Business%20Continuity%20and%20Disaster%20Recovery%20Policy.pdf) | BCMS governance structure, ISO 22301 alignment, recovery objective framework | [BC/DR Policy](../policies/bcdr-policy.md) |
-| [Incident Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Incident%20Management%20Policy.pdf) | IRT activation criteria, GDPR 72-hour notification path, severity classification framework | [Incident Management Policy](../policies/incident-management-policy.md) |
-| [Information Security Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Information%20Security%20Policy.pdf) | ISMS parent policy: Security Steering Committee, exception governance, review cadence | [Information Security Policy](../policies/information-security-policy.md) |
-| [Risk Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/servicenow-evidence/Risk%20Management%20Policy.pdf) | 5x5 risk methodology, materiality thresholds, Risk Management Committee authority | [Risk Management Policy](../policies/risk-management-policy.md) |
+| [Access Control Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/raw/main/servicenow-evidence/Access%20Control%20Policy.pdf) | RBAC/ABAC implementation, quarterly access review controls, privileged access governance | [Access Control Policy](../policies/access-control-policy.md) |
+| [Business Continuity and DR Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/raw/main/servicenow-evidence/Business%20Continuity%20and%20Disaster%20Recovery%20Policy.pdf) | BCMS governance structure, ISO 22301 alignment, recovery objective framework | [BC/DR Policy](../policies/bcdr-policy.md) |
+| [Incident Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/raw/main/servicenow-evidence/Incident%20Management%20Policy.pdf) | IRT activation criteria, GDPR 72-hour notification path, severity classification framework | [Incident Management Policy](../policies/incident-management-policy.md) |
+| [Information Security Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/raw/main/servicenow-evidence/Information%20Security%20Policy.pdf) | ISMS parent policy: Security Steering Committee, exception governance, review cadence | [Information Security Policy](../policies/information-security-policy.md) |
+| [Risk Management Policy.pdf](https://github.com/olusolaxakanji/information-security-grc-portfolio/raw/main/servicenow-evidence/Risk%20Management%20Policy.pdf) | 5x5 risk methodology, materiality thresholds, Risk Management Committee authority | [Risk Management Policy](../policies/risk-management-policy.md) |
 
 ---
 
