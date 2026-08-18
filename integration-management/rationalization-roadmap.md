@@ -15,7 +15,7 @@
 | **Last Updated** | 2025-07-01 |
 | **Owner** | GRC Team / Chief Risk Officer |
 | **Classification** | Internal Use |
-| **Governing Document** | [M&A GRC Integration Charter](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/m%26a-grc-integration-charter.md) |
+| **Governing Document** | [M&A GRC Integration Charter](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/ma-grc-integration-charter.md) |
 
 ---
 

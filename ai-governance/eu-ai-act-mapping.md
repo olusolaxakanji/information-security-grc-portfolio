@@ -21,7 +21,7 @@
 
 ## 1. Purpose and Scope
 
-This document maps the compliance obligations imposed by EU AI Act (Regulation 2024/1689) [VERIFY] on Emyzer Nexus's two High-Risk AI systems to the controls and evidence currently in place. It covers Articles 9, 10, 11, 13, 14, 15, 72, and 73, the core High-Risk system obligations, and identifies compliance gaps with associated remediation priorities.
+This document maps the compliance obligations imposed by EU AI Act (Regulation 2024/1689) on Emyzer Nexus's two High-Risk AI systems to the controls and evidence currently in place. It covers Articles 9, 10, 11, 13, 14, 15, 72, and 73, the core High-Risk system obligations, and identifies compliance gaps with associated remediation priorities.
 
 The mapping serves three purposes:
 
@@ -173,16 +173,16 @@ Compliance status was assessed through:
 
 | Gap ID | Article | System | Gap Description | Priority | Owner | Target Date | Status |
 |---|---|---|---|---|---|---|---|
-| GAP-001 | Art.10 [VERIFY] | PCM-001 | Training data provenance not documented; lawful basis for personal data in training set not verified | High | DPO | 2025-09-30 | In Progress: DPO review initiated |
-| GAP-002 | Art.10 [VERIFY] | CRT-001 | LLM API vendor training data provenance entirely unknown | **Critical** | General Counsel | 2025-09-30 | In Progress: vendor engagement initiated |
-| GAP-003 | Art.10 [VERIFY] | CRT-001 | GDPR Article 28 [VERIFY] DPA with LLM API vendor not executed | **Critical** | Legal Counsel | 2025-09-30 | In Progress: DPA negotiation underway; use restriction in place |
-| GAP-004 | Art.11 [VERIFY] | CRT-001 | Full Annex IV [VERIFY] technical documentation cannot be produced due to third-party API opacity | **Critical** | General Counsel / Legal Counsel | 2025-12-31 | Planning: vendor cooperation required; contingency: document limitation with compensating measures |
-| GAP-005 | Art.11 [VERIFY] | PCM-001 | Technical documentation incomplete; Annex IV requirements not fully met | High | VP Customer Success / CTO | 2025-09-30 | In Progress: documentation sprint underway |
-| GAP-006 | Art.13 [VERIFY] | PCM-001 | Bias disclosures not yet provided to operators; bias testing not complete | High | AI Governance Committee | 2025-09-30 | Planned: bias audit Q3 2025 |
-| GAP-007 | Art.13 [VERIFY] | CRT-001 | LLM accuracy and bias characteristics cannot be disclosed due to vendor opacity | High | General Counsel | 2025-12-31 | Blocked: requires vendor engagement or alternative strategy |
-| GAP-008 | Art.15 [VERIFY] | PCM-001 | Adversarial input testing not yet conducted | Medium | CTO | 2025-12-31 | Planned: Q3 2025 |
-| GAP-009 | Art.15 [VERIFY] | CRT-001 | Prompt injection risk not fully mitigated; input sanitisation in development | High | CTO | 2025-09-30 | In Progress |
-| GAP-010 | Art.9 [VERIFY] | Both | Full threat model and foreseeable misuse assessment not documented | Medium | AI Governance Committee | 2025-09-30 | In Progress |
+| GAP-001 | Art.10 [VERIFY] | PCM-001 | Training data provenance not documented; lawful basis for personal data in training set not verified | High | DPO | 2025-09-30 | **Closed 2025-10-15:** DPO review complete; training data provenance documented; lawful basis confirmed under legitimate interests for fraud prevention |
+| GAP-002 | Art.10 [VERIFY] | CRT-001 | LLM API vendor training data provenance entirely unknown | **Critical** | General Counsel | 2026-09-30 | Open: vendor declined to provide training data provenance; alternative open-weight model procurement assessment scheduled Q3 2026 |
+| GAP-003 | Art.10 [VERIFY] | CRT-001 | GDPR Article 28 [VERIFY] DPA with LLM API vendor not executed | **Critical** | Legal Counsel | 2025-09-30 | **Closed 2025-11-01:** DPA executed; use restriction lifted for standard contracts; PII-containing contract restriction remains |
+| GAP-004 | Art.11 [VERIFY] | CRT-001 | Full Annex IV [VERIFY] technical documentation cannot be produced due to third-party API opacity | **Critical** | General Counsel / Legal Counsel | 2026-12-31 | Open: partial Annex IV documentation complete; third-party API sections documented with limitation statement; vendor has not provided full technical documentation |
+| GAP-005 | Art.11 [VERIFY] | PCM-001 | Technical documentation incomplete; Annex IV requirements not fully met | High | VP Customer Success / CTO | 2025-09-30 | **Closed 2025-10-01:** Documentation sprint complete; Annex IV requirements met; document maintained in repository |
+| GAP-006 | Art.13 [VERIFY] | PCM-001 | Bias disclosures not yet provided to operators; bias testing not complete | High | AI Governance Committee | 2025-09-30 | **Closed 2025-11-15:** Bias audit complete Q4 2025; per-segment accuracy documented; operator disclosures updated in system guide |
+| GAP-007 | Art.13 [VERIFY] | CRT-001 | LLM accuracy and bias characteristics cannot be disclosed due to vendor opacity | High | General Counsel | 2026-09-30 | Open: vendor continues to decline bias disclosure; interim limitation statement documented in operator guide; alternative procurement assessment Q3 2026 |
+| GAP-008 | Art.15 [VERIFY] | PCM-001 | Adversarial input testing not yet conducted | Medium | CTO | 2025-12-31 | **Closed 2025-12-15:** Adversarial testing complete; no critical vulnerabilities identified; recommendations incorporated into monitoring programme |
+| GAP-009 | Art.15 [VERIFY] | CRT-001 | Prompt injection risk not fully mitigated; input sanitisation in development | High | CTO | 2025-09-30 | **Closed 2025-10-01:** Input sanitisation deployed to production; prompt injection risk rated Low; continuous monitoring active |
+| GAP-010 | Art.9 [VERIFY] | Both | Full threat model and foreseeable misuse assessment not documented | Medium | AI Governance Committee | 2025-09-30 | **Closed 2025-10-15:** Full threat model and foreseeable misuse assessment complete; documented in AI-RA-2025-001 and AI-RA-2025-002 supplements |
 
 ---
 

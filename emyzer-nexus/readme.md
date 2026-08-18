@@ -30,7 +30,7 @@ Emyzer Nexus  (parent: Phase 2 GRC programme)
 └── Veridian AI  (acquired: governance integration in progress)
 ```
 
-Emyzer Nexus enterprise policies take precedence. Where Emyzer Nexus has not issued a policy in a given domain, the applicable Emyzer Technology Phase 1 policy governs. Veridian AI legacy documentation (where any existed) was superseded by Emyzer Nexus and Emyzer Technology policies from acquisition close. Full hierarchy and transition timeline are in the [M&A GRC Integration Charter](../integration-management/m%26a-grc-integration-charter.md).
+Emyzer Nexus enterprise policies take precedence. Where Emyzer Nexus has not issued a policy in a given domain, the applicable Emyzer Technology Phase 1 policy governs. Veridian AI legacy documentation (where any existed) was superseded by Emyzer Nexus and Emyzer Technology policies from acquisition close. Full hierarchy and transition timeline are in the [M&A GRC Integration Charter](../integration-management/ma-grc-integration-charter.md).
 
 ---
 
@@ -62,7 +62,7 @@ The integration programme answers three questions every acquisition creates: whi
 
 | Document | What it resolves |
 |---|---|
-| [M&A GRC Integration Charter](../integration-management/m%26a-grc-integration-charter.md) | Establishes the post-acquisition policy hierarchy. Defines which governance body has authority to accept inherited risk. Sets the conditions that trigger a policy review or retirement. Includes a 15-entry integration risk register with owners and target resolution dates. |
+| [M&A GRC Integration Charter](../integration-management/ma-grc-integration-charter.md) | Establishes the post-acquisition policy hierarchy. Defines which governance body has authority to accept inherited risk. Sets the conditions that trigger a policy review or retirement. Includes a 15-entry integration risk register with owners and target resolution dates. |
 | [Policy Rationalization Roadmap](../integration-management/rationalization-roadmap.md) | Phase 1 policies were written for Emyzer Technology as a standalone entity. This document schedules their review under the expanded Nexus scope, identifies conflicts between legacy and new obligations, and prioritizes remediation order. |
 | [M&A Risk Assessment](../integration-management/ma-risk-assessment.md) | Formal risk register for GRC risks introduced by the acquisition across five categories: Technology, Regulatory, Data/Privacy, Personnel, and Operational. |
 

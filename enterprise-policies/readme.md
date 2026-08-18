@@ -21,7 +21,7 @@ Each policy closes a specific gap. None of them repeat what Phase 1 already esta
 | EU AI Act implementation | [AI Governance Policy](ai-governance-policy.md) then [EU AI Act Control Mapping](../ai-governance/eu-ai-act-mapping.md) |
 | Model lifecycle governance and SR 11-7 alignment | [Model Risk Policy](model-risk-policy.md) |
 | GDPR obligations at the AI training data and LLM API layer | [Privacy and Data Protection Policy](privacy-and-data-protection-policy.md) |
-| Policy hierarchy connecting Phase 1 to Phase 2 | [Emyzer Technology Overview](../emyzer-technology/README.md) then [M&A GRC Integration Charter](../integration-management/m%26a-grc-integration-charter.md) |
+| Policy hierarchy connecting Phase 1 to Phase 2 | [Emyzer Technology Overview](../emyzer-technology/README.md) then [M&A GRC Integration Charter](../integration-management/ma-grc-integration-charter.md) |
 
 ---
 

@@ -26,8 +26,8 @@ Every control in this library links to its governing policy, names its owner, de
 | [ET-CTRL-004](et-ctrl-004-third-party-vendor-risk-assessment.md) | Third-Party Vendor Risk Assessment | [Third-Party Risk Management Policy](../policies/third-party-risk-management-policy.md) | Annual / At onboarding |
 | [ET-CTRL-005](et-ctrl-005-data-classification-audit.md) | Data Classification Audit | [Data Classification Policy](../policies/data-classification-policy.md) | Annual |
 | [ET-CTRL-006](et-ctrl-006-security-awareness-training-completion.md) | Security Awareness Training Completion | [Security Awareness and Training Policy](../policies/security-awareness-and-training-policy.md) | Annual |
-| [ET-CTRL-007](et-ctrl-007-business-continuity-dr-testing.md) | Business Continuity and DR Testing | [BC/DR Policy](../policies/bcdr-policy.md) | Annual |
-| [ET-CTRL-008](et-ctrl-008-ai-system-inventory-classification-review.md) | AI System Inventory and Risk Classification Review | [AI Governance Policy](../enterprise-policies/ai-governance-policy.md) | Quarterly |
+| [ET-CTRL-007](et-ctrl-007-business-continuity-dr-testing.md) | Business Continuity and DR Testing | [BC/DR Policy](../policies/bcdr-policy.md) | Semi-annual |
+| [ET-CTRL-008](et-ctrl-008-ai-system-inventory-classification-review.md) | AI System Inventory and Risk Classification Review | [AI Governance Policy](../enterprise-policies/ai-governance-policy.md) | Annual + upon material change |
 
 **ET-CTRL-008** is a Nexus-level control covering both Phase 1 and Phase 2 scope. It operationalises the AI Governance Committee's quarterly review obligation for AI system classification status and risk posture. It retains the ET-CTRL prefix for portfolio consistency.
 
@@ -77,6 +77,7 @@ Each control document specifies:
 |---|---|
 | [Emyzer Technology Overview](../emyzer-technology/README.md) | Phase 1 programme context |
 | [Policies](../policies/README.md) | The 10 Phase 1 policies these controls operationalise |
+| [Operational Evidence Records](../operational-records/README.md) | Sample control evidence records: access review attestation, training completion, and vendor screening log |
 | [ServiceNow Evidence](../servicenow-evidence/README.md) | Platform exports showing policies in the GRC system these controls run against |
 | [Portfolio Overview](../README.md) | Top-level narrative and 60-second review path |
 

@@ -49,7 +49,7 @@ Emyzer Technology acquired Veridian AI in Q4 2024, forming Emyzer Nexus as the p
 
 At the time of acquisition close, both systems were in active production and neither had been assessed against EU AI Act requirements. Veridian AI operated without a formal GRC programme: no risk assessments, no documented governance controls, and no compliance posture for either system. The GRC obligations for both systems transferred to Emyzer Nexus on acquisition close.
 
-The [M&A GRC Integration Charter](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/m%26a-grc-integration-charter.md) established the governance framework for this integration. The [M&A Risk Assessment](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/ma-risk-assessment.md) catalogues the broader GRC risks arising from the acquisition. This document focuses specifically on the AI systems.
+The [M&A GRC Integration Charter](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/ma-grc-integration-charter.md) established the governance framework for this integration. The [M&A Risk Assessment](https://github.com/olusolaxakanji/information-security-grc-portfolio/blob/main/integration-management/ma-risk-assessment.md) catalogues the broader GRC risks arising from the acquisition. This document focuses specifically on the AI systems.
 
 ---
 

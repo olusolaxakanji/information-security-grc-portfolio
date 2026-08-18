@@ -41,7 +41,7 @@ The Integration Management Committee (IMC), chaired by the CRO and approved by t
 
 | Document | What it resolves |
 |---|---|
-| [M&A GRC Integration Charter](m%26a-grc-integration-charter.md) | Which policies govern Veridian from Day 0. Which governance body has authority to accept inherited risk. What conditions trigger a policy review or retirement. A 15-entry integration risk register with owners and target resolution dates. |
+| [M&A GRC Integration Charter](ma-grc-integration-charter.md) | Which policies govern Veridian from Day 0. Which governance body has authority to accept inherited risk. What conditions trigger a policy review or retirement. A 15-entry integration risk register with owners and target resolution dates. |
 | [Policy Rationalization Roadmap](rationalization-roadmap.md) | Phase 1 policies were written for Emyzer Technology as a standalone entity. This document schedules their review under the expanded Nexus scope, identifies conflicts, and prioritizes remediation. Without this document, Phase 1 policies remain in force indefinitely without a deliberate decision to keep or retire them. |
 | [M&A Risk Assessment](ma-risk-assessment.md) | Formal risk register for GRC risks introduced by the acquisition across five categories: Technology, Regulatory, Data/Privacy, Personnel, and Operational. 15 risks with owners, inherent ratings, current controls, residual ratings, and target resolution dates. |
 
