@@ -173,13 +173,6 @@ Raw policy exports from ServiceNow GRC. These PDFs show ownership, approval work
 
 ---
 
-## Tools and Technologies
-
-- **ServiceNow GRC**: Policy management, risk register, compliance tracking, workflow automation
-- **GitHub**: Version control and portfolio presentation
-
----
-
 ## Repository Structure
 
 ```
@@ -204,16 +197,6 @@ information-security-grc-portfolio/
 ├── templates/                           # Reusable GRC templates
 └── README.md
 ```
-
----
-
-## Intended Audience
-
-- **GRC and information security hiring managers** evaluating practical, platform-demonstrated experience
-- **Potential Fiverr clients** reviewing GRC documentation capability before engaging for deliverables
-- **AI governance professionals** reviewing EU AI Act compliance approaches and model risk frameworks
-- **Nonprofit and NGO compliance leads** looking for dual-jurisdiction AML/CFT and sanctions compliance approaches
-- **Security auditors** reviewing policy structure, evidence indexes, and framework alignment
 
 ---
 
