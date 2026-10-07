@@ -203,7 +203,7 @@ information-security-grc-portfolio/
 ## Author
 
 **Olusola B. Akanji**
-GRC and Cybersecurity Technical Writer. Secretary and Compliance Officer, Idowu Ajiri Foundation. Focus areas: AI governance, risk program design, nonprofit compliance, and multi-framework regulatory compliance. Open to GRC analyst, technical writing, AI governance, and information security risk roles.
+GRC Analyst and Compliance Officer, Idowu Ajiri Foundation. Focus areas: AI governance, risk program design, nonprofit compliance, and multi-framework regulatory compliance. Open to GRC analyst and information security risk roles.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/olusola-b-akanji/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/olusolaxakanji)
